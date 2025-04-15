@@ -187,7 +187,7 @@ MonoBehaviour:
   mudDrag: 41.6
   waterStop: 4000
   Player: {fileID: 1198528944626264861}
-  Water: {fileID: 0}
+  Water: {fileID: 2269816031181778782, guid: 65d248f7a9d334b44981563fd515bda1, type: 3}
   currentSpeed: 0
 --- !u!1 &7694260086425435046
 GameObject:
