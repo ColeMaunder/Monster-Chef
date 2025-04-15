@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEditor;
 using System.Collections;
 using Unity.VisualScripting;
 using System.ComponentModel;
@@ -22,8 +23,10 @@ public class PlayerController : MonoBehaviour
     public float mudDrag = 30f;
     public float waterStop = 3000f;
     public GameObject Player;
-    public GameObject Water;
-    
+    public GameObject startBlock;
+    public GameObject endBlock;
+
+
 
     private Rigidbody2D rb;
     private Sprite mySprite;
@@ -38,6 +41,10 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         dashSpeed = moveSpeed * dashMod;
         rb.linearDamping = 0;
+
+        Vector3 startPos = startBlock.transform.position;
+        Vector3 endPos = endBlock.transform.position;
+        Player.transform.position = startPos;
 
     }
 
@@ -87,18 +94,12 @@ public class PlayerController : MonoBehaviour
             }
 
 
-          
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.name == "Boundary")
         {
             print("Hit Boundary");
-        }
-
-        if (collision.gameObject.name == "Water Bound")
-        {
-            print("Cant Swim");
         }
     }
 
@@ -137,37 +138,39 @@ public class PlayerController : MonoBehaviour
             rb.linearDamping = 0;
         }
 
-        //Water
-       /* if (trigger.gameObject.name == "Water")
+        if (trigger.gameObject.name == "End")
         {
-            if (currentSpeed == moveSpeed)
-            {
-                print("Can't cross");
-                rb.linearDamping = waterStop;
-            }
-            if(currentSpeed == dashSpeed)
-            {
-                print("leap");
-                rb.linearDamping = 0;
-            }
-            
-        }*/
+            print("End");
+            rb.linearVelocity = Vector2.zero;
+            EditorApplication.isPlaying = false; //Stop the game
+
+        }
+
+        //Water
+        /* if (trigger.gameObject.name == "Water")
+         {
+             if (currentSpeed == moveSpeed)
+             {
+                 print("Can't cross");
+                 rb.linearDamping = waterStop;
+             }
+             if(currentSpeed == dashSpeed)
+             {
+                 print("leap");
+                 rb.linearDamping = 0;
+             }
+
+         }*/
     }
 
    void OnTriggerStay2D(Collider2D inside)
     {
-
-        if (inside.gameObject.name == "Grass")
-        {
-            rb.linearDamping = 0;
-        }
-
         if (inside.gameObject.name == "Water")
         {
             // Edit Note!!! need to check which direction the player is moving (into or out of the object) so they dont get stuck as ingredibly slow
             
             Vector3 playerVelocity = rb.linearVelocity; //Check player velocity direction
-            Vector3 inDirect = (Water.transform.position- Player.transform.position).normalized; //which direction moving in from
+            Vector3 inDirect = (inside.transform.position - Player.transform.position).normalized; //which direction moving in from
             float dot = Vector2.Dot(inDirect, playerVelocity.normalized);
 
             /*DOT notes:
