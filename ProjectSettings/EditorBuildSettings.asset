@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Title Screen.unity
+    guid: d6d2291de23d04340aba6372dea875a1
+  - enabled: 1
+    path: Assets/Scenes/Move TutBlock.unity
+    guid: 28bc4fff6b7b3ae449931115f79070d8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

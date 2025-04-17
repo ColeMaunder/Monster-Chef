@@ -1,18 +1,23 @@
 using UnityEngine;
 using UnityEditor;
+using UnityEngine.UI;
 using System.Collections;
 using Unity.VisualScripting;
 using System.ComponentModel;
 
 public class PlayerController : MonoBehaviour
 {
-    
+    private bool isPlaying = true;
+    public GameObject pauseScreen;
+
     public float moveSpeed = 4f;
     public float dashMod = 1.5f;
     public float dashSpeed;
 
     public float dashTime = 2f;
     public float dashCool = 4f;
+    public float dashTimeUI;
+    public float dashCoolUI;
     private bool isDash = false;
     private bool canDash = true;
 
@@ -34,6 +39,10 @@ public class PlayerController : MonoBehaviour
     private Vector2 moveDir;
     public float currentSpeed;
 
+    //Dash Ui stuff:
+    public Image cooldownImage;
+    private float cooldownTimer = 0f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -45,6 +54,11 @@ public class PlayerController : MonoBehaviour
         Vector3 startPos = startBlock.transform.position;
         Vector3 endPos = endBlock.transform.position;
         Player.transform.position = startPos;
+
+        isPlaying = true;
+
+        dashTimeUI = dashTime;
+        dashCoolUI = dashCool;
 
     }
 
@@ -67,21 +81,51 @@ public class PlayerController : MonoBehaviour
 
     }
 
-
     void FixedUpdate()
     {
-        moveDir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-
-        // Check speed (dash or not)
-        if (Input.GetKey(KeyCode.Space) && canDash && !isDash)
+        if (isPlaying)
         {
 
-            Coroutine coroutine = StartCoroutine(Dash());
-        }
-        if (!isDash)
-        {
-            currentSpeed = moveSpeed;
-        }
+            pauseScreen.SetActive(false);
+            Time.timeScale = 1f; // Unpaused
+
+            // Check for input to pause the game
+            if (Input.GetKey(KeyCode.Escape))
+            {
+                isPlaying = !isPlaying;
+            }
+
+            moveDir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+
+            // Check speed (dash or not)
+            if (Input.GetKey(KeyCode.Space) && canDash && !isDash)
+            {
+                cooldownTimer = dashCool;
+                Coroutine coroutine = StartCoroutine(Dash());
+            }
+            if (!isDash)
+            {
+                currentSpeed = moveSpeed;
+            }
+
+            //Dash UI stuff
+            if (cooldownTimer > 0f)
+            {
+                cooldownTimer -= Time.deltaTime;
+                if (cooldownTimer <= 0f)
+                {
+                    cooldownTimer = 0f; // Reset the image fill amount
+                }
+                else
+                {
+                    cooldownImage.fillAmount = cooldownTimer / dashCool; // Update the image fill amount
+                }
+            }
+            else
+            {
+                cooldownImage.fillAmount = 0f; // Reset the image fill amount
+            }
+
 
             // Move with velocity when pressing movement keys
             if (Input.GetKey(KeyCode.W) /*|| Input.GetKey(KeyCode.UpArrow)*/ || Input.GetKey(KeyCode.S) /*|| Input.GetKey(KeyCode.DownArrow)*/ || Input.GetKey(KeyCode.A) /*|| Input.GetKey(KeyCode.LeftArrow)*/ || Input.GetKey(KeyCode.D) /*s|| Input.GetKey(KeyCode.RightArrow)*/)
@@ -93,8 +137,23 @@ public class PlayerController : MonoBehaviour
                 rb.linearVelocity = Vector2.zero;
             }
 
+           
+
+        }
+        //Pause the game
+
+        if (!isPlaying)
+        {
+          pauseScreen.SetActive(true);
+          Time.timeScale = 0f; // Pause the game
+
+
+        
+
+        }
 
     }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.name == "Boundary")
@@ -219,12 +278,23 @@ public class PlayerController : MonoBehaviour
 
     }
 
-  
-
-    // Update is called once per frame
-    void Update()
+    //Pause screen Functions
+    public void Resume()
     {
+        isPlaying = true;
+        pauseScreen.SetActive(false);
+        Time.timeScale = 1f; // Unpaused
+    }
 
+    public void Quit()
+    {
+        Application.Quit();
+        Debug.Log("Quit");
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+            Application.Quit();
+#endif
     }
 
 
