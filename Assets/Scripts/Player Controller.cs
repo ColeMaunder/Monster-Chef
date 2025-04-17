@@ -199,10 +199,15 @@ public class PlayerController : MonoBehaviour
 
         if (trigger.gameObject.name == "End")
         {
-            print("End");
-            rb.linearVelocity = Vector2.zero;
-            EditorApplication.isPlaying = false; //Stop the game
+            print("Exit Swamp");
+            GoToScene("Restaurant");
 
+        }
+
+        if (trigger.gameObject.name == "Exit")
+        {
+            print("Exit Restaurant");
+            GoToScene("Start Tut Block");
         }
 
         //Water
@@ -295,6 +300,11 @@ public class PlayerController : MonoBehaviour
 #else
             Application.Quit();
 #endif
+    }
+
+    public void GoToScene(string sceneName)
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
     }
 
 
