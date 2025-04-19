@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
 
         dashTimeUI = dashTime;
         dashCoolUI = dashCool;
-
+    
     }
 
     //Dash Function (use seconds instead of frames)
@@ -280,7 +280,7 @@ public class PlayerController : MonoBehaviour
         
 
         }
-
+        
     }
 
     //Pause screen Functions

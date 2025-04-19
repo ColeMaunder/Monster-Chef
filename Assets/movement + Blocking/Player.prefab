@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1652491008247715132}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -176,19 +176,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c1fb5cfb6b44a9479ac2eecbdf48fdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseScreen: {fileID: 0}
+  hcTip: {fileID: 0}
   moveSpeed: 4.55
   dashMod: 2.1
   dashSpeed: 0
   dashTime: 0.5
   dashCool: 3
+  dashTimeUI: 0
+  dashCoolUI: 0
   dotCan: -0.06
   dotCant: 0.05
   mudMod: 0.1
   mudDrag: 41.6
   waterStop: 4000
   Player: {fileID: 1198528944626264861}
-  Water: {fileID: 2269816031181778782, guid: 65d248f7a9d334b44981563fd515bda1, type: 3}
+  startBlock: {fileID: 0}
+  endBlock: {fileID: 0}
   currentSpeed: 0
+  cooldownImage: {fileID: 0}
 --- !u!1 &7694260086425435046
 GameObject:
   m_ObjectHideFlags: 0
