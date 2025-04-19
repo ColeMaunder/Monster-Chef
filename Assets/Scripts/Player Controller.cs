@@ -29,7 +29,6 @@ public class PlayerController : MonoBehaviour
     public float waterStop = 3000f;
     public GameObject Player;
     public GameObject startBlock;
-    public GameObject endBlock;
 
 
 
@@ -52,7 +51,6 @@ public class PlayerController : MonoBehaviour
         rb.linearDamping = 0;
 
         Vector3 startPos = startBlock.transform.position;
-        Vector3 endPos = endBlock.transform.position;
         Player.transform.position = startPos;
 
         isPlaying = true;
@@ -207,7 +205,7 @@ public class PlayerController : MonoBehaviour
         if (trigger.gameObject.name == "Exit")
         {
             print("Exit Restaurant");
-            GoToScene("Start Tut Block");
+            GoToScene("Buff level");
         }
 
         //Water
