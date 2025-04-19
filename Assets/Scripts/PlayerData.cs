@@ -4,29 +4,32 @@ using UnityEngine.UIElements;
 
 public class PlayerData : MonoBehaviour
 {
-    public string[] keys = {"up", "down", "right", "left", "e", "q"};
-    public string GetKey(int keyCode){
-        return keys[keyCode];
+    [SerializeField] private string[] keysIn = {"up", "down", "right", "left", "e", "q"};
+    public static string[] keys;
+    private void keyUpdate(){
+        keys = keysIn;
     }
-    public void SetKey(int keyCode, string keyIn){
-        keys[keyCode] = keyIn;
+     [SerializeField] private Sprite[] spritesIn = {};
+    public static Sprite[] sprites;
+    private void spriteUpdate(){
+        sprites = spritesIn;
+    }
+    [SerializeField] private bool movmentMouseIn = false;
+    public static bool movmentMouse;
+    private void movmentMouseUpdate(){
+       movmentMouse =  movmentMouseIn;
+    } 
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
     }
 
-    public Sprite GetSprite(int spriteCode){
-        return sprites[spriteCode];
+    // Update is called once per frame
+    void Update()
+    {
+        keyUpdate();
+        spriteUpdate();
+         movmentMouseUpdate();
     }
-    public Sprite[] sprites = {};
-    
-    
-    public bool mouseMovment = false;
-
-    public bool GetMouseMovment(){
-        return mouseMovment;
-    }
-
-    public void SetMouseMovment(bool mouseMovmentIn){
-        mouseMovment = mouseMovmentIn;
-    }
-    
-    public PlayerData(){}
 }
