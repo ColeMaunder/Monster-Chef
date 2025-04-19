@@ -1,23 +1,17 @@
 using UnityEngine;
-using UnityEditor;
-using UnityEngine.UI;
 using System.Collections;
 using Unity.VisualScripting;
 using System.ComponentModel;
 
 public class PlayerController : MonoBehaviour
 {
-    private bool isPlaying = true;
-    public GameObject pauseScreen;
-
+    
     public float moveSpeed = 4f;
     public float dashMod = 1.5f;
     public float dashSpeed;
 
     public float dashTime = 2f;
     public float dashCool = 4f;
-    public float dashTimeUI;
-    public float dashCoolUI;
     private bool isDash = false;
     private bool canDash = true;
 
@@ -28,19 +22,14 @@ public class PlayerController : MonoBehaviour
     public float mudDrag = 30f;
     public float waterStop = 3000f;
     public GameObject Player;
-    public GameObject startBlock;
-
-
+    public GameObject Water;
+    
 
     private Rigidbody2D rb;
     private Sprite mySprite;
     private SpriteRenderer sr;
     private Vector2 moveDir;
     public float currentSpeed;
-
-    //Dash Ui stuff:
-    public Image cooldownImage;
-    private float cooldownTimer = 0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -50,14 +39,6 @@ public class PlayerController : MonoBehaviour
         dashSpeed = moveSpeed * dashMod;
         rb.linearDamping = 0;
 
-        Vector3 startPos = startBlock.transform.position;
-        Player.transform.position = startPos;
-
-        isPlaying = true;
-
-        dashTimeUI = dashTime;
-        dashCoolUI = dashCool;
-    
     }
 
     //Dash Function (use seconds instead of frames)
@@ -79,51 +60,21 @@ public class PlayerController : MonoBehaviour
 
     }
 
+
     void FixedUpdate()
     {
-        if (isPlaying)
+        moveDir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+
+        // Check speed (dash or not)
+        if (Input.GetKey(KeyCode.Space) && canDash && !isDash)
         {
 
-            pauseScreen.SetActive(false);
-            Time.timeScale = 1f; // Unpaused
-
-            // Check for input to pause the game
-            if (Input.GetKey(KeyCode.Escape))
-            {
-                isPlaying = !isPlaying;
-            }
-
-            moveDir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-
-            // Check speed (dash or not)
-            if (Input.GetKey(KeyCode.Space) && canDash && !isDash)
-            {
-                cooldownTimer = dashCool;
-                Coroutine coroutine = StartCoroutine(Dash());
-            }
-            if (!isDash)
-            {
-                currentSpeed = moveSpeed;
-            }
-
-            //Dash UI stuff
-            if (cooldownTimer > 0f)
-            {
-                cooldownTimer -= Time.deltaTime;
-                if (cooldownTimer <= 0f)
-                {
-                    cooldownTimer = 0f; // Reset the image fill amount
-                }
-                else
-                {
-                    cooldownImage.fillAmount = cooldownTimer / dashCool; // Update the image fill amount
-                }
-            }
-            else
-            {
-                cooldownImage.fillAmount = 0f; // Reset the image fill amount
-            }
-
+            Coroutine coroutine = StartCoroutine(Dash());
+        }
+        if (!isDash)
+        {
+            currentSpeed = moveSpeed;
+        }
 
             // Move with velocity when pressing movement keys
             if (Input.GetKey(KeyCode.W) /*|| Input.GetKey(KeyCode.UpArrow)*/ || Input.GetKey(KeyCode.S) /*|| Input.GetKey(KeyCode.DownArrow)*/ || Input.GetKey(KeyCode.A) /*|| Input.GetKey(KeyCode.LeftArrow)*/ || Input.GetKey(KeyCode.D) /*s|| Input.GetKey(KeyCode.RightArrow)*/)
@@ -135,28 +86,19 @@ public class PlayerController : MonoBehaviour
                 rb.linearVelocity = Vector2.zero;
             }
 
-           
 
-        }
-        //Pause the game
-
-        if (!isPlaying)
-        {
-          pauseScreen.SetActive(true);
-          Time.timeScale = 0f; // Pause the game
-
-
-        
-
-        }
-
+          
     }
-
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.name == "Boundary")
         {
             print("Hit Boundary");
+        }
+
+        if (collision.gameObject.name == "Water Bound")
+        {
+            print("Cant Swim");
         }
     }
 
@@ -195,44 +137,37 @@ public class PlayerController : MonoBehaviour
             rb.linearDamping = 0;
         }
 
-        if (trigger.gameObject.name == "End")
-        {
-            print("Exit Swamp");
-            GoToScene("Restaurant");
-
-        }
-
-        if (trigger.gameObject.name == "Exit")
-        {
-            print("Exit Restaurant");
-            GoToScene("Buff level");
-        }
-
         //Water
-        /* if (trigger.gameObject.name == "Water")
-         {
-             if (currentSpeed == moveSpeed)
-             {
-                 print("Can't cross");
-                 rb.linearDamping = waterStop;
-             }
-             if(currentSpeed == dashSpeed)
-             {
-                 print("leap");
-                 rb.linearDamping = 0;
-             }
-
-         }*/
+       /* if (trigger.gameObject.name == "Water")
+        {
+            if (currentSpeed == moveSpeed)
+            {
+                print("Can't cross");
+                rb.linearDamping = waterStop;
+            }
+            if(currentSpeed == dashSpeed)
+            {
+                print("leap");
+                rb.linearDamping = 0;
+            }
+            
+        }*/
     }
 
    void OnTriggerStay2D(Collider2D inside)
     {
+
+        if (inside.gameObject.name == "Grass")
+        {
+            rb.linearDamping = 0;
+        }
+
         if (inside.gameObject.name == "Water")
         {
             // Edit Note!!! need to check which direction the player is moving (into or out of the object) so they dont get stuck as ingredibly slow
             
             Vector3 playerVelocity = rb.linearVelocity; //Check player velocity direction
-            Vector3 inDirect = (inside.transform.position - Player.transform.position).normalized; //which direction moving in from
+            Vector3 inDirect = (Water.transform.position- Player.transform.position).normalized; //which direction moving in from
             float dot = Vector2.Dot(inDirect, playerVelocity.normalized);
 
             /*DOT notes:
@@ -278,31 +213,15 @@ public class PlayerController : MonoBehaviour
         
 
         }
-        
+
     }
 
-    //Pause screen Functions
-    public void Resume()
-    {
-        isPlaying = true;
-        pauseScreen.SetActive(false);
-        Time.timeScale = 1f; // Unpaused
-    }
+  
 
-    public void Quit()
+    // Update is called once per frame
+    void Update()
     {
-        Application.Quit();
-        Debug.Log("Quit");
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#else
-            Application.Quit();
-#endif
-    }
 
-    public void GoToScene(string sceneName)
-    {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
     }
 
 
