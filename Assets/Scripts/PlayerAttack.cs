@@ -1,56 +1,80 @@
 using System.Security.Cryptography;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-   [HideInInspector] public string[] keys = PlayerData.keys;
-   public GameObject[] weponAttack = {};
+   public int activeWeapon = 0;
+   private WeaponAttacks attacks;
+   private PlayerData keys;
+   
    bool isAttacking = false;
-   float atkDuration = 0.3f;
    float atkTimer = 0f;
-   int atkType = 0;
-   int heavyCharge=0;
+   int atkType;
+   float heavyCharge=0;
    int lightCombo = 0;
-   public int lightComboMax = 3;
   
+  void Start(){
+    attacks = GameObject.FindWithTag("PlayerData").GetComponent<WeaponAttacks>();
+    keys = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
+   }
 
-    // Update is called once per frame
     void Update()
     {
         AttackTimer();
         if (!isAttacking){
-            if (Input.GetMouseButtonDown(0) /*|| Input.GetKeyDown(PlayerData.keys[4])*/){
+            if (Input.GetMouseButtonDown(0) /*|| Input.GetKeyDown(keys.GetKey(4))*/){
                 heavyCharge=0;
-                if (lightCombo < lightComboMax){
+                if (lightCombo < attacks.GetComboMax(activeWeapon)){
                     Attack(0);
                     print("light");
                     lightCombo++;
+                    print(lightCombo);
                 }else{
                     Attack(1);
                     lightCombo = 0;
                     print("full light");
                 }
                 
-            } //else if (Input.GetMouseButton(1) /*|| Input.GetKeyDown(PlayerData.keys[5])*/){
-               // lightCombo = 0;
-               // Attack(2);
-           // }
+            } else if (Input.GetMouseButton(1) /*|| Input.GetKeyDown(keys.GetKey(5))*/){
+                lightCombo = 0;
+                heavyCharge = heavyCharge +1 * Time.deltaTime;
+                print (heavyCharge);
+                if (heavyCharge > attacks.GetChargeMax(activeWeapon)){
+                    Attack(4);
+                    heavyCharge = 0;
+                    print("full light");
+                }
+                
+            }else if(heavyCharge > 0){
+                if(heavyCharge > attacks.GetChargeMax(activeWeapon)/2){
+                        Attack(3);
+                    print("50% heavy");
+
+                }else{
+                    Attack(2);
+                    print("uncharged heavy");
+
+                }
+                heavyCharge = 0;
+            }
+            
         }
     
     }
      void Attack(int type){
         print("attck type" + type);
             atkType = type;
-            weponAttack[type].SetActive(true);
             isAttacking = true;
+            attacks.GetAtk(activeWeapon,type).SetActive(true);
         }
     
     void AttackTimer(){
         atkTimer += Time.deltaTime;
-        if(atkTimer >= atkDuration){
+        if(atkTimer >= attacks.GetAtkDuration(activeWeapon,atkType)){
             atkTimer = 0;
             isAttacking = false;
-            weponAttack[atkType].SetActive(false);
+            attacks.GetAtk(activeWeapon,atkType).SetActive(false);
     }
     
 }
