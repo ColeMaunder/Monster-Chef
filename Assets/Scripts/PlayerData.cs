@@ -12,8 +12,8 @@ public class PlayerData : MonoBehaviour
         keys[keyCode] = keyIn;
     }
 
-    public Sprite GetSprite(int spriteCode){
-        return sprites[spriteCode];
+    public Sprite[] GetSprites(){
+        return sprites;
     }
     public Sprite[] sprites = {};
     

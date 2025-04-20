@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5843193976242653200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6740804796864967476}
+  m_Layer: 0
+  m_Name: Data
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6740804796864967476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5843193976242653200}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.535155, y: -0.18116093, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2028868748333553347}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8183807361965001349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2028868748333553347}
+  - component: {fileID: 8389533648676410061}
+  m_Layer: 0
+  m_Name: EnemyData
+  m_TagString: EnemyData
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2028868748333553347
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8183807361965001349}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6740804796864967476}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8389533648676410061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8183807361965001349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4335db65fc75af4fb149f23e9b78a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpeed: 3
+  favoredDistance: 3
+  agroRaing: 20
+  sprites:
+  - {fileID: 4187243561571087413, guid: 341537ae7a797874dad0b7bcccd26fea, type: 3}
+  - {fileID: 9169057179100379890, guid: 5e6aea3cfe346e14a9a4dae3fb3ace61, type: 3}
+  - {fileID: 6054905888585617297, guid: f29b42a989e3f7945ac169d5a066a932, type: 3}
+  - {fileID: 9169057179100379890, guid: 5e6aea3cfe346e14a9a4dae3fb3ace61, type: 3}
+  - {fileID: 8728079106516799072, guid: c47e4192ac72d9040bb57abe25f1931c, type: 3}
+  - {fileID: 2272892478628809381, guid: 588aba46df04fc648966ce47a69875f5, type: 3}
+  - {fileID: -7688381038759674836, guid: 79ca310ef8bf20f4a87f00fbb4e9e59b, type: 3}
+  - {fileID: -4627773980598388465, guid: 087b5a360daf1f146b4a329be232154d, type: 3}
+  enemyList:
+  - {fileID: 7094277301536617045, guid: a573085b5b4176746aa718a181bbd9f5, type: 3}

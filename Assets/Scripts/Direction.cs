@@ -1,35 +1,55 @@
+using NUnit.Framework;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
-public class PlayerDirectionKey : MonoBehaviour
+public class Direction: MonoBehaviour
 {
 
 
-    private PlayerData data;
+    private PlayerData data  = null;
+    private EnemyData enemy = null;
     
     public SpriteRenderer playerIcon;
+    public bool isPlayer;
+    private GameObject player = null;
+    
+    private Sprite[] sprites;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start(){
-    data = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
+        if (isPlayer){
+            data = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
+            sprites = data.GetSprites();
+        }else{
+            enemy = GameObject.FindWithTag("EnemyData").GetComponent<EnemyData>();
+            player = GameObject.FindWithTag("Player");
+            sprites = enemy.GetSprites();
+        }
    }
 
     // Update is called once per frame
     void Update()
     {
-        if (data.GetMouseMovment()){
-            SetDirection(DirectionMouse()[0],DirectionMouse()[1]);
+        int [] direction;
+        if (isPlayer){
+            if (data.GetMouseMovment()){
+                direction = DirectionAuto(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+            }else{
+                direction = DirectionKey();
+            }
         }else{
-            SetDirection(DirectionKey()[0],DirectionKey()[1]);
+            direction = DirectionAuto(player.transform.position);
         }
+        SetDirection(direction[0],direction[1]);
+        
+        
        
     }
-    private int[] DirectionMouse(){
+    private int[] DirectionAuto(Vector3 comperePosition){
         int [] direction = {0,0};
-        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        float positonDiffX = mouseWorldPos.x - transform.position.x;
+        float positonDiffX = comperePosition.x - transform.position.x;
         //print(positonDiffX);
-        float positonDiffY = mouseWorldPos.y - transform.position.y;
+        float positonDiffY = comperePosition.y - transform.position.y;
         //print(positonDiffY);
         if (positonDiffY > 0){
             direction[0] = 1;
@@ -78,29 +98,29 @@ public class PlayerDirectionKey : MonoBehaviour
         if (y != 0 && x != 0){
             if (y == 1 && x == 1){
                 transform.rotation = Quaternion.Euler(0, 0, 45);
-                playerIcon.sprite = data.GetSprite(0);
+                playerIcon.sprite = sprites[0];
             }else if (y == 1 && x == 2){
                 transform.rotation = Quaternion.Euler(0, 0, 315);
-                playerIcon.sprite = data.GetSprite(1);
+                playerIcon.sprite = sprites[1];
             } else if (y == 2 && x == 1){
                 transform.rotation = Quaternion.Euler(1, 0, 135);
-                playerIcon.sprite = data.GetSprite(2);
+                playerIcon.sprite = sprites[2];
             }else if (y == 2 && x == 2){
                 transform.rotation = Quaternion.Euler(0, 0, 225);
-                playerIcon.sprite = data.GetSprite(3);
+                playerIcon.sprite = sprites[3];
             }
         }else if (y == 1){
             transform.rotation = Quaternion.Euler(0, 0, 0);
-            playerIcon.sprite = data.GetSprite(4);
+            playerIcon.sprite = sprites[4];
         }else if (y == 2){
             transform.rotation = Quaternion.Euler(0, 0, 180);
-            playerIcon.sprite = data.GetSprite(5);
+            playerIcon.sprite = sprites[5];
         }else if (x == 1){
             transform.rotation = Quaternion.Euler(0, 0, 90);
-            playerIcon.sprite = data.GetSprite(6);
+            playerIcon.sprite = sprites[6];
         }else if (x == 2){
             transform.rotation = Quaternion.Euler(0, 0, 270);
-            playerIcon.sprite = data.GetSprite(7);
+            playerIcon.sprite = sprites[7];
         }
     }
 }

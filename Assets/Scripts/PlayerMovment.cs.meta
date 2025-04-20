@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1c1fb5cfb6b44a9479ac2eecbdf48fdf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - pauseScreen: {fileID: 2207871779721807168, guid: 1a9c8219c56f084429008fa97dda36ee, type: 3}
+  - Player: {fileID: 1198528944626264861, guid: e0cc7a28c9a9c9947a868ecf1844602f, type: 3}
+  - startBlock: {instanceID: 0}
+  - cooldownImage: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
