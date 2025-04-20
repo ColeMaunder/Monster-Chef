@@ -2217,6 +2217,19 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1605730212680718143, guid: 1a9c8219c56f084429008fa97dda36ee, type: 3}
   m_PrefabInstance: {fileID: 919081938450723153}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &498660664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498660662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c5dc5591be30b942a03a1816987cb35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseScreen: {fileID: 498660662}
 --- !u!1001 &507629242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6639,8 +6652,8 @@ RectTransform:
   m_LocalScale: {x: 0.40645424, y: 0.41330427, z: 0.28423372}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1026209398}
   - {fileID: 580798062}
+  - {fileID: 1026209398}
   m_Father: {fileID: 1308280754}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -7846,7 +7859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc3724d07a5afde4ab594a86e8b2a586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldownImage: {fileID: 0}
+  cooldownImage: {fileID: 1524401335}
   cooldownDuration: 5
 --- !u!114 &1524401335
 MonoBehaviour:
@@ -10008,15 +10021,15 @@ PrefabInstance:
       addedObject: {fileID: 1488551321}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fac839cdb7db2246a137a93571e293f, type: 3}
---- !u!114 &2011233052 stripped
+--- !u!114 &2011233053 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1652491008247715132, guid: e0cc7a28c9a9c9947a868ecf1844602f, type: 3}
+  m_CorrespondingSourceObject: {fileID: 5231292735931000816, guid: e0cc7a28c9a9c9947a868ecf1844602f, type: 3}
   m_PrefabInstance: {fileID: 2062879705}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c1fb5cfb6b44a9479ac2eecbdf48fdf, type: 3}
+  m_Script: {fileID: 11500000, guid: 0c5dc5591be30b942a03a1816987cb35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2027751101
@@ -11006,17 +11019,40 @@ PrefabInstance:
       value: Pause Screen
       objectReference: {fileID: 0}
     - target: {fileID: 6197931967420537625, guid: 1a9c8219c56f084429008fa97dda36ee, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6197931967420537625, guid: 1a9c8219c56f084429008fa97dda36ee, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2011233052}
+      objectReference: {fileID: 498660664}
+    - target: {fileID: 6197931967420537625, guid: 1a9c8219c56f084429008fa97dda36ee, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Resume
+      objectReference: {fileID: 0}
+    - target: {fileID: 6197931967420537625, guid: 1a9c8219c56f084429008fa97dda36ee, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PauseMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 7149706795462131138, guid: 1a9c8219c56f084429008fa97dda36ee, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2011233052}
+      objectReference: {fileID: 2011233053}
+    - target: {fileID: 7149706795462131138, guid: 1a9c8219c56f084429008fa97dda36ee, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Quit
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149706795462131138, guid: 1a9c8219c56f084429008fa97dda36ee, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PauseMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2207871779721807168, guid: 1a9c8219c56f084429008fa97dda36ee, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 498660664}
   m_SourcePrefab: {fileID: 100100000, guid: 1a9c8219c56f084429008fa97dda36ee, type: 3}
 --- !u!1001 &1468513762657438889
 PrefabInstance:
