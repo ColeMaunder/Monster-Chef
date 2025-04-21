@@ -91,5 +91,12 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void RefillHeals(){
+        heals = maxHeals;
+    }
+    public void RefillHealth(){
+        health = maxHealth;
+    }
+
     
 }

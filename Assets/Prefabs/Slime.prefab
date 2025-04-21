@@ -273,7 +273,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -373,6 +373,7 @@ GameObject:
   - component: {fileID: 2616050621800146661}
   - component: {fileID: 7514012339628299375}
   - component: {fileID: 3603718133944037020}
+  - component: {fileID: 964372082158454792}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Enemy
@@ -441,7 +442,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 6
   m_Sprite: {fileID: -7282886668606283007, guid: a326289226336484fb4fb1738fe7dcf7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -465,6 +466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 062750253befa714a9f91bf0ed7e6e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 0
 --- !u!50 &7514012339628299375
 Rigidbody2D:
   serializedVersion: 5
@@ -529,3 +531,19 @@ CapsuleCollider2D:
   m_Offset: {x: -0.0000000042044235, y: -0.035269264}
   m_Size: {x: 1.5720682, y: 1.2334945}
   m_Direction: 1
+--- !u!114 &964372082158454792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7094277301536617045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b1370f715e2fc49b8ae59baf6ccdf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyRB: {fileID: 7514012339628299375}
+  dotCan: 0
+  dotCant: 0.7
+  waterStop: 3000

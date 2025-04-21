@@ -104,6 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 062750253befa714a9f91bf0ed7e6e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 0
 --- !u!50 &4226862428375129851
 Rigidbody2D:
   serializedVersion: 5
@@ -218,6 +219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerIcon: {fileID: 5642580433971543610}
   isPlayer: 0
+  enemyType: 0
 --- !u!114 &7773460857803635366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,7 +232,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1dd5389e288d9447bf5f0bd84239b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyType: 0
   enmenyBody: {fileID: 4226862428375129851}
+  localDataObj: {fileID: 0}
 --- !u!114 &6702617482307911314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,6 +254,7 @@ MonoBehaviour:
   backDuration: 0.3
   AtkDuration: 0.5
   enmenyBody: {fileID: 4226862428375129851}
+  localDataObj: {fileID: 0}
 --- !u!58 &9137406704154926921
 CircleCollider2D:
   m_ObjectHideFlags: 0

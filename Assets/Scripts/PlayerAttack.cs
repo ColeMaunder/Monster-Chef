@@ -80,9 +80,10 @@ public class PlayerAttack : MonoBehaviour
     
     void AttackTimer(){
         atkTimer += Time.deltaTime;
-        if(atkTimer >= attacks.GetAtkDuration(activeWeapon,atkType)){
+        if(atkTimer >= (attacks.GetAtkCoolDown(activeWeapon,atkType)+ attacks.GetAtkDuration(activeWeapon,atkType))){
             atkTimer = 0;
             isAttacking = false;
+        }else if(atkTimer >= attacks.GetAtkDuration(activeWeapon,atkType)){
             attacks.GetAtk(activeWeapon,atkType).SetActive(false);
     }
     

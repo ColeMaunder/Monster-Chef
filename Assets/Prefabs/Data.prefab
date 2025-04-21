@@ -80,12 +80,12 @@ MonoBehaviour:
   enemySpeed:
   - 3
   - 0
-  - 5
+  - 2
   - 0
   favoredDistance:
   - 2
   - 0
-  - 10
+  - 6
   - 0
   agroRaing:
   - 20
@@ -102,7 +102,15 @@ MonoBehaviour:
   - {fileID: -7688381038759674836, guid: 79ca310ef8bf20f4a87f00fbb4e9e59b, type: 3}
   - {fileID: -4627773980598388465, guid: 087b5a360daf1f146b4a329be232154d, type: 3}
   mandrakeSprites: []
-  frogSprites: []
+  frogSprites:
+  - {fileID: 47750821386685083, guid: f92c3fc913f930f49ba541281a4d839d, type: 3}
+  - {fileID: -892871995113301185, guid: 366a91346e0812049a328efe8aebc295, type: 3}
+  - {fileID: 2292972623961627756, guid: f1e56a1055c732c448444990593ff789, type: 3}
+  - {fileID: 7196213479704291691, guid: bc99d86e4fcfb044e989704015abd41a, type: 3}
+  - {fileID: -8482094810877628203, guid: 325a0fc24eefcf9459d38605a474a0d2, type: 3}
+  - {fileID: 441882526062221538, guid: 3a5417fc090b0e0499935079db24d5ab, type: 3}
+  - {fileID: 2437619413493561580, guid: 52c0dc2ba6f1c0e489a5bc6a9e854564, type: 3}
+  - {fileID: -2171764857849491109, guid: 9116e495becda414baff1f65360c3feb, type: 3}
   vineSprites: []
   enemyList:
   - {fileID: 7094277301536617045, guid: a573085b5b4176746aa718a181bbd9f5, type: 3}

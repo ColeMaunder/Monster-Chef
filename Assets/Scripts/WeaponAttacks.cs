@@ -6,16 +6,19 @@ public class WeaponAttacks : MonoBehaviour
     public float spoonChargeMax = 1.5f;
     public GameObject[] spoonAttack = {};
     public float [] spoonAtkDuration = {};
+    public float [] spoonAtkCoolDown = {};
 
     public int cleaverComboMax = 2;
     public float cleaverChargeMax = 1.5f;
     public GameObject[] cleaverAttack = {};
     public float [] cleaverAtkDuration = {};
+    public float [] cleaverAtkCoolDown = {};
 
     public int tenderizerComboMax = 2;
     public float tenderizerChargeMax = 1.5f;
     public GameObject[] tenderizerAttack = {};
     public float [] tenderizerAtkDuration = {};
+    public float [] tenderizerAtkCoolDown = {};
 
     public WeaponAttacks()
     {}
@@ -70,6 +73,19 @@ public class WeaponAttacks : MonoBehaviour
                 return cleaverAtkDuration[atk];
             case 2:
                 return tenderizerAtkDuration[atk];
+            default:
+                print("invalid Weapon");
+                return 0;
+        }
+    }
+    public float GetAtkCoolDown(int weapon, int atk){
+        switch(weapon){
+            case 0:
+                return spoonAtkCoolDown[atk];
+            case 1:
+                return cleaverAtkCoolDown[atk];
+            case 2:
+                return tenderizerAtkCoolDown[atk];
             default:
                 print("invalid Weapon");
                 return 0;

@@ -124,8 +124,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
-  m_Sprite: {fileID: -7282886668606283007, guid: a326289226336484fb4fb1738fe7dcf7, type: 3}
+  m_SortingOrder: 6
+  m_Sprite: {fileID: 2820143329777312509, guid: 16ef52a1b1ae56c429b8ce2479732721, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -210,8 +210,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0000000042044235, y: -0.035269264}
-  m_Size: {x: 1.5720682, y: 1.2334945}
+  m_Offset: {x: 0.00000053477515, y: -0.013981463}
+  m_Size: {x: 1.6004518, y: 1.3990673}
   m_Direction: 1
 --- !u!1 &8418788531333421251
 GameObject:
@@ -262,7 +262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerIcon: {fileID: 5246760956428714069}
   isPlayer: 0
-  enemyType: 0
+  enemyType: 2
 --- !u!114 &8707875852745262927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1dd5389e288d9447bf5f0bd84239b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyType: 0
+  enemyType: 2
   enmenyBody: {fileID: 8214760694446413678}
   localDataObj: {fileID: 2929774960366039967}
 --- !u!50 &3214157295363574636
@@ -320,6 +320,6 @@ MonoBehaviour:
   veriance: 0.5
   atkCoolDown: 3
   projectile: {fileID: 1201432290624998492, guid: 14bb1f4eac1ccfd458fd3478b830bdca, type: 3}
-  fireForce: 0
-  hangTime: 2
+  fireForce: 20
+  hangTime: 0.5
   enmenyBody: {fileID: 8214760694446413678}
