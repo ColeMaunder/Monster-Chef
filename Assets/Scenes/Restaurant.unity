@@ -2925,8 +2925,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4099973512114070014, guid: 373bbac7475aed0498790c8d13f342b7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1662084626}
   m_SourcePrefab: {fileID: 100100000, guid: 373bbac7475aed0498790c8d13f342b7, type: 3}
+--- !u!1 &1662084625 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4099973512114070014, guid: 373bbac7475aed0498790c8d13f342b7, type: 3}
+  m_PrefabInstance: {fileID: 1662084624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1662084626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662084625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 547709a5ed83ddd419094bf791a1d990, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneTo: Buff level
 --- !u!1 &1840957571
 GameObject:
   m_ObjectHideFlags: 0
@@ -2939,7 +2960,7 @@ GameObject:
   - component: {fileID: 1840957572}
   m_Layer: 0
   m_Name: Cupboard
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

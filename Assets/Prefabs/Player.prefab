@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 7691789175102270810}
   - component: {fileID: 5231292735931000816}
   - component: {fileID: 4790317818531067763}
+  - component: {fileID: 4648682790677358372}
+  - component: {fileID: 5717498165019500853}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -210,6 +212,31 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.65}
   m_Size: {x: 1, y: 1.7}
   m_Direction: 0
+--- !u!114 &4648682790677358372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198528944626264861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dec891890fd418458b1adea0cb27e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5717498165019500853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198528944626264861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f21ab4cca79c11449856041d5b21e9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grave: {fileID: 7370919291160433318, guid: cdef20dc827d2954ebf16d98d54dc05b, type: 3}
 --- !u!1 &1814787458152553397
 GameObject:
   m_ObjectHideFlags: 0
@@ -1162,6 +1189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerIcon: {fileID: 2478231367718950174}
   isPlayer: 1
+  enemyType: 0
 --- !u!114 &355171604731457952
 MonoBehaviour:
   m_ObjectHideFlags: 0

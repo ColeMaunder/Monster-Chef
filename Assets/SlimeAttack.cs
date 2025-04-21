@@ -11,19 +11,23 @@ public class SlimeAttack : MonoBehaviour
     public float AtkDuration = 1f;
     private float timer = 0f;
     public Rigidbody2D enmenyBody;
+    private bool isAttacking = false;
+    public GameObject localDataObj;
+    EnemyLocalData localData;
 
     void Start()
     {
        data = GameObject.FindWithTag("EnemyData").GetComponent<EnemyData>();
-       data.SetIsAttacking(false);
+       localData = localDataObj.GetComponent<EnemyLocalData>();
+       isAttacking = false;
     }
 
     // Update is called once per frame
     void Update()
     {
         
-        if (!data.GetIsAttacking()){
-            if (data.PlayerDistance(enmenyBody) > (data.GetFavoredDistance() - veriance) && data.PlayerDistance(enmenyBody) < (data.GetFavoredDistance() + veriance)){
+        if (!isAttacking){
+            if (data.PlayerDistance(enmenyBody) > (data.GetFavoredDistance(0) - veriance) && data.PlayerDistance(enmenyBody) < (data.GetFavoredDistance(0) + veriance)){
                  Attack();
             }
         }else{
@@ -33,17 +37,17 @@ public class SlimeAttack : MonoBehaviour
     
     void Attack(){
             enmenyBody.linearVelocity = transform.up * lunge;
-            data.SetIsAttacking(true);
-            data.SetCanMove(false);
+            isAttacking = true;
+            localData.SetCanMove(false);
         }
     void AttackTimer(){
         timer += Time.deltaTime;
         if (timer >= (atkCoolDown + AtkDuration + backDuration)){
             timer = 0;
-            data.SetIsAttacking(false);
+            isAttacking = false;
         }else if(timer >= AtkDuration + backDuration){
             enmenyBody.linearVelocity = Vector2.zero;
-            data.SetCanMove(true);
+            localData.SetCanMove(true);
         }else if(timer >= AtkDuration){
             enmenyBody.linearVelocity = transform.up * -lunge;
             print("back");

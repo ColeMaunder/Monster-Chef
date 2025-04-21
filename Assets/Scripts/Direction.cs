@@ -5,45 +5,46 @@ using UnityEngine;
 public class Direction: MonoBehaviour
 {
 
-
     private PlayerData data  = null;
     private EnemyData enemy = null;
     
     public SpriteRenderer playerIcon;
     public bool isPlayer;
     private GameObject player = null;
+    Player playerState;
     
     private Sprite[] sprites;
+    public int enemyType = 0;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start(){
+        player = GameObject.FindWithTag("Player");
+        playerState = player.GetComponent<Player>();
         if (isPlayer){
             data = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
             sprites = data.GetSprites();
         }else{
             enemy = GameObject.FindWithTag("EnemyData").GetComponent<EnemyData>();
-            player = GameObject.FindWithTag("Player");
-            sprites = enemy.GetSprites();
+            sprites = enemy.GetSprites(enemyType);
         }
    }
 
     // Update is called once per frame
     void Update()
     {
-        int [] direction;
-        if (isPlayer){
-            if (data.GetMouseMovment()){
-                direction = DirectionAuto(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+        if(playerState.GetPlayerAlive()){
+            int [] direction;
+            if (isPlayer){
+                if (data.GetMouseMovment()){
+                    direction = DirectionAuto(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+                }else{
+                    direction = DirectionKey();
+                }
             }else{
-                direction = DirectionKey();
+                direction = DirectionAuto(player.transform.position);
             }
-        }else{
-            direction = DirectionAuto(player.transform.position);
-        }
-        SetDirection(direction[0],direction[1]);
-        
-        
-       
+            SetDirection(direction[0],direction[1]);
+        } 
     }
     private int[] DirectionAuto(Vector3 comperePosition){
         int [] direction = {0,0};

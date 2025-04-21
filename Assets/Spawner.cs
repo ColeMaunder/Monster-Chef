@@ -21,6 +21,6 @@ public class Spawner : MonoBehaviour
         }
     }
     private void spawnEmeny(int index){
-        GameObject newEmemy = Instantiate(data.getEnemyList(index), transform.position, Quaternion.identity);
+        GameObject newEmemy = Instantiate(data.GetEnemyList(index), transform.position, Quaternion.identity);
     }
 }

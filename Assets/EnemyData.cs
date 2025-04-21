@@ -1,20 +1,45 @@
+using System;
 using UnityEngine;
 
 public class EnemyData : MonoBehaviour
 {
     private GameObject player;
-    public float enemySpeed = 5.0f;
-    public float favoredDistance = 0.5f;
-    public float agroRaing = 30.0f;
-    private bool isAttacking = false;
-    private bool canMove = true;
-    public Sprite[] sprites = {};
+    
+    public int [] maxHealth = {3,0,5};
+    public float [] enemySpeed = {3f,0,5f};
+    public float [] favoredDistance = {2f,0,10f};
+    public float [] agroRaing = {20f,0,20f};
+
+    public Sprite[] slimeSprites = {};
+    public Sprite[] mandrakeSprites = {};
+    public Sprite[] frogSprites = {};
+    public Sprite[] vineSprites = {};
     public GameObject[] enemyList;
-    public GameObject getEnemyList(int index){
+    public GameObject[] dropList;
+
+    public GameObject GetEnemyList(int index){
         return enemyList[index];
     }
-    public Sprite[] GetSprites(){
-        return sprites;
+    public GameObject GetDropList(int index){
+        return dropList[index];
+    }
+    public int GetMaxhealth(int index){
+        return maxHealth [index];
+    }
+    public Sprite[] GetSprites(int enemy){
+         switch (enemy){
+            case 0:
+                return slimeSprites;
+            case 1:
+                return mandrakeSprites;
+            case 2:
+                return frogSprites;
+            case 3:
+                return vineSprites;
+            default:
+                print ("invalid enemy");
+                return null;
+        }
     }
     
     public EnemyData(){}
@@ -22,30 +47,14 @@ public class EnemyData : MonoBehaviour
     {
         player = GameObject.FindWithTag("Player");
     }
-    public float GetEnemySpeed(){
-        return enemySpeed;
+    public float GetEnemySpeed(int enemy){
+            return enemySpeed[enemy];
     }
-    public float GetFavoredDistance(){
-        return favoredDistance;
+    public float GetFavoredDistance(int enemy){
+         return favoredDistance[enemy];
     }
-    public float GetAgroRaing(){
-        return agroRaing;
-    }
-
-    public bool GetIsAttacking(){
-        return isAttacking;
-    }
-
-    public void SetIsAttacking(bool isAttackingIn){
-        isAttacking = isAttackingIn;
-    }
-
-    public bool GetCanMove(){
-        return canMove;
-    }
-
-    public void SetCanMove(bool canMoveIn){
-        canMove= canMoveIn;
+    public float GetAgroRaing(int enemy){
+        return agroRaing[enemy];
     }
 
 
