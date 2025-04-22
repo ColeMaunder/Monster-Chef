@@ -1,7 +1,6 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class Fountain : MonoBehaviour
+public class Cooking : MonoBehaviour
 {
     Player player;
     GameObject lastRespawn;
@@ -16,17 +15,12 @@ public class Fountain : MonoBehaviour
     {
         if(inRainge){
             if (Input.GetKeyDown(KeyCode.E)){ 
-                player.RefillHeals();
-                player.RefillHealth();
-                GameObject Respawn = GameObject.FindWithTag("Respawn");
-                Respawn.transform.position = transform.position;
-                print("fountain set");
+                
             }
         }
     }
     private void OnTriggerEnter2D(Collider2D collision){
         if (collision.gameObject.tag == "Player"){
-            print("player in");
             inRainge = true;
         }
     }

@@ -17,6 +17,8 @@ public class PlayerMovment : MonoBehaviour
     public Rigidbody2D rb;
     private Vector2 moveDir;
     public float currentSpeed;
+    private float cooldownTimer = 0f;
+    
 
     public PlayerMovment(){}
     void Start()
@@ -31,6 +33,18 @@ public class PlayerMovment : MonoBehaviour
 
     public float GetDashCool(){
         return dashCool;
+    }
+
+    public float GetCooldownTimer(){
+        return cooldownTimer;
+    }
+
+    public float DeIncCooldownTimer(){
+        return cooldownTimer -= Time.deltaTime;
+    }
+
+    public void SetcooldownTimer(float cooldownTimerIn){
+        cooldownTimer = cooldownTimerIn;
     }
 
     //Dash Function (use seconds instead of frames)
@@ -58,7 +72,7 @@ public class PlayerMovment : MonoBehaviour
         // Check speed (dash or not)
         if (Input.GetKey(KeyCode.Space) && canDash && !isDash)
         {
-            
+            cooldownTimer = dashCool;
             Coroutine coroutine = StartCoroutine(Dash());
         }
         if (!isDash)
@@ -76,9 +90,5 @@ public class PlayerMovment : MonoBehaviour
         {
             rb.linearVelocity = Vector2.zero;
         }
-
-           
-
-        
-    }
+    } 
 }

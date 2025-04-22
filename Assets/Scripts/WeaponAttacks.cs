@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class WeaponAttacks : MonoBehaviour
 {
+    public bool cutleryActive;
+    public bool ultActive;
+
     public int spoonComboMax = 2;
     public float spoonChargeMax = 1.5f;
     public GameObject[] spoonAttack = {};
@@ -20,8 +23,64 @@ public class WeaponAttacks : MonoBehaviour
     public float [] tenderizerAtkDuration = {};
     public float [] tenderizerAtkCoolDown = {};
 
-    public WeaponAttacks()
-    {}
+    public GameObject[] ults = {};
+    public float [] ultDuration = {};
+    public float [] ultCoolDown = {};
+    public int [] ultChargeNeeded = {};
+    public int ultChargeMax;
+    private int ultCharge = 0;
+
+    public WeaponAttacks(){}
+
+    public void SetCutleryActive(bool input){
+        cutleryActive = input;
+    }
+    public void SetUltActive(bool input){
+        ultActive = input;
+    }
+
+    public bool GetCutleryActive(){
+        return cutleryActive;
+    }
+    public bool GetUltActive(){
+        return ultActive;
+    }
+    
+    public GameObject GetUlt(int index){
+        return ults[index];
+    }
+    public float GetUltDuration(int index){
+        return ultDuration[index];
+    }
+    public float GetUltCoolDown(int index){
+        return ultCoolDown[index];
+    }
+    public int GetUltChargeNeeded(int index){
+        return ultChargeNeeded[index];
+    }
+    public void SetUltCharge(int ultChargeIn){
+        ultCharge = ultChargeIn;
+    }
+    public int GetUltCharge(){
+        return ultCharge;
+    }
+    public int UsedGetUltCharge(int index){
+        ultCharge = ultCharge - ultChargeNeeded[index];
+        print ("ult charge is " + ultCharge);
+        return ultCharge;
+    }
+    public int IncGetUltCharge(){
+        if (ultCharge < ultChargeMax){
+            ultCharge++;
+            print ("ult charge is " + ultCharge);
+            return ultCharge;
+        }else{
+            print ("ult charge is" + ultChargeMax);
+            return ultChargeMax;
+        }
+        
+        
+    }
 
     public float GetChargeMax(int weapon){
         switch(weapon){

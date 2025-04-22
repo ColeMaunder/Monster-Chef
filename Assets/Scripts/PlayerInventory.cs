@@ -6,7 +6,11 @@ public class PlayerInventory : MonoBehaviour
     private int[] droppedInvantory;
     private bool hasDroppedInventory = false;
     public GameObject grave;
-
+    public WeaponAttacks player;
+    void Start()
+    {
+        player = GameObject.FindWithTag("PlayerData").GetComponent<WeaponAttacks>();
+    }
     private void PrintInventory(){
         print("Slime chunks: " + invantory[0]);
         print("Mandrake Roots: " + invantory[1]);
@@ -15,6 +19,7 @@ public class PlayerInventory : MonoBehaviour
     }
    public void AddItem(int item){
     invantory[item]++;
+    player.IncGetUltCharge();
     PrintInventory();
    }
    public void DropInventory(){

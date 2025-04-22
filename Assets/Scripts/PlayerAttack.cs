@@ -3,10 +3,12 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
    public int activeWeapon = 0;
+   public int activeUlt = 0;
    private WeaponAttacks attacks;
    private PlayerData keys;
    
    bool isAttacking = false;
+   bool isUlting = false;
    float atkTimer = 0f;
    int atkType = 0;
    float heavyCharge=0;
@@ -24,7 +26,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if (player.GetPlayerAlive()){
             AttackTimer();
-            if (!isAttacking){
+            if (!isAttacking && !isUlting){
                 if (Input.GetMouseButtonDown(0) /*|| Input.GetKeyDown(keys.GetKey(4))*/){
                     heavyCharge=0;
                     if (lightCombo < attacks.GetComboMax(activeWeapon)){
@@ -59,6 +61,12 @@ public class PlayerAttack : MonoBehaviour
 
                     }
                     heavyCharge = 0;
+                }else if(attacks.ultActive){
+                    if(Input.GetKeyDown(KeyCode.Q)) {
+                        if (attacks.GetUltCharge() >= attacks.GetUltChargeNeeded(activeUlt)){
+                            Ult();
+                        }
+                    }
                 }
                 
             }
@@ -77,14 +85,33 @@ public class PlayerAttack : MonoBehaviour
             isAttacking = true;
             attacks.GetAtk(activeWeapon,type).SetActive(true);
         }
+
+        void Ult(){
+            isUlting = true;
+            attacks.GetUlt(activeUlt).SetActive(true);
+        }
     
     void AttackTimer(){
         atkTimer += Time.deltaTime;
-        if(atkTimer >= (attacks.GetAtkCoolDown(activeWeapon,atkType)+ attacks.GetAtkDuration(activeWeapon,atkType))){
+        float cooldown;
+        float duration;
+        if(isUlting){
+            cooldown = attacks.GetUltCoolDown(activeUlt);
+            duration = attacks.GetUltDuration(activeUlt);
+        }else{
+            cooldown = attacks.GetAtkCoolDown(activeWeapon,atkType);
+            duration = attacks.GetAtkDuration(activeWeapon,atkType);
+        }
+        if(atkTimer >= (cooldown + duration)){
+            if(isUlting){
+                attacks.UsedGetUltCharge(activeUlt);
+            }
             atkTimer = 0;
             isAttacking = false;
-        }else if(atkTimer >= attacks.GetAtkDuration(activeWeapon,atkType)){
+            isUlting = false;
+        }else if(atkTimer >= duration){
             attacks.GetAtk(activeWeapon,atkType).SetActive(false);
+            attacks.GetUlt(activeUlt).SetActive(false);
     }
     
 }

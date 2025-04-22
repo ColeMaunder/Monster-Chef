@@ -8,7 +8,7 @@ public class EnemyWeapon : MonoBehaviour
         Player player = collision.gameObject.GetComponent<Player>();
         if (player != null){
             player.damage(damage);
-            print("Slime hit");
+            print("Enemy hit");
         }
     }
 }

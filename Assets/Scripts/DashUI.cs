@@ -4,7 +4,6 @@ using UnityEngine.UI;
 public class DashUI : MonoBehaviour
 {
     PlayerMovment player;
-    private float cooldownTimer = 0f;
     public Image cooldownImage;
     void Start()
     {
@@ -14,25 +13,15 @@ public class DashUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.GetIsDash()){
-            cooldownTimer = player.GetDashCool();
-        }
-        
         //Dash UI stuff
-        if (cooldownTimer > 0f)
-        {
-            cooldownTimer -= Time.deltaTime;
-            if (cooldownTimer <= 0f)
-            {
-                cooldownTimer = 0f; // Reset the image fill amount
+        if (player.GetCooldownTimer() > 0f){
+            player.DeIncCooldownTimer();
+            if (player.GetCooldownTimer()<= 0f){
+                player.SetcooldownTimer(0f); // Reset the image fill amount
+            } else {
+                cooldownImage.fillAmount = player.GetCooldownTimer() / player.GetDashCool(); // Update the image fill amount
             }
-            else
-            {
-                cooldownImage.fillAmount = cooldownTimer / player.GetDashCool(); // Update the image fill amount
-            }
-        }
-        else
-        {
+        } else {
             cooldownImage.fillAmount = 0f; // Reset the image fill amount
         }
 
