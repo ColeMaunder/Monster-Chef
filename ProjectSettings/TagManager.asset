@@ -9,6 +9,8 @@ TagManager:
   - EnemyData
   - Spawner
   - EnemyDrop
+  - UI
+  - DeathScreen
   layers:
   - Default
   - TransparentFX

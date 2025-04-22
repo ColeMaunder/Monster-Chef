@@ -373,7 +373,7 @@ GameObject:
   - component: {fileID: 2616050621800146661}
   - component: {fileID: 7514012339628299375}
   - component: {fileID: 3603718133944037020}
-  - component: {fileID: 964372082158454792}
+  - component: {fileID: 2138099405271824307}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Enemy
@@ -467,6 +467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  face: {fileID: 0}
 --- !u!50 &7514012339628299375
 Rigidbody2D:
   serializedVersion: 5
@@ -531,7 +532,7 @@ CapsuleCollider2D:
   m_Offset: {x: -0.0000000042044235, y: -0.035269264}
   m_Size: {x: 1.5720682, y: 1.2334945}
   m_Direction: 1
---- !u!114 &964372082158454792
+--- !u!114 &2138099405271824307
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -540,10 +541,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 7094277301536617045}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26b1370f715e2fc49b8ae59baf6ccdf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 062750253befa714a9f91bf0ed7e6e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyRB: {fileID: 7514012339628299375}
-  dotCan: 0
-  dotCant: 0.7
-  waterStop: 3000
+  type: 0
+  face: {fileID: 7863485246336245480}

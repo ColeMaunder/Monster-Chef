@@ -58,6 +58,9 @@ public class WeaponAttacks : MonoBehaviour
     public int GetUltChargeNeeded(int index){
         return ultChargeNeeded[index];
     }
+    public int GetUltChargeMax(){
+        return ultChargeMax;
+    }
     public void SetUltCharge(int ultChargeIn){
         ultCharge = ultChargeIn;
     }

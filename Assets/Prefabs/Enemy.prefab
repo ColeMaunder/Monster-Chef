@@ -105,6 +105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  face: {fileID: 0}
 --- !u!50 &4226862428375129851
 Rigidbody2D:
   serializedVersion: 5

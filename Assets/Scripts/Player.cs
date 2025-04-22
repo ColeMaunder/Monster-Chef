@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     GameObject spawn;
     GameObject [] spawners;
     bool playerAlive = true;
+    public GameObject deathScreen;
 
     public bool GetPlayerAlive(){
         return playerAlive;
@@ -24,12 +25,14 @@ public class Player : MonoBehaviour
         spawners = GameObject.FindGameObjectsWithTag("Spawner");
         spawn = GameObject.FindWithTag("Respawn");
         transform.position = spawn.transform.position;
+        deathScreen.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
         if (!playerAlive){
+            deathScreen.SetActive(true);
             //print ("still dead");
              if (Input.GetKeyDown(KeyCode.Return)){
                 print("alive");
@@ -53,7 +56,7 @@ public class Player : MonoBehaviour
     private void Heal(){
         if (heals> 0){
             float tempHp = health + healAmount;
-            if (tempHp > maxHealth){
+            if (tempHp < maxHealth){
                 health += healAmount;
             }else{
                 health = maxHealth;
@@ -70,10 +73,15 @@ public class Player : MonoBehaviour
         inventory.DropInventory();
     }
 
-    private void Respawn(){
+    public void Respawn(){
+        Reset();
         transform.position = spawn.transform.position;
         health = maxHealth;
         heals = maxHeals;
+        Time.timeScale = 1f;
+        playerAlive = true;
+        deathScreen.SetActive(false);
+        
     }
 
     public void Reset()
@@ -97,6 +105,14 @@ public class Player : MonoBehaviour
     public void RefillHealth(){
         health = maxHealth;
     }
+
+    public float GetHealth(){
+        return health;
+    }
+    public float GetMaxHealth(){
+        return maxHealth;
+    }
+
 
     
 }
