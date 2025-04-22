@@ -1,5 +1,13 @@
 using UnityEngine;
 
+//Reference
+/*  Title: Camera Follow
+    Author: bendux
+    Date: 12/04/2025
+    Code Version: 1.1
+    Available at: https://gist.github.com/bendux/76a9b52710b63e284ce834310f8db773
+ */
+
 public class CameraFollow : MonoBehaviour
 {
      public Transform target;
@@ -7,16 +15,6 @@ public class CameraFollow : MonoBehaviour
      public Vector3 offset = new Vector3(0f, 0f, -10f);
      private Vector3 camvelocity = Vector3.zero;
 
-
-
-
-     // Start is called once before the first execution of Update after the MonoBehaviour is created
-     void Start()
-     {
-
-     }
-
-     // Update is called once per frame
      void Update()
      {
          Vector3 targetPosition = target.transform.position + new Vector3(0f, 0f, -10f);
