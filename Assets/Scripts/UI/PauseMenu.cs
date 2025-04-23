@@ -7,8 +7,10 @@ public class PauseMenu : MonoBehaviour
     {
         // Check for input to pause the game
         if (Input.GetKey(KeyCode.Escape)){
+            try{
             pauseScreen.SetActive(true);
             Time.timeScale = 0f; // Pause the game
+            }catch(UnassignedReferenceException){}
         }
  
     }

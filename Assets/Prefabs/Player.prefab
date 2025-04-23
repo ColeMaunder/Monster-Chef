@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dec891890fd418458b1adea0cb27e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 20
+  maxHealth: 15
   maxHeals: 3
   healAmount: 4
   deathScreen: {fileID: 0}
@@ -581,8 +581,8 @@ MonoBehaviour:
   - 1
   ultCoolDown:
   - 1
-  ultChargeNeeded: 05000000
-  ultChargeMax: 10
+  ultChargeNeeded: 14000000
+  ultChargeMax: 20
 --- !u!114 &3460499957586961584
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -7,11 +7,11 @@ public class TipTrigger : MonoBehaviour
     private TMP_Text tipMessage; // The TextMeshPro text that will display the messages
     public int tipCode; // Receves the curintly relivent messages's code
     private string [] tips = { "WASD to move", "SPACE to dash", "MB1 to do a light attack",
-    "Do a series of light attacks to do a combo move", "MB2 to do a Heavy Attack",
+    "Do a series of light attacks to do a combo move", "MB2 to do a Heavy Attack, hold to charge for more power",
     "Heavy Attacks can hit multiple enemies", "use R to consume one healing resource",
-    "E to Interact. Interact with fountains to refill healing", "Q to do a Special Attack",
-    "E to Interact. I to access inventory","E to interact. Store extra items in the pantry for later",
-    "E to interact. Cook meals in the kitechen to recieve buffs","test out your new buff"}; // Stores all the possible messages
+    "E to Interact. Interact with fountains to refill healing, health and set spawn point", "Q to do a Special Attack when your special bar is full",
+    "Well Done! you found a recipe, head back to your restaurant to cook a meal","Later you will be able to store extra ingredients in the pantry",
+    "Press E to cook your new recipe that will give you a buff","test out your new health buff: Health increased"}; // Stores all the possible messages
     void Start()
     {
         tipUI.SetActive(false); // Ensure the tip is not displayed at the start

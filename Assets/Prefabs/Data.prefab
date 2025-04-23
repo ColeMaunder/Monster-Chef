@@ -127,9 +127,9 @@ MonoBehaviour:
   vineSprites: []
   enemyList:
   - {fileID: 7094277301536617045, guid: a573085b5b4176746aa718a181bbd9f5, type: 3}
-  - {fileID: 0}
+  - {fileID: 3502702152755198145, guid: ebedfc3b64d80a446843878f08cd91e2, type: 3}
   - {fileID: 6725913427455544190, guid: 32c99da5799c2704082772b8f72934af, type: 3}
-  - {fileID: 0}
+  - {fileID: 3502702152755198145, guid: ebedfc3b64d80a446843878f08cd91e2, type: 3}
   dropList:
   - {fileID: 6110570572209329839, guid: 9fc751104d0458840af9365cab4f7668, type: 3}
   - {fileID: 6738018485893789703, guid: 6d81b5c1c327ddc40a9c1d3cf5f11f36, type: 3}

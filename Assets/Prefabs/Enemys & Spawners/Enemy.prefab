@@ -104,8 +104,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 062750253befa714a9f91bf0ed7e6e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sprite: {fileID: 5642580433971543610}
   type: 0
-  face: {fileID: 0}
+  hitCountMax: 0.3
 --- !u!50 &4226862428375129851
 Rigidbody2D:
   serializedVersion: 5
