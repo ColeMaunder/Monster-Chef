@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     GameObject [] spawners;
     bool playerAlive = true;
     public GameObject deathScreen;
+    private WeaponAttacks player;
 
     public bool GetPlayerAlive(){
         return playerAlive;
@@ -22,12 +23,13 @@ public class Player : MonoBehaviour
         health = maxHealth;
         heals = maxHeals;
         inventory = GameObject.FindWithTag("Player").GetComponent<PlayerInventory>();
-        spawners = GameObject.FindGameObjectsWithTag("Spawner");
         spawn = GameObject.FindWithTag("Respawn");
+        spawners = GameObject.FindGameObjectsWithTag("Spawner");
+        player = GameObject.FindWithTag("PlayerData").GetComponent<WeaponAttacks>();
         transform.position = spawn.transform.position;
         deathScreen.SetActive(false);
     }
-
+    
     // Update is called once per frame
     void Update()
     {
@@ -53,6 +55,9 @@ public class Player : MonoBehaviour
             Dead();
         }
     }
+    public int GetHeals(){
+        return heals;
+    }
     private void Heal(){
         if (heals> 0){
             float tempHp = health + healAmount;
@@ -71,6 +76,10 @@ public class Player : MonoBehaviour
         playerAlive = false;
         Time.timeScale = 0f;
         inventory.DropInventory();
+    }
+
+    public void HealthFull(){
+        health = maxHealth;
     }
 
     public void Respawn(){
@@ -97,6 +106,7 @@ public class Player : MonoBehaviour
         foreach(GameObject spawner in spawners){
             spawner.SetActive(true);
         }
+        player.SetUltCharge(0);
     }
 
     public void RefillHeals(){
@@ -111,6 +121,17 @@ public class Player : MonoBehaviour
     }
     public float GetMaxHealth(){
         return maxHealth;
+    }
+    public void SetMaxHealth(float healthIn){
+        maxHealth = healthIn;
+    }
+    public void UpdateAll(){
+        spawners = GameObject.FindGameObjectsWithTag("Spawner");
+        spawn = GameObject.FindWithTag("Respawn");
+    }
+    public void WipeAll(){
+        spawners = null;
+        spawn = null;
     }
 
 

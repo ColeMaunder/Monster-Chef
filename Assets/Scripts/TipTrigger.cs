@@ -4,7 +4,7 @@ using UnityEngine;
 public class TipTrigger : MonoBehaviour
 {
     public GameObject tipUI; // The tip GameObject to be displayed
-    public TMP_Text tipMessage; // The TextMeshPro text that will display the messages
+    private TMP_Text tipMessage; // The TextMeshPro text that will display the messages
     public int tipCode; // Receves the curintly relivent messages's code
     private string [] tips = { "WASD to move", "SPACE to dash", "MB1 to do a light attack",
     "Do a series of light attacks to do a combo move", "MB2 to do a Heavy Attack",
@@ -15,6 +15,9 @@ public class TipTrigger : MonoBehaviour
     void Start()
     {
         tipUI.SetActive(false); // Ensure the tip is not displayed at the start
+        //tipUI = GameObject.FindWithTag("UITip");
+        tipMessage = tipUI.GetComponent<TMP_Text>();
+
     }
 
     void OnTriggerEnter2D(Collider2D intip)
@@ -31,7 +34,10 @@ public class TipTrigger : MonoBehaviour
         if (intip.CompareTag("Player"))
         {
             tipMessage.text = ""; // Removes the no longer relevant message
+            try{
             tipUI.SetActive(false); // Hide the tip when the player exits the trigger
+            }catch(MissingReferenceException){
+            }
         }
     }
 

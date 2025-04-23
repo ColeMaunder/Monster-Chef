@@ -66,19 +66,6 @@ public class EnvironmentHandler : MonoBehaviour
             playerRB.linearDamping = 0;
         }
 
-        if (trigger.gameObject.name == "End")
-        {
-            print("Exit Swamp");
-            GoToScene("Restaurant");
-
-        }
-
-        if (trigger.gameObject.name == "Exit")
-        {
-            print("Exit Restaurant");
-            GoToScene("Buff level");
-        }
-
         //Water
         /* if (trigger.gameObject.name == "Water")
          {
@@ -149,9 +136,5 @@ public class EnvironmentHandler : MonoBehaviour
 
         }
         
-    }
-    public void GoToScene(string sceneName)
-    {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
     }
 }

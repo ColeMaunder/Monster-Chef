@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class Cooking : MonoBehaviour
 {
+    bool cooked =  false;
     Player player;
-    GameObject lastRespawn;
+    public float newMaxHealth = 30f;
     bool inRainge = false;
     void Start()
     {
@@ -15,12 +16,18 @@ public class Cooking : MonoBehaviour
     {
         if(inRainge){
             if (Input.GetKeyDown(KeyCode.E)){ 
-                
+                if(!cooked){
+                    cooked = true;
+                    print("health up");
+                    player.SetMaxHealth(newMaxHealth);
+                    player.HealthFull();
+                }
             }
         }
     }
     private void OnTriggerEnter2D(Collider2D collision){
         if (collision.gameObject.tag == "Player"){
+            print("in");
             inRainge = true;
         }
     }

@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 4790317818531067763}
   - component: {fileID: 4648682790677358372}
   - component: {fileID: 5717498165019500853}
+  - component: {fileID: 1941398484145039164}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -135,11 +136,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c1fb5cfb6b44a9479ac2eecbdf48fdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 4.55
-  dashMod: 2.1
+  moveSpeed: 5
+  dashMod: 4
   dashSpeed: 0
-  dashTime: 0.5
-  dashCool: 3
+  dashTime: 0.15
+  dashCool: 1
   rb: {fileID: 53161477322774632}
   currentSpeed: 0
 --- !u!114 &7691789175102270810
@@ -224,9 +225,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dec891890fd418458b1adea0cb27e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 20
   maxHeals: 3
   healAmount: 4
+  deathScreen: {fileID: 0}
 --- !u!114 &5717498165019500853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,6 +243,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grave: {fileID: 7370919291160433318, guid: cdef20dc827d2954ebf16d98d54dc05b, type: 3}
   player: {fileID: 0}
+--- !u!114 &1941398484145039164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198528944626264861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d29e76234b36fd49bc9bb30e6c3ca3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1814787458152553397
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,8 +320,8 @@ Transform:
   m_GameObject: {fileID: 2035627773859049613}
   serializedVersion: 2
   m_LocalRotation: {x: -0.9990483, y: -0, z: -0.043619405, w: 0}
-  m_LocalPosition: {x: 0, y: 0.12166481, z: 0}
-  m_LocalScale: {x: 4.5123506, y: 0.691444, z: 1}
+  m_LocalPosition: {x: 0, y: 0.059, z: 0}
+  m_LocalScale: {x: 4.5123506, y: 0.8168028, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1195255033663867485}
@@ -355,7 +369,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -452,7 +466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53cab12520e310648bccc91a85b1b33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 2
+  damage: 3
 --- !u!1 &3327480393724768381
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,7 +546,7 @@ MonoBehaviour:
   cutleryActive: 0
   ultActive: 1
   spoonComboMax: 2
-  spoonChargeMax: 1.5
+  spoonChargeMax: 1
   spoonAttack:
   - {fileID: 3682202924254559273}
   - {fileID: 8478817872626071003}
@@ -540,14 +554,14 @@ MonoBehaviour:
   - {fileID: 2035627773859049613}
   - {fileID: 7618519195153964602}
   spoonAtkDuration:
-  - 0.3
+  - 0.2
   - 0.6
   - 0.4
   - 0.5
   - 0.8
   spoonAtkCoolDown:
-  - 0.1
-  - 0.5
+  - 0.05
+  - 0.2
   - 0.5
   - 0.6
   - 0.7
@@ -567,7 +581,7 @@ MonoBehaviour:
   - 1
   ultCoolDown:
   - 1
-  ultChargeNeeded: 02000000
+  ultChargeNeeded: 05000000
   ultChargeMax: 10
 --- !u!114 &3460499957586961584
 MonoBehaviour:
@@ -627,8 +641,8 @@ Transform:
   m_GameObject: {fileID: 3682202924254559273}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.06, y: -0.243, z: 0}
+  m_LocalScale: {x: 1.053, y: 1.1141, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1195255033663867485}
@@ -676,7 +690,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -887,7 +901,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -984,7 +998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53cab12520e310648bccc91a85b1b33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 2
 --- !u!1 &7618519195153964602
 GameObject:
   m_ObjectHideFlags: 0
@@ -1014,8 +1028,8 @@ Transform:
   m_GameObject: {fileID: 7618519195153964602}
   serializedVersion: 2
   m_LocalRotation: {x: -0.9990483, y: -0, z: -0.043619405, w: 0}
-  m_LocalPosition: {x: 0, y: 0.12166481, z: 0}
-  m_LocalScale: {x: 4.5123506, y: 0.691444, z: 1}
+  m_LocalPosition: {x: -0.0092, y: -0.0601, z: -0.0008}
+  m_LocalScale: {x: 4.493659, y: 1.0298436, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1195255033663867485}
@@ -1063,7 +1077,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -1160,7 +1174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53cab12520e310648bccc91a85b1b33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 4
+  damage: 5
 --- !u!1 &7694260086425435046
 GameObject:
   m_ObjectHideFlags: 0
@@ -1256,8 +1270,8 @@ Transform:
   m_GameObject: {fileID: 8478817872626071003}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.20743321, z: 0}
-  m_LocalScale: {x: 1.0169199, y: 1.3828882, z: 1}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalScale: {x: 1.5114934, y: 1.3468646, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1195255033663867485}
@@ -1305,7 +1319,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -1406,7 +1420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53cab12520e310648bccc91a85b1b33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 2
+  damage: 3
 --- !u!1 &9007584687853160891
 GameObject:
   m_ObjectHideFlags: 0
@@ -1468,8 +1482,8 @@ Transform:
   m_GameObject: {fileID: 9141684702001604156}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.0691, z: -0.1362}
-  m_LocalScale: {x: 2.1729758, y: 5.1859584, z: 1}
+  m_LocalPosition: {x: 0, y: 1.86, z: -0.19}
+  m_LocalScale: {x: 1.6693637, y: 4.7886605, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9222520366472037204}

@@ -61,7 +61,7 @@ public class PlayerAttack : MonoBehaviour
 
                     }
                     heavyCharge = 0;
-                }else if(attacks.ultActive){
+                }else if(attacks.GetUltActive()){
                     if(Input.GetKeyDown(KeyCode.Q)) {
                         if (attacks.GetUltCharge() >= attacks.GetUltChargeNeeded(activeUlt)){
                             Ult();

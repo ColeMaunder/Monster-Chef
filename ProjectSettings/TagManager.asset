@@ -11,6 +11,8 @@ TagManager:
   - EnemyDrop
   - UI
   - DeathScreen
+  - UITip
+  - HealthBar
   layers:
   - Default
   - TransparentFX
