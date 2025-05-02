@@ -3,11 +3,11 @@ using UnityEngine.UI;
 
 public class DashUI : MonoBehaviour
 {
-    PlayerMovment player;
+    PlayerData player;
     public Image cooldownImage;
     void Start()
     {
-        player = GameObject.FindWithTag("Player").GetComponent<PlayerMovment>();
+        player = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
     }
 
     // Update is called once per frame
