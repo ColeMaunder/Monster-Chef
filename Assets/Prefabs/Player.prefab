@@ -10,8 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4605183880909760101}
   - component: {fileID: 53161477322774632}
-  - component: {fileID: 1652491008247715132}
-  - component: {fileID: 7691789175102270810}
   - component: {fileID: 5231292735931000816}
   - component: {fileID: 4648682790677358372}
   - component: {fileID: 5717498165019500853}
@@ -71,45 +69,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &1652491008247715132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1198528944626264861}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c1fb5cfb6b44a9479ac2eecbdf48fdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 200
-  dashMod: 4
-  dashSpeed: 0
-  dashTime: 0.15
-  dashCool: 1
-  rb: {fileID: 53161477322774632}
-  currentSpeed: 0
---- !u!114 &7691789175102270810
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1198528944626264861}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 745b99c1171bc08409cd46b1000a97f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerRB: {fileID: 53161477322774632}
-  dotCan: 0
-  dotCant: 0.7
-  mudMod: 0.5
-  mudDrag: 30
-  waterStop: 3000
-  Player: {fileID: 1198528944626264861}
-  startBlock: {fileID: 0}
 --- !u!114 &5231292735931000816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -500,6 +459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 3
+  knockBack: 10
 --- !u!1 &2892239095965408545
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,8 +471,10 @@ GameObject:
   - component: {fileID: 2188761121150899516}
   - component: {fileID: 1590509329154716408}
   - component: {fileID: 5088283012805066986}
+  - component: {fileID: 2197874128844302130}
+  - component: {fileID: 90038718445807602}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: PayerBoddy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -625,6 +587,38 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 2}
   m_Direction: 0
+--- !u!114 &2197874128844302130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2892239095965408545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1fb5cfb6b44a9479ac2eecbdf48fdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &90038718445807602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2892239095965408545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 745b99c1171bc08409cd46b1000a97f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerRB: {fileID: 53161477322774632}
+  dotCan: 0
+  dotCant: 0.7
+  mudMod: 0.5
+  mudDrag: 30
+  waterStop: 3000
+  Player: {fileID: 1198528944626264861}
+  startBlock: {fileID: 0}
 --- !u!1 &3327480393724768381
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,6 +747,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 977caa794b8bcdd45aa831924c8c056d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 5
+  dashMod: 4
+  dashTime: 0.15
+  dashCool: 1
   keys:
   - up
   - down
@@ -950,6 +948,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  knockBack: 5
 --- !u!1 &4421597662438063403
 GameObject:
   m_ObjectHideFlags: 0
@@ -1157,6 +1156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 2
+  knockBack: 5
 --- !u!1 &7618519195153964602
 GameObject:
   m_ObjectHideFlags: 0
@@ -1333,6 +1333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
+  knockBack: 15
 --- !u!1 &7694260086425435046
 GameObject:
   m_ObjectHideFlags: 0
@@ -1578,6 +1579,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 3
+  knockBack: 10
 --- !u!1 &9007584687853160891
 GameObject:
   m_ObjectHideFlags: 0
@@ -1786,3 +1788,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 6
+  knockBack: 1

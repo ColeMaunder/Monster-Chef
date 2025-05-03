@@ -3,6 +3,7 @@ using UnityEngine;
 public class EnemyWeapon : MonoBehaviour
 {
     public float damage = 1f;
+    public float knockBack = 1f;
 
     private void OnTriggerEnter2D(Collider2D collision){
         Player player = collision.gameObject.GetComponent<Player>();
