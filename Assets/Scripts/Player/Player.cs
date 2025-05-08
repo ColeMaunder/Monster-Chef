@@ -12,7 +12,6 @@ public class Player : MonoBehaviour
     GameObject [] spawners;
     bool playerAlive = true;
     public GameObject deathScreen;
-    private WeaponAttacks player;
 
     public bool GetPlayerAlive(){
         return playerAlive;
@@ -25,7 +24,6 @@ public class Player : MonoBehaviour
         inventory = GameObject.FindWithTag("Player").GetComponent<PlayerInventory>();
         spawn = GameObject.FindWithTag("Respawn");
         spawners = GameObject.FindGameObjectsWithTag("Spawner");
-        player = GameObject.FindWithTag("PlayerData").GetComponent<WeaponAttacks>();
         transform.position = spawn.transform.position;
         deathScreen.SetActive(false);
     }
@@ -57,6 +55,10 @@ public class Player : MonoBehaviour
     }
     public int GetHeals(){
         return heals;
+    }
+
+    public int GetMaxHeals(){
+        return maxHeals;
     }
     private void Heal(){
         if (heals> 0){
@@ -106,7 +108,7 @@ public class Player : MonoBehaviour
         foreach(GameObject spawner in spawners){
             spawner.SetActive(true);
         }
-        player.SetUltCharge(0);
+        GameObject.FindWithTag("PlayerData").GetComponent<WeaponAttacks>().SetUltCharge(0);
     }
 
     public void RefillHeals(){

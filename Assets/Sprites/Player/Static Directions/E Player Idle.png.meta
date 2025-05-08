@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: 6f75fe5b0c126c847b4e5ec83ec9e1ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2935621068472897430
+    second: E Player Idle_0
+  - first:
+      213: -7832620498177580393
+    second: E Player Idle_1
+  - first:
+      213: -2230260351191548026
+    second: E Player Idle_2
+  - first:
+      213: -6765581258740631507
+    second: E Player Idle_3
+  - first:
+      213: -6739727922983208127
+    second: E Player Idle_4
+  - first:
+      213: -5200264329496957684
+    second: E Player Idle_5
+  - first:
+      213: 353564086706769126
+    second: E Player Idle_6
+  - first:
+      213: -2962026913505742440
+    second: E Player Idle_7
+  - first:
+      213: 8385044756794991239
+    second: E Player Idle_8
+  - first:
+      213: -3129385397906125287
+    second: E Player Idle_9
+  - first:
+      213: 1055226193444737022
+    second: E Player Idle_10
+  - first:
+      213: -4442968151546059470
+    second: E Player Idle_11
+  - first:
+      213: 1168349838187328107
+    second: E Player Idle_12
+  - first:
+      213: -3943503105784269773
+    second: E Player Idle_13
+  - first:
+      213: -6215371086978877567
+    second: E Player Idle_14
+  - first:
+      213: -4831865033686120892
+    second: E Player Idle_15
+  - first:
+      213: 651848822995701291
+    second: E Player Idle_16
+  - first:
+      213: 5755008434585432576
+    second: E Player Idle_17
+  - first:
+      213: 4460103162338184049
+    second: E Player Idle_18
+  - first:
+      213: 8098698209639290431
+    second: E Player Idle_19
+  - first:
+      213: -2803342077871229633
+    second: E Player Idle_20
+  - first:
+      213: 8259692779692016662
+    second: E Player Idle_21
+  - first:
+      213: 6621457469810997910
+    second: E Player Idle_22
+  - first:
+      213: 5442293828648791680
+    second: E Player Idle_23
+  - first:
+      213: 6348335090785558623
+    second: E Player Idle_24
+  - first:
+      213: -1114868995841813207
+    second: E Player Idle_25
+  - first:
+      213: 8450840730723709752
+    second: E Player Idle_26
+  - first:
+      213: -5991566339114641319
+    second: E Player Idle_27
+  - first:
+      213: 1715073563068962448
+    second: E Player Idle_28
+  - first:
+      213: 999193747172188080
+    second: E Player Idle_29
+  - first:
+      213: -6770959370187001114
+    second: E Player Idle_30
+  - first:
+      213: -4542990056107293651
+    second: E Player Idle_31
+  - first:
+      213: -8791427493684772279
+    second: E Player Idle_32
+  - first:
+      213: 1615293879730130609
+    second: E Player Idle_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: E Player Idle_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60358a11349247d0800000000000000
+      internalID: -2935621068472897430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792aea9e721fc4390800000000000000
+      internalID: -7832620498177580393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ff69ae6068c01e0800000000000000
+      internalID: -2230260351191548026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_3
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2879b5d0b3db12a0800000000000000
+      internalID: -6765581258740631507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_4
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bfdc3a92da772a0800000000000000
+      internalID: -6739727922983208127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_5
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0de23ef423f4d7b0800000000000000
+      internalID: -5200264329496957684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_6
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec0e71e9ac18e400800000000000000
+      internalID: 353564086706769126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_7
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891f7553734c4e6d0800000000000000
+      internalID: -2962026913505742440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_8
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782648ac7c9ad5470800000000000000
+      internalID: 8385044756794991239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_9
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ec2809f803294d0800000000000000
+      internalID: -3129385397906125287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_10
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff06f1d1aae4ae00800000000000000
+      internalID: 1055226193444737022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_11
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23529ba81086752c0800000000000000
+      internalID: -4442968151546059470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b627a86dcffc63010800000000000000
+      internalID: 1168349838187328107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_13
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3343411a1dcd549c0800000000000000
+      internalID: -3943503105784269773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_14
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187f3654de09eb9a0800000000000000
+      internalID: -6215371086978877567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_15
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44602882a54c1fcb0800000000000000
+      internalID: -4831865033686120892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_16
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e4ae50d05db0900800000000000000
+      internalID: 651848822995701291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_17
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00277de0ea5eddf40800000000000000
+      internalID: 5755008434585432576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_18
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b83cc023875ed30800000000000000
+      internalID: 4460103162338184049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_19
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3654a8ec1b546070800000000000000
+      internalID: 8098698209639290431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_20
+      rect:
+        serializedVersion: 2
+        x: 3032
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f357490ab378819d0800000000000000
+      internalID: -2803342077871229633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_21
+      rect:
+        serializedVersion: 2
+        x: 3183
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614c66742d250a270800000000000000
+      internalID: 8259692779692016662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_22
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69af07f9c7424eb50800000000000000
+      internalID: 6621457469810997910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_23
+      rect:
+        serializedVersion: 2
+        x: 3481
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e69e31769e68b40800000000000000
+      internalID: 5442293828648791680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_24
+      rect:
+        serializedVersion: 2
+        x: 3629
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50ab615121d91850800000000000000
+      internalID: 6348335090785558623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_25
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92590cb1e803780f0800000000000000
+      internalID: -1114868995841813207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_26
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8337030ceda674570800000000000000
+      internalID: 8450840730723709752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_27
+      rect:
+        serializedVersion: 2
+        x: 4075
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95852e4c82ea9dca0800000000000000
+      internalID: -5991566339114641319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_28
+      rect:
+        serializedVersion: 2
+        x: 4223
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096936a915a2dc710800000000000000
+      internalID: 1715073563068962448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_29
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf5df94b69dddd00800000000000000
+      internalID: 999193747172188080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_30
+      rect:
+        serializedVersion: 2
+        x: 4519
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2b66fa358b802a0800000000000000
+      internalID: -6770959370187001114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_31
+      rect:
+        serializedVersion: 2
+        x: 4681
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24c79f1d9e04f0c0800000000000000
+      internalID: -4542990056107293651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_32
+      rect:
+        serializedVersion: 2
+        x: 4843
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942015206439ef580800000000000000
+      internalID: -8791427493684772279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Player Idle_33
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 14
+        width: 72
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be4d25b93daa6610800000000000000
+      internalID: 1615293879730130609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6ef151e9a7ff24b489e3565845444cd5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      E Player Idle_0: -2935621068472897430
+      E Player Idle_1: -7832620498177580393
+      E Player Idle_10: 1055226193444737022
+      E Player Idle_11: -4442968151546059470
+      E Player Idle_12: 1168349838187328107
+      E Player Idle_13: -3943503105784269773
+      E Player Idle_14: -6215371086978877567
+      E Player Idle_15: -4831865033686120892
+      E Player Idle_16: 651848822995701291
+      E Player Idle_17: 5755008434585432576
+      E Player Idle_18: 4460103162338184049
+      E Player Idle_19: 8098698209639290431
+      E Player Idle_2: -2230260351191548026
+      E Player Idle_20: -2803342077871229633
+      E Player Idle_21: 8259692779692016662
+      E Player Idle_22: 6621457469810997910
+      E Player Idle_23: 5442293828648791680
+      E Player Idle_24: 6348335090785558623
+      E Player Idle_25: -1114868995841813207
+      E Player Idle_26: 8450840730723709752
+      E Player Idle_27: -5991566339114641319
+      E Player Idle_28: 1715073563068962448
+      E Player Idle_29: 999193747172188080
+      E Player Idle_3: -6765581258740631507
+      E Player Idle_30: -6770959370187001114
+      E Player Idle_31: -4542990056107293651
+      E Player Idle_32: -8791427493684772279
+      E Player Idle_33: 1615293879730130609
+      E Player Idle_4: -6739727922983208127
+      E Player Idle_5: -5200264329496957684
+      E Player Idle_6: 353564086706769126
+      E Player Idle_7: -2962026913505742440
+      E Player Idle_8: 8385044756794991239
+      E Player Idle_9: -3129385397906125287
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

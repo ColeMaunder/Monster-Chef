@@ -15,7 +15,7 @@ public class EnvironmentHandler : MonoBehaviour
    
     void Start()
     {
-        player = GameObject.FindWithTag("Player").GetComponent<PlayerMovment>();
+        player = this.GetComponent<PlayerMovment>();
     }
 
     // Update is called once per frame

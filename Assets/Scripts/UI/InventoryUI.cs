@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class InventoryUI : MonoBehaviour
 {
-    public TMP_Text frog;
-    public TMP_Text slime;
+    public TMP_Text[] counts;
+    public GameObject[] icons;
     private PlayerInventory player;
     void Start()
     {
@@ -14,9 +14,15 @@ public class InventoryUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-            frog.text = "" + player.GetFrog();
-            slime.text = "" + player.GetSlime();
-
-        
+        for(int i = 0; i<counts.Length; i++){
+            int enemy = player.GetEnemy(i);
+            if (enemy > 0){
+                icons[i].SetActive(true);
+                counts[i].text = "" + enemy;
+            }else{
+                icons[i].SetActive(false);
+            }
+            
+        }
     }
 }

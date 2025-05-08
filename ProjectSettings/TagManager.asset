@@ -13,15 +13,16 @@ TagManager:
   - DeathScreen
   - UITip
   - HealthBar
+  - PlayerBody
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - Menu UI
-  - 
+  - DashParticles
   - 
   - 
   - 

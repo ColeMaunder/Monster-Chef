@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class HealsUI : MonoBehaviour
 {
-    public TMP_Text healsCount;
     private Player player;
+    public GameObject[] healIcons;
     void Start()
     {
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
@@ -13,6 +13,14 @@ public class HealsUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        healsCount.text =  player.GetHeals() + "";
+        if (player.GetHeals()<player.GetMaxHeals()){
+            for (int i = 0;i < player.GetMaxHeals();i++){
+                if(i> player.GetHeals()-1){
+                    healIcons[i].SetActive(false);
+                }else{
+                    healIcons[i].SetActive(true);
+                }   
+            }
+        }
     }
 }

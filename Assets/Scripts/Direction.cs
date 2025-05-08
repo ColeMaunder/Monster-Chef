@@ -9,6 +9,7 @@ public class Direction: MonoBehaviour
     
     private Animator Animator;
     public bool isPlayer;
+    public GameObject subject = null;
     private GameObject player = null;
     Player playerState;
     Rigidbody2D rb;
@@ -19,13 +20,12 @@ public class Direction: MonoBehaviour
     void Start(){
         player = GameObject.FindWithTag("Player");
         playerState = player.GetComponent<Player>();
+        rb = subject.GetComponent <Rigidbody2D>();
+        Animator = subject.GetComponent<Animator>();
         if (isPlayer){
-            Animator = player.GetComponent<Animator>();
             data = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
-            rb = player.GetComponent <Rigidbody2D>();
         }else{
             enemy = GameObject.FindWithTag("EnemyData").GetComponent<EnemyData>();
-            Animator = GetComponent<Animator>();
         }
    }
 

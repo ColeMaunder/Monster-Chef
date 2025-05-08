@@ -89,20 +89,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4335db65fc75af4fb149f23e9b78a7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 03000000000000000500000000000000
+  maxHealth: 03000000010000000500000000000000
   enemySpeed:
   - 3
   - 0
   - 2
   - 0
   favoredDistance:
-  - 2
-  - 0
+  - 2.5
+  - 3
   - 6
   - 0
   agroRaing:
   - 20
-  - 0
+  - 10
   - 20
   - 0
   slimeSprites:

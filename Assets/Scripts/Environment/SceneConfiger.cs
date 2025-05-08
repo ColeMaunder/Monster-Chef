@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class SceneConfiger : MonoBehaviour
 {
-    Transform playerPosition;
     Player player;
     void Start()
     {
@@ -10,12 +9,5 @@ public class SceneConfiger : MonoBehaviour
         player.UpdateAll();
         player.Respawn();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     
 }

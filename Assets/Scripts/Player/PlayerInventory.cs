@@ -6,7 +6,7 @@ public class PlayerInventory : MonoBehaviour
     private int[] droppedInvantory;
     private bool hasDroppedInventory = false;
     public GameObject grave;
-    public WeaponAttacks player;
+    private WeaponAttacks player;
     void Start()
     {
         player = GameObject.FindWithTag("PlayerData").GetComponent<WeaponAttacks>();
@@ -17,19 +17,9 @@ public class PlayerInventory : MonoBehaviour
         print("Frog Legs: " + invantory[2]);
         print("Green Vines: " + invantory[3]);
     }
-    public int GetSlime(){
-        return invantory[0];
+    public int GetEnemy(int count){
+        return invantory[count];
     }
-    public int GetMandrake(){
-        return invantory[1];
-    }
-    public int GetFrog(){
-        return invantory[2];
-    }
-    public int GetVine(){
-        return invantory[3];
-    }
-
    public void AddItem(int item){
     invantory[item]++;
     player.IncGetUltCharge();

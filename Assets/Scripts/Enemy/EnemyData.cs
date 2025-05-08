@@ -45,7 +45,7 @@ public class EnemyData : MonoBehaviour
     public EnemyData(){}
     void Start()
     {
-        player = GameObject.FindWithTag("Player");
+        player = GameObject.FindWithTag("PlayerBody");
     }
     public float GetEnemySpeed(int enemy){
             return enemySpeed[enemy];

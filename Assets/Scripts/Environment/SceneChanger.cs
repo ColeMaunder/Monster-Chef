@@ -4,11 +4,8 @@ public class SceneChanger : MonoBehaviour
 {
     private Player player;
     public string SceneTo;
-    void Start()
-    {
-        player = GameObject.FindWithTag("Player").GetComponent<Player>();
-    }
     void OnTriggerEnter2D(Collider2D trigger){
+        player = GameObject.FindWithTag("Player").GetComponent<Player>();
         if (trigger.gameObject.tag == "Player"){
             player.WipeAll();
             GoToScene(SceneTo);

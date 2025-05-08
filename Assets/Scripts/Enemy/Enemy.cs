@@ -12,10 +12,8 @@ public class Enemy : MonoBehaviour
     SpriteRenderer sprite;
     Color colourDefalt;
     public Rigidbody2D enmenyBody;
-    Collider2D enmenyColider;
     public GameObject particleOBJ;
-    public GameObject[] enemyComponents;
-
+    public float knockBackMutipyer = 1;
     void Start()
     {
         data = GameObject.FindWithTag("EnemyData").GetComponent<EnemyData>();
@@ -24,40 +22,23 @@ public class Enemy : MonoBehaviour
        health = maxHealth;
     }
     private IEnumerator ResetHitEffects(float duration){
-        try{
         sprite.color = new Color(255, 255, 255);
-        }catch(MissingReferenceException){}
         yield return new WaitForSeconds(duration);
-        try{
         sprite.color = colourDefalt;
         enmenyBody.linearVelocity = Vector2.zero;
-        }catch(MissingReferenceException){}
     }
-
 
     public void Damage(Vector2 weapon, float damage, float knockBack){
         health -= damage;
         Vector2 direction = (enmenyBody.position - weapon).normalized;
-        enmenyBody.AddForce(direction * knockBack,ForceMode2D.Impulse);
+        enmenyBody.AddForce(direction * knockBack * knockBackMutipyer,ForceMode2D.Impulse);
         particleOBJ.GetComponent<EnemyHitPartical>().activate(direction);
         StartCoroutine(ResetHitEffects(duration));
         print(health);
-        StartCoroutine(death());
-    }
-
-    private IEnumerator death(){
-        yield return new WaitForSeconds(1f);
         if(health <= 0){
-            Destroy(enmenyColider);
             print("Enemy dead");
-            Instantiate(data.GetDropList(type), transform.position, Quaternion.identity);
             particleOBJ.GetComponent<EnemyHitPartical>().Explode();
-            
-            Destroy(sprite);
-            foreach(GameObject i in enemyComponents){
-                Destroy(i);
-            }
-            yield return new WaitForSeconds(0.2f);
+            Instantiate(data.GetDropList(type), transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }
