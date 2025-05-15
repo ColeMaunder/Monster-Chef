@@ -17,7 +17,6 @@ public class PauseMenu : MonoBehaviour
         //Pause screen Functions
     public void Resume()
     {
-        print ("working");
         Time.timeScale = 1f;
         pauseScreen.SetActive(false);
         Time.timeScale = 1f; // Unpaused

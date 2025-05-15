@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bc63c8c673955b84e8f537c8c22161c8
+guid: 75aed63cd505fb34ba491a29018803a1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1395377949215087890
-    second: Ingredients Tag (Unselected)_0
+      213: -4863336276314997047
+    second: inventory_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ingredients Tag (Unselected)_0
+      name: inventory_0
       rect:
         serializedVersion: 2
-        x: 1510
-        y: 821
-        width: 140
-        height: 128
+        x: 0
+        y: 0
+        width: 1430
+        height: 932
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21dd06e0ad06d5310800000000000000
-      internalID: 1395377949215087890
+      spriteID: 9ce39fa7c65f18cb0800000000000000
+      internalID: -4863336276314997047
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Ingredients Tag (Unselected)_0: 1395377949215087890
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

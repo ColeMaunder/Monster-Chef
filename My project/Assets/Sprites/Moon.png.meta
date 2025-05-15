@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: bc63c8c673955b84e8f537c8c22161c8
+guid: d6c0bae15818afb41af6414d4394af5f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1395377949215087890
-    second: Ingredients Tag (Unselected)_0
+      213: 7699978436774145253
+    second: Moon_0
+  - first:
+      213: -5787588587161777183
+    second: Moon_1
+  - first:
+      213: 2441626922208646576
+    second: Moon_2
+  - first:
+      213: -3484893886891066422
+    second: Moon_3
+  - first:
+      213: 2505600340263225115
+    second: Moon_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +112,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ingredients Tag (Unselected)_0
+      name: Moon_0
       rect:
         serializedVersion: 2
-        x: 1510
-        y: 821
-        width: 140
-        height: 128
+        x: 239
+        y: 227
+        width: 566
+        height: 587
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 21dd06e0ad06d5310800000000000000
-      internalID: 1395377949215087890
+      spriteID: fe6dd5dc4e6fc6743918e840a60cee09
+      internalID: 963955586
       vertices: []
       indices: 
       edges: []
@@ -125,7 +137,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 46288de0ae57fb345ad1f2b2dd0556b2
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +147,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ingredients Tag (Unselected)_0: 1395377949215087890
+      Moon_0: 963955586
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

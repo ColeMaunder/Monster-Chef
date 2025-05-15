@@ -5,6 +5,13 @@ using UnityEngine.UIElements;
 
 public class PlayerData : MonoBehaviour
 {
+    public bool[] unlockedRecipes = {false,false,false,false,false,false,false};
+    public bool GetUnlockedRecipe(int index){
+        return unlockedRecipes[index];
+    }
+    public void SetUnlockedRecipe(int index, bool status){
+        unlockedRecipes[index] = status;
+    }
     public float moveSpeed = 5f;
     public float GetMoveSpeed(){
         return moveSpeed;

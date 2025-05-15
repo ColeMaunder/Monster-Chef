@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     GameObject [] spawners;
     bool playerAlive = true;
     public GameObject deathScreen;
-
+    private CameraFollow cameraFollow;
     public bool GetPlayerAlive(){
         return playerAlive;
     }
@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
         inventory = GameObject.FindWithTag("Player").GetComponent<PlayerInventory>();
         spawn = GameObject.FindWithTag("Respawn");
         spawners = GameObject.FindGameObjectsWithTag("Spawner");
+        cameraFollow = GameObject.FindWithTag("MainCamera").GetComponent<CameraFollow>();
         transform.position = spawn.transform.position;
         deathScreen.SetActive(false);
     }
@@ -47,6 +48,7 @@ public class Player : MonoBehaviour
     }
     public void damage(float damage){
         health -= damage;
+        cameraFollow.activateShake(30,30,30,0.1f);
         print("curent health is " + health);
         if(health <= 0){
             print("You are Dead");

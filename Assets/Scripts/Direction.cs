@@ -5,27 +5,28 @@ public class Direction: MonoBehaviour
 {
 
     private PlayerData data  = null;
-    private EnemyData enemy = null;
-    
-    private Animator Animator;
-    public bool isPlayer;
-    public GameObject subject = null;
+    private EnemyLocalData localEnemy = null;
+    private Animator animator;
+    private bool isPlayer;
+    private GameObject subject = null;
     private GameObject player = null;
-    Player playerState;
-    Rigidbody2D rb;
+    private Player playerState;
+    private Rigidbody2D rb;
     
     public int enemyType = 0;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start(){
+        subject = transform.parent.gameObject;
         player = GameObject.FindWithTag("Player");
         playerState = player.GetComponent<Player>();
         rb = subject.GetComponent <Rigidbody2D>();
-        Animator = subject.GetComponent<Animator>();
-        if (isPlayer){
+        animator = subject.GetComponent<Animator>();
+        if (subject == player){
+            isPlayer = true;
             data = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
         }else{
-            enemy = GameObject.FindWithTag("EnemyData").GetComponent<EnemyData>();
+            localEnemy = transform.parent.gameObject.GetComponent<EnemyLocalData>();
         }
    }
 
@@ -40,10 +41,13 @@ public class Direction: MonoBehaviour
                 }else{
                     direction = DirectionKey();
                 }
+                SetDirection(direction[0],direction[1]);
             }else{
-                direction = DirectionAuto(player.transform.position);
-            }
-            SetDirection(direction[0],direction[1]);
+                if (localEnemy.GetCanLook()){
+                    direction = DirectionAuto(player.transform.position);
+                    SetDirection(direction[0],direction[1]);
+                }
+            }  
         } 
     }
     private int[] DirectionAuto(Vector3 comperePosition){
@@ -97,8 +101,8 @@ public class Direction: MonoBehaviour
     void SetDirection(int y,int x){
 
         if (y != 0 && x != 0){
-            Animator.SetFloat("xDirection",x);
-            Animator.SetFloat("yDirection",y);
+            animator.SetFloat("xDirection",x);
+            animator.SetFloat("yDirection",y);
             if (y == 1 && x == -1){
                 transform.rotation = Quaternion.Euler(0, 0, 45);
                 moveDirection(0);
@@ -118,25 +122,25 @@ public class Direction: MonoBehaviour
             }
         }else if (y == 1){
             transform.rotation = Quaternion.Euler(0, 0, 0);
-            Animator.SetFloat("xDirection",0);
-            Animator.SetFloat("yDirection",y);
+            animator.SetFloat("xDirection",0);
+            animator.SetFloat("yDirection",y);
             moveDirection(0);
             //charicterAnimation.sprite = sprites[4];
         }else if (y == -1){
-            Animator.SetFloat("xDirection",0);
-            Animator.SetFloat("yDirection",y);
+            animator.SetFloat("xDirection",0);
+            animator.SetFloat("yDirection",y);
             moveDirection(2);
             transform.rotation = Quaternion.Euler(0, 0, 180);
             //charicterAnimation.sprite = sprites[5];
         }else if (x == -1){
-            Animator.SetFloat("xDirection",x);
-            Animator.SetFloat("yDirection",0);
+            animator.SetFloat("xDirection",x);
+            animator.SetFloat("yDirection",0);
             moveDirection(3);
             transform.rotation = Quaternion.Euler(0, 0, 90);
             //charicterAnimation.sprite = sprites[6];
         }else if (x == 1){
-            Animator.SetFloat("xDirection",x);
-            Animator.SetFloat("yDirection",0);
+            animator.SetFloat("xDirection",x);
+            animator.SetFloat("yDirection",0);
             moveDirection(1);
             transform.rotation = Quaternion.Euler(0, 0, 270);
             //charicterAnimation.sprite = sprites[7];
@@ -148,20 +152,20 @@ public class Direction: MonoBehaviour
         if(movement.x != 0 || movement.y != 0){
             switch(faceDirection){
                 case 0:
-                    Animator.SetFloat("forward", movement.y);
-                    Animator.SetFloat("right", movement.x);
+                    animator.SetFloat("forward", movement.y);
+                    animator.SetFloat("right", movement.x);
                 break;
                 case 1:
-                    Animator.SetFloat("forward", movement.x);
-                    Animator.SetFloat("right", movement.y);
+                    animator.SetFloat("forward", movement.x);
+                    animator.SetFloat("right", movement.y);
                 break;
                 case 2:
-                    Animator.SetFloat("forward", -movement.y);
-                    Animator.SetFloat("right", -movement.x);
+                    animator.SetFloat("forward", -movement.y);
+                    animator.SetFloat("right", -movement.x);
                 break;
                 case 3:
-                    Animator.SetFloat("forward", -movement.x);
-                    Animator.SetFloat("right", -movement.y);
+                    animator.SetFloat("forward", -movement.x);
+                    animator.SetFloat("right", -movement.y);
                 break;
             }
         }

@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class Fountain : MonoBehaviour
 {
+    public HealsUI uI;
     Player player;
-    GameObject lastRespawn;
     bool inRainge = false;
     void Start()
     {
@@ -18,6 +18,7 @@ public class Fountain : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E)){ 
                 player.RefillHeals();
                 player.RefillHealth();
+                uI.Fountain();
                 GameObject Respawn = GameObject.FindWithTag("Respawn");
                 Respawn.transform.position = transform.position;
                 print("fountain set");

@@ -115,50 +115,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Title Screen Buttons (Size)_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1073
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d3aa26dcca737be10800000000000000
-      internalID: 2213298957195586109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Title Screen Buttons (Size)_1
-      rect:
-        serializedVersion: 2
-        x: 1913
-        y: 1073
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 113ca8ab4947632b0800000000000000
-      internalID: -5605164504082365679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Title Screen Buttons (Size)_2
       rect:
         serializedVersion: 2
@@ -167,7 +123,7 @@ TextureImporter:
         width: 350
         height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -189,7 +145,7 @@ TextureImporter:
         width: 350
         height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -202,55 +158,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Title Screen Buttons (Size)_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1601b2c2c9206a6c0800000000000000
-      internalID: -4132612738286677919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Title Screen Buttons (Size)_5
-      rect:
-        serializedVersion: 2
-        x: 1913
-        y: 0
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 95966fe2630567de0800000000000000
-      internalID: -1335792045822416551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1a7ec3cce1592784f95c327534a4167d
     internalID: 0
     vertices: []
     indices: 
@@ -259,7 +171,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Title Screen Buttons (Size)_0: 2213298957195586109
+      Title Screen Buttons (Size)_1: -5605164504082365679
+      Title Screen Buttons (Size)_2: -5552256806785836668
+      Title Screen Buttons (Size)_3: -4492735307934386625
+      Title Screen Buttons (Size)_4: -4132612738286677919
+      Title Screen Buttons (Size)_5: -1335792045822416551
+      Title Screen Buttons (Size)_6: 191542423
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

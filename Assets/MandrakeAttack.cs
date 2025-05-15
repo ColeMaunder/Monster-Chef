@@ -7,13 +7,16 @@ public class MandrakeAttack : MonoBehaviour
     public float veriance = 0.5f;
     public float atkCoolDown = 3f;
     public float lunge = 5f;
-    public float backDuration = 5f;
+    public float sitDuration = 5f;
     public float AtkDuration = 1f;
+    public float digDuration = 1f;
     private float timer = 0f;
     public Rigidbody2D enmenyBody;
     private bool isAttacking = false;
     public GameObject localDataObj;
     EnemyLocalData localData;
+    public GameObject[] attacks;
+    public GameObject hurtBox;
 
     void Start()
     {
@@ -28,28 +31,30 @@ public class MandrakeAttack : MonoBehaviour
         
         if (!isAttacking){
             if (data.PlayerDistance(enmenyBody) > (data.GetFavoredDistance(0) - veriance) && data.PlayerDistance(enmenyBody) < (data.GetFavoredDistance(0) + veriance)){
-                 Attack();
+                 Snap();
             }
         }else{
             AttackTimer();
         }
     }
-    void Attack(){
+    void Snap(){
+            attacks[0].SetActive(true);
+            hurtBox.SetActive(true);
             enmenyBody.linearVelocity = transform.up * lunge;
             isAttacking = true;
             localData.SetCanMove(false);
     }
     void AttackTimer(){
         timer += Time.deltaTime;
-        if (timer >= (atkCoolDown + AtkDuration + backDuration)){
+        if (timer >= (atkCoolDown + AtkDuration + sitDuration+ digDuration)){
             timer = 0;
             isAttacking = false;
-        }else if(timer >= AtkDuration + backDuration){
-            enmenyBody.linearVelocity = Vector2.zero;
+        }else if(timer >= (AtkDuration + sitDuration + digDuration)){
             localData.SetCanMove(true);
+        }else if(timer >= (AtkDuration + sitDuration)){
+            hurtBox.SetActive(false);
         }else if(timer >= AtkDuration){
-            enmenyBody.linearVelocity = transform.up * -lunge;
-            print("back");
+            attacks[0].SetActive(false);
         }
     }
     }

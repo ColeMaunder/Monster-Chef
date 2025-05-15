@@ -23,4 +23,9 @@ public class HealsUI : MonoBehaviour
             }
         }
     }
+    public void Fountain(){
+        healIcons[0].SetActive(true);
+        healIcons[1].SetActive(true);
+        healIcons[2].SetActive(true);
+    }
 }
