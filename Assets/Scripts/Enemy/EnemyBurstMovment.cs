@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class EnemyBurstMovment : MonoBehaviour
 {
@@ -11,6 +12,14 @@ public class EnemyBurstMovment : MonoBehaviour
     public float moveCoolDown;
     public float moveTime;
     public int enemyType = 2;
+    private Direction direction;
+    private GameObject player;
+    private float timer = 0f;
+    bool moving = false;
+    int [] directionXY;
+    public float spinSlow = 1;
+    private float curentDistance;
+    private bool checkedDistance = false;
 
     void Start()
     {
@@ -19,39 +28,100 @@ public class EnemyBurstMovment : MonoBehaviour
         enmenyBody = enemy.GetComponent<Rigidbody2D>();
         localData = enemy.GetComponent<EnemyLocalData>();
         animator = enemy.GetComponent<Animator>();
+        direction = this.GetComponent<Direction>();
+        player = GameObject.FindWithTag("Player");
     }
 
     void Update()
     {
-        timer += Time.deltaTime;
-        if(localData.GetCanMove()){
-            float distance = data.PlayerDistance(enmenyBody);
-            if (distance < data.GetAgroRaing(enemyType)){
-                
+        if(localData.getCanMove()){
+            curentDistance = data.PlayerDistance(enmenyBody);
+            if (moving){
+                localData.setCanLook(false);
                 moveTimer(moveTime);
-                if (distance > data.GetFavoredDistance(enemyType)){
-                    localData.SetCanLook(false);
+                enmenyBody.transform.position += transform.up * data.GetEnemySpeed(enemyType) * Time.deltaTime;
+            }else if(!checkedDistance){
+                localData.setCanLook(false);
+                checkedDistance = true;
+                if(curentDistance < data.GetFavoredDistance(enemyType)){
+                    directionXY = direction.DirectionAuto(player.transform.position);
+                    StartCoroutine(enemySpin());
+                } else {
                     animator.SetBool("walking", true);
-                    enmenyBody.transform.position += transform.up * data.GetEnemySpeed(enemyType) * Time.deltaTime;
-                }else if (distance < data.GetFavoredDistance(enemyType)){
-                    enmenyBody.transform.position -= transform.up * data.GetEnemySpeed(enemyType) * Time.deltaTime;
-                    localData.SetCanLook(false);
-                    animator.SetBool("walking", true);
+                    moving = true;
+                    checkedDistance = false;
                 }
             }
         }else{
-            localData.SetCanLook(true);
+            moving = false;
+            localData.setCanLook(true);
             animator.SetBool("walking", false);
-            moveTimer(moveCoolDown);
-            print ("movment stopped");
+            if (!localData.getIsAttacking()){
+                moveTimer(moveCoolDown);
+            }
         }  
     }
 
     void moveTimer(float hold){
+        timer += Time.deltaTime;
         if (timer >= hold){
             timer = 0;
-            localData.SetCanMove(!localData.GetCanMove());
+            localData.setCanMove(!localData.getCanMove());
         }
     }
-    private float timer = 0f;
+
+    public IEnumerator enemySpin(){
+        int x = directionXY[0];
+        int y = directionXY[1];
+        int randomDirection = Random.Range(0, 2);
+        if (x != 0 && y != 0){
+            print("chaking 1");
+            if (randomDirection == 0){
+                direction.SetDirection(0,y);
+                yield return new WaitForSeconds(spinSlow);
+                direction.SetDirection(-x,y);
+                yield return new WaitForSeconds(spinSlow);
+                direction.SetDirection(-x,0);
+                yield return new WaitForSeconds(spinSlow);
+                direction.SetDirection(-x,-y);
+            }else{
+                direction.SetDirection(x,0);
+                yield return new WaitForSeconds(spinSlow);
+                direction.SetDirection(x,-y);
+                yield return new WaitForSeconds(spinSlow);
+                direction.SetDirection(0,-y);
+                yield return new WaitForSeconds(spinSlow);
+                direction.SetDirection(-x,-y);
+            }
+        }else{
+            print("chaking 2");
+            int direcNum;
+                if(randomDirection == 0){
+                    direcNum = 1;
+                }else{
+                    direcNum = -1;
+                }
+            if (x == 0){
+                direction.SetDirection(direcNum,y);
+                yield return new WaitForSeconds(spinSlow);
+                direction.SetDirection(direcNum,0);
+                yield return new WaitForSeconds(spinSlow);
+                direction.SetDirection(direcNum,-y);
+                yield return new WaitForSeconds(spinSlow);
+                direction.SetDirection(0,-y);
+            }else{
+                direction.SetDirection(x,direcNum);
+                yield return new WaitForSeconds(spinSlow);
+                direction.SetDirection(0,direcNum);
+                yield return new WaitForSeconds(spinSlow);
+                direction.SetDirection(-x,direcNum);
+                yield return new WaitForSeconds(spinSlow);
+                direction.SetDirection(-x,0);
+            }
+        }
+        animator.SetBool("walking", true);
+        moving = true;
+        checkedDistance = false;
+    }
 }
+

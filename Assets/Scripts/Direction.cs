@@ -1,4 +1,6 @@
+using System.Collections;
 using NUnit.Framework;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Direction: MonoBehaviour
@@ -12,8 +14,6 @@ public class Direction: MonoBehaviour
     private GameObject player = null;
     private Player playerState;
     private Rigidbody2D rb;
-    
-    public int enemyType = 0;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start(){
@@ -43,14 +43,14 @@ public class Direction: MonoBehaviour
                 }
                 SetDirection(direction[0],direction[1]);
             }else{
-                if (localEnemy.GetCanLook()){
+                if (localEnemy.getCanLook()){
                     direction = DirectionAuto(player.transform.position);
                     SetDirection(direction[0],direction[1]);
                 }
             }  
         } 
     }
-    private int[] DirectionAuto(Vector3 comperePosition){
+    public int[] DirectionAuto(Vector3 comperePosition){
         int [] direction = {0,0};
         float positonDiffX = comperePosition.x - transform.position.x;
         //print(positonDiffX);
@@ -98,7 +98,7 @@ public class Direction: MonoBehaviour
         }
         return direction;
     }
-    void SetDirection(int y,int x){
+    public void SetDirection(int y,int x){
 
         if (y != 0 && x != 0){
             animator.SetFloat("xDirection",x);

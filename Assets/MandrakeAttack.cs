@@ -42,7 +42,7 @@ public class MandrakeAttack : MonoBehaviour
             hurtBox.SetActive(true);
             enmenyBody.linearVelocity = transform.up * lunge;
             isAttacking = true;
-            localData.SetCanMove(false);
+            localData.setCanMove(false);
     }
     void AttackTimer(){
         timer += Time.deltaTime;
@@ -50,7 +50,7 @@ public class MandrakeAttack : MonoBehaviour
             timer = 0;
             isAttacking = false;
         }else if(timer >= (AtkDuration + sitDuration + digDuration)){
-            localData.SetCanMove(true);
+            localData.setCanMove(true);
         }else if(timer >= (AtkDuration + sitDuration)){
             hurtBox.SetActive(false);
         }else if(timer >= AtkDuration){

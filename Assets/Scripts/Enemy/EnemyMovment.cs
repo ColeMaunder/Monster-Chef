@@ -16,7 +16,7 @@ public class EnemyMovment : MonoBehaviour
 
     void Update()
     {
-        if(localData.GetCanMove()){
+        if(localData.getCanMove()){
             float distance = data.PlayerDistance(enmenyBody);
             if (distance < data.GetAgroRaing(enemyType)){
                 if (distance > data.GetFavoredDistance(enemyType)){

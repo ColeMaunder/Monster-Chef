@@ -38,7 +38,7 @@ public class SlimeAttack : MonoBehaviour
     void Attack(){
             enmenyBody.linearVelocity = transform.up * lunge;
             isAttacking = true;
-            localData.SetCanMove(false);
+            localData.setCanMove(false);
         }
     void AttackTimer(){
         timer += Time.deltaTime;
@@ -47,7 +47,7 @@ public class SlimeAttack : MonoBehaviour
             isAttacking = false;
         }else if(timer >= AtkDuration + backDuration){
             enmenyBody.linearVelocity = Vector2.zero;
-            localData.SetCanMove(true);
+            localData.setCanMove(true);
         }else if(timer >= AtkDuration){
             enmenyBody.linearVelocity = transform.up * -lunge;
             print("back");

@@ -137,9 +137,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   localDataObj: {fileID: 0}
-  moveCoolDown: 1
-  moveTime: 0.66
+  moveCoolDown: 0.5
+  moveTime: 0.33
   enemyType: 2
+  spinSlow: 0.05
 --- !u!1 &27637440
 GameObject:
   m_ObjectHideFlags: 0
@@ -2682,7 +2683,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7d6dd3467677fc46948f71d018b532d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyType: 0
 --- !u!114 &6814760692497607222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7757,7 +7757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8389533648676410061, guid: daefb1430f86278409c7de472d0681e2, type: 3}
       propertyPath: 'enemySpeed.Array.data[2]'
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
