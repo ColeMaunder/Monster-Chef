@@ -662,6 +662,7 @@ GameObject:
   - component: {fileID: 3373220723817687594}
   - component: {fileID: 4944109665098878159}
   - component: {fileID: 3460499957586961584}
+  - component: {fileID: 5138029722548362334}
   m_Layer: 0
   m_Name: PlayerData
   m_TagString: PlayerData
@@ -748,6 +749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 977caa794b8bcdd45aa831924c8c056d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unlockedRecipes: 00000000000000
   moveSpeed: 5
   dashMod: 4
   dashTime: 0.15
@@ -769,6 +771,19 @@ MonoBehaviour:
   - {fileID: 7400000, guid: bb650c479c0a80547a05989473d25ede, type: 2}
   - {fileID: 7400000, guid: 3b06761b88dabcd499d20d69dec7e120, type: 2}
   mouseMovment: 1
+--- !u!114 &5138029722548362334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3420338433481259294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa736cebc37f0ea4386a8550d6998ed1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Recipes: {fileID: 4900000, guid: e663a5121d5ec394eac45ee970515dad, type: 3}
 --- !u!1 &3682202924254559273
 GameObject:
   m_ObjectHideFlags: 0
@@ -6764,9 +6779,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7d6dd3467677fc46948f71d018b532d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlayer: 1
-  subject: {fileID: 1198528944626264861}
-  enemyType: 0
 --- !u!114 &355171604731457952
 MonoBehaviour:
   m_ObjectHideFlags: 0

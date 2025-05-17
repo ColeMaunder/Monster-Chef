@@ -48,9 +48,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7d6dd3467677fc46948f71d018b532d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlayer: 0
-  subject: {fileID: 7094277301536617045}
-  enemyType: 0
 --- !u!114 &4111531254175051826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,7 +62,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyType: 0
   enmenyBody: {fileID: 7514012339628299375}
-  localDataObj: {fileID: 1134587788157039959}
 --- !u!114 &1147166129018762246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85,7 +81,6 @@ MonoBehaviour:
   backDuration: 0.1
   AtkDuration: 0.5
   enmenyBody: {fileID: 7514012339628299375}
-  localDataObj: {fileID: 1134587788157039959}
 --- !u!58 &3179928841248413149
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -149,50 +144,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!1 &1134587788157039959
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 931773433237805941}
-  - component: {fileID: 5395931335433524467}
-  m_Layer: 0
-  m_Name: EnemyLocalData
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &931773433237805941
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1134587788157039959}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.1429167, y: 0.5509893, z: -0.0044250158}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 99829087698591018}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5395931335433524467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1134587788157039959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98fd1d850633805429473539b7c512aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4374598265550274658
 GameObject:
   m_ObjectHideFlags: 0
@@ -5281,6 +5232,7 @@ GameObject:
   - component: {fileID: 3603718133944037020}
   - component: {fileID: 2138099405271824307}
   - component: {fileID: 1363034102384430759}
+  - component: {fileID: 4467912271935852604}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Enemy
@@ -5304,7 +5256,6 @@ Transform:
   - {fileID: 2449476051425683648}
   - {fileID: 5946571101323785258}
   - {fileID: 2229551661057826644}
-  - {fileID: 931773433237805941}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2063087956972647598
@@ -5484,3 +5435,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4467912271935852604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7094277301536617045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98fd1d850633805429473539b7c512aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

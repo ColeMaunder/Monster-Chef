@@ -5,13 +5,12 @@ public class EnemyMovment : MonoBehaviour
     public int enemyType = 0;
     private EnemyData data  = null;
     public Rigidbody2D enmenyBody;
-    public GameObject localDataObj;
     EnemyLocalData localData;
 
     void Start()
     {
         data = GameObject.FindWithTag("EnemyData").GetComponent<EnemyData>();
-        localData = localDataObj.GetComponent<EnemyLocalData>();
+        localData =  transform.parent.gameObject.GetComponent<EnemyLocalData>();
     }
 
     void Update()

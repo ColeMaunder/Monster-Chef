@@ -12,13 +12,12 @@ public class SlimeAttack : MonoBehaviour
     private float timer = 0f;
     public Rigidbody2D enmenyBody;
     private bool isAttacking = false;
-    public GameObject localDataObj;
     EnemyLocalData localData;
 
     void Start()
     {
        data = GameObject.FindWithTag("EnemyData").GetComponent<EnemyData>();
-       localData = localDataObj.GetComponent<EnemyLocalData>();
+       localData =  transform.parent.gameObject.GetComponent<EnemyLocalData>();
        isAttacking = false;
     }
 
