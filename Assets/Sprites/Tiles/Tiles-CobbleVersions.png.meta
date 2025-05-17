@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: f891df0ea671ae34b8a83ee7372610fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2681205409735254653
+    second: Tiles-CobbleVersions_0
+  - first:
+      213: 2777564154482263425
+    second: Tiles-CobbleVersions_1
+  - first:
+      213: -8675338522824457296
+    second: Tiles-CobbleVersions_2
+  - first:
+      213: -1771966188597361749
+    second: Tiles-CobbleVersions_3
+  - first:
+      213: -4120922746229353032
+    second: Tiles-CobbleVersions_4
+  - first:
+      213: -5995338313791339973
+    second: Tiles-CobbleVersions_5
+  - first:
+      213: -7463298110473674479
+    second: Tiles-CobbleVersions_6
+  - first:
+      213: -5098077776603537903
+    second: Tiles-CobbleVersions_7
+  - first:
+      213: -8461153068009248295
+    second: Tiles-CobbleVersions_8
+  - first:
+      213: -1029951671620726894
+    second: Tiles-CobbleVersions_9
+  - first:
+      213: 499538494652567486
+    second: Tiles-CobbleVersions_10
+  - first:
+      213: -1351473385703672409
+    second: Tiles-CobbleVersions_11
+  - first:
+      213: 6713928504624964056
+    second: Tiles-CobbleVersions_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tiles-CobbleVersions_0
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 695
+        width: 386
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7220215d1e853520800000000000000
+      internalID: 2681205409735254653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles-CobbleVersions_1
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 695
+        width: 386
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18506c0e1e3eb8620800000000000000
+      internalID: 2777564154482263425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles-CobbleVersions_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 503
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b349c0d3910b9780800000000000000
+      internalID: -8675338522824457296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles-CobbleVersions_3
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 503
+        width: 98
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3c6a6c326b867e0800000000000000
+      internalID: -1771966188597361749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles-CobbleVersions_4
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 503
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b51c2c889a8fc6c0800000000000000
+      internalID: -4120922746229353032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles-CobbleVersions_5
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 503
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b328d2a71974ccca0800000000000000
+      internalID: -5995338313791339973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles-CobbleVersions_6
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 503
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1116f5829e90d6890800000000000000
+      internalID: -7463298110473674479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles-CobbleVersions_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e9b30e54dff39b0800000000000000
+      internalID: -5098077776603537903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles-CobbleVersions_8
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 311
+        width: 98
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d92a1f1d12f39a80800000000000000
+      internalID: -8461153068009248295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles-CobbleVersions_9
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 311
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f0a3d5960e4b1f0800000000000000
+      internalID: -1029951671620726894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles-CobbleVersions_10
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 311
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf466d3d97bee600800000000000000
+      internalID: 499538494652567486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles-CobbleVersions_11
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 311
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5fcb9bd1a9e3de0800000000000000
+      internalID: -1351473385703672409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles-CobbleVersions_12
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 257
+        width: 74
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d16a8d276aac2d50800000000000000
+      internalID: 6713928504624964056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tiles-CobbleVersions_0: 2681205409735254653
+      Tiles-CobbleVersions_1: 2777564154482263425
+      Tiles-CobbleVersions_10: 499538494652567486
+      Tiles-CobbleVersions_11: -1351473385703672409
+      Tiles-CobbleVersions_12: 6713928504624964056
+      Tiles-CobbleVersions_2: -8675338522824457296
+      Tiles-CobbleVersions_3: -1771966188597361749
+      Tiles-CobbleVersions_4: -4120922746229353032
+      Tiles-CobbleVersions_5: -5995338313791339973
+      Tiles-CobbleVersions_6: -7463298110473674479
+      Tiles-CobbleVersions_7: -5098077776603537903
+      Tiles-CobbleVersions_8: -8461153068009248295
+      Tiles-CobbleVersions_9: -1029951671620726894
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

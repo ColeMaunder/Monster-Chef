@@ -5,7 +5,22 @@ using UnityEngine.UIElements;
 
 public class PlayerData : MonoBehaviour
 {
-    public bool[] unlockedRecipes = {false,false,false,false,false,false,false};
+    public float volume = 1f;
+    public float getvolume(){
+        return volume;
+    }
+    public void setVolume(float volumeIn){
+        volume = volumeIn;
+    }
+
+    private bool isDash = false;
+    public bool getIsDash(){
+        return isDash;
+    }
+    public void setIsDash(in bool isDashIN){
+        isDash = isDashIN;
+    }
+    public bool[] unlockedRecipes = { false, false, false, false, false, false, false};
     public bool GetUnlockedRecipe(int index){
         return unlockedRecipes[index];
     }

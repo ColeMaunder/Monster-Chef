@@ -3,7 +3,6 @@ using System.Collections;
 
 public class PlayerMovment : MonoBehaviour
 {
-    private bool isDash = false;
     private bool canDash = true;
     private bool keyHold = false;
     private Rigidbody2D rb;
@@ -30,9 +29,7 @@ public class PlayerMovment : MonoBehaviour
         
     }
 
-    public bool GetIsDash(){
-        return isDash;
-    }
+    
 
     
 
@@ -41,7 +38,7 @@ public class PlayerMovment : MonoBehaviour
     {
         data.SetCooldownTimer(data.GetDashCool());
         canDash = false;
-        isDash = true;
+        data.setIsDash(true);
         rb2D.enabled = false;
         ps.transform.rotation = Quaternion.Euler(0, 0, - Mathf.Rad2Deg * Mathf.Atan2(moveDir.y, moveDir.x));
         ps.Play();
@@ -49,7 +46,7 @@ public class PlayerMovment : MonoBehaviour
         currentSpeed = data.GetMoveSpeed() * data.GetDashMod();
         
         yield return new WaitForSeconds(data.GetDashTime());
-        isDash = false;
+        data.setIsDash(false);
         currentSpeed = data.GetMoveSpeed();
         print("Dash on cooldown");
         
@@ -69,7 +66,7 @@ public class PlayerMovment : MonoBehaviour
         moveDir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
         // Check speed (dash or not)
-        if (!isDash && Input.GetKey(KeyCode.Space) && canDash && !keyHold) {
+        if (!data.getIsDash() && Input.GetKey(KeyCode.Space) && canDash && !keyHold) {
                 StartCoroutine(Dash());
                 keyHold = true;
         }else if(!Input.GetKey(KeyCode.Space)){
