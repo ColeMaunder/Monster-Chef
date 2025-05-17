@@ -2,9 +2,15 @@ using UnityEngine;
 
 public class EnemyLocalData : MonoBehaviour
 {
+    public int enemyIndex = 0;
     private bool canMove = true;
     private bool canLook = true;
     private bool IsAttacking = false;
+    
+    public int getEnemyIndex(){
+        return enemyIndex;
+    }
+
     public bool getCanMove(){
         return canMove;
     }

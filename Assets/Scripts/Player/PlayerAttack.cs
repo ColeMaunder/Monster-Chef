@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-   public int activeWeapon = 0;
    public int activeUlt = 0;
    private WeaponAttacks attacks;
    private PlayerData keys;
@@ -29,7 +28,7 @@ public class PlayerAttack : MonoBehaviour
             if (!isAttacking && !isUlting){
                 if (Input.GetMouseButtonDown(0) /*|| Input.GetKeyDown(keys.GetKey(4))*/){
                     heavyCharge=0;
-                    if (lightCombo < attacks.GetComboMax(activeWeapon)){
+                    if (lightCombo < attacks.GetComboMax()){
                         Attack(0);
                         print("light");
                         lightCombo++;
@@ -44,14 +43,14 @@ public class PlayerAttack : MonoBehaviour
                     lightCombo = 0;
                     heavyCharge = heavyCharge +1 * Time.deltaTime;
                     print (heavyCharge);
-                    if (heavyCharge > attacks.GetChargeMax(activeWeapon)){
+                    if (heavyCharge > attacks.GetChargeMax()){
                         Attack(4);
                         heavyCharge = 0;
                         print("full light");
                     }
                     
                 }else if(heavyCharge > 0){
-                    if(heavyCharge > attacks.GetChargeMax(activeWeapon)/2){
+                    if(heavyCharge > attacks.GetChargeMax()/2){
                             Attack(3);
                         print("50% heavy");
 
@@ -75,15 +74,16 @@ public class PlayerAttack : MonoBehaviour
             atkTimer = 0;
             heavyCharge = 0;
             lightCombo = 0;
-            attacks.GetAtk(activeWeapon,atkType).SetActive(false);
+            attacks.GetAtk(atkType).SetActive(false);
         }
     
     }
      void Attack(int type){
         print("attck type" + type);
-            atkType = type;
-            isAttacking = true;
-            attacks.GetAtk(activeWeapon,type).SetActive(true);
+        atkType = type;
+        isAttacking = true;
+        attacks.GetAtk(type).SetActive(true);
+        attacks.playAtkSound(type);
         }
 
         void Ult(){
@@ -99,8 +99,8 @@ public class PlayerAttack : MonoBehaviour
             cooldown = attacks.GetUltCoolDown(activeUlt);
             duration = attacks.GetUltDuration(activeUlt);
         }else{
-            cooldown = attacks.GetAtkCoolDown(activeWeapon,atkType);
-            duration = attacks.GetAtkDuration(activeWeapon,atkType);
+            cooldown = attacks.GetAtkCoolDown(atkType);
+            duration = attacks.GetAtkDuration(atkType);
         }
         if(atkTimer >= (cooldown + duration)){
             if(isUlting){
@@ -110,7 +110,7 @@ public class PlayerAttack : MonoBehaviour
             isAttacking = false;
             isUlting = false;
         }else if(atkTimer >= duration){
-            attacks.GetAtk(activeWeapon,atkType).SetActive(false);
+            attacks.GetAtk(atkType).SetActive(false);
             attacks.GetUlt(activeUlt).SetActive(false);
     }
     

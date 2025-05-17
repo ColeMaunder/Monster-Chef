@@ -17,11 +17,11 @@ public class EnemyMovment : MonoBehaviour
     {
         if(localData.getCanMove()){
             float distance = data.PlayerDistance(enmenyBody);
-            if (distance < data.GetAgroRaing(enemyType)){
-                if (distance > data.GetFavoredDistance(enemyType)){
-                    enmenyBody.transform.position += transform.up * data.GetEnemySpeed(enemyType) * Time.deltaTime;
+            if (distance < data.getAgroRaing(enemyType)){
+                if (distance > data.getFavoredDistance(enemyType)){
+                    enmenyBody.transform.position += transform.up * data.getEnemySpeed(enemyType) * Time.deltaTime;
                 }else{
-                    enmenyBody.transform.position -= transform.up * data.GetEnemySpeed(enemyType) * Time.deltaTime;
+                    enmenyBody.transform.position -= transform.up * data.getEnemySpeed(enemyType) * Time.deltaTime;
                 }
             }
         }else{

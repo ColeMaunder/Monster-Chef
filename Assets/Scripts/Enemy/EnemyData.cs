@@ -9,54 +9,46 @@ public class EnemyData : MonoBehaviour
     public float [] enemySpeed = {3f,0,5f};
     public float [] favoredDistance = {2f,0,10f};
     public float [] agroRaing = {20f,0,20f};
+    public AudioClip [] attackSound = { };
+    public AudioClip [] hurtSound = { };
+    public AudioClip [] deathSound = { };
 
-    public Sprite[] slimeSprites = {};
-    public Sprite[] mandrakeSprites = {};
-    public Sprite[] frogSprites = {};
-    public Sprite[] vineSprites = {};
+
     public GameObject[] enemyList;
     public GameObject[] dropList;
-
-    public GameObject GetEnemyList(int index){
+    
+    public void playAttackSound(int index){
+        AudioHandler.Instance.playSound(attackSound[index], transform, 1);
+    }
+    public void playHurtSound(int index){
+        AudioHandler.Instance.playSound(hurtSound[index], transform, 1);
+    }
+    public void playDeathSound(int index){
+        AudioHandler.Instance.playSound(deathSound[index], transform, 1);
+    }
+    public GameObject getEnemyList(int index){
         return enemyList[index];
     }
-    public GameObject GetDropList(int index){
+    public GameObject getDropList(int index){
         return dropList[index];
     }
-    public int GetMaxhealth(int index){
+    public int getMaxhealth(int index){
         return maxHealth [index];
     }
-    public Sprite[] GetSprites(int enemy){
-         switch (enemy){
-            case 0:
-                return slimeSprites;
-            case 1:
-                return mandrakeSprites;
-            case 2:
-                return frogSprites;
-            case 3:
-                return vineSprites;
-            default:
-                print ("invalid enemy");
-                return null;
-        }
-    }
     
-    public EnemyData(){}
     void Start()
     {
         player = GameObject.FindWithTag("PlayerBody");
     }
-    public float GetEnemySpeed(int enemy){
+    public float getEnemySpeed(int enemy){
             return enemySpeed[enemy];
     }
-    public float GetFavoredDistance(int enemy){
+    public float getFavoredDistance(int enemy){
          return favoredDistance[enemy];
     }
-    public float GetAgroRaing(int enemy){
+    public float getAgroRaing(int enemy){
         return agroRaing[enemy];
     }
-
 
     public float PlayerDistance(Rigidbody2D enemy){
         float positonDiffX = player.transform.position.x - enemy.transform.position.x;

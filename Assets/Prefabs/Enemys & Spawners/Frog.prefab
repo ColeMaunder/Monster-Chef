@@ -5093,6 +5093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98fd1d850633805429473539b7c512aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyIndex: 2
 --- !u!95 &2812042784381937688
 Animator:
   serializedVersion: 7
@@ -5201,7 +5202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd60b3890f19636499a9eaa534531299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  veriance: 1
+  veriance: 1.5
   atkCoolDown: 2
   atkTime: 0.33
   projectile: {fileID: 1201432290624998492, guid: 14bb1f4eac1ccfd458fd3478b830bdca, type: 3}
@@ -5220,7 +5221,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed5d3d90b1aa65b41bd592a52ec8e75f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localDataObj: {fileID: 0}
   moveCoolDown: 0.5
   moveTime: 0.25
   enemyType: 2

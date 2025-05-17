@@ -30,7 +30,7 @@ public class MandrakeAttack : MonoBehaviour
     {
         
         if (!isAttacking){
-            if (data.PlayerDistance(enmenyBody) > (data.GetFavoredDistance(0) - veriance) && data.PlayerDistance(enmenyBody) < (data.GetFavoredDistance(0) + veriance)){
+            if (data.PlayerDistance(enmenyBody) > (data.getFavoredDistance(0) - veriance) && data.PlayerDistance(enmenyBody) < (data.getFavoredDistance(0) + veriance)){
                  Snap();
             }
         }else{

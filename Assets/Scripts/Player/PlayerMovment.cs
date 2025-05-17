@@ -15,18 +15,20 @@ public class PlayerMovment : MonoBehaviour
     private ParticleSystemForceField psff;
     private CircleCollider2D rb2D;
     public PlayerMovment(){}
+    private AudioSource walkSound;
     void Start()
     {
         Animator = GameObject.FindWithTag("Player").GetComponent<Animator>();
         rb = GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>();
         data = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
-        ps =  particleOBJ.GetComponent<ParticleSystem>();
-        psff =  particleOBJ.GetComponent<ParticleSystemForceField>();
+        ps = particleOBJ.GetComponent<ParticleSystem>();
+        psff = particleOBJ.GetComponent<ParticleSystemForceField>();
         rb2D = particleOBJ.GetComponent<CircleCollider2D>();
         currentSpeed = data.GetMoveSpeed();
         var main = ps.main;
         main.duration = data.GetDashTime();
-        
+        walkSound = gameObject.GetComponent<AudioSource>();
+        walkSound.clip = data.getWalkSound();
     }
 
     
@@ -43,6 +45,7 @@ public class PlayerMovment : MonoBehaviour
         ps.transform.rotation = Quaternion.Euler(0, 0, - Mathf.Rad2Deg * Mathf.Atan2(moveDir.y, moveDir.x));
         ps.Play();
         print("Is Dashing");
+        data.playDashSound();
         currentSpeed = data.GetMoveSpeed() * data.GetDashMod();
         
         yield return new WaitForSeconds(data.GetDashTime());
@@ -77,12 +80,14 @@ public class PlayerMovment : MonoBehaviour
         if (Input.GetKey(KeyCode.W) /*|| Input.GetKey(KeyCode.UpArrow)*/ || Input.GetKey(KeyCode.S) /*|| Input.GetKey(KeyCode.DownArrow)*/ || Input.GetKey(KeyCode.A) /*|| Input.GetKey(KeyCode.LeftArrow)*/ || Input.GetKey(KeyCode.D) /*s|| Input.GetKey(KeyCode.RightArrow)*/)
         {
             Animator.SetBool("walking", true);
+            walkSound.Play();
             rb.linearVelocity = moveDir * currentSpeed;
         }
         else
         {
             Animator.SetBool("walking", false);
+            walkSound.Stop();
             rb.linearVelocity = Vector2.zero;
         }
-    } 
+    }
 }

@@ -13,7 +13,8 @@ public class Player : MonoBehaviour
     bool playerAlive = true;
     public GameObject deathScreen;
     private CameraFollow cameraFollow;
-    public bool GetPlayerAlive(){
+    private PlayerData data;
+    public bool GetPlayerAlive() {
         return playerAlive;
     }
 
@@ -22,6 +23,7 @@ public class Player : MonoBehaviour
         health = maxHealth;
         heals = maxHeals;
         inventory = GameObject.FindWithTag("Player").GetComponent<PlayerInventory>();
+        data = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
         spawn = GameObject.FindWithTag("Respawn");
         spawners = GameObject.FindGameObjectsWithTag("Spawner");
         cameraFollow = GameObject.FindWithTag("MainCamera").GetComponent<CameraFollow>();
@@ -48,6 +50,7 @@ public class Player : MonoBehaviour
     }
     public void damage(float damage){
         health -= damage;
+        data.playHurtSound();
         cameraFollow.activateShake(30,30,30,0.1f);
         print("curent health is " + health);
         if(health <= 0){
@@ -64,10 +67,14 @@ public class Player : MonoBehaviour
     }
     private void Heal(){
         if (heals> 0){
+            data.playHealSound();
             float tempHp = health + healAmount;
-            if (tempHp < maxHealth){
+            if (tempHp < maxHealth)
+            {
                 health += healAmount;
-            }else{
+            }
+            else
+            {
                 health = maxHealth;
             }
             heals--;
@@ -77,6 +84,7 @@ public class Player : MonoBehaviour
     }
     private void Dead(){
         print("You Died");
+        data.playDeathSound();
         playerAlive = false;
         Time.timeScale = 0f;
         inventory.DropInventory();

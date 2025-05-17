@@ -21,6 +21,6 @@ public class Spawner : MonoBehaviour
         }
     }
     private void spawnEmeny(int index){
-        Instantiate(data.GetEnemyList(index), transform.position, Quaternion.identity);
+        Instantiate(data.getEnemyList(index), transform.position, Quaternion.identity);
     }
 }

@@ -26,7 +26,7 @@ public class SlimeAttack : MonoBehaviour
     {
         
         if (!isAttacking){
-            if (data.PlayerDistance(enmenyBody) > (data.GetFavoredDistance(0) - veriance) && data.PlayerDistance(enmenyBody) < (data.GetFavoredDistance(0) + veriance)){
+            if (data.PlayerDistance(enmenyBody) > (data.getFavoredDistance(0) - veriance) && data.PlayerDistance(enmenyBody) < (data.getFavoredDistance(0) + veriance)){
                  Attack();
             }
         }else{
@@ -35,10 +35,11 @@ public class SlimeAttack : MonoBehaviour
     }
     
     void Attack(){
-            enmenyBody.linearVelocity = transform.up * lunge;
-            isAttacking = true;
-            localData.setCanMove(false);
-        }
+        data.playAttackSound(localData.getEnemyIndex());
+        enmenyBody.linearVelocity = transform.up * lunge;
+        isAttacking = true;
+        localData.setCanMove(false);
+    }
     void AttackTimer(){
         timer += Time.deltaTime;
         if (timer >= (atkCoolDown + AtkDuration + backDuration)){

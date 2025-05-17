@@ -41,11 +41,11 @@ public class EnemyBurstMovment : MonoBehaviour
                 if (checkedDistance) {
                     moveTimer();
                     animator.SetBool("walking", true);
-                    enmenyBody.transform.position += transform.up * data.GetEnemySpeed(enemyType) * Time.deltaTime;
+                    enmenyBody.transform.position += transform.up * data.getEnemySpeed(enemyType) * Time.deltaTime;
                 } else if (!spin){
                     checkedDistance = true;
                     curentDistance = data.PlayerDistance(enmenyBody);
-                    if (curentDistance < data.GetFavoredDistance(enemyType)) {
+                    if (curentDistance < data.getFavoredDistance(enemyType)) {
                         directionXY = direction.DirectionAuto(player.transform.position);
                         direction.SetDirection(-directionXY[0], -directionXY[1]);
                         //StartCoroutine(enemySpin());

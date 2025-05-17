@@ -5,12 +5,38 @@ using UnityEngine.UIElements;
 
 public class PlayerData : MonoBehaviour
 {
-    public float volume = 1f;
-    public float getvolume(){
-        return volume;
+    public AudioClip deathSound;
+    public void playDeathSound(){
+        AudioHandler.Instance.playSound(deathSound, transform, 1);
     }
-    public void setVolume(float volumeIn){
-        volume = volumeIn;
+
+    public AudioClip[] itemPickupSounds;
+    public void playItemPickupSound(){
+        AudioHandler.Instance.playRandomSound(itemPickupSounds, transform, 1);
+    }
+    public AudioClip healSound;
+    public void playHealSound(){
+        AudioHandler.Instance.playSound(healSound, transform, 1);
+    }
+    public AudioClip hurtSound;
+    public void playHurtSound(){
+        AudioHandler.Instance.playSound(hurtSound, transform, 1);
+    }
+    public AudioClip dashSound;
+    public void playDashSound(){
+        AudioHandler.Instance.playSound(dashSound, transform, 1);
+    }
+    public AudioClip walkSound;
+    public AudioClip getWalkSound(){
+        return walkSound;
+    }
+
+    public int activeWepon = 0;
+    public int getActiveWepon(){
+        return activeWepon;
+    }
+    public void setActiveWepon(int activeWeponIn){
+        activeWepon = activeWeponIn;
     }
 
     private bool isDash = false;
@@ -84,6 +110,4 @@ public class PlayerData : MonoBehaviour
     public void SetMouseMovment(bool mouseMovmentIn){
         mouseMovment = mouseMovmentIn;
     }
-    
-    public PlayerData(){}
 }
