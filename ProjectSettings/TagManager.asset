@@ -16,6 +16,8 @@ TagManager:
   - PlayerBody
   - RecipeData
   - Water
+  - PauseScreen
+  - SettingsScreen
   layers:
   - Default
   - TransparentFX

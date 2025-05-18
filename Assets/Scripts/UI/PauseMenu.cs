@@ -3,18 +3,20 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseScreen;
+    public GameObject settingsScreen;
     void Update()
     {
         // Check for input to pause the game
-        if (Input.GetKey(KeyCode.Escape)){
+        if (Input.GetKey(KeyCode.Escape))
+        {
             //try{
             pauseScreen.SetActive(true);
             Time.timeScale = 0f; // Pause the game
             //}catch(UnassignedReferenceException){}
         }
- 
+
     }
-        //Pause screen Functions
+    //Pause screen Functions
     public void Resume()
     {
         Time.timeScale = 1f;
@@ -31,5 +33,14 @@ public class PauseMenu : MonoBehaviour
 #else
             Application.Quit();
 #endif
+    }
+
+    public void openSetings()
+    {
+        settingsScreen.SetActive(true);
+    }
+    public void closeSetings()
+    {
+        settingsScreen.SetActive(false);
     }
 }

@@ -326,7 +326,7 @@ MonoBehaviour:
   m_MinValue: -3
   m_MaxValue: 20
   m_WholeNumbers: 1
-  m_Value: 2
+  m_Value: 0.1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -956,7 +956,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6986987227041489194
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1285,7 +1285,7 @@ MonoBehaviour:
   m_MinValue: -4
   m_MaxValue: 25
   m_WholeNumbers: 1
-  m_Value: -0
+  m_Value: 25
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3012,7 +3012,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5052419785203689621
 RectTransform:
   m_ObjectHideFlags: 0
