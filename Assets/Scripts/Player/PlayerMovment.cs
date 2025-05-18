@@ -6,7 +6,6 @@ public class PlayerMovment : MonoBehaviour
     private bool canDash = true;
     private bool keyHold = false;
     private Rigidbody2D rb;
-    private Vector2 moveDir;
     private float currentSpeed;
     private Animator Animator;
     private PlayerData data;
@@ -18,8 +17,8 @@ public class PlayerMovment : MonoBehaviour
     private AudioSource walkSound;
     void Start()
     {
-        Animator = GameObject.FindWithTag("Player").GetComponent<Animator>();
-        rb = GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>();
+        Animator = transform.parent.gameObject.GetComponent<Animator>();
+        rb = transform.parent.gameObject.GetComponent<Rigidbody2D>();
         data = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
         ps = particleOBJ.GetComponent<ParticleSystem>();
         psff = particleOBJ.GetComponent<ParticleSystemForceField>();
@@ -42,7 +41,7 @@ public class PlayerMovment : MonoBehaviour
         canDash = false;
         data.setIsDash(true);
         rb2D.enabled = false;
-        ps.transform.rotation = Quaternion.Euler(0, 0, - Mathf.Rad2Deg * Mathf.Atan2(moveDir.y, moveDir.x));
+        ps.transform.rotation = Quaternion.Euler(0, 0, - Mathf.Rad2Deg * Mathf.Atan2(data.getMoveDir().y, data.getMoveDir().x));
         ps.Play();
         print("Is Dashing");
         data.playDashSound();
@@ -66,28 +65,33 @@ public class PlayerMovment : MonoBehaviour
 
     void FixedUpdate()
     {
-        moveDir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-
-        // Check speed (dash or not)
-        if (!data.getIsDash() && Input.GetKey(KeyCode.Space) && canDash && !keyHold) {
+        if (data.getCanMove())
+        {
+            data.setMoveDir(new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")));
+            // Check speed (dash or not)
+            if (!data.getIsDash() && Input.GetKey(KeyCode.Space) && canDash && !keyHold)
+            {
                 StartCoroutine(Dash());
                 keyHold = true;
-        }else if(!Input.GetKey(KeyCode.Space)){
-            keyHold = false;
-        }
+            }
+            else if (!Input.GetKey(KeyCode.Space))
+            {
+                keyHold = false;
+            }
 
-        // Move with velocity when pressing movement keys
-        if (Input.GetKey(KeyCode.W) /*|| Input.GetKey(KeyCode.UpArrow)*/ || Input.GetKey(KeyCode.S) /*|| Input.GetKey(KeyCode.DownArrow)*/ || Input.GetKey(KeyCode.A) /*|| Input.GetKey(KeyCode.LeftArrow)*/ || Input.GetKey(KeyCode.D) /*s|| Input.GetKey(KeyCode.RightArrow)*/)
-        {
-            Animator.SetBool("walking", true);
-            walkSound.Play();
-            rb.linearVelocity = moveDir * currentSpeed;
-        }
-        else
-        {
-            Animator.SetBool("walking", false);
-            walkSound.Stop();
-            rb.linearVelocity = Vector2.zero;
+            // Move with velocity when pressing movement keys
+            if (Input.GetKey(KeyCode.W) /*|| Input.GetKey(KeyCode.UpArrow)*/ || Input.GetKey(KeyCode.S) /*|| Input.GetKey(KeyCode.DownArrow)*/ || Input.GetKey(KeyCode.A) /*|| Input.GetKey(KeyCode.LeftArrow)*/ || Input.GetKey(KeyCode.D) /*s|| Input.GetKey(KeyCode.RightArrow)*/)
+            {
+                Animator.SetBool("walking", true);
+                walkSound.Play();
+                rb.linearVelocity =  data.getMoveDir() * currentSpeed;
+            }
+            else
+            {
+                Animator.SetBool("walking", false);
+                walkSound.Stop();
+                rb.linearVelocity = Vector2.zero;
+            }
         }
     }
 }

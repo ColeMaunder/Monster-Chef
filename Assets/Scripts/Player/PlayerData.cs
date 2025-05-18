@@ -43,10 +43,24 @@ public class PlayerData : MonoBehaviour
     public bool getIsDash(){
         return isDash;
     }
-    public void setIsDash(in bool isDashIN){
+    public void setIsDash(bool isDashIN){
         isDash = isDashIN;
     }
-    public bool[] unlockedRecipes = { false, false, false, false, false, false, false};
+    private bool canMove = true;
+    public bool getCanMove(){
+        return canMove;
+    }
+    public void setCanMove(bool canMoveIn){
+        canMove = canMoveIn;
+    }
+    private Vector2 moveDir;
+    public Vector2 getMoveDir(){
+        return moveDir;
+    }
+    public void setMoveDir(Vector2 moveDirIn){
+        moveDir = moveDirIn;
+    }
+    public bool[] unlockedRecipes = { false, false, false, false, false, false, false };
     public bool GetUnlockedRecipe(int index){
         return unlockedRecipes[index];
     }

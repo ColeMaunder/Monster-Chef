@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 5622409607988309601}
   - component: {fileID: 8715337866896380516}
   - component: {fileID: 4102454242233529568}
+  - component: {fileID: 5746641144774172858}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -247,6 +248,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.6027303, y: 1.0191343}
   m_EdgeRadius: 0
+--- !u!114 &5746641144774172858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198528944626264861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd8f59be8767244daa74d1ef175eb31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dotCan: 0
+  dotCant: 0.7
+  waterDashSpeed: 10
 --- !u!1 &1814787458152553397
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,8 +488,9 @@ GameObject:
   - component: {fileID: 1590509329154716408}
   - component: {fileID: 5088283012805066986}
   - component: {fileID: 2197874128844302130}
-  - component: {fileID: 90038718445807602}
-  m_Layer: 0
+  - component: {fileID: 1887530072899601429}
+  - component: {fileID: 5419330695726374556}
+  m_Layer: 3
   m_Name: PayerBoddy
   m_TagString: PlayerBody
   m_Icon: {fileID: 0}
@@ -600,7 +617,104 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleOBJ: {fileID: 7500294690274213756}
---- !u!114 &90038718445807602
+--- !u!82 &1887530072899601429
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2892239095965408545}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 2048250013013022095, guid: 4181c3160ac2bd641a3d1e25e6db2734, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 192a6911b951e8642bcd89ee5abe49f7, type: 3}
+  m_Resource: {fileID: 8300000, guid: 192a6911b951e8642bcd89ee5abe49f7, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &5419330695726374556
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -612,13 +726,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 745b99c1171bc08409cd46b1000a97f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerRB: {fileID: 53161477322774632}
+  playerRB: {fileID: 0}
   dotCan: 0
   dotCant: 0.7
   mudMod: 0.5
   mudDrag: 30
   waterStop: 3000
-  Player: {fileID: 1198528944626264861}
+  Player: {fileID: 0}
   startBlock: {fileID: 0}
 --- !u!1 &3327480393724768381
 GameObject:
@@ -663,6 +777,7 @@ GameObject:
   - component: {fileID: 4944109665098878159}
   - component: {fileID: 3460499957586961584}
   - component: {fileID: 5138029722548362334}
+  - component: {fileID: 4212952438029817586}
   m_Layer: 0
   m_Name: PlayerData
   m_TagString: PlayerData
@@ -719,16 +834,24 @@ MonoBehaviour:
   - 0.5
   - 0.6
   - 0.7
+  spoonAtkSound:
+  - {fileID: 8300000, guid: ad196fe1dbf501940b8de434b527e7c7, type: 3}
+  - {fileID: 8300000, guid: 44b2f91f0ea39d44ba8a7c847a4e9ca1, type: 3}
+  - {fileID: 8300000, guid: ccdee1c3bace6074cbccf686a0e2e663, type: 3}
+  - {fileID: 8300000, guid: ccdee1c3bace6074cbccf686a0e2e663, type: 3}
+  - {fileID: 8300000, guid: ccdee1c3bace6074cbccf686a0e2e663, type: 3}
   cleaverComboMax: 2
   cleaverChargeMax: 1.5
   cleaverAttack: []
   cleaverAtkDuration: []
   cleaverAtkCoolDown: []
+  cleaverAtkSound: []
   tenderizerComboMax: 2
   tenderizerChargeMax: 1.5
   tenderizerAttack: []
   tenderizerAtkDuration: []
   tenderizerAtkCoolDown: []
+  tenderizerAtkSound: []
   ults:
   - {fileID: 9141684702001604156}
   ultDuration:
@@ -749,6 +872,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 977caa794b8bcdd45aa831924c8c056d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathSound: {fileID: 8300000, guid: d3e85ce23ca8b0843b4492589d999a6b, type: 3}
+  itemPickupSounds:
+  - {fileID: 8300000, guid: c5a69448fde2a5449b4217285eaf7e1f, type: 3}
+  - {fileID: 8300000, guid: 2daa6c6efc95c694fa4347603cd78598, type: 3}
+  - {fileID: 8300000, guid: 5d40c81fc4aa86a4aa7ff7106a635180, type: 3}
+  - {fileID: 8300000, guid: 9e98b7d2dd34e104e8ddd143d0a03d6f, type: 3}
+  - {fileID: 8300000, guid: 27bc7b9d229daa7409f74550f149974e, type: 3}
+  healSound: {fileID: 8300000, guid: 52c81cce99ca45d4191fa4ed37df539f, type: 3}
+  hurtSound: {fileID: 8300000, guid: 16fef76d8e5f24148841e8b7b459d72c, type: 3}
+  dashSound: {fileID: 8300000, guid: a4127aacb0ef08d4fbea93a7be0d406e, type: 3}
+  walkSound: {fileID: 8300000, guid: 192a6911b951e8642bcd89ee5abe49f7, type: 3}
+  activeWepon: 0
   unlockedRecipes: 00000000000000
   moveSpeed: 5
   dashMod: 4
@@ -784,6 +919,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Recipes: {fileID: 4900000, guid: e663a5121d5ec394eac45ee970515dad, type: 3}
+--- !u!114 &4212952438029817586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3420338433481259294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f94711daa30c13e4f9e100ac581885a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3682202924254559273
 GameObject:
   m_ObjectHideFlags: 0
@@ -6791,7 +6938,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6e05e8622be8cb4fa8131e26cd5127a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeWeapon: 0
   activeUlt: 0
 --- !u!1 &8478817872626071003
 GameObject:
