@@ -105,26 +105,21 @@ MonoBehaviour:
   - 10
   - 20
   - 0
-  slimeSprites:
-  - {fileID: 4187243561571087413, guid: 341537ae7a797874dad0b7bcccd26fea, type: 3}
-  - {fileID: 6319567049535413403, guid: e0383b6cb1821bd4ca2060f5e43cf2b8, type: 3}
-  - {fileID: 6054905888585617297, guid: f29b42a989e3f7945ac169d5a066a932, type: 3}
-  - {fileID: 9169057179100379890, guid: 5e6aea3cfe346e14a9a4dae3fb3ace61, type: 3}
-  - {fileID: 8728079106516799072, guid: c47e4192ac72d9040bb57abe25f1931c, type: 3}
-  - {fileID: 2272892478628809381, guid: 588aba46df04fc648966ce47a69875f5, type: 3}
-  - {fileID: -7688381038759674836, guid: 79ca310ef8bf20f4a87f00fbb4e9e59b, type: 3}
-  - {fileID: -4627773980598388465, guid: 087b5a360daf1f146b4a329be232154d, type: 3}
-  mandrakeSprites: []
-  frogSprites:
-  - {fileID: 47750821386685083, guid: f92c3fc913f930f49ba541281a4d839d, type: 3}
-  - {fileID: -892871995113301185, guid: 366a91346e0812049a328efe8aebc295, type: 3}
-  - {fileID: 2292972623961627756, guid: f1e56a1055c732c448444990593ff789, type: 3}
-  - {fileID: 7196213479704291691, guid: bc99d86e4fcfb044e989704015abd41a, type: 3}
-  - {fileID: -8482094810877628203, guid: 325a0fc24eefcf9459d38605a474a0d2, type: 3}
-  - {fileID: 441882526062221538, guid: 3a5417fc090b0e0499935079db24d5ab, type: 3}
-  - {fileID: 2437619413493561580, guid: 52c0dc2ba6f1c0e489a5bc6a9e854564, type: 3}
-  - {fileID: -2171764857849491109, guid: 9116e495becda414baff1f65360c3feb, type: 3}
-  vineSprites: []
+  attackSound:
+  - {fileID: 8300000, guid: be17f6b9e3e060546a74eb50eba6ced0, type: 3}
+  - {fileID: 8300000, guid: a48fbc8dc8f9a13429cdfa2d5117917a, type: 3}
+  - {fileID: 8300000, guid: f53ddf7f6d4844843b7756b706d0cb8f, type: 3}
+  - {fileID: 8300000, guid: 2aa440c154f46b3438fb1f413c43da5b, type: 3}
+  hurtSound:
+  - {fileID: 8300000, guid: 9a68d8c720d93214ba339e079c585673, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: c30d8c2eaaca56841913215c41e72881, type: 3}
+  - {fileID: 0}
+  deathSound:
+  - {fileID: 8300000, guid: bfd87af99a6f0c14a9a4d54ec6cc5e39, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: c30d8c2eaaca56841913215c41e72881, type: 3}
+  - {fileID: 0}
   enemyList:
   - {fileID: 7094277301536617045, guid: a573085b5b4176746aa718a181bbd9f5, type: 3}
   - {fileID: 3502702152755198145, guid: ebedfc3b64d80a446843878f08cd91e2, type: 3}

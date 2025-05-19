@@ -9,12 +9,13 @@ public class Enemy : MonoBehaviour
     public int type;
     float health;
     public float maxHealth = 3f;
-    public float duration = 0.2f;
+    public float duration = 0.1f;
     SpriteRenderer sprite;
     Color colourDefalt;
     public Rigidbody2D enmenyBody;
     public GameObject particleOBJ;
     public float knockBackMutipyer = 1;
+    private Material hurtEffect;
     void Start()
     {
         data = GameObject.FindWithTag("EnemyData").GetComponent<EnemyData>();
@@ -22,11 +23,18 @@ public class Enemy : MonoBehaviour
         colourDefalt = sprite.color;
         health = maxHealth;
         localData = this.gameObject.gameObject.GetComponent<EnemyLocalData>();
+        hurtEffect = this.GetComponent<SpriteRenderer>().material;
     }
     private IEnumerator ResetHitEffects(float duration){
-        sprite.color = new Color(255, 255, 255);
-        yield return new WaitForSeconds(duration);
-        sprite.color = colourDefalt;
+
+        float flashTime = 0f;
+        float flashTimePassed = 0f;
+        hurtEffect.SetColor("_HitEffectColor", Color.white );
+        while (flashTimePassed < duration) {
+            flashTimePassed += Time.deltaTime;
+             hurtEffect.SetFloat("_HitEfectAmount", Mathf.Lerp(1f, 0f, (flashTimePassed / duration)));
+            yield return null;
+        }
         enmenyBody.linearVelocity = Vector2.zero;
     }
 

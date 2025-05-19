@@ -1,0 +1,658 @@
+fileFormatVersion: 2
+guid: ea1f3e259283bd8418d36c0fccf3c7df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7750043796565630995
+    second: Tip UI_0
+  - first:
+      213: -8927359027610416097
+    second: Tip UI_1
+  - first:
+      213: -2771166509411104114
+    second: Tip UI_2
+  - first:
+      213: 8394079767495718188
+    second: Tip UI_3
+  - first:
+      213: -4644245105571055811
+    second: Tip UI_4
+  - first:
+      213: 3223792469684236670
+    second: Tip UI_5
+  - first:
+      213: -1211707647667057945
+    second: Tip UI_6
+  - first:
+      213: 1632047472918917087
+    second: Tip UI_7
+  - first:
+      213: 2335894148807874179
+    second: Tip UI_8
+  - first:
+      213: -1876646972009073312
+    second: Tip UI_9
+  - first:
+      213: 7848360457375021664
+    second: Tip UI_10
+  - first:
+      213: -6129880779389008550
+    second: Tip UI_11
+  - first:
+      213: 2627412861482865981
+    second: Tip UI_12
+  - first:
+      213: -2411172787209019671
+    second: Tip UI_13
+  - first:
+      213: -2739349882957245829
+    second: Tip UI_14
+  - first:
+      213: -4245778027225513043
+    second: Tip UI_15
+  - first:
+      213: -4936532375452728829
+    second: Tip UI_16
+  - first:
+      213: 9122310540186968790
+    second: Tip UI_17
+  - first:
+      213: -2684764933157396938
+    second: Tip UI_18
+  - first:
+      213: 5761198029919895050
+    second: Tip UI_19
+  - first:
+      213: -8692663424236318545
+    second: Tip UI_20
+  - first:
+      213: 3232589770806017076
+    second: Tip UI_21
+  - first:
+      213: -4589845270759719133
+    second: Tip UI_22
+  - first:
+      213: 312794456591055955
+    second: Tip UI_23
+  - first:
+      213: 9170765509815213893
+    second: Tip UI_24
+  - first:
+      213: 1325135865107388131
+    second: Tip UI_25
+  - first:
+      213: -8391708523342420032
+    second: Tip UI_26
+  - first:
+      213: 2523426207567886894
+    second: Tip UI_27
+  - first:
+      213: -7788450712976606681
+    second: Tip UI_28
+  - first:
+      213: -1295671826444745616
+    second: Tip UI_29
+  - first:
+      213: 6741779604913010208
+    second: Tip UI_30
+  - first:
+      213: 8300518244912169706
+    second: Tip UI_31
+  - first:
+      213: 411643482200374026
+    second: Tip UI_32
+  - first:
+      213: -3731500813354080344
+    second: Tip UI_33
+  - first:
+      213: -7354120540789026603
+    second: Tip UI_34
+  - first:
+      213: -6548814841595323357
+    second: Tip UI_35
+  - first:
+      213: 5248650363895263251
+    second: Tip UI_36
+  - first:
+      213: 1228250538584687630
+    second: Tip UI_37
+  - first:
+      213: 5359912361383730088
+    second: Tip UI_38
+  - first:
+      213: -5436814212997613192
+    second: Tip UI_39
+  - first:
+      213: 8998391237018861051
+    second: Tip UI_40
+  - first:
+      213: 8951240359151266656
+    second: Tip UI_41
+  - first:
+      213: -8895341745670687173
+    second: Tip UI_42
+  - first:
+      213: 1219901409363502571
+    second: Tip UI_43
+  - first:
+      213: 281270237067751848
+    second: Tip UI_44
+  - first:
+      213: -3189462323317081473
+    second: Tip UI_45
+  - first:
+      213: 5816137943674489948
+    second: Tip UI_46
+  - first:
+      213: -7091284352418206188
+    second: Tip UI_47
+  - first:
+      213: 7980326704096288901
+    second: Tip UI_48
+  - first:
+      213: 2170530986087034532
+    second: Tip UI_49
+  - first:
+      213: -1655436789110015231
+    second: Tip UI_50
+  - first:
+      213: -218495424820807193
+    second: Tip UI_51
+  - first:
+      213: 2376802739900976646
+    second: Tip UI_52
+  - first:
+      213: -4617028329383583405
+    second: Tip UI_53
+  - first:
+      213: 7932214880309172117
+    second: Tip UI_54
+  - first:
+      213: 3363119227967924373
+    second: Tip UI_55
+  - first:
+      213: 8522344213647428147
+    second: Tip UI_56
+  - first:
+      213: -6767584196615797388
+    second: Tip UI_57
+  - first:
+      213: 2532996752838376872
+    second: Tip UI_58
+  - first:
+      213: 4178274983236862836
+    second: Tip UI_59
+  - first:
+      213: -8650608207969433784
+    second: Tip UI_60
+  - first:
+      213: -3045441479547679191
+    second: Tip UI_61
+  - first:
+      213: 3139456070202401378
+    second: Tip UI_62
+  - first:
+      213: 6868153458242015662
+    second: Tip UI_63
+  - first:
+      213: -6306632998229820181
+    second: Tip UI_64
+  - first:
+      213: 3814636105518308314
+    second: Tip UI_65
+  - first:
+      213: 5928189167368545754
+    second: Tip UI_66
+  - first:
+      213: -5400589480879217896
+    second: Tip UI_67
+  - first:
+      213: -7054471300531590383
+    second: Tip UI_68
+  - first:
+      213: 2369838919534076515
+    second: Tip UI_69
+  - first:
+      213: -3697110372645241284
+    second: Tip UI_70
+  - first:
+      213: 4575143313743504351
+    second: Tip UI_71
+  - first:
+      213: -5478408186810999404
+    second: Tip UI_72
+  - first:
+      213: 5973875865238300070
+    second: Tip UI_73
+  - first:
+      213: -8162249735266185501
+    second: Tip UI_74
+  - first:
+      213: -644764258301476624
+    second: Tip UI_75
+  - first:
+      213: -2011325716001519792
+    second: Tip UI_76
+  - first:
+      213: 6493759987668799967
+    second: Tip UI_77
+  - first:
+      213: -1021794196559242977
+    second: Tip UI_78
+  - first:
+      213: 2159511892730269264
+    second: Tip UI_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tip UI_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 826
+        width: 322
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310a30085cfad8b60800000000000000
+      internalID: 7750043796565630995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tip UI_1
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 905
+        width: 307
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c87e87346ab1480800000000000000
+      internalID: -8927359027610416097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tip UI_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 628
+        width: 271
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a8711fdb6da89d0800000000000000
+      internalID: -2771166509411104114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tip UI_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 418
+        width: 370
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2530e52313cd7470800000000000000
+      internalID: 8394079767495718188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tip UI_4
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 401
+        width: 369
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d373798cea35c8fb0800000000000000
+      internalID: -4644245105571055811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tip UI_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 132
+        width: 452
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71bb19bb263dbc20800000000000000
+      internalID: 3223792469684236670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tip UI_6
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 919
+        width: 437
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea4e2970562f2fe0800000000000000
+      internalID: -1211707647667057945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tip UI_7
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 767
+        width: 529
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 5, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdfe7e7978236a610800000000000000
+      internalID: 1632047472918917087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tip UI_8
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 639
+        width: 464
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3865b9c2a53ca6020800000000000000
+      internalID: 2335894148807874179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tip UI_9
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 770
+        width: 381
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0653698958fc4f5e0800000000000000
+      internalID: -1876646972009073312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: badda44bd35424948bf347f8fc7fdb03
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tip UI_0: 7750043796565630995
+      Tip UI_1: -8927359027610416097
+      Tip UI_10: 7848360457375021664
+      Tip UI_11: -6129880779389008550
+      Tip UI_12: 2627412861482865981
+      Tip UI_13: -2411172787209019671
+      Tip UI_14: -2739349882957245829
+      Tip UI_15: -4245778027225513043
+      Tip UI_16: -4936532375452728829
+      Tip UI_17: 9122310540186968790
+      Tip UI_18: -2684764933157396938
+      Tip UI_19: 5761198029919895050
+      Tip UI_2: -2771166509411104114
+      Tip UI_20: -8692663424236318545
+      Tip UI_21: 3232589770806017076
+      Tip UI_22: -4589845270759719133
+      Tip UI_23: 312794456591055955
+      Tip UI_24: 9170765509815213893
+      Tip UI_25: 1325135865107388131
+      Tip UI_26: -8391708523342420032
+      Tip UI_27: 2523426207567886894
+      Tip UI_28: -7788450712976606681
+      Tip UI_29: -1295671826444745616
+      Tip UI_3: 8394079767495718188
+      Tip UI_30: 6741779604913010208
+      Tip UI_31: 8300518244912169706
+      Tip UI_32: 411643482200374026
+      Tip UI_33: -3731500813354080344
+      Tip UI_34: -7354120540789026603
+      Tip UI_35: -6548814841595323357
+      Tip UI_36: 5248650363895263251
+      Tip UI_37: 1228250538584687630
+      Tip UI_38: 5359912361383730088
+      Tip UI_39: -5436814212997613192
+      Tip UI_4: -4644245105571055811
+      Tip UI_40: 8998391237018861051
+      Tip UI_41: 8951240359151266656
+      Tip UI_42: -8895341745670687173
+      Tip UI_43: 1219901409363502571
+      Tip UI_44: 281270237067751848
+      Tip UI_45: -3189462323317081473
+      Tip UI_46: 5816137943674489948
+      Tip UI_47: -7091284352418206188
+      Tip UI_48: 7980326704096288901
+      Tip UI_49: 2170530986087034532
+      Tip UI_5: 3223792469684236670
+      Tip UI_50: -1655436789110015231
+      Tip UI_51: -218495424820807193
+      Tip UI_52: 2376802739900976646
+      Tip UI_53: -4617028329383583405
+      Tip UI_54: 7932214880309172117
+      Tip UI_55: 3363119227967924373
+      Tip UI_56: 8522344213647428147
+      Tip UI_57: -6767584196615797388
+      Tip UI_58: 2532996752838376872
+      Tip UI_59: 4178274983236862836
+      Tip UI_6: -1211707647667057945
+      Tip UI_60: -8650608207969433784
+      Tip UI_61: -3045441479547679191
+      Tip UI_62: 3139456070202401378
+      Tip UI_63: 6868153458242015662
+      Tip UI_64: -6306632998229820181
+      Tip UI_65: 3814636105518308314
+      Tip UI_66: 5928189167368545754
+      Tip UI_67: -5400589480879217896
+      Tip UI_68: -7054471300531590383
+      Tip UI_69: 2369838919534076515
+      Tip UI_7: 1632047472918917087
+      Tip UI_70: -3697110372645241284
+      Tip UI_71: 4575143313743504351
+      Tip UI_72: -5478408186810999404
+      Tip UI_73: 5973875865238300070
+      Tip UI_74: -8162249735266185501
+      Tip UI_75: -644764258301476624
+      Tip UI_76: -2011325716001519792
+      Tip UI_77: 6493759987668799967
+      Tip UI_78: -1021794196559242977
+      Tip UI_79: 2159511892730269264
+      Tip UI_8: 2335894148807874179
+      Tip UI_80: 1610202887
+      Tip UI_9: -1876646972009073312
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

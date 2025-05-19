@@ -4967,7 +4967,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 869df91904d273944bb33608c34bd3d8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5012,8 +5012,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  maxHealth: 5
-  duration: 0.2
+  maxHealth: 6
+  duration: 0.3
   enmenyBody: {fileID: 8214760694446413678}
   particleOBJ: {fileID: 5676267614777620869}
   knockBackMutipyer: 1
