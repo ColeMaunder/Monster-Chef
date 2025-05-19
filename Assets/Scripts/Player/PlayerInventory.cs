@@ -11,7 +11,7 @@ public class PlayerInventory : MonoBehaviour
     void Start()
     {
         player = GameObject.FindWithTag("PlayerData").GetComponent<WeaponAttacks>();
-        recipes = GameObject.FindWithTag("PlayerData").GetComponent<RecipeData>();
+        recipes = GameObject.FindWithTag("RecipeData").GetComponent<RecipeData>();
     }
     private void PrintInventory(){
         print("Slime chunks: " + invantory[0]);

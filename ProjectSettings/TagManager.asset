@@ -18,6 +18,7 @@ TagManager:
   - Water
   - PauseScreen
   - SettingsScreen
+  - SoundManager
   layers:
   - Default
   - TransparentFX

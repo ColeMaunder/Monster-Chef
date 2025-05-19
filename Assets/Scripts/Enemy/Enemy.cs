@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
     public int type;
     float health;
     public float maxHealth = 3f;
-    public float duration = 0.1f;
+    public float duration = 0.2f;
     SpriteRenderer sprite;
     Color colourDefalt;
     public Rigidbody2D enmenyBody;
@@ -27,7 +27,6 @@ public class Enemy : MonoBehaviour
     }
     private IEnumerator ResetHitEffects(float duration){
 
-        float flashTime = 0f;
         float flashTimePassed = 0f;
         hurtEffect.SetColor("_HitEffectColor", Color.white );
         while (flashTimePassed < duration) {
