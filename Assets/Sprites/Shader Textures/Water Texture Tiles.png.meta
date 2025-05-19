@@ -1,0 +1,638 @@
+fileFormatVersion: 2
+guid: f0727796f67479f47817ffbcb9c66312
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7994551434539845162
+    second: Water Texture Tiles_0
+  - first:
+      213: -4338776599020905205
+    second: Water Texture Tiles_1
+  - first:
+      213: -4918781498345854950
+    second: Water Texture Tiles_2
+  - first:
+      213: -9166015711998445199
+    second: Water Texture Tiles_3
+  - first:
+      213: 2038642016378422715
+    second: Water Texture Tiles_4
+  - first:
+      213: -2515487508784625436
+    second: Water Texture Tiles_5
+  - first:
+      213: -1591432361639805119
+    second: Water Texture Tiles_6
+  - first:
+      213: 2805503455121408429
+    second: Water Texture Tiles_7
+  - first:
+      213: 7242786943732617753
+    second: Water Texture Tiles_8
+  - first:
+      213: 8637875097017278601
+    second: Water Texture Tiles_9
+  - first:
+      213: 8166407478217406487
+    second: Water Texture Tiles_10
+  - first:
+      213: 767215429044369574
+    second: Water Texture Tiles_11
+  - first:
+      213: -3816323044961939246
+    second: Water Texture Tiles_12
+  - first:
+      213: -5597339579142619098
+    second: Water Texture Tiles_13
+  - first:
+      213: -3668930815661992635
+    second: Water Texture Tiles_14
+  - first:
+      213: -2594696514392370247
+    second: Water Texture Tiles_15
+  - first:
+      213: 4151382409191423007
+    second: Water Texture Tiles_16
+  - first:
+      213: 5479144079824618982
+    second: Water Texture Tiles_17
+  - first:
+      213: 7030716594314749094
+    second: Water Texture Tiles_18
+  - first:
+      213: -6852630880295372810
+    second: Water Texture Tiles_19
+  - first:
+      213: -879863937327908471
+    second: Water Texture Tiles_20
+  - first:
+      213: -7230794050215339125
+    second: Water Texture Tiles_21
+  - first:
+      213: -1671527684695233235
+    second: Water Texture Tiles_22
+  - first:
+      213: 8771596019550002076
+    second: Water Texture Tiles_23
+  - first:
+      213: -2988977242702282636
+    second: Water Texture Tiles_24
+  - first:
+      213: -4893754094468917882
+    second: Water Texture Tiles_25
+  - first:
+      213: 7021089940872113064
+    second: Water Texture Tiles_26
+  - first:
+      213: -2846361089085821002
+    second: Water Texture Tiles_27
+  - first:
+      213: -6935802000037004729
+    second: Water Texture Tiles_28
+  - first:
+      213: -9217433159025354939
+    second: Water Texture Tiles_29
+  - first:
+      213: -6644161251696251450
+    second: Water Texture Tiles_30
+  - first:
+      213: 7325914437892693296
+    second: Water Texture Tiles_31
+  - first:
+      213: 6522891135954615424
+    second: Water Texture Tiles_32
+  - first:
+      213: -6009548741076669233
+    second: Water Texture Tiles_33
+  - first:
+      213: -4520294981873552872
+    second: Water Texture Tiles_34
+  - first:
+      213: 1385587121684558749
+    second: Water Texture Tiles_35
+  - first:
+      213: 7965495901219334055
+    second: Water Texture Tiles_36
+  - first:
+      213: 7592696073989533605
+    second: Water Texture Tiles_37
+  - first:
+      213: -6021700944303870459
+    second: Water Texture Tiles_38
+  - first:
+      213: -81880883917217893
+    second: Water Texture Tiles_39
+  - first:
+      213: 957786410960443264
+    second: Water Texture Tiles_40
+  - first:
+      213: 7816512411135319084
+    second: Water Texture Tiles_41
+  - first:
+      213: -1198956579071151679
+    second: Water Texture Tiles_42
+  - first:
+      213: -8658855396503910331
+    second: Water Texture Tiles_43
+  - first:
+      213: 8478948517089350322
+    second: Water Texture Tiles_44
+  - first:
+      213: 847037149531222692
+    second: Water Texture Tiles_45
+  - first:
+      213: -8262211848634902902
+    second: Water Texture Tiles_46
+  - first:
+      213: -246258360038486890
+    second: Water Texture Tiles_47
+  - first:
+      213: 4974453680202390029
+    second: Water Texture Tiles_48
+  - first:
+      213: 1328520308122874216
+    second: Water Texture Tiles_49
+  - first:
+      213: 8874506325193602892
+    second: Water Texture Tiles_50
+  - first:
+      213: -4193893324548573334
+    second: Water Texture Tiles_51
+  - first:
+      213: 4499939898336685788
+    second: Water Texture Tiles_52
+  - first:
+      213: 924286772533420908
+    second: Water Texture Tiles_53
+  - first:
+      213: -5117126907576640461
+    second: Water Texture Tiles_54
+  - first:
+      213: 7015262051375479502
+    second: Water Texture Tiles_55
+  - first:
+      213: 5699385122171877232
+    second: Water Texture Tiles_56
+  - first:
+      213: -2420008240496115145
+    second: Water Texture Tiles_57
+  - first:
+      213: -8401607034480597820
+    second: Water Texture Tiles_58
+  - first:
+      213: 6140669782207319862
+    second: Water Texture Tiles_59
+  - first:
+      213: 900132830182361269
+    second: Water Texture Tiles_60
+  - first:
+      213: -9101394156462255875
+    second: Water Texture Tiles_61
+  - first:
+      213: -1108091092740332020
+    second: Water Texture Tiles_62
+  - first:
+      213: 2688480516056789724
+    second: Water Texture Tiles_63
+  - first:
+      213: 1008660083526692693
+    second: Water Texture Tiles_64
+  - first:
+      213: -2548736015271177845
+    second: Water Texture Tiles_65
+  - first:
+      213: -7079994044819741683
+    second: Water Texture Tiles_66
+  - first:
+      213: 7253085691962014071
+    second: Water Texture Tiles_67
+  - first:
+      213: 6184706682440030705
+    second: Water Texture Tiles_68
+  - first:
+      213: 5362579663247596601
+    second: Water Texture Tiles_69
+  - first:
+      213: 7962117749260826057
+    second: Water Texture Tiles_70
+  - first:
+      213: -3357008058544696237
+    second: Water Texture Tiles_71
+  - first:
+      213: -4064860805893711812
+    second: Water Texture Tiles_72
+  - first:
+      213: 6448735058084944946
+    second: Water Texture Tiles_73
+  - first:
+      213: 8182712776578231294
+    second: Water Texture Tiles_74
+  - first:
+      213: 2047663822276392607
+    second: Water Texture Tiles_75
+  - first:
+      213: -1868733651634839005
+    second: Water Texture Tiles_76
+  - first:
+      213: 7187530124675979312
+    second: Water Texture Tiles_77
+  - first:
+      213: -4425351629358575937
+    second: Water Texture Tiles_78
+  - first:
+      213: 7711929605780201260
+    second: Water Texture Tiles_79
+  - first:
+      213: -6616227302289046560
+    second: Water Texture Tiles_80
+  - first:
+      213: 8344661901503719384
+    second: Water Texture Tiles_81
+  - first:
+      213: 9016681409935525309
+    second: Water Texture Tiles_82
+  - first:
+      213: -2108205856591761480
+    second: Water Texture Tiles_83
+  - first:
+      213: 5565564491266636751
+    second: Water Texture Tiles_84
+  - first:
+      213: -7398666777526955944
+    second: Water Texture Tiles_85
+  - first:
+      213: -2911988399527398889
+    second: Water Texture Tiles_86
+  - first:
+      213: 1239325158076842389
+    second: Water Texture Tiles_87
+  - first:
+      213: -4529272071638925643
+    second: Water Texture Tiles_88
+  - first:
+      213: -5099687479277378391
+    second: Water Texture Tiles_89
+  - first:
+      213: 7410845468734686444
+    second: Water Texture Tiles_90
+  - first:
+      213: -6790843071325253826
+    second: Water Texture Tiles_91
+  - first:
+      213: -2518630625443317338
+    second: Water Texture Tiles_92
+  - first:
+      213: 300705491072698321
+    second: Water Texture Tiles_93
+  - first:
+      213: 2241704237237425864
+    second: Water Texture Tiles_94
+  - first:
+      213: 9161060007634903787
+    second: Water Texture Tiles_95
+  - first:
+      213: -1355941562492020066
+    second: Water Texture Tiles_96
+  - first:
+      213: -6058117519126010998
+    second: Water Texture Tiles_97
+  - first:
+      213: -6042868048798366891
+    second: Water Texture Tiles_98
+  - first:
+      213: -5331180219697872184
+    second: Water Texture Tiles_99
+  - first:
+      213: -1340773655577997822
+    second: Water Texture Tiles_100
+  - first:
+      213: 7025517935120543622
+    second: Water Texture Tiles_101
+  - first:
+      213: 4674643436607611230
+    second: Water Texture Tiles_102
+  - first:
+      213: 6440132593040509148
+    second: Water Texture Tiles_103
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Water Texture Tiles_0
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 570
+        width: 102
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26465a3c2a52fe60800000000000000
+      internalID: 7994551434539845162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Texture Tiles_1
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 570
+        width: 102
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0dd497cba199c3c0800000000000000
+      internalID: -4338776599020905205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Texture Tiles_2
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 570
+        width: 102
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18e45fb94afcbbb0800000000000000
+      internalID: -4918781498345854950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Texture Tiles_3
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 570
+        width: 102
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179fea80645cbc080800000000000000
+      internalID: -9166015711998445199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Texture Tiles_4
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 432
+        width: 102
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb50c6adc16ba4c10800000000000000
+      internalID: 2038642016378422715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Texture Tiles_5
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 432
+        width: 102
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8c5f93071371dd0800000000000000
+      internalID: -2515487508784625436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Texture Tiles_6
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 290
+        width: 102
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ff568e2b81ae9e0800000000000000
+      internalID: -1591432361639805119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Texture Tiles_7
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 290
+        width: 102
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da184aa37862fe620800000000000000
+      internalID: 2805503455121408429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Texture Tiles_9
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 161
+        width: 102
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41230583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98068e3a2a5efd770800000000000000
+      internalID: 8637875097017278601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6ef42bea72a0d8f429a8917eca18d508
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Water Texture Tiles_0: 7994551434539845162
+      Water Texture Tiles_1: -4338776599020905205
+      Water Texture Tiles_10: 8166407478217406487
+      Water Texture Tiles_2: -4918781498345854950
+      Water Texture Tiles_3: -9166015711998445199
+      Water Texture Tiles_4: 2038642016378422715
+      Water Texture Tiles_5: -2515487508784625436
+      Water Texture Tiles_6: -1591432361639805119
+      Water Texture Tiles_7: 2805503455121408429
+      Water Texture Tiles_8: 7242786943732617753
+      Water Texture Tiles_9: 8637875097017278601
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
