@@ -112,8 +112,8 @@ public class PlayerAttack : MonoBehaviour
         }else if(atkTimer >= duration){
             attacks.GetAtk(atkType).SetActive(false);
             attacks.GetUlt(activeUlt).SetActive(false);
-    }
+        }
     
-}
+    }
 }
 
