@@ -6,8 +6,6 @@ public class Fountain : MonoBehaviour
     public HealsUI uI;
     Player player;
     bool inRainge = false;
-    public Animator animator;
-
     void Start()
     {
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
@@ -23,7 +21,6 @@ public class Fountain : MonoBehaviour
                 uI.Fountain();
                 GameObject Respawn = GameObject.FindWithTag("Respawn");
                 Respawn.transform.position = transform.position;
-                animator.SetBool("Active", true);
                 print("fountain set");
             }
         }
