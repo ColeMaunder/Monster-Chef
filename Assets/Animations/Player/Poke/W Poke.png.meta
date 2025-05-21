@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: d708c38e8d387ec46be914d3702c1284
+guid: 0632f7c2d3f1a8943beaec81ab55bcb9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8298856338519043470
-    second: Slime-Drop-Item_0
+      213: -7435369421687979289
+    second: W Poke_0
+  - first:
+      213: -8833477651731416897
+    second: W Poke_1
+  - first:
+      213: 7324463947195670861
+    second: W Poke_2
+  - first:
+      213: -8389761830028105348
+    second: W Poke_3
+  - first:
+      213: 4629139414688089904
+    second: W Poke_4
+  - first:
+      213: 7457950633067247539
+    second: W Poke_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slime-Drop-Item_0
+      name: W Poke_0
       rect:
         serializedVersion: 2
-        x: 1343
-        y: 695
-        width: 98
-        height: 50
+        x: 110
+        y: 783
+        width: 212
+        height: 188
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +143,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8d2d63eed57b2370800000000000000
-      internalID: 8298856338519043470
+      spriteID: 7e28c7eb7e240d890800000000000000
+      internalID: -7435369421687979289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W Poke_1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 783
+        width: 212
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb87235a0ee296580800000000000000
+      internalID: -8833477651731416897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W Poke_2
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 783
+        width: 212
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41e0ce3729b5a560800000000000000
+      internalID: 7324463947195670861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W Poke_3
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 783
+        width: 212
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c792b030114919b80800000000000000
+      internalID: -8389761830028105348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W Poke_4
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 783
+        width: 212
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0374e3c75c10e3040800000000000000
+      internalID: 4629139414688089904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W Poke_5
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 783
+        width: 212
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b77f5c3696ff7760800000000000000
+      internalID: 7457950633067247539
       vertices: []
       indices: 
       edges: []
@@ -147,8 +272,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Slime-Drop-Item_0: 8298856338519043470
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

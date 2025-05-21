@@ -13,11 +13,14 @@ public class PlayerAttack : MonoBehaviour
    float heavyCharge=0;
    int lightCombo = 0;
    Player player;
-  
+
+  Animator animator;
+
   void Start(){
-    attacks = GameObject.FindWithTag("PlayerData").GetComponent<WeaponAttacks>();
-    keys = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
-    player = GameObject.FindWithTag("Player").GetComponent<Player>();
+        attacks = GameObject.FindWithTag("PlayerData").GetComponent<WeaponAttacks>();
+        keys = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
+        player = GameObject.FindWithTag("Player").GetComponent<Player>();
+        animator = GameObject.FindWithTag("Player").GetComponent<Animator>();
    }
    
 
@@ -80,6 +83,8 @@ public class PlayerAttack : MonoBehaviour
     }
      void Attack(int type){
         print("attck type" + type);
+        animator.SetFloat("AttackType", type);
+        animator.SetBool("IsAttacking", true);
         atkType = type;
         isAttacking = true;
         attacks.GetAtk(type).SetActive(true);
@@ -111,6 +116,7 @@ public class PlayerAttack : MonoBehaviour
             isUlting = false;
         }else if(atkTimer >= duration){
             attacks.GetAtk(atkType).SetActive(false);
+            animator.SetBool("IsAttacking", false);
             attacks.GetUlt(activeUlt).SetActive(false);
     }
     
