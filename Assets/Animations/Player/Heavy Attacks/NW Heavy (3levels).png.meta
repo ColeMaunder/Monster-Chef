@@ -1,0 +1,552 @@
+fileFormatVersion: 2
+guid: 746660ee57af923439be020f5de47ea2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1824211757384266002
+    second: NW Heavy (3levels)_0
+  - first:
+      213: 7109337552920651270
+    second: NW Heavy (3levels)_1
+  - first:
+      213: -2710942884674087861
+    second: NW Heavy (3levels)_2
+  - first:
+      213: -8213413006476064053
+    second: NW Heavy (3levels)_3
+  - first:
+      213: 1811082755465174512
+    second: NW Heavy (3levels)_4
+  - first:
+      213: -28004961448297526
+    second: NW Heavy (3levels)_5
+  - first:
+      213: -2890146692534067294
+    second: NW Heavy (3levels)_6
+  - first:
+      213: 1335088212461044282
+    second: NW Heavy (3levels)_7
+  - first:
+      213: 2622887591902569232
+    second: NW Heavy (3levels)_8
+  - first:
+      213: -2290061796878162965
+    second: NW Heavy (3levels)_9
+  - first:
+      213: 1918535729295773521
+    second: NW Heavy (3levels)_10
+  - first:
+      213: 9007160032387222648
+    second: NW Heavy (3levels)_11
+  - first:
+      213: -7633433048559929292
+    second: NW Heavy (3levels)_12
+  - first:
+      213: -5519645248014640762
+    second: NW Heavy (3levels)_13
+  - first:
+      213: -5825069191390898147
+    second: NW Heavy (3levels)_14
+  - first:
+      213: 636941502238874384
+    second: NW Heavy (3levels)_15
+  - first:
+      213: -8971163304816190136
+    second: NW Heavy (3levels)_16
+  - first:
+      213: -5632929001446800759
+    second: NW Heavy (3levels)_17
+  - first:
+      213: -1226783353177982457
+    second: NW Heavy (3levels)_18
+  - first:
+      213: 962353676044216172
+    second: NW Heavy (3levels)_19
+  - first:
+      213: -7660279315132892037
+    second: NW Heavy (3levels)_20
+  - first:
+      213: 5163457580978963200
+    second: NW Heavy (3levels)_21
+  - first:
+      213: -1597407704588437819
+    second: NW Heavy (3levels)_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NW Heavy (3levels)_0
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1439
+        width: 158
+        height: 188
+      alignment: 9
+      pivot: {x: 0.38888046, y: 0.313224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211faf1ade6e05910800000000000000
+      internalID: 1824211757384266002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Heavy (3levels)_1
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1367
+        width: 194
+        height: 260
+      alignment: 9
+      pivot: {x: 0.30254686, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6062e2666d079a260800000000000000
+      internalID: 7109337552920651270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Heavy (3levels)_2
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1211
+        width: 374
+        height: 416
+      alignment: 9
+      pivot: {x: 0.71764743, y: 0.6918367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44d0a04fcbc06ad0800000000000000
+      internalID: -2710942884674087861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Heavy (3levels)_3
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1235
+        width: 344
+        height: 410
+      alignment: 9
+      pivot: {x: 0.90366024, y: 0.6401436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcacb6b1368140e80800000000000000
+      internalID: -8213413006476064053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Heavy (3levels)_5
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 1437
+        width: 391
+        height: 328
+      alignment: 9
+      pivot: {x: 0.667364, y: 0.18370317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbfcecc2a18c9ff0800000000000000
+      internalID: -28004961448297526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Heavy (3levels)_11
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 893
+        width: 158
+        height: 188
+      alignment: 9
+      pivot: {x: 0.38888046, y: 0.29624483}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c4985d35cdffc70800000000000000
+      internalID: 9007160032387222648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Heavy (3levels)_12
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 821
+        width: 182
+        height: 260
+      alignment: 9
+      pivot: {x: 0.31583697, y: 0.49386105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438bbd30619901690800000000000000
+      internalID: -7633433048559929292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Heavy (3levels)_13
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 725
+        width: 290
+        height: 356
+      alignment: 9
+      pivot: {x: 0.6155785, y: 0.63001776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6891ae924e74663b0800000000000000
+      internalID: -5519645248014640762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Heavy (3levels)_14
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 767
+        width: 254
+        height: 314
+      alignment: 9
+      pivot: {x: 0.8707439, y: 0.5813289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18d217de62392fa0800000000000000
+      internalID: -5825069191390898147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Heavy (3levels)_15
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 863
+        width: 287
+        height: 266
+      alignment: 9
+      pivot: {x: 0.6668378, y: 0.32599106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bd6afebeed6d800800000000000000
+      internalID: 636941502238874384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Heavy (3levels)_17
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 399
+        width: 158
+        height: 188
+      alignment: 9
+      pivot: {x: 0.38888046, y: 0.3047346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98284cfeae0d3d1b0800000000000000
+      internalID: -5632929001446800759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Heavy (3levels)_18
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 327
+        width: 176
+        height: 260
+      alignment: 9
+      pivot: {x: 0.32769567, y: 0.49386117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ab6714a0799fee0800000000000000
+      internalID: -1226783353177982457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Heavy (3levels)_19
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 303
+        width: 242
+        height: 284
+      alignment: 9
+      pivot: {x: 0.63850313, y: 0.53933984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6728e0d197fa5d00800000000000000
+      internalID: 962353676044216172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Heavy (3levels)_20
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 303
+        width: 200
+        height: 284
+      alignment: 9
+      pivot: {x: 0.82719666, y: 0.5449599}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c3b3d7c8831b590800000000000000
+      internalID: -7660279315132892037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Heavy (3levels)_22
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 397
+        width: 245
+        height: 208
+      alignment: 9
+      pivot: {x: 0.6628652, y: 0.29281616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6b886f72ed4d9e0800000000000000
+      internalID: -1597407704588437819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c788939a463852c468fa8601ac49149d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NW Heavy (3levels)_0: 1824211757384266002
+      NW Heavy (3levels)_1: 7109337552920651270
+      NW Heavy (3levels)_10: 1918535729295773521
+      NW Heavy (3levels)_11: 9007160032387222648
+      NW Heavy (3levels)_12: -7633433048559929292
+      NW Heavy (3levels)_13: -5519645248014640762
+      NW Heavy (3levels)_14: -5825069191390898147
+      NW Heavy (3levels)_15: 636941502238874384
+      NW Heavy (3levels)_16: -8971163304816190136
+      NW Heavy (3levels)_17: -5632929001446800759
+      NW Heavy (3levels)_18: -1226783353177982457
+      NW Heavy (3levels)_19: 962353676044216172
+      NW Heavy (3levels)_2: -2710942884674087861
+      NW Heavy (3levels)_20: -7660279315132892037
+      NW Heavy (3levels)_21: 5163457580978963200
+      NW Heavy (3levels)_22: -1597407704588437819
+      NW Heavy (3levels)_3: -8213413006476064053
+      NW Heavy (3levels)_4: 1811082755465174512
+      NW Heavy (3levels)_5: -28004961448297526
+      NW Heavy (3levels)_6: -2890146692534067294
+      NW Heavy (3levels)_7: 1335088212461044282
+      NW Heavy (3levels)_8: 2622887591902569232
+      NW Heavy (3levels)_9: -2290061796878162965
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
