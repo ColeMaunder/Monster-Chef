@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 6dde880e47893314180d268cbc13ff54
+guid: e1c1c32eff1c4664cb4fb91f1e830f0f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7761456842649614842
-    second: NE Poke(1)_0
+      213: -8820531916219683522
+    second: N Thrust_0
   - first:
-      213: 431256140157232257
-    second: NE Poke(1)_1
+      213: 3817136707797520435
+    second: N Thrust_1
   - first:
-      213: -6266690311860610574
-    second: NE Poke(1)_2
+      213: 2061136519121829028
+    second: N Thrust_2
   - first:
-      213: -4554123078209763569
-    second: NE Poke(1)_3
+      213: 2671895567163662250
+    second: N Thrust_3
   - first:
-      213: 385436991763969751
-    second: NE Poke(1)_4
+      213: -119972219384176677
+    second: N Thrust_4
   - first:
-      213: 5258871936575782831
-    second: NE Poke(1)_5
+      213: 8384468749411773695
+    second: N Thrust_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -128,133 +128,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NE Poke(1)_0
+      name: N Thrust_0
       rect:
         serializedVersion: 2
-        x: 164
-        y: 770
-        width: 164
-        height: 200
-      alignment: 9
-      pivot: {x: 0.20102282, y: 0.28709716}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6064852af14c94490800000000000000
-      internalID: -7761456842649614842
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NE Poke(1)_1
-      rect:
-        serializedVersion: 2
-        x: 358
-        y: 782
-        width: 176
+        x: 140
+        y: 479
+        width: 98
         height: 188
       alignment: 9
-      pivot: {x: 0.18475081, y: 0.21860033}
+      pivot: {x: 0.38150117, y: 0.4862736}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1842741bc212cf500800000000000000
-      internalID: 431256140157232257
+      spriteID: e3deab394fc279580800000000000000
+      internalID: -8820531916219683522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NE Poke(1)_2
+      name: N Thrust_1
       rect:
         serializedVersion: 2
-        x: 557
-        y: 782
-        width: 176
-        height: 188
-      alignment: 9
-      pivot: {x: 0.19208215, y: 0.23232707}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f99a2c1d5e3809a0800000000000000
-      internalID: -6266690311860610574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NE Poke(1)_3
-      rect:
-        serializedVersion: 2
-        x: 764
-        y: 782
-        width: 176
-        height: 188
-      alignment: 9
-      pivot: {x: 0.1994133, y: 0.2117368}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f0706eb60318cc0c0800000000000000
-      internalID: -4554123078209763569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NE Poke(1)_4
-      rect:
-        serializedVersion: 2
-        x: 977
-        y: 782
-        width: 176
-        height: 188
-      alignment: 9
-      pivot: {x: 0.19208215, y: 0.22546354}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7d6f261e6e8595500800000000000000
-      internalID: 385436991763969751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NE Poke(1)_5
-      rect:
-        serializedVersion: 2
-        x: 1184
-        y: 776
-        width: 170
+        x: 279
+        y: 479
+        width: 98
         height: 194
       alignment: 9
-      pivot: {x: 0.19639462, y: 0.23395436}
+      pivot: {x: 0.39466733, y: 0.5000003}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fafbed2e9244bf840800000000000000
-      internalID: 5258871936575782831
+      spriteID: 33010679c9139f430800000000000000
+      internalID: 3817136707797520435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Thrust_2
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 479
+        width: 98
+        height: 194
+      alignment: 9
+      pivot: {x: 0.3815015, y: 0.5000003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac77d76eb0aa9c10800000000000000
+      internalID: 2061136519121829028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Thrust_3
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 479
+        width: 98
+        height: 194
+      alignment: 9
+      pivot: {x: 0.39466766, y: 0.49334937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf1bbdacda741520800000000000000
+      internalID: 2671895567163662250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Thrust_4
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 479
+        width: 98
+        height: 194
+      alignment: 9
+      pivot: {x: 0.35516793, y: 0.49334937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdfd0b0f6e5c55ef0800000000000000
+      internalID: -119972219384176677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Thrust_5
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 479
+        width: 98
+        height: 188
+      alignment: 9
+      pivot: {x: 0.35516855, y: 0.5000003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc6d0f97ed9b5470800000000000000
+      internalID: 8384468749411773695
       vertices: []
       indices: 
       edges: []
@@ -263,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8f623f82886d29a47966ac9ce2966e10
+    spriteID: d4b38e0acfc8cce4caf6c964af3bc0d6
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      NE Poke(1)_0: -7761456842649614842
-      NE Poke(1)_1: 431256140157232257
-      NE Poke(1)_2: -6266690311860610574
-      NE Poke(1)_3: -4554123078209763569
-      NE Poke(1)_4: 385436991763969751
-      NE Poke(1)_5: 5258871936575782831
+      N Thrust_0: -8820531916219683522
+      N Thrust_1: 3817136707797520435
+      N Thrust_2: 2061136519121829028
+      N Thrust_3: 2671895567163662250
+      N Thrust_4: -119972219384176677
+      N Thrust_5: 8384468749411773695
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

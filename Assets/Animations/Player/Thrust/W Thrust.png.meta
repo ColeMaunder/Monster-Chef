@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 6dde880e47893314180d268cbc13ff54
+guid: fdab38e218f4ba949951b6058f3f3356
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7761456842649614842
-    second: NE Poke(1)_0
+      213: 6983950734683895672
+    second: W Thrust_0
   - first:
-      213: 431256140157232257
-    second: NE Poke(1)_1
+      213: 1590632170575860115
+    second: W Thrust_1
   - first:
-      213: -6266690311860610574
-    second: NE Poke(1)_2
+      213: 7034884664946867437
+    second: W Thrust_2
   - first:
-      213: -4554123078209763569
-    second: NE Poke(1)_3
+      213: 7204408619876411886
+    second: W Thrust_3
   - first:
-      213: 385436991763969751
-    second: NE Poke(1)_4
+      213: -883649495097502273
+    second: W Thrust_4
   - first:
-      213: 5258871936575782831
-    second: NE Poke(1)_5
+      213: -3660666382281224853
+    second: W Thrust_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -90,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,34 +128,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NE Poke(1)_0
+      name: W Thrust_0
       rect:
         serializedVersion: 2
-        x: 164
-        y: 770
-        width: 164
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6064852af14c94490800000000000000
-      internalID: -7761456842649614842
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NE Poke(1)_1
-      rect:
-        serializedVersion: 2
-        x: 358
-        y: 782
-        width: 176
+        x: 60
+        y: 479
+        width: 212
         height: 188
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -165,19 +143,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1842741bc212cf500800000000000000
-      internalID: 431256140157232257
+      spriteID: 87779adc03afbe060800000000000000
+      internalID: 6983950734683895672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NE Poke(1)_2
+      name: W Thrust_1
       rect:
         serializedVersion: 2
-        x: 557
-        y: 782
-        width: 176
+        x: 309
+        y: 479
+        width: 218
         height: 188
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -187,19 +165,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f99a2c1d5e3809a0800000000000000
-      internalID: -6266690311860610574
+      spriteID: 3919b77188f031610800000000000000
+      internalID: 1590632170575860115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NE Poke(1)_3
+      name: W Thrust_2
       rect:
         serializedVersion: 2
-        x: 764
-        y: 782
-        width: 176
+        x: 559
+        y: 479
+        width: 218
         height: 188
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -209,19 +187,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0706eb60318cc0c0800000000000000
-      internalID: -4554123078209763569
+      spriteID: dec3002945ee0a160800000000000000
+      internalID: 7034884664946867437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NE Poke(1)_4
+      name: W Thrust_3
       rect:
         serializedVersion: 2
-        x: 977
-        y: 782
-        width: 176
+        x: 805
+        y: 479
+        width: 218
         height: 188
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -231,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7d6f261e6e8595500800000000000000
-      internalID: 385436991763969751
+      spriteID: ee9ee7c18733bf360800000000000000
+      internalID: 7204408619876411886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NE Poke(1)_5
+      name: W Thrust_4
       rect:
         serializedVersion: 2
-        x: 1184
-        y: 776
-        width: 170
-        height: 194
+        x: 1052
+        y: 479
+        width: 218
+        height: 188
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,8 +231,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fafbed2e9244bf840800000000000000
-      internalID: 5258871936575782831
+      spriteID: fb592ca4775acb3f0800000000000000
+      internalID: -883649495097502273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W Thrust_5
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 479
+        width: 212
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6dc9e20253b23dc0800000000000000
+      internalID: -3660666382281224853
       vertices: []
       indices: 
       edges: []
@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      W Thrust_0: 6983950734683895672
+      W Thrust_1: 1590632170575860115
+      W Thrust_2: 7034884664946867437
+      W Thrust_3: 7204408619876411886
+      W Thrust_4: -883649495097502273
+      W Thrust_5: -3660666382281224853
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
