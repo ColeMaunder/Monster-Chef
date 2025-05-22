@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: 7171ddffa5c6a53459a5ee18c52cd122
+guid: f42a6bae859bb914589f265039450c91
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5723820728331332451
-    second: NE Player Idle_0
+      213: 5505528534790661171
+    second: N Charge_0
   - first:
-      213: 4637673967384713487
-    second: NE Player Idle_1
-  - first:
-      213: -2027039504959018295
-    second: NE Player Idle_2
-  - first:
-      213: 275772130492359071
-    second: NE Player Idle_3
+      213: 8484954341995008814
+    second: N Charge_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -110,7 +104,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,89 +116,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NE Player Idle_0
+      name: N Charge_0
       rect:
         serializedVersion: 2
-        x: 43
-        y: 14
-        width: 72
-        height: 186
+        x: 203
+        y: 1438
+        width: 164
+        height: 218
       alignment: 9
-      pivot: {x: 0.45, y: 0.35}
+      pivot: {x: 0.23, y: 0.28}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d941bc9af57e090b0800000000000000
-      internalID: -5723820728331332451
+      spriteID: 33469f86801976c40800000000000000
+      internalID: 5505528534790661171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NE Player Idle_1
+      name: N Charge_1
       rect:
         serializedVersion: 2
-        x: 205
-        y: 14
-        width: 72
-        height: 186
+        x: 418
+        y: 1438
+        width: 164
+        height: 212
       alignment: 9
-      pivot: {x: 0.45, y: 0.35}
+      pivot: {x: 0.23, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f09da02e6e35c5040800000000000000
-      internalID: 4637673967384713487
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NE Player Idle_2
-      rect:
-        serializedVersion: 2
-        x: 367
-        y: 14
-        width: 72
-        height: 186
-      alignment: 9
-      pivot: {x: 0.45, y: 0.35}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9caeb395f428ed3e0800000000000000
-      internalID: -2027039504959018295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NE Player Idle_3
-      rect:
-        serializedVersion: 2
-        x: 529
-        y: 14
-        width: 72
-        height: 186
-      alignment: 9
-      pivot: {x: 0.45, y: 0.35}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f9123f4aa4db3d300800000000000000
-      internalID: 275772130492359071
+      spriteID: e235502d40d90c570800000000000000
+      internalID: 8484954341995008814
       vertices: []
       indices: 
       edges: []
@@ -213,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 80c34fd41e91b5c4b83ef83309138aad
+    spriteID: 3120ca87facbeed4daf2e585b157169b
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      NE Player Idle_0: -5723820728331332451
-      NE Player Idle_1: 4637673967384713487
-      NE Player Idle_2: -2027039504959018295
-      NE Player Idle_3: 275772130492359071
+      N Charge_0: 5505528534790661171
+      N Charge_1: 8484954341995008814
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
