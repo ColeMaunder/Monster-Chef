@@ -36,15 +36,27 @@ public class PlayerInventory : MonoBehaviour
         hasDroppedInventory = true;
         PrintInventory();
     }
+    
+     public void SetInventory(int[] invIn){
+     invantory = invIn;
+     }
+    public int[] GetInventory(){
+        return invantory;
+    }
+    public int GetItem(int index){
+        return invantory[index];
+    }
 
-   public void PickUpInventory(){
-        for(int i=0;i<invantory.Length;i++){
+   public void PickUpInventory()
+    {
+        for (int i = 0; i < invantory.Length; i++)
+        {
             invantory[i] += droppedInvantory[i];
         }
         droppedInvantory = null;
         hasDroppedInventory = false;
         PrintInventory();
-   }
+    }
    
    public bool GethasDroppedInventory(){
         return hasDroppedInventory;
