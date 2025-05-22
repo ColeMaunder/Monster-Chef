@@ -9,16 +9,17 @@ public class Player : MonoBehaviour
     public float healAmount = 4f;
     PlayerInventory inventory;
     GameObject spawn;
-    GameObject [] spawners;
+    GameObject[] spawners;
     bool playerAlive = true;
     public GameObject deathScreen;
     private CameraFollow cameraFollow;
     private PlayerData data;
-    public bool GetPlayerAlive() {
+    public bool GetPlayerAlive()
+    {
         return playerAlive;
     }
 
-        void Start()
+    void Start()
     {
         health = maxHealth;
         heals = maxHeals;
@@ -30,43 +31,53 @@ public class Player : MonoBehaviour
         transform.position = spawn.transform.position;
         deathScreen.SetActive(false);
     }
-    
+
     // Update is called once per frame
     void Update()
     {
-        if (!playerAlive){
+        if (!playerAlive)
+        {
             deathScreen.SetActive(true);
             //print ("still dead");
-             if (Input.GetKeyDown(KeyCode.Return)){
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
                 print("alive");
                 Respawn();
                 Reset();
                 Time.timeScale = 1f;
                 playerAlive = true;
             }
-        }else if (Input.GetKeyDown(KeyCode.R)){
-                Heal();
+        }
+        else if (Input.GetKeyDown(KeyCode.R))
+        {
+            Heal();
         }
     }
-    public void damage(float damage){
+    public void damage(float damage)
+    {
         health -= damage;
         data.playHurtSound();
-        cameraFollow.activateShake(30,30,30,0.1f);
+        cameraFollow.activateShake(30, 30, 30, 0.1f);
         print("curent health is " + health);
-        if(health <= 0){
+        if (health <= 0)
+        {
             print("You are Dead");
             Dead();
         }
     }
-    public int GetHeals(){
+    public int GetHeals()
+    {
         return heals;
     }
 
-    public int GetMaxHeals(){
+    public int GetMaxHeals()
+    {
         return maxHeals;
     }
-    private void Heal(){
-        if (heals> 0){
+    private void Heal()
+    {
+        if (heals > 0)
+        {
             data.playHealSound();
             float tempHp = health + healAmount;
             if (tempHp < maxHealth)
@@ -78,11 +89,12 @@ public class Player : MonoBehaviour
                 health = maxHealth;
             }
             heals--;
-            print ("your health is " + health);
+            print("your health is " + health);
         }
-    print("you have " + heals + " healing items reminging");    
+        print("you have " + heals + " healing items reminging");
     }
-    private void Dead(){
+    private void Dead()
+    {
         print("You Died");
         data.playDeathSound();
         playerAlive = false;
@@ -90,11 +102,13 @@ public class Player : MonoBehaviour
         inventory.DropInventory();
     }
 
-    public void HealthFull(){
+    public void HealthFull()
+    {
         health = maxHealth;
     }
 
-    public void Respawn(){
+    public void Respawn()
+    {
         Reset();
         transform.position = spawn.transform.position;
         health = maxHealth;
@@ -102,48 +116,64 @@ public class Player : MonoBehaviour
         Time.timeScale = 1f;
         playerAlive = true;
         deathScreen.SetActive(false);
-        
+
     }
 
     public void Reset()
     {
-        GameObject [] enemys = GameObject.FindGameObjectsWithTag("Enemy");
-        foreach(GameObject enemy in enemys){
+        GameObject[] enemys = GameObject.FindGameObjectsWithTag("Enemy");
+        foreach (GameObject enemy in enemys)
+        {
             Destroy(enemy);
         }
-        GameObject [] enemydrops = GameObject.FindGameObjectsWithTag("EnemyDrop");
-        foreach(GameObject enemydrop in enemydrops){
+        GameObject[] enemydrops = GameObject.FindGameObjectsWithTag("EnemyDrop");
+        foreach (GameObject enemydrop in enemydrops)
+        {
             Destroy(enemydrop);
         }
-        foreach(GameObject spawner in spawners){
+        foreach (GameObject spawner in spawners)
+        {
             spawner.SetActive(true);
         }
         GameObject.FindWithTag("PlayerData").GetComponent<WeaponAttacks>().SetUltCharge(0);
     }
 
-    public void RefillHeals(){
+    public void RefillHeals()
+    {
         heals = maxHeals;
     }
-    public void RefillHealth(){
+    public void RefillHealth()
+    {
         health = maxHealth;
     }
 
-    public float GetHealth(){
+    public float GetHealth()
+    {
         return health;
     }
-    public float GetMaxHealth(){
+    public float GetMaxHealth()
+    {
         return maxHealth;
     }
-    public void SetMaxHealth(float healthIn){
+    public void SetMaxHealth(float healthIn)
+    {
         maxHealth = healthIn;
     }
-    public void UpdateAll(){
+    public void UpdateAll()
+    {
         spawners = GameObject.FindGameObjectsWithTag("Spawner");
         spawn = GameObject.FindWithTag("Respawn");
     }
-    public void WipeAll(){
+    public void WipeAll()
+    {
         spawners = null;
         spawn = null;
+    }
+
+    public void SetBoth(int[] inArr)
+    {
+        health = inArr[0];
+        heals = inArr[1];
     }
 
 

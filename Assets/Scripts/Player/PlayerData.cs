@@ -67,6 +67,12 @@ public class PlayerData : MonoBehaviour
     public void SetUnlockedRecipe(int index, bool status){
         unlockedRecipes[index] = status;
     }
+    public bool[] GetUnlockedRecipes(int[] index){
+        return unlockedRecipes;
+    }
+    public bool[] GetUnlockedRecipes(){
+        return unlockedRecipes;
+    }
     public float moveSpeed = 5f;
     public float GetMoveSpeed(){
         return moveSpeed;
