@@ -27,7 +27,6 @@ public class Enemy : MonoBehaviour
     }
     private IEnumerator ResetHitEffects(float duration){
 
-        float flashTime = 0f;
         float flashTimePassed = 0f;
         hurtEffect.SetColor("_HitEffectColor", Color.white );
         while (flashTimePassed < duration) {

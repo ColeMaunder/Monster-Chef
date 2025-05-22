@@ -136,7 +136,7 @@ TextureImporter:
         width: 158
         height: 236
       alignment: 9
-      pivot: {x: 0.48366672, y: 0.41798815}
+      pivot: {x: 0.51446784, y: 0.57258683}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -158,7 +158,7 @@ TextureImporter:
         width: 158
         height: 272
       alignment: 9
-      pivot: {x: 0.2386689, y: 0.50948805}
+      pivot: {x: 0.29099476, y: 0.6293972}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -175,12 +175,12 @@ TextureImporter:
       name: SE Thrust_2
       rect:
         serializedVersion: 2
-        x: 500
+        x: 501
         y: 389
         width: 158
         height: 272
       alignment: 9
-      pivot: {x: 0.24683583, y: 0.50948805}
+      pivot: {x: 0.28347778, y: 0.6314632}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: SE Thrust_3
       rect:
         serializedVersion: 2
-        x: 677
-        y: 389
+        x: 678
+        y: 388
         width: 158
         height: 272
       alignment: 9
-      pivot: {x: 0.24683583, y: 0.50948805}
+      pivot: {x: 0.28389305, y: 0.6345372}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -219,12 +219,12 @@ TextureImporter:
       name: SE Thrust_4
       rect:
         serializedVersion: 2
-        x: 854
+        x: 855
         y: 389
         width: 158
         height: 272
       alignment: 9
-      pivot: {x: 0.24683544, y: 0.5047441}
+      pivot: {x: 0.28035107, y: 0.6331655}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -246,7 +246,7 @@ TextureImporter:
         width: 158
         height: 242
       alignment: 9
-      pivot: {x: 0.44283402, y: 0.4306855}
+      pivot: {x: 0.47855967, y: 0.5870876}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
