@@ -1,0 +1,552 @@
+fileFormatVersion: 2
+guid: 65815800d81d1d841969dbbfb70d9a45
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7233332560017016335
+    second: NE Heavy (3levels)_0
+  - first:
+      213: -5640542751241770362
+    second: NE Heavy (3levels)_1
+  - first:
+      213: -6571620858899239054
+    second: NE Heavy (3levels)_2
+  - first:
+      213: -158446387670784949
+    second: NE Heavy (3levels)_3
+  - first:
+      213: 1021967530743744562
+    second: NE Heavy (3levels)_4
+  - first:
+      213: 876294254603552277
+    second: NE Heavy (3levels)_5
+  - first:
+      213: -2878751910100964514
+    second: NE Heavy (3levels)_6
+  - first:
+      213: 6231043402437876328
+    second: NE Heavy (3levels)_7
+  - first:
+      213: -3645150624984819157
+    second: NE Heavy (3levels)_8
+  - first:
+      213: -4584401375626714478
+    second: NE Heavy (3levels)_9
+  - first:
+      213: -1844612035919183601
+    second: NE Heavy (3levels)_10
+  - first:
+      213: -4273811840856077419
+    second: NE Heavy (3levels)_11
+  - first:
+      213: -7144378797808792413
+    second: NE Heavy (3levels)_12
+  - first:
+      213: 6927433683848493534
+    second: NE Heavy (3levels)_13
+  - first:
+      213: -6358748105717700855
+    second: NE Heavy (3levels)_14
+  - first:
+      213: -2933114482142693958
+    second: NE Heavy (3levels)_15
+  - first:
+      213: -490663785041978742
+    second: NE Heavy (3levels)_16
+  - first:
+      213: -7853618195110751526
+    second: NE Heavy (3levels)_17
+  - first:
+      213: 3062541825146907478
+    second: NE Heavy (3levels)_18
+  - first:
+      213: -7896405286122464755
+    second: NE Heavy (3levels)_19
+  - first:
+      213: -1999023989299122618
+    second: NE Heavy (3levels)_20
+  - first:
+      213: 267450778938274936
+    second: NE Heavy (3levels)_21
+  - first:
+      213: 6766778924614689444
+    second: NE Heavy (3levels)_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NE Heavy (3levels)_0
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1439
+        width: 158
+        height: 188
+      alignment: 9
+      pivot: {x: 0.61700654, y: 0.32955348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06c416b3a5f16460800000000000000
+      internalID: 7233332560017016335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Heavy (3levels)_1
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1367
+        width: 194
+        height: 260
+      alignment: 9
+      pivot: {x: 0.7032939, y: 0.504741}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a64dba044c8b1b0800000000000000
+      internalID: -5640542751241770362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Heavy (3levels)_2
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1211
+        width: 374
+        height: 416
+      alignment: 9
+      pivot: {x: 0.28250596, y: 0.69257355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f63c295a9ecc4a0800000000000000
+      internalID: -6571620858899239054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Heavy (3levels)_3
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1235
+        width: 344
+        height: 410
+      alignment: 9
+      pivot: {x: 0.098731816, y: 0.6442892}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4460f299d51dcdf0800000000000000
+      internalID: -158446387670784949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Heavy (3levels)_4
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1439
+        width: 394
+        height: 326
+      alignment: 9
+      pivot: {x: 0.3310835, y: 0.1824322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238c6f9fd02ce2e00800000000000000
+      internalID: 1021967530743744562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Heavy (3levels)_11
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 893
+        width: 158
+        height: 188
+      alignment: 9
+      pivot: {x: 0.6092061, y: 0.32299706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b4aec36ce50b4c0800000000000000
+      internalID: -4273811840856077419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Heavy (3levels)_12
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 821
+        width: 182
+        height: 260
+      alignment: 9
+      pivot: {x: 0.68283886, y: 0.5094809}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac46cff5511adc90800000000000000
+      internalID: -7144378797808792413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Heavy (3levels)_13
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 725
+        width: 290
+        height: 356
+      alignment: 9
+      pivot: {x: 0.38100332, y: 0.6384798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed97dda7b30332060800000000000000
+      internalID: 6927433683848493534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Heavy (3levels)_14
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 767
+        width: 254
+        height: 314
+      alignment: 9
+      pivot: {x: 0.14093499, y: 0.59420174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9072286b94031c7a0800000000000000
+      internalID: -6358748105717700855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Heavy (3levels)_15
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 859
+        width: 286
+        height: 270
+      alignment: 9
+      pivot: {x: 0.3319365, y: 0.34936568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5b4563beb7b47d0800000000000000
+      internalID: -2933114482142693958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Heavy (3levels)_17
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 399
+        width: 158
+        height: 188
+      alignment: 9
+      pivot: {x: 0.6092061, y: 0.31644163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad211ee9cd7520390800000000000000
+      internalID: -7853618195110751526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Heavy (3levels)_18
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 327
+        width: 176
+        height: 260
+      alignment: 9
+      pivot: {x: 0.6750669, y: 0.50474054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b68ad5095508a20800000000000000
+      internalID: 3062541825146907478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Heavy (3levels)_19
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 303
+        width: 242
+        height: 284
+      alignment: 9
+      pivot: {x: 0.36249334, y: 0.54339707}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a572eaa355a6290800000000000000
+      internalID: -7896405286122464755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Heavy (3levels)_20
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 303
+        width: 200
+        height: 284
+      alignment: 9
+      pivot: {x: 0.17955993, y: 0.55207664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e6754e54a0244e0800000000000000
+      internalID: -1999023989299122618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Heavy (3levels)_21
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 398
+        width: 243
+        height: 207
+      alignment: 9
+      pivot: {x: 0.34277242, y: 0.2975663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8747481011d26b300800000000000000
+      internalID: 267450778938274936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 96f45cd0ff152a84593013160304b2be
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NE Heavy (3levels)_0: 7233332560017016335
+      NE Heavy (3levels)_1: -5640542751241770362
+      NE Heavy (3levels)_10: -1844612035919183601
+      NE Heavy (3levels)_11: -4273811840856077419
+      NE Heavy (3levels)_12: -7144378797808792413
+      NE Heavy (3levels)_13: 6927433683848493534
+      NE Heavy (3levels)_14: -6358748105717700855
+      NE Heavy (3levels)_15: -2933114482142693958
+      NE Heavy (3levels)_16: -490663785041978742
+      NE Heavy (3levels)_17: -7853618195110751526
+      NE Heavy (3levels)_18: 3062541825146907478
+      NE Heavy (3levels)_19: -7896405286122464755
+      NE Heavy (3levels)_2: -6571620858899239054
+      NE Heavy (3levels)_20: -1999023989299122618
+      NE Heavy (3levels)_21: 267450778938274936
+      NE Heavy (3levels)_22: 6766778924614689444
+      NE Heavy (3levels)_3: -158446387670784949
+      NE Heavy (3levels)_4: 1021967530743744562
+      NE Heavy (3levels)_5: 876294254603552277
+      NE Heavy (3levels)_6: -2878751910100964514
+      NE Heavy (3levels)_7: 6231043402437876328
+      NE Heavy (3levels)_8: -3645150624984819157
+      NE Heavy (3levels)_9: -4584401375626714478
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

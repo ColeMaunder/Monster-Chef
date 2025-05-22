@@ -1,0 +1,552 @@
+fileFormatVersion: 2
+guid: 80a9150b06642c44ab21645a00073728
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1338905286627190045
+    second: E Heavy (3levels)_0
+  - first:
+      213: -66533831083244
+    second: E Heavy (3levels)_1
+  - first:
+      213: -4551442018751152751
+    second: E Heavy (3levels)_2
+  - first:
+      213: -7122555076130363547
+    second: E Heavy (3levels)_3
+  - first:
+      213: 1131186357129453368
+    second: E Heavy (3levels)_4
+  - first:
+      213: -1179320932450457401
+    second: E Heavy (3levels)_5
+  - first:
+      213: -6639011617309798145
+    second: E Heavy (3levels)_6
+  - first:
+      213: 3626563696035988707
+    second: E Heavy (3levels)_7
+  - first:
+      213: 4870219353698279413
+    second: E Heavy (3levels)_8
+  - first:
+      213: 7830887004372991818
+    second: E Heavy (3levels)_9
+  - first:
+      213: 1987990504545612293
+    second: E Heavy (3levels)_10
+  - first:
+      213: -5219057704365184602
+    second: E Heavy (3levels)_11
+  - first:
+      213: -2508211732541491616
+    second: E Heavy (3levels)_12
+  - first:
+      213: 989782703237671641
+    second: E Heavy (3levels)_13
+  - first:
+      213: -1021562985508214626
+    second: E Heavy (3levels)_14
+  - first:
+      213: -1252583361473460508
+    second: E Heavy (3levels)_15
+  - first:
+      213: -5078484621529959925
+    second: E Heavy (3levels)_16
+  - first:
+      213: -8981950515047609635
+    second: E Heavy (3levels)_17
+  - first:
+      213: -9147684228489528698
+    second: E Heavy (3levels)_18
+  - first:
+      213: -3984977321201995495
+    second: E Heavy (3levels)_19
+  - first:
+      213: -5466250837356691632
+    second: E Heavy (3levels)_20
+  - first:
+      213: -3004264794509140678
+    second: E Heavy (3levels)_21
+  - first:
+      213: -4199701797613413989
+    second: E Heavy (3levels)_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: E Heavy (3levels)_0
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1427
+        width: 158
+        height: 200
+      alignment: 9
+      pivot: {x: 0.76, y: 0.34}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea91b25cb04b6de0800000000000000
+      internalID: -1338905286627190045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Heavy (3levels)_1
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1367
+        width: 230
+        height: 260
+      alignment: 9
+      pivot: {x: 0.70999914, y: 0.4941115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bf1a2ec73cffff0800000000000000
+      internalID: -66533831083244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Heavy (3levels)_2
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1217
+        width: 374
+        height: 410
+      alignment: 9
+      pivot: {x: 0.25386316, y: 0.67009395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19dfc88399706d0c0800000000000000
+      internalID: -4551442018751152751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Heavy (3levels)_3
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1217
+        width: 398
+        height: 410
+      alignment: 9
+      pivot: {x: 0.2231476, y: 0.6734958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567281a25e9972d90800000000000000
+      internalID: -7122555076130363547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Heavy (3levels)_4
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1221
+        width: 342
+        height: 418
+      alignment: 9
+      pivot: {x: 0.10032752, y: 0.65349144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f187f9ff7c2bf00800000000000000
+      internalID: 1131186357129453368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Heavy (3levels)_9
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 882
+        width: 158
+        height: 200
+      alignment: 9
+      pivot: {x: 0.7439829, y: 0.33791777}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fffdb9d36ecac60800000000000000
+      internalID: 7830887004372991818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Heavy (3levels)_10
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 834
+        width: 218
+        height: 248
+      alignment: 9
+      pivot: {x: 0.6768317, y: 0.46467245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5027a40c4d2c69b10800000000000000
+      internalID: 1987990504545612293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Heavy (3levels)_11
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 738
+        width: 290
+        height: 344
+      alignment: 9
+      pivot: {x: 0.33988142, y: 0.61460876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a92c0d6bae2297b0800000000000000
+      internalID: -5219057704365184602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Heavy (3levels)_12
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 756
+        width: 272
+        height: 326
+      alignment: 9
+      pivot: {x: 0.11669742, y: 0.59674954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066b564e7ba013dd0800000000000000
+      internalID: -2508211732541491616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Heavy (3levels)_13
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 771
+        width: 273
+        height: 312
+      alignment: 9
+      pivot: {x: 0.12131106, y: 0.57300997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9daae4fdf1a6cbd00800000000000000
+      internalID: 989782703237671641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Heavy (3levels)_16
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 387
+        width: 158
+        height: 200
+      alignment: 9
+      pivot: {x: 0.7490225, y: 0.33257216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b023c68c4299589b0800000000000000
+      internalID: -5078484621529959925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Heavy (3levels)_17
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 351
+        width: 218
+        height: 236
+      alignment: 9
+      pivot: {x: 0.6804843, y: 0.43615037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda43705893b95380800000000000000
+      internalID: -8981950515047609635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Heavy (3levels)_18
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 303
+        width: 254
+        height: 284
+      alignment: 9
+      pivot: {x: 0.41430882, y: 0.5324244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a307329a5ec0180800000000000000
+      internalID: -9147684228489528698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Heavy (3levels)_19
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 303
+        width: 218
+        height: 284
+      alignment: 9
+      pivot: {x: 0.15823224, y: 0.535372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91174cb5d3482b8c0800000000000000
+      internalID: -3984977321201995495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Heavy (3levels)_20
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 313
+        width: 218
+        height: 274
+      alignment: 9
+      pivot: {x: 0.1670269, y: 0.520669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f3c2a23d9f324b0800000000000000
+      internalID: -5466250837356691632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 412ad711b76044f459ef3987d7a7e5e6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      E Heavy (3levels)_0: -1338905286627190045
+      E Heavy (3levels)_1: -66533831083244
+      E Heavy (3levels)_10: 1987990504545612293
+      E Heavy (3levels)_11: -5219057704365184602
+      E Heavy (3levels)_12: -2508211732541491616
+      E Heavy (3levels)_13: 989782703237671641
+      E Heavy (3levels)_14: -1021562985508214626
+      E Heavy (3levels)_15: -1252583361473460508
+      E Heavy (3levels)_16: -5078484621529959925
+      E Heavy (3levels)_17: -8981950515047609635
+      E Heavy (3levels)_18: -9147684228489528698
+      E Heavy (3levels)_19: -3984977321201995495
+      E Heavy (3levels)_2: -4551442018751152751
+      E Heavy (3levels)_20: -5466250837356691632
+      E Heavy (3levels)_21: -3004264794509140678
+      E Heavy (3levels)_22: -4199701797613413989
+      E Heavy (3levels)_3: -7122555076130363547
+      E Heavy (3levels)_4: 1131186357129453368
+      E Heavy (3levels)_5: -1179320932450457401
+      E Heavy (3levels)_6: -6639011617309798145
+      E Heavy (3levels)_7: 3626563696035988707
+      E Heavy (3levels)_8: 4870219353698279413
+      E Heavy (3levels)_9: 7830887004372991818
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,553 @@
+fileFormatVersion: 2
+guid: 476a82c6089054a43b6626198de726a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 497326569682736096
+    second: N Heavy (3levels)_0
+  - first:
+      213: 7838568827661019834
+    second: N Heavy (3levels)_1
+  - first:
+      213: 2946641857049125621
+    second: N Heavy (3levels)_2
+  - first:
+      213: 6864601031236276682
+    second: N Heavy (3levels)_3
+  - first:
+      213: -1420913362612734952
+    second: N Heavy (3levels)_4
+  - first:
+      213: 8206035238762567592
+    second: N Heavy (3levels)_5
+  - first:
+      213: 4618384520322013105
+    second: N Heavy (3levels)_6
+  - first:
+      213: 3009088239420205312
+    second: N Heavy (3levels)_7
+  - first:
+      213: -968437993886976217
+    second: N Heavy (3levels)_8
+  - first:
+      213: 2883833405445574995
+    second: N Heavy (3levels)_9
+  - first:
+      213: 297858432935729975
+    second: N Heavy (3levels)_10
+  - first:
+      213: 6639356656967063985
+    second: N Heavy (3levels)_11
+  - first:
+      213: 2159330589838996347
+    second: N Heavy (3levels)_12
+  - first:
+      213: 8171420133679914083
+    second: N Heavy (3levels)_13
+  - first:
+      213: 2452382778131170533
+    second: N Heavy (3levels)_14
+  - first:
+      213: 5564705591366404938
+    second: N Heavy (3levels)_15
+  - first:
+      213: -8779645462563369522
+    second: N Heavy (3levels)_16
+  - first:
+      213: -49737302150909452
+    second: N Heavy (3levels)_17
+  - first:
+      213: 605680893247730991
+    second: N Heavy (3levels)_18
+  - first:
+      213: 6585027336352278269
+    second: N Heavy (3levels)_19
+  - first:
+      213: -3969522827489887384
+    second: N Heavy (3levels)_20
+  - first:
+      213: 8766034055185152591
+    second: N Heavy (3levels)_21
+  - first:
+      213: -1141762200125198663
+    second: N Heavy (3levels)_22
+  - first:
+      213: 8595990234005574901
+    second: N Heavy (3levels)_23
+  - first:
+      213: 4278448203956324281
+    second: N Heavy (3levels)_24
+  - first:
+      213: -2120529260381603189
+    second: N Heavy (3levels)_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: N Heavy (3levels)_2
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1438
+        width: 332
+        height: 302
+      alignment: 9
+      pivot: {x: 0.11322058, y: 0.20472161}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e39d4351ebd6e600800000000000000
+      internalID: 497326569682736096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Heavy (3levels)_3
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1438
+        width: 434
+        height: 380
+      alignment: 9
+      pivot: {x: 0.48561737, y: 0.1644239}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba6f2871d038cc60800000000000000
+      internalID: 7838568827661019834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Heavy (3levels)_4
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 1438
+        width: 381
+        height: 333
+      alignment: 9
+      pivot: {x: 0.7129887, y: 0.18400799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2e5b1382394e820800000000000000
+      internalID: 2946641857049125621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Heavy (3levels)_0
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1438
+        width: 164
+        height: 218
+      alignment: 9
+      pivot: {x: 0.22812755, y: 0.2791104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7d7cc7291b1e170800000000000000
+      internalID: 8206035238762567592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Heavy (3levels)_1
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1438
+        width: 218
+        height: 206
+      alignment: 9
+      pivot: {x: 0.17275539, y: 0.3008743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7d4f1804cc71040800000000000000
+      internalID: 4618384520322013105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Heavy (3levels)_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 894
+        width: 164
+        height: 218
+      alignment: 9
+      pivot: {x: 0.22812764, y: 0.2872922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00962789fcd62c920800000000000000
+      internalID: 3009088239420205312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Heavy (3levels)_8
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 894
+        width: 344
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5129618, y: 0.21078677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727ff5b86ca6f82f0800000000000000
+      internalID: -968437993886976217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Heavy (3levels)_6
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 894
+        width: 230
+        height: 206
+      alignment: 9
+      pivot: {x: 0.16268921, y: 0.3008746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73fcf71bbb77fd10800000000000000
+      internalID: 2159330589838996347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Heavy (3levels)_7
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 894
+        width: 260
+        height: 212
+      alignment: 9
+      pivot: {x: 0.1433035, y: 0.29809687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c577a4157b66170800000000000000
+      internalID: 8171420133679914083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Heavy (3levels)_9
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 894
+        width: 322
+        height: 249
+      alignment: 9
+      pivot: {x: 0.73262924, y: 0.24930999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e44bc7b42d980220800000000000000
+      internalID: 2452382778131170533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Heavy (3levels)_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 400
+        width: 164
+        height: 218
+      alignment: 9
+      pivot: {x: 0.23356499, y: 0.2832013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1753def2c4f4ff0800000000000000
+      internalID: -49737302150909452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Heavy (3levels)_13
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 400
+        width: 272
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5393421, y: 0.26572937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25b549309fc76800800000000000000
+      internalID: 605680893247730991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Heavy (3levels)_11
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 400
+        width: 218
+        height: 194
+      alignment: 9
+      pivot: {x: 0.17275539, y: 0.32073346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bea19b0455a720f0800000000000000
+      internalID: -1141762200125198663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Heavy (3levels)_12
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 400
+        width: 224
+        height: 194
+      alignment: 9
+      pivot: {x: 0.169578, y: 0.32073346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f411a603971b4770800000000000000
+      internalID: 8595990234005574901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Heavy (3levels)_14
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 400
+        width: 305
+        height: 215
+      alignment: 9
+      pivot: {x: 0.67250174, y: 0.2884713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b789ba29f9106b30800000000000000
+      internalID: 4278448203956324281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1742c1dceb4f19e47ac38a6042775b79
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      N Heavy (3levels)_0: 8206035238762567592
+      N Heavy (3levels)_1: 4618384520322013105
+      N Heavy (3levels)_10: -49737302150909452
+      N Heavy (3levels)_11: -1141762200125198663
+      N Heavy (3levels)_12: 8595990234005574901
+      N Heavy (3levels)_13: 605680893247730991
+      N Heavy (3levels)_14: 4278448203956324281
+      N Heavy (3levels)_2: 497326569682736096
+      N Heavy (3levels)_3: 7838568827661019834
+      N Heavy (3levels)_4: 2946641857049125621
+      N Heavy (3levels)_5: 3009088239420205312
+      N Heavy (3levels)_6: 2159330589838996347
+      N Heavy (3levels)_7: 8171420133679914083
+      N Heavy (3levels)_8: -968437993886976217
+      N Heavy (3levels)_9: 2452382778131170533
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
