@@ -45,6 +45,7 @@ public class PlayerAttack : MonoBehaviour
                 } else if (Input.GetMouseButton(1) /*|| Input.GetKeyDown(keys.GetKey(5))*/){
                     lightCombo = 0;
                     heavyCharge = heavyCharge +1 * Time.deltaTime;
+                    animator.SetBool("Charging", true);
                     print (heavyCharge);
                     if (heavyCharge > attacks.GetChargeMax()){
                         Attack(4);
@@ -82,6 +83,7 @@ public class PlayerAttack : MonoBehaviour
     
     }
      void Attack(int type){
+        animator.SetBool("Charging", false);
         print("attck type" + type);
         animator.SetFloat("AttackType", type);
         animator.SetBool("IsAttacking", true);

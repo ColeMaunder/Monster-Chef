@@ -136,7 +136,7 @@ TextureImporter:
         width: 212
         height: 188
       alignment: 9
-      pivot: {x: 0.4208764, y: 0.28037083}
+      pivot: {x: 0.42532802, y: 0.31400606}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -153,12 +153,12 @@ TextureImporter:
       name: NE Thrust_1
       rect:
         serializedVersion: 2
-        x: 309
+        x: 310
         y: 480
         width: 218
         height: 188
       alignment: 9
-      pivot: {x: 0.15670314, y: 0.30096143}
+      pivot: {x: 0.13785098, y: 0.2963062}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,7 +180,7 @@ TextureImporter:
         width: 218
         height: 188
       alignment: 9
-      pivot: {x: 0.14486526, y: 0.3009611}
+      pivot: {x: 0.15605569, y: 0.30326682}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -202,7 +202,7 @@ TextureImporter:
         width: 218
         height: 188
       alignment: 9
-      pivot: {x: 0.15078455, y: 0.3009611}
+      pivot: {x: 0.15140554, y: 0.30977353}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -219,12 +219,12 @@ TextureImporter:
       name: NE Thrust_4
       rect:
         serializedVersion: 2
-        x: 1052
+        x: 1053
         y: 479
         width: 218
         height: 188
       alignment: 9
-      pivot: {x: 0.14486554, y: 0.3009611}
+      pivot: {x: 0.14633599, y: 0.3152284}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -242,11 +242,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1296
-        y: 479
+        y: 480
         width: 212
         height: 188
       alignment: 9
-      pivot: {x: 0.2869758, y: 0.3009611}
+      pivot: {x: 0.30508998, y: 0.30227855}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
