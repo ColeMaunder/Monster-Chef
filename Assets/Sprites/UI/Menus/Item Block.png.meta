@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 01d9f55371199524391e287144babb32
+guid: 52f86d29af6fc61438c8e5992ab0e971
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5107431437010187528
-    second: Menu + recipe_0
-  - first:
-      213: -884148213504142590
-    second: Menu + recipe_1
+      213: 4813467462134552263
+    second: Unlocked Recipe_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Menu + recipe_0
+      name: Unlocked Recipe_0
       rect:
         serializedVersion: 2
-        x: 101
-        y: 83
-        width: 1740
-        height: 890
+        x: 216
+        y: 822
+        width: 132
+        height: 132
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8fa485a1b22ce19b0800000000000000
-      internalID: -5107431437010187528
+      spriteID: 34116ae76faaa3f438328bb6ae0ad51a
+      internalID: 1071443884
       vertices: []
       indices: 
       edges: []
@@ -141,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8151f02aeb0cda048a82053d5d7fde02
+    spriteID: e905f629e15a8d542920daf1b7eb48f1
     internalID: 0
     vertices: []
     indices: 
@@ -151,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Menu + recipe_0: -5107431437010187528
+      Unlocked Recipe_0: 1071443884
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

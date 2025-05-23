@@ -1,13 +1,109 @@
 fileFormatVersion: 2
-guid: 01d9f55371199524391e287144babb32
+guid: 41c5aa7b16353974191f2bb3a6e3018c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5107431437010187528
-    second: Menu + recipe_0
+      213: -487831679973104357
+    second: Map Lines_0
   - first:
-      213: -884148213504142590
-    second: Menu + recipe_1
+      213: -6036954678017603020
+    second: Map Lines_1
+  - first:
+      213: -869059205464926750
+    second: Map Lines_2
+  - first:
+      213: -735700745214906922
+    second: Map Lines_3
+  - first:
+      213: 5307145115178956017
+    second: Map Lines_4
+  - first:
+      213: 2994561026785004792
+    second: Map Lines_5
+  - first:
+      213: 1636343047314260862
+    second: Map Lines_6
+  - first:
+      213: 3875676304878176838
+    second: Map Lines_7
+  - first:
+      213: 6495413710223343481
+    second: Map Lines_8
+  - first:
+      213: 8122587766542105897
+    second: Map Lines_9
+  - first:
+      213: -7243099217301119262
+    second: Map Lines_10
+  - first:
+      213: -8884449078507697327
+    second: Map Lines_11
+  - first:
+      213: -3456895224960924227
+    second: Map Lines_12
+  - first:
+      213: -438004531486610780
+    second: Map Lines_13
+  - first:
+      213: -1580562166071111280
+    second: Map Lines_14
+  - first:
+      213: -2591301395607200171
+    second: Map Lines_15
+  - first:
+      213: -6577276860157982112
+    second: Map Lines_16
+  - first:
+      213: -6533730770976395802
+    second: Map Lines_17
+  - first:
+      213: -3469524144717225575
+    second: Map Lines_18
+  - first:
+      213: -8249612923277834374
+    second: Map Lines_19
+  - first:
+      213: -2070289208928415809
+    second: Map Lines_20
+  - first:
+      213: -8965137245202114444
+    second: Map Lines_21
+  - first:
+      213: 5912210987933280302
+    second: Map Lines_22
+  - first:
+      213: 5503453840331429487
+    second: Map Lines_23
+  - first:
+      213: -7202792506378831963
+    second: Map Lines_24
+  - first:
+      213: 3665176994881884170
+    second: Map Lines_25
+  - first:
+      213: -1543643498555816595
+    second: Map Lines_26
+  - first:
+      213: 6068619341006470278
+    second: Map Lines_27
+  - first:
+      213: 8727274305134560181
+    second: Map Lines_28
+  - first:
+      213: 4251213087140150254
+    second: Map Lines_29
+  - first:
+      213: -1733615070074681048
+    second: Map Lines_30
+  - first:
+      213: -7570335223963113293
+    second: Map Lines_31
+  - first:
+      213: -7801389201398734189
+    second: Map Lines_32
+  - first:
+      213: -4692139219936401090
+    second: Map Lines_33
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,23 +212,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Menu + recipe_0
+      name: Map Lines_0
       rect:
         serializedVersion: 2
-        x: 101
-        y: 83
-        width: 1740
-        height: 890
+        x: 339
+        y: 264
+        width: 977
+        height: 513
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8fa485a1b22ce19b0800000000000000
-      internalID: -5107431437010187528
+      spriteID: 3e0b75e003d58f3468c7530bf5881d03
+      internalID: 615899062
       vertices: []
       indices: 
       edges: []
@@ -141,7 +237,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8151f02aeb0cda048a82053d5d7fde02
+    spriteID: 6f16e3a30cc1ec44b9512708eb046de4
     internalID: 0
     vertices: []
     indices: 
@@ -151,7 +247,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Menu + recipe_0: -5107431437010187528
+      Map Lines_0: 615899062
+      Map Lines_34: 1605251247
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
