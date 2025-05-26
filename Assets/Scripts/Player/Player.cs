@@ -11,9 +11,9 @@ public class Player : MonoBehaviour
     GameObject spawn;
     GameObject[] spawners;
     bool playerAlive = true;
-    public GameObject deathScreen;
     private CameraFollow cameraFollow;
     private PlayerData data;
+    private MenuHandler menu;
     public bool GetPlayerAlive()
     {
         return playerAlive;
@@ -23,13 +23,14 @@ public class Player : MonoBehaviour
     {
         health = maxHealth;
         heals = maxHeals;
+        menu = GameObject.FindWithTag("UI").GetComponent<MenuHandler>();
         inventory = GameObject.FindWithTag("Player").GetComponent<PlayerInventory>();
         data = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
         spawn = GameObject.FindWithTag("Respawn");
         spawners = GameObject.FindGameObjectsWithTag("Spawner");
         cameraFollow = GameObject.FindWithTag("MainCamera").GetComponent<CameraFollow>();
         transform.position = spawn.transform.position;
-        deathScreen.SetActive(false);
+        menu.showDeathScreen(false);
     }
 
     // Update is called once per frame
@@ -37,7 +38,7 @@ public class Player : MonoBehaviour
     {
         if (!playerAlive)
         {
-            deathScreen.SetActive(true);
+            menu.showDeathScreen(true);
             //print ("still dead");
             if (Input.GetKeyDown(KeyCode.Return))
             {
@@ -115,7 +116,7 @@ public class Player : MonoBehaviour
         heals = maxHeals;
         Time.timeScale = 1f;
         playerAlive = true;
-        deathScreen.SetActive(false);
+        menu.showDeathScreen(false);
 
     }
 

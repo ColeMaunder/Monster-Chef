@@ -5,13 +5,11 @@ public class EnvironmentHandler : MonoBehaviour
 
     PlayerData player;
     public Rigidbody2D playerRB;
-    public float dotCan = 0f;
-    public float dotCant = 0.7f;
-    public float mudMod = 0.5f;
+    //public float dotCan = 0f;
+    //public float dotCant = 0.7f;
+    //public float mudMod = 0.5f;
     public float mudDrag = 30f;
-    public float waterStop = 3000f;
-    public GameObject Player;
-    public GameObject startBlock;
+    //public float waterStop = 3000f;
 
     void Start()
     {
@@ -82,7 +80,7 @@ public class EnvironmentHandler : MonoBehaviour
 
          }*/
     }
-
+    /*
     void OnTriggerStay2D(Collider2D inside)
     {
         if (inside.gameObject.name == "Water")
@@ -104,7 +102,7 @@ public class EnvironmentHandler : MonoBehaviour
             Possible Fixes:
             - If Water object is less wide the player cant get the angle to get across
             - Will this change when we start using tilemaps? is each tile a square game object?
-            */
+            
 
             //Debug to check the direction Visually and look at dot Value - Thanks to this realised had to reverse InDirect
             Debug.DrawLine(Player.transform.position, Player.transform.position + playerVelocity.normalized, Color.green);
@@ -136,6 +134,6 @@ public class EnvironmentHandler : MonoBehaviour
 
         }
 
-    }
+    }*/
 }
 

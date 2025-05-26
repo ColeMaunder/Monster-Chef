@@ -19,6 +19,8 @@ TagManager:
   - PauseScreen
   - SettingsScreen
   - StorageHandeler
+  - StorageHandler
+  - Walls
   layers:
   - Default
   - TransparentFX

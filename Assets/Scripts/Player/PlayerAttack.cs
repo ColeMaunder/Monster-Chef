@@ -83,7 +83,7 @@ public class PlayerAttack : MonoBehaviour
     
     }
      void Attack(int type){
-        animator.SetBool("Charging", false);
+        //animator.SetBool("Charging", false);
         print("attck type" + type);
         animator.SetFloat("AttackType", type);
         animator.SetBool("IsAttacking", true);

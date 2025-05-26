@@ -7,7 +7,7 @@ public class SceneChanger : MonoBehaviour
     public string SceneTo;
     void OnTriggerEnter2D(Collider2D trigger){
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
-        storage = GameObject.FindWithTag("StorageHandeler").GetComponent<PlayerStorage>();
+//        storage = GameObject.FindWithTag("StorageHandeler").GetComponent<PlayerStorage>();
         if (trigger.gameObject.tag == "Player")
         {
             player.WipeAll();
@@ -17,7 +17,7 @@ public class SceneChanger : MonoBehaviour
 
     public void GoToScene(string sceneName)
     {
-        storage.Save();
+        //storage.Save();
         UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
     }
 }

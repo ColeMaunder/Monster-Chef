@@ -17,8 +17,8 @@ public class PlayerMovment : MonoBehaviour
     private AudioSource walkSound;
     void Start()
     {
-        Animator = transform.parent.gameObject.GetComponent<Animator>();
-        rb = transform.parent.gameObject.GetComponent<Rigidbody2D>();
+        Animator = transform.parent.parent.gameObject.GetComponent<Animator>();
+        rb = transform.parent.parent.gameObject.GetComponent<Rigidbody2D>();
         data = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
         ps = particleOBJ.GetComponent<ParticleSystem>();
         psff = particleOBJ.GetComponent<ParticleSystemForceField>();
@@ -84,7 +84,7 @@ public class PlayerMovment : MonoBehaviour
             {
                 Animator.SetBool("walking", true);
                 walkSound.Play();
-                rb.linearVelocity =  data.getMoveDir() * currentSpeed;
+                rb.linearVelocity =  data.getMoveDir().normalized * currentSpeed;
             }
             else
             {

@@ -23,21 +23,28 @@ public class CameraFollow : MonoBehaviour
      private float swingY = 0f;
      private float swingZ = 0f;
      private bool negetive = false;
+    private Vector3 targetPosition;
 
      // Start is called once before the first execution of Update after the MonoBehaviour is created
-     void Start()
+    void Start()
      {
         target = GameObject.FindWithTag("Player").transform;
      }
      void Update()
      {
-         Vector3 targetPositionX =  new Vector3(target.transform.position.x, transform.position.y, target.transform.position.z) + offset;
-         Vector3 targetPositionY =  new Vector3(transform.position.x, target.transform.position.y, target.transform.position.z) + offset;
-         transform.position = Vector3.SmoothDamp(transform.position, targetPositionX, ref camvelocity, smooth);
-         transform.position = Vector3.SmoothDamp(transform.position, targetPositionY, ref camvelocity, smooth/2);
+        targetPosition =  new Vector3(target.transform.position.x, target.transform.position.y, target.transform.position.z) + offset;
+        transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref camvelocity, moveSmooth());
      }
-
-     IEnumerator Shake(){
+    private float moveSmooth()
+    {
+        float distance = Vector3.Distance(transform.position, targetPosition);
+        if (distance > 0)
+        {
+            return smooth / distance;
+        }
+        return smooth;
+     }
+    IEnumerator Shake(){
         while (offset != defaltOffset){
             yield return new WaitForSeconds(swingTime);
             float x = swingX;

@@ -1,9 +1,11 @@
 using UnityEngine;
 
-public class PauseMenu : MonoBehaviour
+public class MenuHandler : MonoBehaviour
 {
     public GameObject pauseScreen;
     public GameObject settingsScreen;
+    public GameObject deathScreen;
+    public GameObject cobatUI;
     void Update()
     {
         // Check for input to pause the game
@@ -43,4 +45,12 @@ public class PauseMenu : MonoBehaviour
     {
         settingsScreen.SetActive(false);
     }
+
+    public void showDeathScreen(bool activeIn){
+        deathScreen.SetActive(activeIn);
+    }
+    public void setCombatUIActive(bool activeIn){
+        cobatUI.SetActive(activeIn);
+    }
 }
+
