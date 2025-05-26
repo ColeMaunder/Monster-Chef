@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class EnemyData : MonoBehaviour
 {
+    AudioHandler AudioHandler;
     private GameObject player;
     
     public int [] maxHealth = {3,0,5};
@@ -18,13 +19,13 @@ public class EnemyData : MonoBehaviour
     public GameObject[] dropList;
     
     public void playAttackSound(int index){
-        AudioHandler.Instance.playSound(attackSound[index], transform, 1);
+        AudioHandler.playSound(attackSound[index], transform, 1);
     }
     public void playHurtSound(int index){
-        AudioHandler.Instance.playSound(hurtSound[index], transform, 1);
+        AudioHandler.playSound(hurtSound[index], transform, 1);
     }
     public void playDeathSound(int index){
-        AudioHandler.Instance.playSound(deathSound[index], transform, 1);
+        AudioHandler.playSound(deathSound[index], transform, 1);
     }
     public GameObject getEnemyList(int index){
         return enemyList[index];
@@ -35,10 +36,11 @@ public class EnemyData : MonoBehaviour
     public int getMaxhealth(int index){
         return maxHealth [index];
     }
-    
+
     void Start()
     {
         player = GameObject.FindWithTag("PlayerBody");
+        AudioHandler = GameObject.FindWithTag("SoundManager").GetComponent<AudioHandler>();
     }
     public float getEnemySpeed(int enemy){
             return enemySpeed[enemy];

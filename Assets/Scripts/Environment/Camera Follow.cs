@@ -38,8 +38,7 @@ public class CameraFollow : MonoBehaviour
     private float moveSmooth()
     {
         float distance = Vector3.Distance(transform.position, targetPosition);
-        if (distance > 0)
-        {
+        if (distance > 0){
             return smooth / distance;
         }
         return smooth;
@@ -64,6 +63,7 @@ public class CameraFollow : MonoBehaviour
             swingZ -= 1;
         
       }
+      
      }
 
      public void activateShake(float x,float y, float z, float time){

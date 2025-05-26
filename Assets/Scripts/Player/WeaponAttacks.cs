@@ -2,10 +2,13 @@ using UnityEngine;
 
 public class WeaponAttacks : MonoBehaviour
 {
+    
     PlayerData player;
-    void Awake()
+    AudioHandler AudioHandler;
+    void Start()
     {
         player = GetComponent<PlayerData>();
+        AudioHandler = GameObject.FindWithTag("SoundManager").GetComponent<AudioHandler>();
     }
 
     public bool cutleryActive;
@@ -192,13 +195,13 @@ public class WeaponAttacks : MonoBehaviour
         switch (player.getActiveWepon())
         {
             case 0:
-                AudioHandler.Instance.playSound(spoonAtkSound[atk], transform, 1);
+                AudioHandler.playSound(spoonAtkSound[atk], transform, 1);
                 break;
             case 1:
-                AudioHandler.Instance.playSound(cleaverAtkSound[atk], transform, 1);
+                AudioHandler.playSound(cleaverAtkSound[atk], transform, 1);
                 break;
             case 2:
-                AudioHandler.Instance.playSound(tenderizerAtkSound[atk], transform, 1);
+                AudioHandler.playSound(tenderizerAtkSound[atk], transform, 1);
                 break;
             default:
                 print("invalid Weapon");

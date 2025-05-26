@@ -5,26 +5,31 @@ using UnityEngine.UIElements;
 
 public class PlayerData : MonoBehaviour
 {
+    AudioHandler AudioHandler;
+    void Start()
+    {
+        AudioHandler = GameObject.FindWithTag("SoundManager").GetComponent<AudioHandler>();
+    }
     public AudioClip deathSound;
     public void playDeathSound(){
-        AudioHandler.Instance.playSound(deathSound, transform, 1);
+        AudioHandler.playSound(deathSound, transform, 1);
     }
 
     public AudioClip[] itemPickupSounds;
     public void playItemPickupSound(){
-        AudioHandler.Instance.playRandomSound(itemPickupSounds, transform, 1);
+        AudioHandler.playRandomSound(itemPickupSounds, transform, 1);
     }
     public AudioClip healSound;
     public void playHealSound(){
-        AudioHandler.Instance.playSound(healSound, transform, 1);
+        AudioHandler.playSound(healSound, transform, 1);
     }
     public AudioClip hurtSound;
     public void playHurtSound(){
-        AudioHandler.Instance.playSound(hurtSound, transform, 1);
+        AudioHandler.playSound(hurtSound, transform, 1);
     }
     public AudioClip dashSound;
     public void playDashSound(){
-        AudioHandler.Instance.playSound(dashSound, transform, 1);
+        AudioHandler.playSound(dashSound, transform, 1);
     }
     public AudioClip walkSound;
     public AudioClip getWalkSound(){

@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour
 {
-    private int[] invantory= {0,0,0,0};
-    private int[] droppedInvantory;
+    private int[] invantory= {0,0,0,0}; // 0: Slime chunks, 1: Mandrake Roots, 2: Frog Legs, 3: Green Vines
+    private int[] droppedInvantory = {0,0,0,0}; // 0: Slime chunks, 1: Mandrake Roots, 2: Frog Legs, 3: Green Vines
     private bool hasDroppedInventory = false;
     public GameObject grave;
     private WeaponAttacks player;
@@ -33,6 +33,7 @@ public class PlayerInventory : MonoBehaviour
             invantory[i]=   0;
         }
         Instantiate(grave, transform.position, Quaternion.identity);
+        grave.GetComponent<PlayerGrave>().SetDroppedInventory(droppedInvantory);
         hasDroppedInventory = true;
         PrintInventory();
     }

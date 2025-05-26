@@ -1,18 +1,10 @@
 using UnityEngine;
 
 
-public class AudioHandler : MonoBehaviour
-{
-    public static AudioHandler Instance;
+public class AudioHandler : MonoBehaviour{
     [SerializeField]
     private AudioSource sound;
-    private void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-        }
-    }
+
     public void playSound(AudioClip audioClip, Transform position, float volume){
         AudioSource audioSource = Instantiate(sound, position.position, Quaternion.identity);
         audioSource.clip = audioClip;

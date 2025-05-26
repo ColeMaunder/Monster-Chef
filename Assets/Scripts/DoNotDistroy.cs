@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DoNotDistroy : MonoBehaviour
 {
-    private static GameObject[] persistantObjects = new GameObject[3];
+    private static GameObject[] persistantObjects = new GameObject[4];
     public int objectID;
     void Awake(){
         if (persistantObjects[objectID] == null)

@@ -21,15 +21,14 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        menu = GameObject.FindWithTag("UI").GetComponent<MenuHandler>();
         health = maxHealth;
         heals = maxHeals;
-        menu = GameObject.FindWithTag("UI").GetComponent<MenuHandler>();
         inventory = GameObject.FindWithTag("Player").GetComponent<PlayerInventory>();
         data = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
         spawn = GameObject.FindWithTag("Respawn");
         spawners = GameObject.FindGameObjectsWithTag("Spawner");
         cameraFollow = GameObject.FindWithTag("MainCamera").GetComponent<CameraFollow>();
-        transform.position = spawn.transform.position;
         menu.showDeathScreen(false);
     }
 
@@ -100,7 +99,7 @@ public class Player : MonoBehaviour
         data.playDeathSound();
         playerAlive = false;
         Time.timeScale = 0f;
-        inventory.DropInventory();
+        
     }
 
     public void HealthFull()
@@ -111,6 +110,7 @@ public class Player : MonoBehaviour
     public void Respawn()
     {
         Reset();
+        inventory.DropInventory();
         transform.position = spawn.transform.position;
         health = maxHealth;
         heals = maxHeals;
@@ -118,6 +118,11 @@ public class Player : MonoBehaviour
         playerAlive = true;
         menu.showDeathScreen(false);
 
+    }
+    public void ToStart()
+    {
+        transform.position = spawn.transform.position;
+        playerAlive = true;
     }
 
     public void Reset()
@@ -127,10 +132,10 @@ public class Player : MonoBehaviour
         {
             Destroy(enemy);
         }
-        GameObject[] enemydrops = GameObject.FindGameObjectsWithTag("EnemyDrop");
-        foreach (GameObject enemydrop in enemydrops)
+        GameObject[] drops = GameObject.FindGameObjectsWithTag("Drop");
+        foreach (GameObject drop in drops)
         {
-            Destroy(enemydrop);
+            Destroy(drop);
         }
         foreach (GameObject spawner in spawners)
         {

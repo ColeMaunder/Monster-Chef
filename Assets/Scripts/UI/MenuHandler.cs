@@ -6,6 +6,9 @@ public class MenuHandler : MonoBehaviour
     public GameObject settingsScreen;
     public GameObject deathScreen;
     public GameObject cobatUI;
+    public GameObject inventory;
+    private Player player;
+
     void Update()
     {
         // Check for input to pause the game
@@ -46,11 +49,19 @@ public class MenuHandler : MonoBehaviour
         settingsScreen.SetActive(false);
     }
 
-    public void showDeathScreen(bool activeIn){
+    public void showDeathScreen(bool activeIn)
+    {
         deathScreen.SetActive(activeIn);
     }
-    public void setCombatUIActive(bool activeIn){
+    public void setCombatUIActive(bool activeIn)
+    {
         cobatUI.SetActive(activeIn);
+    }
+    public void setInventoryActive(bool activeIn){
+        inventory.SetActive(activeIn);
+    }
+    public void respawnUI(){
+        GameObject.FindWithTag("Player").GetComponent<Player>().Respawn();
     }
 }
 
