@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 01d9f55371199524391e287144babb32
+guid: 6114951404065874c9ad9be494e037f3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5107431437010187528
-    second: Menu + recipe_0
-  - first:
-      213: -884148213504142590
-    second: Menu + recipe_1
+      213: 1395377949215087890
+    second: Ingredients Tag (Unselected)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Menu + recipe_0
+      name: Ingredients Tag (Unselected)_0
       rect:
         serializedVersion: 2
-        x: 98
-        y: 79
-        width: 929
-        height: 897
+        x: 1510
+        y: 821
+        width: 140
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8fa485a1b22ce19b0800000000000000
-      internalID: -5107431437010187528
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Menu + recipe_1
-      rect:
-        serializedVersion: 2
-        x: 1099
-        y: 79
-        width: 733
-        height: 896
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 536721bea64e66646b345425bece1f6f
-      internalID: -1435321090
+      spriteID: 21dd06e0ad06d5310800000000000000
+      internalID: 1395377949215087890
       vertices: []
       indices: 
       edges: []
@@ -163,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8151f02aeb0cda048a82053d5d7fde02
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -172,9 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Menu + recipe_0: -5107431437010187528
-      Menu + recipe_1: -1435321090
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
