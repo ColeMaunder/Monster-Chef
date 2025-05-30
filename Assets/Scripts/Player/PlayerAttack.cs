@@ -12,6 +12,7 @@ public class PlayerAttack : MonoBehaviour
    int atkType = 0;
    float heavyCharge=0;
    int lightCombo = 0;
+   bool atkSoundPlayed = false;
    Player player;
 
   Animator animator;
@@ -83,14 +84,18 @@ public class PlayerAttack : MonoBehaviour
     
     }
      void Attack(int type){
-        //animator.SetBool("Charging", false);
+        animator.SetBool("Charging", false);
         print("attck type" + type);
         animator.SetFloat("AttackType", type);
         animator.SetBool("IsAttacking", true);
         atkType = type;
         isAttacking = true;
         attacks.GetAtk(type).SetActive(true);
-        attacks.playAtkSound(type);
+        if (!atkSoundPlayed)
+        {
+            attacks.playAtkSound(type);
+            atkSoundPlayed = true;
+        }
         }
 
         void Ult(){
@@ -120,7 +125,9 @@ public class PlayerAttack : MonoBehaviour
             attacks.GetAtk(atkType).SetActive(false);
             animator.SetBool("IsAttacking", false);
             attacks.GetUlt(activeUlt).SetActive(false);
-    }
+            atkSoundPlayed = false;
+            
+        }
     
 }
 }
