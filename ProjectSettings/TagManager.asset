@@ -18,10 +18,11 @@ TagManager:
   - PauseScreen
   - SettingsScreen
   - StorageHandeler
-  - StorageHandler
   - Walls
-  - Drop
   - SoundManager
+  - Undefined
+  - Drops
+  - PlayerAttacks
   layers:
   - Default
   - TransparentFX
@@ -31,7 +32,7 @@ TagManager:
   - UI
   - Menu UI
   - DashParticles
-  - 
+  - PlayerAttack
   - 
   - 
   - 

@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 095ab88a591f80243b06887e433c09c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3882003200696973906
+    second: Mandrake Move_0
+  - first:
+      213: 3518219663063020477
+    second: Mandrake Move_1
+  - first:
+      213: 370973429899944219
+    second: Mandrake Move_2
+  - first:
+      213: 8602201280892633523
+    second: Mandrake Move_3
+  - first:
+      213: -6778897037081181718
+    second: Mandrake Move_4
+  - first:
+      213: 1417282320126709604
+    second: Mandrake Move_5
+  - first:
+      213: 4992772438352710401
+    second: Mandrake Move_6
+  - first:
+      213: 5231854088277792279
+    second: Mandrake Move_7
+  - first:
+      213: -8744563013229839900
+    second: Mandrake Move_8
+  - first:
+      213: 1033411010714529029
+    second: Mandrake Move_9
+  - first:
+      213: 141728349273407308
+    second: Mandrake Move_10
+  - first:
+      213: -2556388878847318602
+    second: Mandrake Move_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mandrake Move_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 654
+        width: 176
+        height: 140
+      alignment: 9
+      pivot: {x: 0.55543864, y: 0.12198617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25af872e755afd530800000000000000
+      internalID: 3882003200696973906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandrake Move_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 654
+        width: 170
+        height: 128
+      alignment: 9
+      pivot: {x: 0.83487207, y: 0.13652563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db37aaaa42a33d030800000000000000
+      internalID: 3518219663063020477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandrake Move_2
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 655
+        width: 182
+        height: 104
+      alignment: 9
+      pivot: {x: 0.808131, y: 0.15901947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b116b467e56f52500800000000000000
+      internalID: 370973429899944219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandrake Move_3
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 655
+        width: 146
+        height: 122
+      alignment: 9
+      pivot: {x: 0.7717373, y: 0.13537998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b104021d78216770800000000000000
+      internalID: 8602201280892633523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandrake Move_4
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 654
+        width: 134
+        height: 146
+      alignment: 9
+      pivot: {x: 0.15593845, y: 0.11929781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae104d79f058ce1a0800000000000000
+      internalID: -6778897037081181718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandrake Move_5
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 655
+        width: 176
+        height: 128
+      alignment: 9
+      pivot: {x: 0.12559614, y: 0.124474525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f0895d2c23ba310800000000000000
+      internalID: 1417282320126709604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandrake Move_6
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 655
+        width: 146
+        height: 170
+      alignment: 9
+      pivot: {x: 0.31227928, y: 0.09414242}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10bcf507414e94540800000000000000
+      internalID: 4992772438352710401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandrake Move_7
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 655
+        width: 146
+        height: 158
+      alignment: 9
+      pivot: {x: 0.64200205, y: 0.104046784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7161970e2974b9840800000000000000
+      internalID: 5231854088277792279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandrake Move_8
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 655
+        width: 152
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5746661, y: 0.1003016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e97a68254215a680800000000000000
+      internalID: -8744563013229839900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandrake Move_9
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 655
+        width: 164
+        height: 152
+      alignment: 9
+      pivot: {x: 0.45995647, y: 0.10861808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ded98c6d9675e00800000000000000
+      internalID: 1033411010714529029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandrake Move_10
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 655
+        width: 170
+        height: 146
+      alignment: 9
+      pivot: {x: 0.5156925, y: 0.111011244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f3b09ce2587f100800000000000000
+      internalID: 141728349273407308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandrake Move_11
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 655
+        width: 176
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5649553, y: 0.11590925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5eb88ebd1e58cd0800000000000000
+      internalID: -2556388878847318602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2da5147157b5ec24aae0d1c6076763eb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mandrake Move_0: 3882003200696973906
+      Mandrake Move_1: 3518219663063020477
+      Mandrake Move_10: 141728349273407308
+      Mandrake Move_11: -2556388878847318602
+      Mandrake Move_2: 370973429899944219
+      Mandrake Move_3: 8602201280892633523
+      Mandrake Move_4: -6778897037081181718
+      Mandrake Move_5: 1417282320126709604
+      Mandrake Move_6: 4992772438352710401
+      Mandrake Move_7: 5231854088277792279
+      Mandrake Move_8: -8744563013229839900
+      Mandrake Move_9: 1033411010714529029
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

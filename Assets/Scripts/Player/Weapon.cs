@@ -9,7 +9,9 @@ public class Weapon : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision){
         Enemy enemy = collision.gameObject.GetComponent<Enemy>();
         if (enemy != null){
-            enemy.Damage(this.transform.position,damage,knockBack);
+            if (collision.gameObject.GetComponent<EnemyLocalData>().getVulnrable()){
+                enemy.Damage(this.transform.position,damage,knockBack);
+            }
         }
     }
 }

@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class EnemyBurstMovment : MonoBehaviour
+public class FrogMovment : MonoBehaviour
 {
     private GameObject enemy;
     private EnemyData data  = null;
