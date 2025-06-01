@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 752cefb3e7e25f04f89aae83606290d0
+guid: 27e887d1fc328a04b87496257b965a40
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2102357097182954713
-    second: Cooking recipe_0
+      213: 2514955845820372395
+    second: Ingredients Tag (Selected)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cooking recipe_0
+      name: Ingredients Tag (Selected)_0
       rect:
         serializedVersion: 2
-        x: 220
-        y: 468
-        width: 596
-        height: 338
+        x: 1510
+        y: 809
+        width: 158
+        height: 140
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d48c9024a21d2d10800000000000000
-      internalID: 2102357097182954713
+      spriteID: ba55ae7540be6e220800000000000000
+      internalID: 2514955845820372395
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cooking recipe_0: 2102357097182954713
+      Ingredients Tag (Selected)_0: 2514955845820372395
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
