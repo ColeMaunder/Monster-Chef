@@ -20,7 +20,6 @@ public class WaterDash : MonoBehaviour
     }
     void OnTriggerStay2D(Collider2D hit)
     {
-        print("contact");
         if (hit.gameObject.tag == "Water")
         {
             Collider2D hitColider = hit.gameObject.GetComponent<TilemapCollider2D>();

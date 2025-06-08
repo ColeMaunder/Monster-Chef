@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class WeaponAttacks : MonoBehaviour
 {
-    
+
     PlayerData player;
     AudioHandler AudioHandler;
     void Start()
@@ -191,7 +191,8 @@ public class WeaponAttacks : MonoBehaviour
                 return 0;
         }
     }
-    public void playAtkSound(int atk){
+    public void playAtkSound(int atk)
+    {
         switch (player.getActiveWepon())
         {
             case 0:
