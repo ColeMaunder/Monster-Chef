@@ -11,10 +11,8 @@ public class MandrakeAttack : MonoBehaviour
     public float atkTime = 2f;
     public float atkCheckTime = 0.5f;
     public float atkMissTime = 0.5f;
-    private float timer = 0f;
     private Rigidbody2D enmenyBody;
     private Animator animator;
-    private bool attacked = false;
     [SerializeField]
     private GameObject hitBox;
     private PlayerData player;
@@ -49,10 +47,8 @@ public class MandrakeAttack : MonoBehaviour
 
     void Bite(){
         data.playAttackSound(dataLocal.getEnemyIndex());
-        attacked = true;
         dataLocal.setCanMove(false);
-        animator.SetBool("attackCharged", true);
-        animator.SetBool("attack", false);
+        animator.SetBool("attack", true);
         hitBox.SetActive(true);
     }
     IEnumerator AttackTimer() {
@@ -67,24 +63,23 @@ public class MandrakeAttack : MonoBehaviour
             
             if (hitBox.GetComponent<EnemyTrapWeapon>().getHitPlayer()){
                     hitBox.SetActive(false);
-                    //start traped animation
+                    animator.SetBool("hit", true);
                     while (player.getTrapped()){
                         yield return new WaitForSeconds(0.01f);
                     }
-                    //end traped animation
+                    animator.SetBool("attack", false);
                 }else{
-                    //start miss animation
-                    dataLocal.setFullVulnrable(true);
+                        animator.SetBool("hit", false);
+                        animator.SetBool("stunned", true);
+                        dataLocal.setFullVulnrable(true);
                     yield return new WaitForSeconds(atkMissTime);
-                    dataLocal.setFullVulnrable(false);
-                    //End miss animation
-                    //start hide animation
-                yield return new WaitForSeconds(atkMissTime);
-                    //end hide animation
+                        animator.SetBool("stunned", false);
+                        dataLocal.setFullVulnrable(false);
+                        animator.SetBool("attack", false);
+                    yield return new WaitForSeconds(atkMissTime);
                 }
                 
             dataLocal.setCanMove(true);
-            attacked = false;
             hitBox.SetActive(false);
 
             yield return new WaitForSeconds(atkCoolDown);

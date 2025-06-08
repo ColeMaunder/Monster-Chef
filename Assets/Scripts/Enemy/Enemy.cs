@@ -6,7 +6,6 @@ public class Enemy : MonoBehaviour
 {
     EnemyData data;
     EnemyLocalData localData;
-    public int type;
     float health;
     public float maxHealth = 3f;
     public float duration = 0.1f;
@@ -49,7 +48,7 @@ public class Enemy : MonoBehaviour
             data.playDeathSound(localData.getEnemyIndex());
             print("Enemy dead");
             particleOBJ.GetComponent<EnemyHitPartical>().Explode();
-            Instantiate(data.getDropList(type), transform.position, Quaternion.identity);
+            Instantiate(data.getDropList(localData.getEnemyIndex()), transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

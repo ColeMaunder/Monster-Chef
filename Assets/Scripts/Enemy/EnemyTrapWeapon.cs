@@ -23,6 +23,10 @@ public class EnemyTrapWeapon : MonoBehaviour
             player.trapDamage(damage, tickDamage, tickTime, tickEnd, wrigleThreshold);
             print("Enemy hit");
         }
+        else
+        {
+            hitPlayer = false;
+        }
     }
     public bool getHitPlayer(){
         return hitPlayer;
