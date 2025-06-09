@@ -13,19 +13,28 @@ public class HealsUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.GetHeals()<player.GetMaxHeals()){
-            for (int i = 0;i < player.GetMaxHeals();i++){
-                if(i> player.GetHeals()-1){
+        if (player.GetHeals() < player.GetMaxHeals())
+        {
+            for (int i = 0; i < player.GetMaxHeals(); i++)
+            {
+                if (i > player.GetHeals() - 1)
+                {
                     healIcons[i].SetActive(false);
-                }else{
+                }
+                else
+                {
                     healIcons[i].SetActive(true);
-                }   
+                }
             }
         }
     }
-    public void Fountain(){
+    public void Fountain()
+    {
         healIcons[0].SetActive(true);
         healIcons[1].SetActive(true);
         healIcons[2].SetActive(true);
+    }
+    public GameObject GetHeal(int index){
+        return healIcons[index];
     }
 }

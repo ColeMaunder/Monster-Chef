@@ -23,12 +23,12 @@ public class Fountain : MonoBehaviour
             {
                 player.RefillHeals();
                 player.RefillHealth();
-                uI.Fountain();
+                
                 GameObject Respawn = GameObject.FindWithTag("Respawn");
                 Respawn.transform.position = transform.position;
-                fountainUI.SetActive(true);
                 print("fountain set");
                 data.SetFountain(index, true);
+                fountainUI.SetActive(true);
             }
         }
     }

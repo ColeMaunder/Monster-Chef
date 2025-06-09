@@ -16,7 +16,7 @@ public class Direction: MonoBehaviour
     private Rigidbody2D rb;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start(){
+    void Awake(){
         subject = transform.parent.gameObject;
         player = GameObject.FindWithTag("Player");
         playerState = player.GetComponent<Player>();
