@@ -21,9 +21,11 @@ public class PlayerData : MonoBehaviour
     private bool isDash = false;
     private bool canMove = true;
     private Vector2 moveDir;
-    public bool[] unlockedRecipes = { false, false, false, false, false, false, false };
+    public Sprite[] recepieIcons;
+    public Sprite[] recepieNames;
     public float moveSpeed = 5f;
     public string[] keys = {"up", "down", "right", "left", "e", "q"};
+    public bool[] unlockedFountians = {false,false,false,false,false,false};
     public float dashCool = 1f;
     
     public void playDeathSound(){
@@ -53,7 +55,12 @@ public class PlayerData : MonoBehaviour
     public int getActiveWepon(){
         return activeWepon;
     }
-    
+    public void SetFountain(int index, bool state){
+        unlockedFountians[index] = state;
+    }
+    public bool GetFountain(int index){
+        return unlockedFountians[index];
+    }
     public void setActiveWepon(int activeWeponIn)
     {
         activeWepon = activeWeponIn;
@@ -87,25 +94,6 @@ public class PlayerData : MonoBehaviour
     {
         moveDir = moveDirIn;
     }
-    
-    public bool GetUnlockedRecipe(int index)
-    {
-        return unlockedRecipes[index];
-    }
-    
-    public void SetUnlockedRecipe(int index, bool status)
-    {
-        unlockedRecipes[index] = status;
-    }
-    
-    public bool[] GetUnlockedRecipes(int[] index)
-    {
-        return unlockedRecipes;
-    }
-    public bool[] GetUnlockedRecipes(){
-        return unlockedRecipes;
-    }
-
     
     public float GetMoveSpeed()
     {

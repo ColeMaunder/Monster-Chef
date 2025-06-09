@@ -7,6 +7,7 @@ public class PlayerStorage : MonoBehaviour
     [SerializeField]
     private TextAsset playerFile;
     private PlayerData data;
+    private RecipeData recipe;
     private PlayerInventory inventory;
     private Player player;
     private WeaponAttacks weapons;
@@ -16,6 +17,7 @@ public class PlayerStorage : MonoBehaviour
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
         inventory = GameObject.FindWithTag("Player").GetComponent<PlayerInventory>();
         data = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
+        recipe = GameObject.FindWithTag("PlayerData").GetComponent<RecipeData>();
         weapons = GameObject.FindWithTag("PlayerData").GetComponent<WeaponAttacks>();
         string[] lines = playerFile.text.Split("\n", StringSplitOptions.RemoveEmptyEntries);
 
@@ -26,7 +28,7 @@ public class PlayerStorage : MonoBehaviour
         for (int i = 0; i < unlockedRecipes.Length; i++)
         {
             bool status = unlockedRecipes[i] == "y";
-            data.SetUnlockedRecipe(i, status);
+            recipe.SetUnlockedRecipe(i, status);
         }
 
         inventory.SetInventory(Array.ConvertAll(lines[3].Split(",", StringSplitOptions.RemoveEmptyEntries), int.Parse));
@@ -44,9 +46,9 @@ public class PlayerStorage : MonoBehaviour
             inventoryStr += inventory.GetItem(i) + ",";
         }
 
-        for (int i = 0; i < data.GetUnlockedRecipes().Length; i++)
+        for (int i = 0; i < recipe.GetUnlockedRecipes().Length; i++)
         {
-            if (data.GetUnlockedRecipe(i))
+            if (recipe.GetUnlockedRecipe(i))
             {
                 recipesStr += "y,";
             }
