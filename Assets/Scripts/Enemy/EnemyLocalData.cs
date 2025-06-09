@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemyLocalData : MonoBehaviour
@@ -6,12 +7,24 @@ public class EnemyLocalData : MonoBehaviour
     private bool canMove = true;
     private bool canLook = true;
     private bool IsAttacking = false;
-    
-    public int getEnemyIndex(){
+    private bool vulnrable = true;
+    public int getEnemyIndex()
+    {
         return enemyIndex;
     }
-
-    public bool getCanMove(){
+    public bool getVulnrable(){
+        return vulnrable;
+    }
+    public void setVulnrable(bool state){
+        vulnrable = state;
+    }
+    public void setFullVulnrable(bool state)
+    {
+        vulnrable = state;
+        Physics2D.IgnoreCollision(transform.gameObject.GetComponent<Collider2D>(), GameObject.FindWithTag("PlayerBody").GetComponent<Collider2D>(), !state);
+    }
+    public bool getCanMove()
+    {
         return canMove;
     }
 

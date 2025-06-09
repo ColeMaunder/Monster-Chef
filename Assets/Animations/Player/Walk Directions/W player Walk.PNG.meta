@@ -117,19 +117,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -142,7 +129,7 @@ TextureImporter:
         width: 72
         height: 186
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.45770687, y: 0.49918127}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -164,7 +151,7 @@ TextureImporter:
         width: 80
         height: 185
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.4228405, y: 0.4972601}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -186,7 +173,7 @@ TextureImporter:
         width: 96
         height: 186
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.46621957, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -208,7 +195,7 @@ TextureImporter:
         width: 78
         height: 192
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.42361686, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -230,7 +217,7 @@ TextureImporter:
         width: 72
         height: 186
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.4574407, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -251,8 +238,8 @@ TextureImporter:
         y: 58
         width: 78
         height: 186
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -274,7 +261,7 @@ TextureImporter:
         width: 96
         height: 186
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.46780014, y: 0.4999999}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -295,8 +282,8 @@ TextureImporter:
         y: 58
         width: 78
         height: 192
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

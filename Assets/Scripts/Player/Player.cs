@@ -14,6 +14,14 @@ public class Player : MonoBehaviour
     private CameraFollow cameraFollow;
     private PlayerData data;
     private MenuHandler menu;
+    private float trapCounter = 0;
+    private float tickCounter = 0;
+    private float trapTickTime;
+    private float trapTickDamage;
+    private float trapTickEnd;
+    private int trapWrigleThreshold;
+    private Rigidbody2D rb;
+    private Animator Animator;
     public bool GetPlayerAlive()
     {
         return playerAlive;
@@ -21,6 +29,8 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        Animator = transform.gameObject.GetComponent<Animator>();
+        rb = transform.gameObject.GetComponent<Rigidbody2D>();
         menu = GameObject.FindWithTag("UI").GetComponent<MenuHandler>();
         health = maxHealth;
         heals = maxHeals;
@@ -48,9 +58,35 @@ public class Player : MonoBehaviour
                 playerAlive = true;
             }
         }
-        else if (Input.GetKeyDown(KeyCode.R))
-        {
-            Heal();
+        else {
+            if (Input.GetKeyDown(KeyCode.R)){
+                Heal();
+            }
+            if (data.getTrapped()){
+                Animator.SetBool("walking", false);
+                rb.linearVelocity = Vector2.zero;
+                data.setCanMove(false);
+                trapCounter += Time.deltaTime;
+                /*if (){
+                    trapWrigleThreshold--;
+                }*/
+
+                if (tickCounter >= trapTickEnd || trapWrigleThreshold <= 0)
+                {
+                    data.setTrapped(false);
+                    data.setCanMove(true);
+                    trapCounter = 0;
+                }
+                else if (trapCounter >= trapTickTime)
+                {
+                    tickCounter++;
+                    this.damage(trapTickDamage);
+                    trapCounter = 0;
+                }
+            }else{
+                trapCounter = 0;
+                data.setCanMove(true);
+            }
         }
     }
     public void damage(float damage)
@@ -64,6 +100,16 @@ public class Player : MonoBehaviour
             print("You are Dead");
             Dead();
         }
+    }
+    public void trapDamage(float initialDamage, float tickTime, float tickDamage, float tickEnd, int wrigleThreshold)
+    {
+        this.damage(initialDamage);
+        data.setTrapped(true);
+        trapTickTime = tickTime;
+        trapTickDamage = tickDamage;
+        trapTickEnd = tickEnd;
+        trapWrigleThreshold = wrigleThreshold;
+        
     }
     public int GetHeals()
     {

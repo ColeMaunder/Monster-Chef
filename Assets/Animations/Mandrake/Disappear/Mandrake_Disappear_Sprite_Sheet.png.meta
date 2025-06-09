@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: 03c24e881afd2f948b8f46cdb6c13eea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 527658588862746892
+    second: Mandrake_Disappear_Sprite_Sheet_0
+  - first:
+      213: 7979724071985856174
+    second: Mandrake_Disappear_Sprite_Sheet_1
+  - first:
+      213: -7196490287687978648
+    second: Mandrake_Disappear_Sprite_Sheet_2
+  - first:
+      213: -7167971800124879717
+    second: Mandrake_Disappear_Sprite_Sheet_3
+  - first:
+      213: 6553549062909112826
+    second: Mandrake_Disappear_Sprite_Sheet_4
+  - first:
+      213: 8996549580358376173
+    second: Mandrake_Disappear_Sprite_Sheet_5
+  - first:
+      213: -6080701243157627431
+    second: Mandrake_Disappear_Sprite_Sheet_6
+  - first:
+      213: 8198391277156443554
+    second: Mandrake_Disappear_Sprite_Sheet_7
+  - first:
+      213: -1670004225609805469
+    second: Mandrake_Disappear_Sprite_Sheet_8
+  - first:
+      213: 8629090124003637336
+    second: Mandrake_Disappear_Sprite_Sheet_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mandrake_Disappear_Sprite_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 407
+        width: 176
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5630643, y: 0.11635764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0119dfd0be925700800000000000000
+      internalID: 527658588862746892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandrake_Disappear_Sprite_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 406
+        width: 176
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5630643, y: 0.1163576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8613fc4463ee02c90800000000000000
+      internalID: -7196490287687978648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandrake_Disappear_Sprite_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 408
+        width: 176
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5630643, y: 0.1163576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea53757d2a2adc70800000000000000
+      internalID: 8996549580358376173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 67ea718bc2f395648a7bb9c24b20625f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mandrake_Disappear_Sprite_Sheet_0: 527658588862746892
+      Mandrake_Disappear_Sprite_Sheet_1: 7979724071985856174
+      Mandrake_Disappear_Sprite_Sheet_2: -7196490287687978648
+      Mandrake_Disappear_Sprite_Sheet_3: -7167971800124879717
+      Mandrake_Disappear_Sprite_Sheet_4: 6553549062909112826
+      Mandrake_Disappear_Sprite_Sheet_5: 8996549580358376173
+      Mandrake_Disappear_Sprite_Sheet_6: -6080701243157627431
+      Mandrake_Disappear_Sprite_Sheet_7: 8198391277156443554
+      Mandrake_Disappear_Sprite_Sheet_8: -1670004225609805469
+      Mandrake_Disappear_Sprite_Sheet_9: 8629090124003637336
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
