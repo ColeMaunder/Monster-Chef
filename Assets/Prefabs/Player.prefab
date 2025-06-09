@@ -212,7 +212,7 @@ BoxCollider2D:
   m_Offset: {x: 0.0002194047, y: -0.35844165}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.3}
     oldSize: {x: 0.84, y: 1.86}
     newSize: {x: 0.78, y: 1.92}
     adaptiveTilingThreshold: 0.5
@@ -904,9 +904,6 @@ MonoBehaviour:
   activeWepon: 0
   unlockedRecipes: 00000000000000
   moveSpeed: 6
-  dashMod: 3
-  dashTime: 0.15
-  dashCool: 1
   keys:
   - up
   - down
@@ -914,15 +911,9 @@ MonoBehaviour:
   - left
   - e
   - q
-  animations:
-  - {fileID: 7400000, guid: 1b8f1432c4ca99b4a9ca9c36940a0250, type: 2}
-  - {fileID: 7400000, guid: 5b3c30e5f0bac4b4baa9848f7b199088, type: 2}
-  - {fileID: 7400000, guid: 15399bf327f402140a192bd85c013528, type: 2}
-  - {fileID: 7400000, guid: f0c5b64577b479649981c522b43e74f7, type: 2}
-  - {fileID: 7400000, guid: 30172015c7bb0924992172cd7f0e071b, type: 2}
-  - {fileID: 7400000, guid: 28fd7b25a1cdcb64fbd03d859a6ffbb4, type: 2}
-  - {fileID: 7400000, guid: bb650c479c0a80547a05989473d25ede, type: 2}
-  - {fileID: 7400000, guid: 3b06761b88dabcd499d20d69dec7e120, type: 2}
+  dashCool: 1
+  dashMod: 3
+  dashTime: 0.15
   mouseMovment: 1
 --- !u!114 &5138029722548362334
 MonoBehaviour:
@@ -936,7 +927,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa736cebc37f0ea4386a8550d6998ed1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Recipes: {fileID: 4900000, guid: e663a5121d5ec394eac45ee970515dad, type: 3}
+  unlockedRecipes: 000000000000
+  recepieIcons:
+  - {fileID: -523561784479211976, guid: 230ccb0f35c199643a4a5cd1f4871077, type: 3}
+  - {fileID: -3500942725470159262, guid: 4816020013277d84a80e441fbec1a0fa, type: 3}
+  - {fileID: -6433461479638820710, guid: 936c819dad109534d84a147f127b1893, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  recepieNames:
+  - Slime Sunday
+  - Kentucky Fried Frog Legs
+  - Vinghetti Mandranaise
+  - Catfish Sashimi
+  - Crayfish Bisque
+  - Roast Rusa
+  recepieTexts:
+  - A gelatinous sweet treat that will kickstart your monster meal journey.
+  - Inspired by the famed Kentucky frying methods, these bouncy strips of meat give
+    a burst of energy to the consumer.
+  - A fresh approach to Italian cuisine, this meal is best eaten with an open mind
+    and a large fork.
+  - 
+  - 
+  - 
 --- !u!1 &3682202924254559273
 GameObject:
   m_ObjectHideFlags: 0
@@ -1165,7 +1179,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6675065532546897020
 Transform:
   m_ObjectHideFlags: 0

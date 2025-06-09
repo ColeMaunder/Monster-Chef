@@ -2,32 +2,15 @@ using UnityEngine;
 
 public class Cooking : MonoBehaviour
 {
-    bool cooked =  false;
-    Player player;
-    PlayerInventory inventory;
-    PlayerData data;
-    public float newMaxHealth = 30f;
     bool inRainge = false;
-    
-    void Start()
-    {
-        player = GameObject.FindWithTag("Player").GetComponent<Player>();
-        data = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
-        inventory = GameObject.FindWithTag("Player").GetComponent<PlayerInventory>();
-        
-    }
+    [SerializeField] private GameObject CookingScreen;
 
-    // Update is called once per frame
     void Update()
     {
         if(inRainge){
-            if (Input.GetKeyDown(KeyCode.E)){ 
-                if(!cooked){
-                    cooked = true;
-                    print("health up");
-                    player.SetMaxHealth(newMaxHealth);
-                    player.HealthFull();
-                }
+            if (Input.GetKeyDown(KeyCode.E)){
+                CookingScreen.SetActive(true);
+                Time.timeScale = 0f;
             }
         }
     }
@@ -41,12 +24,5 @@ public class Cooking : MonoBehaviour
         if (collision.gameObject.tag == "Player"){
             inRainge = false;
         }
-    }
-    public void CookRecipe(int recipeIndex){
-        if (inventory.Contains(recipeIndex)){
-            inventory.Reduce(recipeIndex);
-            data.SetUnlockedRecipe(recipeIndex,true);
-        }
-        
     }
 }
