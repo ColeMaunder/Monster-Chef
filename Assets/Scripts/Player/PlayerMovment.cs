@@ -30,10 +30,6 @@ public class PlayerMovment : MonoBehaviour
         walkSound.clip = data.getWalkSound();
     }
 
-    
-
-    
-
     //Dash Function (use seconds instead of frames)
     IEnumerator Dash ()
     {

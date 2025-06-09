@@ -63,13 +63,13 @@ public class PlayerInventory : MonoBehaviour
         return hasDroppedInventory;
    }
    public void Reduce(int index){
-        int[] used= {recipes.GetRecipeList(index).slime,recipes.GetRecipeList(index).mandrake,recipes.GetRecipeList(index).frog,recipes.GetRecipeList(index).green};
+        int[] used= recipes.GetRecipeList(index);
         for(int i=0;i<invantory.Length;i++){
             invantory[i] -= used[i];
         }
    }
    public bool Contains(int index){
-        int[] required = {recipes.GetRecipeList(index).slime,recipes.GetRecipeList(index).mandrake,recipes.GetRecipeList(index).frog,recipes.GetRecipeList(index).green};
+        int[] required = recipes.GetRecipeList(index);
         bool contains = true;
         for(int i=0;i<invantory.Length;i++){
             if (invantory[i] < required[i]){

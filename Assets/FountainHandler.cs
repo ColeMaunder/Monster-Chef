@@ -4,7 +4,7 @@ public class FountainHandler : MonoBehaviour
 {
     public GameObject MapScreen;
     public GameObject MenueScreen;
-    public GameObject WeponScreen;
+    public GameObject InventoryScreen;
     public GameObject MainScreen;
 
 
@@ -14,7 +14,7 @@ public class FountainHandler : MonoBehaviour
     }
     public void ShowWeponScreen(bool activeIn)
     {
-        WeponScreen.SetActive(activeIn);
+        InventoryScreen.SetActive(activeIn);
     }
     public void ShowMapScreen(bool activeIn)
     {
