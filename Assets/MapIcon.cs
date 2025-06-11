@@ -6,9 +6,9 @@ public class MapIcon : MonoBehaviour
     private PlayerData data;
     void OnEnable()
     {
-        for(int i = 0;i <= 3; i++){
+        for(int i = 0;i < fountins.Length; i++){
             data = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
-            fountins[i].SetActive(data.GetFountain(i));
+            fountins[i].SetActive(true);
         }
     }
 }

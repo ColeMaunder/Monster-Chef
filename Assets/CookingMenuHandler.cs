@@ -60,7 +60,7 @@ public class CookingMenuHandler : MonoBehaviour
     {
         book.SetActive(false);
         inventory.Reduce(visibalRecepies[index]);
-        recipe.SetUnlockedRecipe(visibalRecepies[index],true);
+        recipe.UnlockedRecipe(visibalRecepies[index]);
     }
     
 }

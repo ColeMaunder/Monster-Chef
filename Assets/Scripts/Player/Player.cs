@@ -1,4 +1,6 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -113,13 +115,43 @@ public class Player : MonoBehaviour
     {
         Reset();
         inventory.DropInventory();
-        transform.position = spawn.transform.position;
+        toRespawnPoint();
+        
         health = maxHealth;
         heals = maxHeals;
         Time.timeScale = 1f;
         playerAlive = true;
         menu.showDeathScreen(false);
 
+    }
+    private void toRespawnPoint()
+    {
+        string scene = "";
+        switch (data.getLastFountain()[0])
+        {
+            case '0':
+                scene = "Start Tut Block";
+                break;
+            case '1':
+                scene = "Restaurant";
+                break;
+            case '2':
+                scene = "Level 2";
+                break;
+            case '3':
+                scene = "Boss Fight";
+                break;
+        }
+        if (SceneManager.GetActiveScene().name != scene){  
+            UnityEngine.SceneManagement.SceneManager.LoadScene(scene);
+        }
+        GameObject[] fountains = GameObject.FindGameObjectsWithTag("Fountain");
+        foreach (GameObject i in fountains){
+            if(i.GetComponent<FountainID>().GetID() == data.getLastFountain()){
+                transform.position = spawn.transform.position = i.transform.GetChild(0).position;
+                break;
+            }
+        }
     }
     public void ToStart()
     {
