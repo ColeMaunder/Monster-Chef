@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: 67b2a3f1da9a2494ea8df7c61f39ee3e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1493930400398573677
+    second: N Poke Fixed_0
+  - first:
+      213: -2044260619092080424
+    second: N Poke Fixed_1
+  - first:
+      213: -4063740274534630435
+    second: N Poke Fixed_2
+  - first:
+      213: 1226129714329787609
+    second: N Poke Fixed_3
+  - first:
+      213: 6275435093909564600
+    second: N Poke Fixed_4
+  - first:
+      213: 8426348326610622240
+    second: N Poke Fixed_5
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: N Poke Fixed_0
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 803
+        width: 98
+        height: 188
+      alignment: 9
+      pivot: {x: 0.372626, y: 0.3281487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ff51d473e744be0800000000000000
+      internalID: -1493930400398573677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Poke Fixed_1
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 803
+        width: 98
+        height: 206
+      alignment: 9
+      pivot: {x: 0.38011885, y: 0.29326266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d842b24cc351a3e0800000000000000
+      internalID: -2044260619092080424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Poke Fixed_2
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 803
+        width: 98
+        height: 206
+      alignment: 9
+      pivot: {x: 0.38011855, y: 0.29326296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb3aec30c1ba97c0800000000000000
+      internalID: -4063740274534630435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Poke Fixed_3
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 803
+        width: 98
+        height: 206
+      alignment: 9
+      pivot: {x: 0.38761124, y: 0.2968273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc9d279a76140110800000000000000
+      internalID: 1226129714329787609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Poke Fixed_4
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 803
+        width: 98
+        height: 206
+      alignment: 9
+      pivot: {x: 0.37262648, y: 0.29326296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bcef7f18f2d61750800000000000000
+      internalID: 6275435093909564600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Poke Fixed_5
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 803
+        width: 98
+        height: 188
+      alignment: 9
+      pivot: {x: 0.3726271, y: 0.3242431}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0275559882760f470800000000000000
+      internalID: 8426348326610622240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2e27e5add05540e4aab96c663037509b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      N Poke Fixed_0: -1493930400398573677
+      N Poke Fixed_1: -2044260619092080424
+      N Poke Fixed_2: -4063740274534630435
+      N Poke Fixed_3: 1226129714329787609
+      N Poke Fixed_4: 6275435093909564600
+      N Poke Fixed_5: 8426348326610622240
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
