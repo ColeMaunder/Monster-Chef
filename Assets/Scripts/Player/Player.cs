@@ -133,7 +133,7 @@ public class Player : MonoBehaviour
                 scene = "Start Tut Block";
                 break;
             case '1':
-                scene = "Restaurant";
+                scene = "Village Area";
                 break;
             case '2':
                 scene = "Level 2";

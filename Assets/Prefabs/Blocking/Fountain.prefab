@@ -253,7 +253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da1eab1bff0e20444b68e13953731536, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 01
+  id: 10
 --- !u!1 &1386257315218897119
 GameObject:
   m_ObjectHideFlags: 0
@@ -758,7 +758,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf00e597ac16e2545a2218b9f5665dd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fountainID: 01
   uI: {fileID: 0}
   fountainUI: {fileID: 2455150411083118471}
 --- !u!61 &5881255596920795585
@@ -1840,7 +1839,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -184.07, y: 6.27}
+  m_AnchoredPosition: {x: 0, y: 4}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &8763021731962009613
@@ -1954,7 +1953,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.028348088, y: 0.2766676}
+  m_Offset: {x: 0.028348088, y: 0.459965}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1964,7 +1963,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.0173948, y: 4.2666655}
+  m_Size: {x: 3.0173948, y: 3.9000707}
   m_EdgeRadius: 0
 --- !u!1 &8684965038641671926
 GameObject:
@@ -2154,6 +2153,10 @@ PrefabInstance:
     - target: {fileID: 6689487595348193240, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6689487595348193240, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: Village Area
       objectReference: {fileID: 0}
     - target: {fileID: 7026491533268099387, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
       propertyPath: m_IsActive

@@ -902,7 +902,8 @@ MonoBehaviour:
   dashSound: {fileID: 8300000, guid: a4127aacb0ef08d4fbea93a7be0d406e, type: 3}
   walkSound: {fileID: 8300000, guid: 192a6911b951e8642bcd89ee5abe49f7, type: 3}
   activeWepon: 0
-  unlockedRecipes: 00000000000000
+  recepieIcons: []
+  recepieNames: []
   moveSpeed: 6
   keys:
   - up
@@ -911,6 +912,9 @@ MonoBehaviour:
   - left
   - e
   - q
+  unlockedFountians: []
+  lastFountain: 
+  coalIndex: 
   dashCool: 1
   dashMod: 3
   dashTime: 0.15
@@ -927,7 +931,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa736cebc37f0ea4386a8550d6998ed1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unlockedRecipes: 000000000000
   recepieIcons:
   - {fileID: -523561784479211976, guid: 230ccb0f35c199643a4a5cd1f4871077, type: 3}
   - {fileID: -3500942725470159262, guid: 4816020013277d84a80e441fbec1a0fa, type: 3}
