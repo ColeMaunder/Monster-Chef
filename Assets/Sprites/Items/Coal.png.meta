@@ -121,28 +121,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Coal_0
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 55
-        width: 60
-        height: 48
-      alignment: 9
-      pivot: {x: 0.45005035, y: 0.56243753}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23b9fbab4d6d4a849a87817eaec3c157
-      internalID: 1648269257
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Coal_2
       rect:
         serializedVersion: 2
@@ -195,7 +173,7 @@ TextureImporter:
         width: 66
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

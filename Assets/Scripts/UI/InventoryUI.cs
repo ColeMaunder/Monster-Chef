@@ -15,10 +15,10 @@ public class InventoryUI : MonoBehaviour
     void Update()
     {
         for(int i = 0; i<counts.Length; i++){
-            int enemy = player.GetEnemy(i);
-            if (enemy > 0){
+            int item= player.GetItem(i);
+            if (item > 0){
                 icons[i].SetActive(true);
-                counts[i].text = "" + enemy;
+                counts[i].text = "" + item;
             }else{
                 icons[i].SetActive(false);
             }

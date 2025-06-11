@@ -159,12 +159,12 @@ TextureImporter:
       name: W player Walk_1
       rect:
         serializedVersion: 2
-        x: 257
+        x: 258
         y: 59
-        width: 80
+        width: 78
         height: 185
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.41916677, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -208,7 +208,7 @@ TextureImporter:
         width: 78
         height: 192
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.53867596, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -296,7 +296,7 @@ TextureImporter:
         width: 78
         height: 192
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.6147226, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
