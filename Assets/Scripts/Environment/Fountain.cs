@@ -3,14 +3,15 @@ using UnityEngine;
 
 public class Fountain : MonoBehaviour
 {
+    string fountainID;
     public HealsUI uI;
     Player player;
     bool inRainge = false;
     [SerializeField] private GameObject fountainUI;
-    [SerializeField] private int index;
     private PlayerData data;
     void Start()
     {
+        fountainID = transform.parent.parent.gameObject.GetComponent<FountainID>().GetID();
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
         data = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
     }
@@ -26,7 +27,8 @@ public class Fountain : MonoBehaviour
                 GameObject Respawn = GameObject.FindWithTag("Respawn");
                 Respawn.transform.position = transform.position;
                 print("fountain set");
-                data.SetFountain(index, true);
+                data.UnlockFountain(fountainID);
+                data.setLastFountian(fountainID);
                 fountainUI.SetActive(true);
                 fountainUI.transform.GetChild(0).gameObject.SetActive(true);
                 Time.timeScale = 0f;

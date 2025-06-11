@@ -28,7 +28,7 @@ public class PlayerStorage : MonoBehaviour
         for (int i = 0; i < unlockedRecipes.Length; i++)
         {
             bool status = unlockedRecipes[i] == "y";
-            recipe.SetUnlockedRecipe(i, status);
+            recipe.UnlockedRecipe(i);
         }
 
         inventory.SetInventory(Array.ConvertAll(lines[3].Split(",", StringSplitOptions.RemoveEmptyEntries), int.Parse));
@@ -46,7 +46,7 @@ public class PlayerStorage : MonoBehaviour
             inventoryStr += inventory.GetItem(i) + ",";
         }
 
-        for (int i = 0; i < recipe.GetUnlockedRecipes().Length; i++)
+        for (int i = 0; i < recipe.GetUnlockedRecipeCount(); i++)
         {
             if (recipe.GetUnlockedRecipe(i))
             {

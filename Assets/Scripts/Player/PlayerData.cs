@@ -1,7 +1,5 @@
-using Unity.Mathematics;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.UIElements;
+using System.Collections.Generic;
 
 public class PlayerData : MonoBehaviour
 {
@@ -25,10 +23,19 @@ public class PlayerData : MonoBehaviour
     public Sprite[] recepieNames;
     public float moveSpeed = 5f;
     public string[] keys = {"up", "down", "right", "left", "e", "q"};
-    public bool[] unlockedFountians = {false,false,false,false,false,false};
+    [SerializeField] private List<string> unlockedFountians = new List<string>();
+    [SerializeField] private string lastFountain;
+    [SerializeField] private List<int> coalIndex = new List<int>();
     public float dashCool = 1f;
     
-    public void playDeathSound(){
+    public void addCoal(int index){
+        coalIndex.Add(index);
+    }
+    public bool collectedCoal(int index){
+        return coalIndex.Contains(index);
+    }
+    public void playDeathSound()
+    {
         AudioHandler.playSound(deathSound, transform, 1);
     }
     
@@ -55,11 +62,31 @@ public class PlayerData : MonoBehaviour
     public int getActiveWepon(){
         return activeWepon;
     }
-    public void SetFountain(int index, bool state){
-        unlockedFountians[index] = state;
+    public void UnlockFountain(string index){
+        if (!unlockedFountians.Contains(index)){
+            unlockedFountians.Add(index);
+        }
     }
-    public bool GetFountain(int index){
-        return unlockedFountians[index];
+    public bool CheckAria(string index){
+        bool found = false;
+        foreach (string s in unlockedFountians) {
+            if (s.StartsWith(index)) {
+                found = true;
+                break;
+            }
+        }
+        return found;
+    }
+    public bool CheckFountain(string index)
+    {
+        return unlockedFountians.Contains(index);
+    }
+    public void setLastFountian(string index){
+        lastFountain = index;
+    }
+    public string getLastFountain()
+    {
+        return lastFountain;
     }
     public void setActiveWepon(int activeWeponIn)
     {
