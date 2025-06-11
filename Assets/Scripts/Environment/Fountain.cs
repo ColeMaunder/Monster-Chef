@@ -23,24 +23,26 @@ public class Fountain : MonoBehaviour
             {
                 player.RefillHeals();
                 player.RefillHealth();
-                
                 GameObject Respawn = GameObject.FindWithTag("Respawn");
                 Respawn.transform.position = transform.position;
                 print("fountain set");
                 data.SetFountain(index, true);
                 fountainUI.SetActive(true);
+                fountainUI.transform.GetChild(0).gameObject.SetActive(true);
+                Time.timeScale = 0f;
             }
         }
     }
     private void OnTriggerEnter2D(Collider2D collision){
-        if (collision.gameObject.tag == "Player"){
+        if (collision.gameObject.tag == "PlayerBody"){
             print("player in");
             inRainge = true;
         }
     }
     private void OnTriggerExit2D(Collider2D collision){
-        if (collision.gameObject.tag == "Player"){
+        if (collision.gameObject.tag == "PlayerBody"){
             inRainge = false;
+            Time.timeScale = 1f;
         }
     }
 }

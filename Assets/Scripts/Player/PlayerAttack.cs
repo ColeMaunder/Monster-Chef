@@ -27,61 +27,62 @@ public class PlayerAttack : MonoBehaviour
 
     void Update()
     {
-        if (player.GetPlayerAlive()){
-            AttackTimer();
-            if (!isAttacking && !isUlting){
-                if (Input.GetMouseButtonDown(0) /*|| Input.GetKeyDown(keys.GetKey(4))*/){
-                    heavyCharge=0;
-                    if (lightCombo < attacks.GetComboMax()){
-                        Attack(0);
-                        print("light");
-                        lightCombo++;
-                        print(lightCombo);
-                    }else{
-                        Attack(1);
+        if (Time.timeScale > 0){
+             if (player.GetPlayerAlive()){
+                AttackTimer();
+                if (!isAttacking && !isUlting){
+                    if (Input.GetMouseButtonDown(0) /*|| Input.GetKeyDown(keys.GetKey(4))*/){
+                        heavyCharge=0;
+                        if (lightCombo < attacks.GetComboMax()){
+                            Attack(0);
+                            print("light");
+                            lightCombo++;
+                            print(lightCombo);
+                        }else{
+                            Attack(1);
+                            lightCombo = 0;
+                            print("full light");
+                        }
+                        
+                    } else if (Input.GetMouseButton(1) /*|| Input.GetKeyDown(keys.GetKey(5))*/){
                         lightCombo = 0;
-                        print("full light");
-                    }
-                    
-                } else if (Input.GetMouseButton(1) /*|| Input.GetKeyDown(keys.GetKey(5))*/){
-                    lightCombo = 0;
-                    heavyCharge = heavyCharge +1 * Time.deltaTime;
-                    animator.SetBool("Charging", true);
-                    print (heavyCharge);
-                    if (heavyCharge > attacks.GetChargeMax()){
-                        Attack(4);
+                        heavyCharge = heavyCharge +1 * Time.deltaTime;
+                        animator.SetBool("Charging", true);
+                        print (heavyCharge);
+                        if (heavyCharge > attacks.GetChargeMax()){
+                            Attack(4);
+                            heavyCharge = 0;
+                            print("full light");
+                        }
+                        
+                    }else if(heavyCharge > 0){
+                        if(heavyCharge > attacks.GetChargeMax()/2){
+                                Attack(3);
+                            print("50% heavy");
+
+                        }else{
+                            Attack(2);
+                            print("uncharged heavy");
+
+                        }
                         heavyCharge = 0;
-                        print("full light");
-                    }
-                    
-                }else if(heavyCharge > 0){
-                    if(heavyCharge > attacks.GetChargeMax()/2){
-                            Attack(3);
-                        print("50% heavy");
-
-                    }else{
-                        Attack(2);
-                        print("uncharged heavy");
-
-                    }
-                    heavyCharge = 0;
-                }else if(attacks.GetUltActive()){
-                    if(Input.GetKeyDown(KeyCode.Q)) {
-                        if (attacks.GetUltCharge() >= attacks.GetUltChargeNeeded(activeUlt)){
-                            Ult();
+                    }else if(attacks.GetUltActive()){
+                        if(Input.GetKeyDown(KeyCode.Q)) {
+                            if (attacks.GetUltCharge() >= attacks.GetUltChargeNeeded(activeUlt)){
+                                Ult();
+                            }
                         }
                     }
+                    
                 }
-                
+            }else{
+                isAttacking = false;
+                atkTimer = 0;
+                heavyCharge = 0;
+                lightCombo = 0;
+                attacks.GetAtk(atkType).SetActive(false);
             }
-        }else{
-            isAttacking = false;
-            atkTimer = 0;
-            heavyCharge = 0;
-            lightCombo = 0;
-            attacks.GetAtk(atkType).SetActive(false);
         }
-    
     }
      void Attack(int type){
         animator.SetBool("Charging", false);

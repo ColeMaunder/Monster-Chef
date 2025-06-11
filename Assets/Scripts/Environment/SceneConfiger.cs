@@ -13,6 +13,7 @@ public class SceneConfiger : MonoBehaviour
     private AudioClip seaneMusic;
     void Awake()
     {
+        Time.timeScale = 1f;
         GameObject.FindWithTag("UI").GetComponent<MenuHandler>().setCombatUIActive(!safe);
         GameObject.FindWithTag("SoundManager").GetComponent<AudioHandler>().setMusic(seaneMusic);
         GameObject.FindWithTag("SoundManager").GetComponent<AudioSource>().Play();

@@ -103,10 +103,10 @@ TextureImporter:
       name: Inventory Summary_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 522
+        x: 77
+        y: 366
         width: 174
-        height: 522
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,8 +125,8 @@ TextureImporter:
       name: Inventory Summary_1
       rect:
         serializedVersion: 2
-        x: 215
-        y: 948
+        x: 345
+        y: 912
         width: 96
         height: 96
       alignment: 0

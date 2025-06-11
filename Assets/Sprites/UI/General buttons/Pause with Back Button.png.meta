@@ -1,34 +1,25 @@
 fileFormatVersion: 2
-guid: 5ed6ca38ac062e14184dc64eb5a92b38
+guid: 99feb5a28bf1d2d489741921f2b93e20
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7071168899613416778
-    second: Buttons Various_0
+      213: 5620235737570450227
+    second: Pause with Back Button_0
   - first:
-      213: -3866942967385182147
-    second: Buttons Various_1
+      213: 6637097299711280695
+    second: Pause with Back Button_1
   - first:
-      213: -3875235285481559564
-    second: Buttons Various_2
+      213: -467258630944318423
+    second: Pause with Back Button_2
   - first:
-      213: -329309849218237855
-    second: Buttons Various_3
+      213: 3138231153469250877
+    second: Pause with Back Button_3
   - first:
-      213: -329014124480785749
-    second: Buttons Various_4
+      213: -8844401990686934715
+    second: Pause with Back Button_4
   - first:
-      213: 801075006520372198
-    second: Buttons Various_5
-  - first:
-      213: 3439465343872993760
-    second: Buttons Various_6
-  - first:
-      213: 576539346283611689
-    second: Buttons Various_7
-  - first:
-      213: -904363052937894851
-    second: Buttons Various_8
+      213: 2824526102654330280
+    second: Pause with Back Button_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -124,77 +115,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Buttons Various_0
+      name: Pause with Back Button_0
       rect:
         serializedVersion: 2
-        x: 65
-        y: 839
-        width: 476
-        height: 182
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a4d5f3846a6d12260800000000000000
-      internalID: 7071168899613416778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buttons Various_1
-      rect:
-        serializedVersion: 2
-        x: 629
-        y: 839
-        width: 182
-        height: 182
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d30bf4eebdbd55ac0800000000000000
-      internalID: -3866942967385182147
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buttons Various_2
-      rect:
-        serializedVersion: 2
-        x: 881
-        y: 869
-        width: 134
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4f9efcb2a06683ac0800000000000000
-      internalID: -3875235285481559564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buttons Various_3
-      rect:
-        serializedVersion: 2
-        x: 1049
-        y: 875
+        x: 1751
+        y: 917
         width: 122
         height: 122
       alignment: 0
@@ -205,18 +130,84 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16a3f48df6e0e6bf0800000000000000
-      internalID: -329309849218237855
+      spriteID: 33b97d340a61ffd40800000000000000
+      internalID: 5620235737570450227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buttons Various_4
+      name: Pause with Back Button_1
       rect:
         serializedVersion: 2
-        x: 1277
-        y: 875
+        x: 623
+        y: 587
+        width: 668
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736cef844d4bb1c50800000000000000
+      internalID: 6637097299711280695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause with Back Button_2
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 769
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c145430c6f389f0800000000000000
+      internalID: -467258630944318423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause with Back Button_3
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 359
+        width: 668
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d59956b9c3d8b20800000000000000
+      internalID: 3138231153469250877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause with Back Button_4
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 125
         width: 350
         height: 110
       alignment: 0
@@ -227,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba29c30a56b1f6bf0800000000000000
-      internalID: -329014124480785749
+      spriteID: 549f856cf3f524580800000000000000
+      internalID: -8844401990686934715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buttons Various_5
+      name: Pause with Back Button_5
       rect:
         serializedVersion: 2
-        x: 65
-        y: 563
-        width: 476
-        height: 248
+        x: 977
+        y: 125
+        width: 350
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,74 +240,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6eb2712697dfd1b00800000000000000
-      internalID: 801075006520372198
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buttons Various_6
-      rect:
-        serializedVersion: 2
-        x: 623
-        y: 563
-        width: 1208
-        height: 248
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e901d6d18f6bbf20800000000000000
-      internalID: 3439465343872993760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buttons Various_7
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 191
-        width: 302
-        height: 302
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 92645461b77400800800000000000000
-      internalID: 576539346283611689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buttons Various_8
-      rect:
-        serializedVersion: 2
-        x: 437
-        y: 197
-        width: 290
-        height: 290
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d3426a9489e0373f0800000000000000
-      internalID: -904363052937894851
+      spriteID: 8a5a78f768bb23720800000000000000
+      internalID: 2824526102654330280
       vertices: []
       indices: 
       edges: []
@@ -334,16 +259,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Buttons Various_0: 7071168899613416778
-      Buttons Various_1: -3866942967385182147
-      Buttons Various_2: -3875235285481559564
-      Buttons Various_3: -329309849218237855
-      Buttons Various_4: -329014124480785749
-      Buttons Various_5: 801075006520372198
-      Buttons Various_6: 3439465343872993760
-      Buttons Various_7: 576539346283611689
-      Buttons Various_8: -904363052937894851
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

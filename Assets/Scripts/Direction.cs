@@ -33,22 +33,25 @@ public class Direction: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(playerState.GetPlayerAlive()){
-            int [] direction;
-            if (isPlayer){
-                if (data.GetMouseMovment()){
-                    direction = DirectionAuto(Camera.main.ScreenToWorldPoint(Input.mousePosition));
-                }else{
-                    direction = DirectionKey();
-                }
-                SetDirection(direction[0],direction[1]);
-            }else{
-                if (localEnemy.getCanLook()){
-                    direction = DirectionAuto(player.transform.position);
+        if (Time.timeScale > 0){
+           if(playerState.GetPlayerAlive()){
+                int [] direction;
+                if (isPlayer){
+                    if (data.GetMouseMovment()){
+                        direction = DirectionAuto(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+                    }else{
+                        direction = DirectionKey();
+                    }
                     SetDirection(direction[0],direction[1]);
-                }
+                }else{
+                    if (localEnemy.getCanLook()){
+                        direction = DirectionAuto(player.transform.position);
+                        SetDirection(direction[0],direction[1]);
+                    }
+                }  
             }  
-        } 
+        }
+        
     }
     public int[] DirectionAuto(Vector3 comperePosition){
         int [] direction = {0,0};

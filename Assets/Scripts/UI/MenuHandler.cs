@@ -11,13 +11,14 @@ public class MenuHandler : MonoBehaviour
 
     void Update()
     {
-        // Check for input to pause the game
-        if (Input.GetKey(KeyCode.Escape))
-        {
-            //try{
-            pauseScreen.SetActive(true);
-            Time.timeScale = 0f; // Pause the game
-            //}catch(UnassignedReferenceException){}
+        if (Time.timeScale > 0){
+            // Check for input to pause the game
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                pauseScreen.SetActive(true);
+                pauseScreen.transform.GetChild(0).gameObject.SetActive(true);
+                Time.timeScale = 0f; // Pause the game
+            }
         }
 
     }

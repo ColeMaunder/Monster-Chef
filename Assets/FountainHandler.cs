@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class FountainHandler : MonoBehaviour
@@ -23,5 +24,9 @@ public class FountainHandler : MonoBehaviour
     public void ShowMainScreen(bool activeIn)
     {
         MainScreen.SetActive(activeIn);
+    }
+    public void CloseFountin()
+    {
+        gameObject.SetActive(false);
     }
 }

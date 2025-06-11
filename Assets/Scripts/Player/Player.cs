@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     private CameraFollow cameraFollow;
     private PlayerData data;
     private MenuHandler menu;
+    HealsUI fountainUI;
     public bool GetPlayerAlive()
     {
         return playerAlive;
@@ -21,6 +22,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        fountainUI = GameObject.FindWithTag("UI").transform.GetChild(0).GetChild(1).GetComponent<HealsUI>();
         menu = GameObject.FindWithTag("UI").GetComponent<MenuHandler>();
         health = maxHealth;
         heals = maxHeals;
@@ -147,6 +149,7 @@ public class Player : MonoBehaviour
     public void RefillHeals()
     {
         heals = maxHeals;
+        fountainUI.Fountain();
     }
     public void RefillHealth()
     {
