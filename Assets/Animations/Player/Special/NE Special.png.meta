@@ -1,0 +1,2049 @@
+fileFormatVersion: 2
+guid: 44ad9e3c4ac7d9343824999d8283351d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4099376111435821729
+    second: NE Special_0
+  - first:
+      213: -7747737823074736696
+    second: NE Special_1
+  - first:
+      213: -6753870160690117765
+    second: NE Special_2
+  - first:
+      213: -4357516572623569042
+    second: NE Special_3
+  - first:
+      213: 1157958368410131491
+    second: NE Special_4
+  - first:
+      213: 4024305864705588842
+    second: NE Special_5
+  - first:
+      213: -6616384028263162616
+    second: NE Special_6
+  - first:
+      213: 2906309123267511131
+    second: NE Special_7
+  - first:
+      213: 4090263504746464963
+    second: NE Special_8
+  - first:
+      213: -8998691199588588872
+    second: NE Special_9
+  - first:
+      213: -516317417042208992
+    second: NE Special_10
+  - first:
+      213: 5111517334334439971
+    second: NE Special_11
+  - first:
+      213: 4804727096370603329
+    second: NE Special_12
+  - first:
+      213: 876061369063034291
+    second: NE Special_13
+  - first:
+      213: -8277644994180356673
+    second: NE Special_14
+  - first:
+      213: -6235278349006803989
+    second: NE Special_15
+  - first:
+      213: 8610418150547160351
+    second: NE Special_16
+  - first:
+      213: -5200875344925659664
+    second: NE Special_17
+  - first:
+      213: -4406224892146052742
+    second: NE Special_18
+  - first:
+      213: 5871746566642962602
+    second: NE Special_19
+  - first:
+      213: -7172708011145588991
+    second: NE Special_20
+  - first:
+      213: -6720717352772755094
+    second: NE Special_21
+  - first:
+      213: -4228019983366041901
+    second: NE Special_22
+  - first:
+      213: 6524918285618641887
+    second: NE Special_23
+  - first:
+      213: -8645283348260405820
+    second: NE Special_24
+  - first:
+      213: -1138884058081076055
+    second: NE Special_25
+  - first:
+      213: -3031537553174738247
+    second: NE Special_26
+  - first:
+      213: -9053804628217576630
+    second: NE Special_27
+  - first:
+      213: 811571501542794687
+    second: NE Special_28
+  - first:
+      213: -2647936762518841421
+    second: NE Special_29
+  - first:
+      213: -2360060029707225074
+    second: NE Special_30
+  - first:
+      213: 431129902767235675
+    second: NE Special_31
+  - first:
+      213: 7577994207160205362
+    second: NE Special_32
+  - first:
+      213: 297013909582982244
+    second: NE Special_33
+  - first:
+      213: 8572700912056301033
+    second: NE Special_34
+  - first:
+      213: -32868997196034554
+    second: NE Special_35
+  - first:
+      213: -3877392395095824740
+    second: NE Special_36
+  - first:
+      213: 2405062621540491686
+    second: NE Special_37
+  - first:
+      213: -4079016866387202120
+    second: NE Special_38
+  - first:
+      213: -7708180539332877024
+    second: NE Special_39
+  - first:
+      213: 6664892592003168131
+    second: NE Special_40
+  - first:
+      213: -8934995006652267663
+    second: NE Special_41
+  - first:
+      213: -7599908219109885978
+    second: NE Special_42
+  - first:
+      213: -7206738242672560577
+    second: NE Special_43
+  - first:
+      213: -1902877540367924497
+    second: NE Special_44
+  - first:
+      213: -7029644519142208927
+    second: NE Special_45
+  - first:
+      213: 5840971524495888990
+    second: NE Special_46
+  - first:
+      213: -7233283715836512210
+    second: NE Special_47
+  - first:
+      213: 5919558605943203545
+    second: NE Special_48
+  - first:
+      213: 5250227230892930662
+    second: NE Special_49
+  - first:
+      213: -5342126596461236210
+    second: NE Special_50
+  - first:
+      213: -6944738445971771526
+    second: NE Special_51
+  - first:
+      213: -6603164604003485994
+    second: NE Special_52
+  - first:
+      213: -202766777751336971
+    second: NE Special_53
+  - first:
+      213: -3841906956299787476
+    second: NE Special_54
+  - first:
+      213: 2514805373847533752
+    second: NE Special_55
+  - first:
+      213: -3598674656030172447
+    second: NE Special_56
+  - first:
+      213: 3622796720619462468
+    second: NE Special_57
+  - first:
+      213: -4377348246562759861
+    second: NE Special_58
+  - first:
+      213: -4069074898338449931
+    second: NE Special_59
+  - first:
+      213: 7360259916181037608
+    second: NE Special_60
+  - first:
+      213: -6482426508845684426
+    second: NE Special_61
+  - first:
+      213: 4872060577109140704
+    second: NE Special_62
+  - first:
+      213: 9096074383802691250
+    second: NE Special_63
+  - first:
+      213: 1851292810728536930
+    second: NE Special_64
+  - first:
+      213: 4922494446844468323
+    second: NE Special_65
+  - first:
+      213: 6039361536060251188
+    second: NE Special_66
+  - first:
+      213: 4829584494521046781
+    second: NE Special_67
+  - first:
+      213: 231963297540983288
+    second: NE Special_68
+  - first:
+      213: 3552032968823188476
+    second: NE Special_69
+  - first:
+      213: -3706628475939286483
+    second: NE Special_70
+  - first:
+      213: 5061226861794503246
+    second: NE Special_71
+  - first:
+      213: -5897444785071749462
+    second: NE Special_72
+  - first:
+      213: -8359280969107955708
+    second: NE Special_73
+  - first:
+      213: -7089382486632351259
+    second: NE Special_74
+  - first:
+      213: -3349293560634422185
+    second: NE Special_75
+  - first:
+      213: -769447185512523318
+    second: NE Special_76
+  - first:
+      213: -3526384824374746055
+    second: NE Special_77
+  - first:
+      213: 400050947405002381
+    second: NE Special_78
+  - first:
+      213: 5108926909557318370
+    second: NE Special_79
+  - first:
+      213: 8265276428005217289
+    second: NE Special_80
+  - first:
+      213: 3810767053409819424
+    second: NE Special_81
+  - first:
+      213: 1962988319155058432
+    second: NE Special_82
+  - first:
+      213: -1533888986369419239
+    second: NE Special_83
+  - first:
+      213: -7178375409633120186
+    second: NE Special_84
+  - first:
+      213: 3474585998769013713
+    second: NE Special_85
+  - first:
+      213: 7340279479832817662
+    second: NE Special_86
+  - first:
+      213: 3207377389239202186
+    second: NE Special_87
+  - first:
+      213: -8886469185937378222
+    second: NE Special_88
+  - first:
+      213: -7087786383878600056
+    second: NE Special_89
+  - first:
+      213: -6001031144135348428
+    second: NE Special_90
+  - first:
+      213: 4333029737111706947
+    second: NE Special_91
+  - first:
+      213: -2487941106607441980
+    second: NE Special_92
+  - first:
+      213: 8842981409791698589
+    second: NE Special_93
+  - first:
+      213: -9195555952731593555
+    second: NE Special_94
+  - first:
+      213: 4139741133284996105
+    second: NE Special_95
+  - first:
+      213: -6834363326581745323
+    second: NE Special_96
+  - first:
+      213: 3737071965364778912
+    second: NE Special_97
+  - first:
+      213: -5676383006228197735
+    second: NE Special_98
+  - first:
+      213: -4853621573225109626
+    second: NE Special_99
+  - first:
+      213: -5555827170128099712
+    second: NE Special_100
+  - first:
+      213: 1923059317219880071
+    second: NE Special_101
+  - first:
+      213: -6475630615669016194
+    second: NE Special_102
+  - first:
+      213: 1891917671365819089
+    second: NE Special_103
+  - first:
+      213: 8073273780158173868
+    second: NE Special_104
+  - first:
+      213: 5113434899852068482
+    second: NE Special_105
+  - first:
+      213: -3371314199666562304
+    second: NE Special_106
+  - first:
+      213: -1180933944226660407
+    second: NE Special_107
+  - first:
+      213: -7167259933623770911
+    second: NE Special_108
+  - first:
+      213: 6860116878717928544
+    second: NE Special_109
+  - first:
+      213: -6241738271350143464
+    second: NE Special_110
+  - first:
+      213: -5176138968695652463
+    second: NE Special_111
+  - first:
+      213: -5180678407572980858
+    second: NE Special_112
+  - first:
+      213: 8937067527458896035
+    second: NE Special_113
+  - first:
+      213: 2418831990496205644
+    second: NE Special_114
+  - first:
+      213: -7988847540979498883
+    second: NE Special_115
+  - first:
+      213: 5842451365477231582
+    second: NE Special_116
+  - first:
+      213: -2194964711113712098
+    second: NE Special_117
+  - first:
+      213: -1068946267392819884
+    second: NE Special_118
+  - first:
+      213: 1800430252327852624
+    second: NE Special_119
+  - first:
+      213: 1600423969380655126
+    second: NE Special_120
+  - first:
+      213: -8867988012336157476
+    second: NE Special_121
+  - first:
+      213: 3417586903038042235
+    second: NE Special_122
+  - first:
+      213: 661159071763458068
+    second: NE Special_123
+  - first:
+      213: 282586165994189034
+    second: NE Special_124
+  - first:
+      213: -880885309535121615
+    second: NE Special_125
+  - first:
+      213: 7839213496133596397
+    second: NE Special_126
+  - first:
+      213: 1049535699225605021
+    second: NE Special_127
+  - first:
+      213: 6794389879311215644
+    second: NE Special_128
+  - first:
+      213: -5105746417044997845
+    second: NE Special_129
+  - first:
+      213: 4205627954538783654
+    second: NE Special_130
+  - first:
+      213: 4348247483902369014
+    second: NE Special_131
+  - first:
+      213: -9030766182999395063
+    second: NE Special_132
+  - first:
+      213: 8499634173179628283
+    second: NE Special_133
+  - first:
+      213: -5682589458014282839
+    second: NE Special_134
+  - first:
+      213: 3623997944600642968
+    second: NE Special_135
+  - first:
+      213: 4314907421030805090
+    second: NE Special_136
+  - first:
+      213: -7396811751288609534
+    second: NE Special_137
+  - first:
+      213: -8693794242796403672
+    second: NE Special_138
+  - first:
+      213: 6199523511172976972
+    second: NE Special_139
+  - first:
+      213: -5809011134762690673
+    second: NE Special_140
+  - first:
+      213: 1391602025274366041
+    second: NE Special_141
+  - first:
+      213: -1591767331805501285
+    second: NE Special_142
+  - first:
+      213: -1562404334204720487
+    second: NE Special_143
+  - first:
+      213: -7590707022025826878
+    second: NE Special_144
+  - first:
+      213: 4139952200981639287
+    second: NE Special_145
+  - first:
+      213: -1254368940451333948
+    second: NE Special_146
+  - first:
+      213: -7648493339280708834
+    second: NE Special_147
+  - first:
+      213: -5154922470780806343
+    second: NE Special_148
+  - first:
+      213: 5739621811427085628
+    second: NE Special_149
+  - first:
+      213: 1632244568914063559
+    second: NE Special_150
+  - first:
+      213: 7420430857421834094
+    second: NE Special_151
+  - first:
+      213: -2233739855187470179
+    second: NE Special_152
+  - first:
+      213: -3556427858536431290
+    second: NE Special_153
+  - first:
+      213: -6263881195992367598
+    second: NE Special_154
+  - first:
+      213: -8005899377237135817
+    second: NE Special_155
+  - first:
+      213: 9061332458334515503
+    second: NE Special_156
+  - first:
+      213: -2474680858019993894
+    second: NE Special_157
+  - first:
+      213: -7729388948393340481
+    second: NE Special_158
+  - first:
+      213: 1487109022886105769
+    second: NE Special_159
+  - first:
+      213: 8995223267330432466
+    second: NE Special_160
+  - first:
+      213: 7392659406093312590
+    second: NE Special_161
+  - first:
+      213: 8084929290597251764
+    second: NE Special_162
+  - first:
+      213: 505352150342003972
+    second: NE Special_163
+  - first:
+      213: 3947290141489003691
+    second: NE Special_164
+  - first:
+      213: 887637676071990453
+    second: NE Special_165
+  - first:
+      213: -5717469496418786194
+    second: NE Special_166
+  - first:
+      213: -6975855823887811743
+    second: NE Special_167
+  - first:
+      213: 5653258571461191275
+    second: NE Special_168
+  - first:
+      213: 8458139343862705671
+    second: NE Special_169
+  - first:
+      213: -6193137760763802254
+    second: NE Special_170
+  - first:
+      213: 689926887322004548
+    second: NE Special_171
+  - first:
+      213: 6061714428128220691
+    second: NE Special_172
+  - first:
+      213: 6949527407135649760
+    second: NE Special_173
+  - first:
+      213: -1810699846521864136
+    second: NE Special_174
+  - first:
+      213: -4613598802912551842
+    second: NE Special_175
+  - first:
+      213: 2316116491436813053
+    second: NE Special_176
+  - first:
+      213: -8562259878818883737
+    second: NE Special_177
+  - first:
+      213: 6212651634668448249
+    second: NE Special_178
+  - first:
+      213: 8127386588044171478
+    second: NE Special_179
+  - first:
+      213: 4377620057296945533
+    second: NE Special_180
+  - first:
+      213: -3258797501802479959
+    second: NE Special_181
+  - first:
+      213: -4888781585020266564
+    second: NE Special_182
+  - first:
+      213: 8339513478528679282
+    second: NE Special_183
+  - first:
+      213: 3954429192755512682
+    second: NE Special_184
+  - first:
+      213: -8638166804115239514
+    second: NE Special_185
+  - first:
+      213: -1303439378842540
+    second: NE Special_186
+  - first:
+      213: 2200686538712735313
+    second: NE Special_187
+  - first:
+      213: -7418764874245665381
+    second: NE Special_188
+  - first:
+      213: 3491199283538115092
+    second: NE Special_189
+  - first:
+      213: 470581821779875171
+    second: NE Special_190
+  - first:
+      213: 2499562483590412575
+    second: NE Special_191
+  - first:
+      213: 1030400656862387144
+    second: NE Special_192
+  - first:
+      213: 4516167490724170859
+    second: NE Special_193
+  - first:
+      213: -4023145347188800883
+    second: NE Special_194
+  - first:
+      213: -1211584900501704848
+    second: NE Special_195
+  - first:
+      213: 1580328793945932643
+    second: NE Special_196
+  - first:
+      213: -3634102341380622563
+    second: NE Special_197
+  - first:
+      213: 6257339401450807656
+    second: NE Special_198
+  - first:
+      213: -2634920326827752957
+    second: NE Special_199
+  - first:
+      213: -7737651610507709365
+    second: NE Special_200
+  - first:
+      213: 1929755371772548693
+    second: NE Special_201
+  - first:
+      213: -1065716364686006868
+    second: NE Special_202
+  - first:
+      213: 8932677830473683184
+    second: NE Special_203
+  - first:
+      213: 8503354388802710398
+    second: NE Special_204
+  - first:
+      213: 7502641320692354899
+    second: NE Special_205
+  - first:
+      213: -1317046566444895078
+    second: NE Special_206
+  - first:
+      213: 4507788790343597625
+    second: NE Special_207
+  - first:
+      213: -2432987925125617532
+    second: NE Special_208
+  - first:
+      213: 3021837722684849247
+    second: NE Special_209
+  - first:
+      213: -8397342008179592523
+    second: NE Special_210
+  - first:
+      213: -282191051373185484
+    second: NE Special_211
+  - first:
+      213: -6141366998038746395
+    second: NE Special_212
+  - first:
+      213: -8030744762440487601
+    second: NE Special_213
+  - first:
+      213: 5758461865363365350
+    second: NE Special_214
+  - first:
+      213: 1757650859218246706
+    second: NE Special_215
+  - first:
+      213: 6404257257999836954
+    second: NE Special_216
+  - first:
+      213: -5583046099775262349
+    second: NE Special_217
+  - first:
+      213: -474808980671519857
+    second: NE Special_218
+  - first:
+      213: -1085535148705174010
+    second: NE Special_219
+  - first:
+      213: -4531657012223979299
+    second: NE Special_220
+  - first:
+      213: -3012091472210036975
+    second: NE Special_221
+  - first:
+      213: 3200412271600257092
+    second: NE Special_222
+  - first:
+      213: 3073175409526713917
+    second: NE Special_223
+  - first:
+      213: -3121231679664779749
+    second: NE Special_224
+  - first:
+      213: -766073077022830109
+    second: NE Special_225
+  - first:
+      213: -8912965137340715142
+    second: NE Special_226
+  - first:
+      213: -1822532566927079236
+    second: NE Special_227
+  - first:
+      213: -3016198028050321561
+    second: NE Special_228
+  - first:
+      213: 6250479741033131790
+    second: NE Special_229
+  - first:
+      213: 1057694337129913067
+    second: NE Special_230
+  - first:
+      213: 5245166306639692071
+    second: NE Special_231
+  - first:
+      213: 3688167278581072222
+    second: NE Special_232
+  - first:
+      213: 6807561985612208375
+    second: NE Special_233
+  - first:
+      213: 8827511848546190332
+    second: NE Special_234
+  - first:
+      213: 3466815729268765181
+    second: NE Special_235
+  - first:
+      213: -1733281711948026324
+    second: NE Special_236
+  - first:
+      213: 429311315983802001
+    second: NE Special_237
+  - first:
+      213: -3873254323746731266
+    second: NE Special_238
+  - first:
+      213: -4827476744030593141
+    second: NE Special_239
+  - first:
+      213: -6759272889925474249
+    second: NE Special_240
+  - first:
+      213: 2471901694180847415
+    second: NE Special_241
+  - first:
+      213: 368706765342374997
+    second: NE Special_242
+  - first:
+      213: -6284079378636187067
+    second: NE Special_243
+  - first:
+      213: -2974925311552871092
+    second: NE Special_244
+  - first:
+      213: 6846491617348965768
+    second: NE Special_245
+  - first:
+      213: 6417658855698817913
+    second: NE Special_246
+  - first:
+      213: 881456905174003201
+    second: NE Special_247
+  - first:
+      213: -2747130949813249952
+    second: NE Special_248
+  - first:
+      213: -5301917371731723580
+    second: NE Special_249
+  - first:
+      213: 4904561105549944542
+    second: NE Special_250
+  - first:
+      213: -511729881199486996
+    second: NE Special_251
+  - first:
+      213: 5405342669953261703
+    second: NE Special_252
+  - first:
+      213: -3496103905491129497
+    second: NE Special_253
+  - first:
+      213: -3381155588764482378
+    second: NE Special_254
+  - first:
+      213: -4221359957604986205
+    second: NE Special_255
+  - first:
+      213: -5693433740851675146
+    second: NE Special_256
+  - first:
+      213: -2375880413731578988
+    second: NE Special_257
+  - first:
+      213: 444222356269571134
+    second: NE Special_258
+  - first:
+      213: 6148769475161697058
+    second: NE Special_259
+  - first:
+      213: 1574568996351957320
+    second: NE Special_260
+  - first:
+      213: -4676121329572144412
+    second: NE Special_261
+  - first:
+      213: 6669862093497330009
+    second: NE Special_262
+  - first:
+      213: -2104341418720002823
+    second: NE Special_263
+  - first:
+      213: -7573023247332947719
+    second: NE Special_264
+  - first:
+      213: 9120239952332372321
+    second: NE Special_265
+  - first:
+      213: 999474359554526785
+    second: NE Special_266
+  - first:
+      213: 1023081878295187257
+    second: NE Special_267
+  - first:
+      213: -5360706107180403567
+    second: NE Special_268
+  - first:
+      213: -2892480220461385927
+    second: NE Special_269
+  - first:
+      213: -1836532349297561835
+    second: NE Special_270
+  - first:
+      213: -7169661264076912807
+    second: NE Special_271
+  - first:
+      213: 4047350404439294426
+    second: NE Special_272
+  - first:
+      213: -964244210360825718
+    second: NE Special_273
+  - first:
+      213: -1253461611036194132
+    second: NE Special_274
+  - first:
+      213: 2915707666479085149
+    second: NE Special_275
+  - first:
+      213: 766439758060688452
+    second: NE Special_276
+  - first:
+      213: -7910473990861395331
+    second: NE Special_277
+  - first:
+      213: 5304802226808658984
+    second: NE Special_278
+  - first:
+      213: 1108170754470368157
+    second: NE Special_279
+  - first:
+      213: 7542207544775978884
+    second: NE Special_280
+  - first:
+      213: 8546988551876403455
+    second: NE Special_281
+  - first:
+      213: -7089043881653591706
+    second: NE Special_282
+  - first:
+      213: -565929552372589349
+    second: NE Special_283
+  - first:
+      213: -7456994185832609267
+    second: NE Special_284
+  - first:
+      213: -7628941800183215641
+    second: NE Special_285
+  - first:
+      213: 970353085843962442
+    second: NE Special_286
+  - first:
+      213: 2070523044036975988
+    second: NE Special_287
+  - first:
+      213: 8990724963431199801
+    second: NE Special_288
+  - first:
+      213: -8823739364006602341
+    second: NE Special_289
+  - first:
+      213: 7339219337774772640
+    second: NE Special_290
+  - first:
+      213: -1041173073732837674
+    second: NE Special_291
+  - first:
+      213: 1881068014053583987
+    second: NE Special_292
+  - first:
+      213: 3297680749492921154
+    second: NE Special_293
+  - first:
+      213: -8860402738869455111
+    second: NE Special_294
+  - first:
+      213: 8580149750930115916
+    second: NE Special_295
+  - first:
+      213: 7149819889919319512
+    second: NE Special_296
+  - first:
+      213: -8327503439048070364
+    second: NE Special_297
+  - first:
+      213: 2993903644179923505
+    second: NE Special_298
+  - first:
+      213: 2026770936002846011
+    second: NE Special_299
+  - first:
+      213: -1002106295137613718
+    second: NE Special_300
+  - first:
+      213: 579221176661214817
+    second: NE Special_301
+  - first:
+      213: 3460909250495920147
+    second: NE Special_302
+  - first:
+      213: 446264400002581266
+    second: NE Special_303
+  - first:
+      213: -8125010246224781990
+    second: NE Special_304
+  - first:
+      213: -3846868198189977277
+    second: NE Special_305
+  - first:
+      213: -7172651586480437017
+    second: NE Special_306
+  - first:
+      213: -3687320102557044115
+    second: NE Special_307
+  - first:
+      213: 2499127839180731399
+    second: NE Special_308
+  - first:
+      213: -2996038548170631252
+    second: NE Special_309
+  - first:
+      213: 8456899241128899334
+    second: NE Special_310
+  - first:
+      213: 9058290810193575400
+    second: NE Special_311
+  - first:
+      213: 849942832437026671
+    second: NE Special_312
+  - first:
+      213: -3747666989537188243
+    second: NE Special_313
+  - first:
+      213: 2955877927486826598
+    second: NE Special_314
+  - first:
+      213: -7828876159695973693
+    second: NE Special_315
+  - first:
+      213: -1814386046850760279
+    second: NE Special_316
+  - first:
+      213: 4254459301591684660
+    second: NE Special_317
+  - first:
+      213: 3958008009815939752
+    second: NE Special_318
+  - first:
+      213: 7878378232161076409
+    second: NE Special_319
+  - first:
+      213: 5300232815445031447
+    second: NE Special_320
+  - first:
+      213: -4644191287579099021
+    second: NE Special_321
+  - first:
+      213: 4765655904302251391
+    second: NE Special_322
+  - first:
+      213: -7660174972997019379
+    second: NE Special_323
+  - first:
+      213: 6360342087114181510
+    second: NE Special_324
+  - first:
+      213: 7343078311091554850
+    second: NE Special_325
+  - first:
+      213: -7418362622535667259
+    second: NE Special_326
+  - first:
+      213: 4767928840413663128
+    second: NE Special_327
+  - first:
+      213: 7424235981166479480
+    second: NE Special_328
+  - first:
+      213: 7634391409195134145
+    second: NE Special_329
+  - first:
+      213: 135911391217342183
+    second: NE Special_330
+  - first:
+      213: -3412542875808374018
+    second: NE Special_331
+  - first:
+      213: 5954949732530860917
+    second: NE Special_332
+  - first:
+      213: 1609233277314648760
+    second: NE Special_333
+  - first:
+      213: 737486214911452397
+    second: NE Special_334
+  - first:
+      213: 9066916423149731841
+    second: NE Special_335
+  - first:
+      213: -2210942521901851514
+    second: NE Special_336
+  - first:
+      213: -286666447761661677
+    second: NE Special_337
+  - first:
+      213: 9153382825426752769
+    second: NE Special_338
+  - first:
+      213: 8422056747467176891
+    second: NE Special_339
+  - first:
+      213: 6906789313153141027
+    second: NE Special_340
+  - first:
+      213: 5972028968901042674
+    second: NE Special_341
+  - first:
+      213: -7877301461058444576
+    second: NE Special_342
+  - first:
+      213: 194373587709798322
+    second: NE Special_343
+  - first:
+      213: -1440816267386009527
+    second: NE Special_344
+  - first:
+      213: -2021967109424170437
+    second: NE Special_345
+  - first:
+      213: -5075638910997952692
+    second: NE Special_346
+  - first:
+      213: -5773080587736473064
+    second: NE Special_347
+  - first:
+      213: 5510033265293826542
+    second: NE Special_348
+  - first:
+      213: 6173573249038974763
+    second: NE Special_349
+  - first:
+      213: 2077591436972887798
+    second: NE Special_350
+  - first:
+      213: 1386526707010513751
+    second: NE Special_351
+  - first:
+      213: -7316947890743731560
+    second: NE Special_352
+  - first:
+      213: -2874960637809537472
+    second: NE Special_353
+  - first:
+      213: 7366867977381319644
+    second: NE Special_354
+  - first:
+      213: 8656211433703682829
+    second: NE Special_355
+  - first:
+      213: -4545645600635527590
+    second: NE Special_356
+  - first:
+      213: -1484141437711260568
+    second: NE Special_357
+  - first:
+      213: 799096919897645113
+    second: NE Special_358
+  - first:
+      213: 3040937147845679274
+    second: NE Special_359
+  - first:
+      213: 4461131255694455751
+    second: NE Special_360
+  - first:
+      213: 1314701297526661949
+    second: NE Special_361
+  - first:
+      213: 6866031707821723983
+    second: NE Special_362
+  - first:
+      213: -2925935303882608715
+    second: NE Special_363
+  - first:
+      213: 2809822384840244253
+    second: NE Special_364
+  - first:
+      213: 8257207724415587011
+    second: NE Special_365
+  - first:
+      213: 923212925558612863
+    second: NE Special_366
+  - first:
+      213: 877872077559241847
+    second: NE Special_367
+  - first:
+      213: 755246606138134646
+    second: NE Special_368
+  - first:
+      213: -748558962207070340
+    second: NE Special_369
+  - first:
+      213: -4241701506330785484
+    second: NE Special_370
+  - first:
+      213: 8642514239776631983
+    second: NE Special_371
+  - first:
+      213: 5228361818959748848
+    second: NE Special_372
+  - first:
+      213: -3817325442328225494
+    second: NE Special_373
+  - first:
+      213: 5263147845953489941
+    second: NE Special_374
+  - first:
+      213: -4676455770906516452
+    second: NE Special_375
+  - first:
+      213: -51862771407043235
+    second: NE Special_376
+  - first:
+      213: -3638160032931379202
+    second: NE Special_377
+  - first:
+      213: -5063353616664684277
+    second: NE Special_378
+  - first:
+      213: -5191462516407720610
+    second: NE Special_379
+  - first:
+      213: -4324964393826536261
+    second: NE Special_380
+  - first:
+      213: 6847370829287431613
+    second: NE Special_381
+  - first:
+      213: -5524215682876923926
+    second: NE Special_382
+  - first:
+      213: 4608808964670154215
+    second: NE Special_383
+  - first:
+      213: 2056054570340898254
+    second: NE Special_384
+  - first:
+      213: -6131393883140745182
+    second: NE Special_385
+  - first:
+      213: 8247050700725251933
+    second: NE Special_386
+  - first:
+      213: 4572862831823470923
+    second: NE Special_387
+  - first:
+      213: 1432926077747439154
+    second: NE Special_388
+  - first:
+      213: 3466522769985257866
+    second: NE Special_389
+  - first:
+      213: 6854874460956652009
+    second: NE Special_390
+  - first:
+      213: 4337119699789051061
+    second: NE Special_391
+  - first:
+      213: -6338368418207288005
+    second: NE Special_392
+  - first:
+      213: 6091274466521969841
+    second: NE Special_393
+  - first:
+      213: -6510370883506956438
+    second: NE Special_394
+  - first:
+      213: -8253400014918871995
+    second: NE Special_395
+  - first:
+      213: -7807183948192715211
+    second: NE Special_396
+  - first:
+      213: 3391792628176589639
+    second: NE Special_397
+  - first:
+      213: -6514064008440857775
+    second: NE Special_398
+  - first:
+      213: 8694339499104090499
+    second: NE Special_399
+  - first:
+      213: -4099309566786113995
+    second: NE Special_400
+  - first:
+      213: -7243424444732878925
+    second: NE Special_401
+  - first:
+      213: -2182528790057080664
+    second: NE Special_402
+  - first:
+      213: 3909272760750757070
+    second: NE Special_403
+  - first:
+      213: 6589298912056399604
+    second: NE Special_404
+  - first:
+      213: -7424599503572682765
+    second: NE Special_405
+  - first:
+      213: 6478138561243938415
+    second: NE Special_406
+  - first:
+      213: -514032753215525443
+    second: NE Special_407
+  - first:
+      213: 468148022875066034
+    second: NE Special_408
+  - first:
+      213: -8722090695876788409
+    second: NE Special_409
+  - first:
+      213: -7988737223155962134
+    second: NE Special_410
+  - first:
+      213: -6117848577717311199
+    second: NE Special_411
+  - first:
+      213: 7539988073443948392
+    second: NE Special_412
+  - first:
+      213: -8139055342197014412
+    second: NE Special_413
+  - first:
+      213: -5076371676490939382
+    second: NE Special_414
+  - first:
+      213: 2547489582715164510
+    second: NE Special_415
+  - first:
+      213: 1218716595657472968
+    second: NE Special_416
+  - first:
+      213: -2627456661538939466
+    second: NE Special_417
+  - first:
+      213: 2940631878656847781
+    second: NE Special_418
+  - first:
+      213: -3528844637242981936
+    second: NE Special_419
+  - first:
+      213: 4640615820362761762
+    second: NE Special_420
+  - first:
+      213: 151887143758369767
+    second: NE Special_421
+  - first:
+      213: 2247777057870662781
+    second: NE Special_422
+  - first:
+      213: -707389736719171260
+    second: NE Special_423
+  - first:
+      213: -5006312989612417134
+    second: NE Special_424
+  - first:
+      213: 5242686064834956025
+    second: NE Special_425
+  - first:
+      213: -5529251718081775054
+    second: NE Special_426
+  - first:
+      213: -4346454474057707876
+    second: NE Special_427
+  - first:
+      213: 4394893020948341282
+    second: NE Special_428
+  - first:
+      213: 8777485801530811327
+    second: NE Special_429
+  - first:
+      213: 3489281787696704605
+    second: NE Special_430
+  - first:
+      213: 5773804804720019484
+    second: NE Special_431
+  - first:
+      213: 837121326024213698
+    second: NE Special_432
+  - first:
+      213: 8578071282482029674
+    second: NE Special_433
+  - first:
+      213: 1992355574582143552
+    second: NE Special_434
+  - first:
+      213: -3549007634406807248
+    second: NE Special_435
+  - first:
+      213: 6942269171899177725
+    second: NE Special_436
+  - first:
+      213: 464683603730069224
+    second: NE Special_437
+  - first:
+      213: 432551331804080392
+    second: NE Special_438
+  - first:
+      213: 1209957408385177775
+    second: NE Special_439
+  - first:
+      213: -3079066796152931055
+    second: NE Special_440
+  - first:
+      213: -4273488733425374019
+    second: NE Special_441
+  - first:
+      213: -2126453721473315796
+    second: NE Special_442
+  - first:
+      213: -4191153414194289366
+    second: NE Special_443
+  - first:
+      213: 4763737265753248946
+    second: NE Special_444
+  - first:
+      213: -68077624108697143
+    second: NE Special_445
+  - first:
+      213: 2700449426067643956
+    second: NE Special_446
+  - first:
+      213: 484271120148528835
+    second: NE Special_447
+  - first:
+      213: -1458098761299002047
+    second: NE Special_448
+  - first:
+      213: 366971072043001054
+    second: NE Special_449
+  - first:
+      213: -1125932870631277126
+    second: NE Special_450
+  - first:
+      213: -3558867713897364691
+    second: NE Special_451
+  - first:
+      213: 6034385465380882512
+    second: NE Special_452
+  - first:
+      213: -5300464067747096226
+    second: NE Special_453
+  - first:
+      213: 4018441503963201690
+    second: NE Special_454
+  - first:
+      213: 6654733109239081558
+    second: NE Special_455
+  - first:
+      213: -6840264247991135722
+    second: NE Special_456
+  - first:
+      213: -4492181541332052903
+    second: NE Special_457
+  - first:
+      213: 2226353567384579040
+    second: NE Special_458
+  - first:
+      213: 2727542280255320368
+    second: NE Special_459
+  - first:
+      213: -8333483999115672848
+    second: NE Special_460
+  - first:
+      213: -8029420132679117096
+    second: NE Special_461
+  - first:
+      213: 1481788013903909964
+    second: NE Special_462
+  - first:
+      213: 5491186008629838438
+    second: NE Special_463
+  - first:
+      213: -2145252632586828287
+    second: NE Special_464
+  - first:
+      213: 1559795813747924640
+    second: NE Special_465
+  - first:
+      213: 3815334610739384605
+    second: NE Special_466
+  - first:
+      213: -212484034935659719
+    second: NE Special_467
+  - first:
+      213: -1685598926812703799
+    second: NE Special_468
+  - first:
+      213: -4661660330731448288
+    second: NE Special_469
+  - first:
+      213: -5849515550624859010
+    second: NE Special_470
+  - first:
+      213: 1373208813771824612
+    second: NE Special_471
+  - first:
+      213: -3052812495166115075
+    second: NE Special_472
+  - first:
+      213: 2413653056352853804
+    second: NE Special_473
+  - first:
+      213: -5230160142777626357
+    second: NE Special_474
+  - first:
+      213: -3241520101886202035
+    second: NE Special_475
+  - first:
+      213: 684130377436061105
+    second: NE Special_476
+  - first:
+      213: 8902705268590798423
+    second: NE Special_477
+  - first:
+      213: 7771861239190539936
+    second: NE Special_478
+  - first:
+      213: 756700602992411948
+    second: NE Special_479
+  - first:
+      213: 481419555380202324
+    second: NE Special_480
+  - first:
+      213: 4151706582176868283
+    second: NE Special_481
+  - first:
+      213: -8170021337374866460
+    second: NE Special_482
+  - first:
+      213: 2531015185872710440
+    second: NE Special_483
+  - first:
+      213: 540814397396569351
+    second: NE Special_484
+  - first:
+      213: -469459541307440926
+    second: NE Special_485
+  - first:
+      213: 7399807872040135380
+    second: NE Special_486
+  - first:
+      213: 8010479851797448354
+    second: NE Special_487
+  - first:
+      213: -4557320638547063518
+    second: NE Special_488
+  - first:
+      213: 3967364332355489729
+    second: NE Special_489
+  - first:
+      213: -5781533952644997340
+    second: NE Special_490
+  - first:
+      213: 6933857366146672820
+    second: NE Special_491
+  - first:
+      213: 2984598275849410896
+    second: NE Special_492
+  - first:
+      213: 6872887185076774582
+    second: NE Special_493
+  - first:
+      213: 2087734197557996067
+    second: NE Special_494
+  - first:
+      213: -2182181356376804491
+    second: NE Special_495
+  - first:
+      213: -8144726499456415688
+    second: NE Special_496
+  - first:
+      213: 4131204071412272251
+    second: NE Special_497
+  - first:
+      213: 610183901347071410
+    second: NE Special_498
+  - first:
+      213: 190845196949161844
+    second: NE Special_499
+  - first:
+      213: 956639411788226646
+    second: NE Special_500
+  - first:
+      213: 5622576214772224278
+    second: NE Special_501
+  - first:
+      213: 8934549275945732206
+    second: NE Special_502
+  - first:
+      213: -8226776960433514926
+    second: NE Special_503
+  - first:
+      213: 8995525580568132178
+    second: NE Special_504
+  - first:
+      213: -7647770172345175798
+    second: NE Special_505
+  - first:
+      213: -1117638293572958315
+    second: NE Special_506
+  - first:
+      213: 2990641520550837917
+    second: NE Special_507
+  - first:
+      213: 6027208813078394728
+    second: NE Special_508
+  - first:
+      213: -8570336870057094842
+    second: NE Special_509
+  - first:
+      213: -5773722444410554263
+    second: NE Special_510
+  - first:
+      213: 770980469738016485
+    second: NE Special_511
+  - first:
+      213: 1636991934747151537
+    second: NE Special_512
+  - first:
+      213: 936943883767193185
+    second: NE Special_513
+  - first:
+      213: -1578785089253181886
+    second: NE Special_514
+  - first:
+      213: 3762401875287034228
+    second: NE Special_515
+  - first:
+      213: 6093186540565442751
+    second: NE Special_516
+  - first:
+      213: -4623766382358396319
+    second: NE Special_517
+  - first:
+      213: -3254794844914674088
+    second: NE Special_518
+  - first:
+      213: -4788040516612300208
+    second: NE Special_519
+  - first:
+      213: -8424486050756171896
+    second: NE Special_520
+  - first:
+      213: 6025396101807357567
+    second: NE Special_521
+  - first:
+      213: -572135546816800447
+    second: NE Special_522
+  - first:
+      213: -7440342091509957925
+    second: NE Special_523
+  - first:
+      213: 2544238184152913603
+    second: NE Special_524
+  - first:
+      213: -1553290099922557183
+    second: NE Special_525
+  - first:
+      213: -8373416077332992860
+    second: NE Special_526
+  - first:
+      213: -4279998490331349140
+    second: NE Special_527
+  - first:
+      213: 5428179274458990336
+    second: NE Special_528
+  - first:
+      213: 3533504097732437977
+    second: NE Special_529
+  - first:
+      213: 242176602585450222
+    second: NE Special_530
+  - first:
+      213: -7381595546431955474
+    second: NE Special_531
+  - first:
+      213: 5491619104613146456
+    second: NE Special_532
+  - first:
+      213: -5829888662069281676
+    second: NE Special_533
+  - first:
+      213: -7431409058336993315
+    second: NE Special_534
+  - first:
+      213: -2905346479289335889
+    second: NE Special_535
+  - first:
+      213: -4936201743230994683
+    second: NE Special_536
+  - first:
+      213: -8635043795174035733
+    second: NE Special_537
+  - first:
+      213: 5383760313670761989
+    second: NE Special_538
+  - first:
+      213: 4726326446212593315
+    second: NE Special_539
+  - first:
+      213: -6625976428273891301
+    second: NE Special_540
+  - first:
+      213: -3191794950233874853
+    second: NE Special_541
+  - first:
+      213: -5189037482917507223
+    second: NE Special_542
+  - first:
+      213: 2475911547759116651
+    second: NE Special_543
+  - first:
+      213: 6201173966809570748
+    second: NE Special_544
+  - first:
+      213: 7157800765778270304
+    second: NE Special_545
+  - first:
+      213: 7491270898980241152
+    second: NE Special_546
+  - first:
+      213: 8414563108302716202
+    second: NE Special_547
+  - first:
+      213: 8730005228465753870
+    second: NE Special_548
+  - first:
+      213: 7620391214676879697
+    second: NE Special_549
+  - first:
+      213: 1579686923065709220
+    second: NE Special_550
+  - first:
+      213: -606087775766487286
+    second: NE Special_551
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NE Special_0
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 218
+        width: 283
+        height: 631
+      alignment: 9
+      pivot: {x: 0.15724123, y: 0.10051325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d452565271c17c0800000000000000
+      internalID: -4099376111435821729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Special_1
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 219
+        width: 301
+        height: 632
+      alignment: 9
+      pivot: {x: 0.15158577, y: 0.09843073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5a5cacf718a7490800000000000000
+      internalID: -7747737823074736696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Special_2
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 219
+        width: 306
+        height: 643
+      alignment: 9
+      pivot: {x: 0.14631164, y: 0.09616701}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7384f45fde6542a0800000000000000
+      internalID: -6753870160690117765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Special_3
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 220
+        width: 330
+        height: 659
+      alignment: 9
+      pivot: {x: 0.1754498, y: 0.090894595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ff4e9a3cdf683c0800000000000000
+      internalID: -4357516572623569042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Special_4
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 219
+        width: 331
+        height: 661
+      alignment: 9
+      pivot: {x: 0.17602539, y: 0.09472883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32cd6cd3005e11010800000000000000
+      internalID: 1157958368410131491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Special_5
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 218
+        width: 444
+        height: 643
+      alignment: 9
+      pivot: {x: 0.07459926, y: 0.09935636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e3c4dbcd439d730800000000000000
+      internalID: 4024305864705588842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Special_6
+      rect:
+        serializedVersion: 2
+        x: 3691
+        y: 219
+        width: 587
+        height: 546
+      alignment: 9
+      pivot: {x: 0.05591569, y: 0.11559578}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d5ec908c1ed24a0800000000000000
+      internalID: -6616384028263162616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Special_7
+      rect:
+        serializedVersion: 2
+        x: 4484
+        y: 219
+        width: 588
+        height: 546
+      alignment: 9
+      pivot: {x: 0.05679757, y: 0.11483144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5346d3dfb8455820800000000000000
+      internalID: 2906309123267511131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Special_8
+      rect:
+        serializedVersion: 2
+        x: 5284
+        y: 219
+        width: 576
+        height: 535
+      alignment: 9
+      pivot: {x: 0.058080036, y: 0.116447605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c648268cf883c830800000000000000
+      internalID: 4090263504746464963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Special_9
+      rect:
+        serializedVersion: 2
+        x: 6069
+        y: 219
+        width: 552
+        height: 522
+      alignment: 9
+      pivot: {x: 0.060178895, y: 0.12238251}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657cc145ae127284fbec2d6752bcf82f
+      internalID: -8998691199588588872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Special_10
+      rect:
+        serializedVersion: 2
+        x: 6856
+        y: 219
+        width: 540
+        height: 529
+      alignment: 9
+      pivot: {x: 0.060551398, y: 0.118894465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2f548d76e071b4db39abb5b58d38ee
+      internalID: -516317417042208992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Special_11
+      rect:
+        serializedVersion: 2
+        x: 7601
+        y: 219
+        width: 540
+        height: 552
+      alignment: 9
+      pivot: {x: 0.061401367, y: 0.11258006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6310c60f3b9ca8d46b363ff5b8164efc
+      internalID: 5111517334334439971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 400a5ec5ce7adf74d9e13f9ba2fb571a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NE Special_0: -4099376111435821729
+      NE Special_1: -7747737823074736696
+      NE Special_10: -516317417042208992
+      NE Special_11: 5111517334334439971
+      NE Special_2: -6753870160690117765
+      NE Special_3: -4357516572623569042
+      NE Special_4: 1157958368410131491
+      NE Special_5: 4024305864705588842
+      NE Special_6: -6616384028263162616
+      NE Special_7: 2906309123267511131
+      NE Special_8: 4090263504746464963
+      NE Special_9: -8998691199588588872
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

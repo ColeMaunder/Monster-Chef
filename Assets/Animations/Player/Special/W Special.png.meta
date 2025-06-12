@@ -1,0 +1,1635 @@
+fileFormatVersion: 2
+guid: 97c337b950382a7449fb6fe7326f4f9f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8099073016609887166
+    second: W Special_0
+  - first:
+      213: -7216577743621628228
+    second: W Special_1
+  - first:
+      213: -45612401919283023
+    second: W Special_2
+  - first:
+      213: 647411354696733184
+    second: W Special_3
+  - first:
+      213: -848467421339968163
+    second: W Special_4
+  - first:
+      213: 5140782523046193753
+    second: W Special_5
+  - first:
+      213: -3214653706155134144
+    second: W Special_6
+  - first:
+      213: 8056075712124093327
+    second: W Special_7
+  - first:
+      213: -8441316580431456654
+    second: W Special_8
+  - first:
+      213: -523417157187206941
+    second: W Special_9
+  - first:
+      213: -649543766493251850
+    second: W Special_10
+  - first:
+      213: 5588228786859242724
+    second: W Special_11
+  - first:
+      213: 4813981296318132956
+    second: W Special_12
+  - first:
+      213: -6010098996192544406
+    second: W Special_13
+  - first:
+      213: -4166891578229650084
+    second: W Special_14
+  - first:
+      213: -7834050170978806606
+    second: W Special_15
+  - first:
+      213: -4817789111923921687
+    second: W Special_16
+  - first:
+      213: -7590620254422879578
+    second: W Special_17
+  - first:
+      213: -1788934035768609565
+    second: W Special_18
+  - first:
+      213: 2728456887887644758
+    second: W Special_19
+  - first:
+      213: 3684515328405778298
+    second: W Special_20
+  - first:
+      213: -7660165509784853938
+    second: W Special_21
+  - first:
+      213: -3335358286977305744
+    second: W Special_22
+  - first:
+      213: -8305359207062321529
+    second: W Special_23
+  - first:
+      213: 6884887284097517741
+    second: W Special_24
+  - first:
+      213: -3119128201509782652
+    second: W Special_25
+  - first:
+      213: 3256825346673428956
+    second: W Special_26
+  - first:
+      213: 9036382479998473275
+    second: W Special_27
+  - first:
+      213: -6118927165481830374
+    second: W Special_28
+  - first:
+      213: 8508814471417008836
+    second: W Special_29
+  - first:
+      213: -2271746876507713627
+    second: W Special_30
+  - first:
+      213: 1426130648683498996
+    second: W Special_31
+  - first:
+      213: 3273283067468598390
+    second: W Special_32
+  - first:
+      213: 5315192456972021141
+    second: W Special_33
+  - first:
+      213: -1601008836130367207
+    second: W Special_34
+  - first:
+      213: 3081051932417036378
+    second: W Special_35
+  - first:
+      213: -4664892241944870104
+    second: W Special_36
+  - first:
+      213: -8829537285628917964
+    second: W Special_37
+  - first:
+      213: -6689270669223765041
+    second: W Special_38
+  - first:
+      213: -7387220276455548771
+    second: W Special_39
+  - first:
+      213: -5745525809358643334
+    second: W Special_40
+  - first:
+      213: 7194559534824136865
+    second: W Special_41
+  - first:
+      213: 6695923080448606958
+    second: W Special_42
+  - first:
+      213: 1657084189109257088
+    second: W Special_43
+  - first:
+      213: -938865402874727054
+    second: W Special_44
+  - first:
+      213: -4743158532099298051
+    second: W Special_45
+  - first:
+      213: -7092053565487147413
+    second: W Special_46
+  - first:
+      213: 5259871393501041707
+    second: W Special_47
+  - first:
+      213: -1524249189920473633
+    second: W Special_48
+  - first:
+      213: 6905321366844192158
+    second: W Special_49
+  - first:
+      213: 7723370536892080587
+    second: W Special_50
+  - first:
+      213: -9056043413030684853
+    second: W Special_51
+  - first:
+      213: -2751623952419462275
+    second: W Special_52
+  - first:
+      213: -4827054206656199661
+    second: W Special_53
+  - first:
+      213: -6829527054527089604
+    second: W Special_54
+  - first:
+      213: 7110149309158809101
+    second: W Special_55
+  - first:
+      213: -1651501079077001041
+    second: W Special_56
+  - first:
+      213: -3340742860016692671
+    second: W Special_57
+  - first:
+      213: -7636511394054306802
+    second: W Special_58
+  - first:
+      213: 8643441530220241582
+    second: W Special_59
+  - first:
+      213: -4444307779821603172
+    second: W Special_60
+  - first:
+      213: -5019717961851791646
+    second: W Special_61
+  - first:
+      213: -8001714829169745604
+    second: W Special_62
+  - first:
+      213: -6233438606719008085
+    second: W Special_63
+  - first:
+      213: -1127323999475799899
+    second: W Special_64
+  - first:
+      213: -5397552174884742492
+    second: W Special_65
+  - first:
+      213: 7778290609371080690
+    second: W Special_66
+  - first:
+      213: 1472986923142656163
+    second: W Special_67
+  - first:
+      213: -5305744365951838477
+    second: W Special_68
+  - first:
+      213: 4893030067083981440
+    second: W Special_69
+  - first:
+      213: -7341836175949708450
+    second: W Special_70
+  - first:
+      213: 2720847631578249502
+    second: W Special_71
+  - first:
+      213: 3585607459885832078
+    second: W Special_72
+  - first:
+      213: -9018690400930432788
+    second: W Special_73
+  - first:
+      213: 3997053722835613788
+    second: W Special_74
+  - first:
+      213: -3976926838209687659
+    second: W Special_75
+  - first:
+      213: -103691246226999085
+    second: W Special_76
+  - first:
+      213: 9149986171672998556
+    second: W Special_77
+  - first:
+      213: -5434425439328093467
+    second: W Special_78
+  - first:
+      213: 3214233813979959597
+    second: W Special_79
+  - first:
+      213: -1898426914327923549
+    second: W Special_80
+  - first:
+      213: -5958670861515624063
+    second: W Special_81
+  - first:
+      213: 8531244245991425340
+    second: W Special_82
+  - first:
+      213: -574022295503705339
+    second: W Special_83
+  - first:
+      213: -2615482712707047069
+    second: W Special_84
+  - first:
+      213: -3092055767900927489
+    second: W Special_85
+  - first:
+      213: -8421290223829949717
+    second: W Special_86
+  - first:
+      213: 3483288007947432644
+    second: W Special_87
+  - first:
+      213: -7823713228120958271
+    second: W Special_88
+  - first:
+      213: 142842113102845623
+    second: W Special_89
+  - first:
+      213: 3436196884099259216
+    second: W Special_90
+  - first:
+      213: -4270164379687923191
+    second: W Special_91
+  - first:
+      213: 4095316105020308113
+    second: W Special_92
+  - first:
+      213: -3242980791121609062
+    second: W Special_93
+  - first:
+      213: 6058176303427904639
+    second: W Special_94
+  - first:
+      213: -1331002726208960615
+    second: W Special_95
+  - first:
+      213: -6523219630957803826
+    second: W Special_96
+  - first:
+      213: -1336864448692971467
+    second: W Special_97
+  - first:
+      213: -831861744663212710
+    second: W Special_98
+  - first:
+      213: 4435643850421421754
+    second: W Special_99
+  - first:
+      213: -2001158265937532692
+    second: W Special_100
+  - first:
+      213: 4769336953296814777
+    second: W Special_101
+  - first:
+      213: -5853675435907810328
+    second: W Special_102
+  - first:
+      213: 497976281461772144
+    second: W Special_103
+  - first:
+      213: 6668499299588673658
+    second: W Special_104
+  - first:
+      213: -541044137425600458
+    second: W Special_105
+  - first:
+      213: 2293142782687117989
+    second: W Special_106
+  - first:
+      213: 9148353339285746919
+    second: W Special_107
+  - first:
+      213: 2616144614209212345
+    second: W Special_108
+  - first:
+      213: 434620564771753631
+    second: W Special_109
+  - first:
+      213: -914787792941078564
+    second: W Special_110
+  - first:
+      213: -9012904340379299797
+    second: W Special_111
+  - first:
+      213: -8470762407857973140
+    second: W Special_112
+  - first:
+      213: -2160705911864358155
+    second: W Special_113
+  - first:
+      213: -29616436647988580
+    second: W Special_114
+  - first:
+      213: 3094803346916904061
+    second: W Special_115
+  - first:
+      213: -8687760215305531357
+    second: W Special_116
+  - first:
+      213: 8420175463763700674
+    second: W Special_117
+  - first:
+      213: -6959842029579296915
+    second: W Special_118
+  - first:
+      213: 3440767312651398475
+    second: W Special_119
+  - first:
+      213: -522732043251198651
+    second: W Special_120
+  - first:
+      213: 6925201821636411465
+    second: W Special_121
+  - first:
+      213: 8745560641907792397
+    second: W Special_122
+  - first:
+      213: 7256652819225508990
+    second: W Special_123
+  - first:
+      213: 4801802104403937174
+    second: W Special_124
+  - first:
+      213: 5624528862141748334
+    second: W Special_125
+  - first:
+      213: -2843643465962698817
+    second: W Special_126
+  - first:
+      213: 5724594259144488231
+    second: W Special_127
+  - first:
+      213: 1843910795322120102
+    second: W Special_128
+  - first:
+      213: -7640224949118512645
+    second: W Special_129
+  - first:
+      213: -5608046322355939762
+    second: W Special_130
+  - first:
+      213: -1145517469011470566
+    second: W Special_131
+  - first:
+      213: -769104134236286098
+    second: W Special_132
+  - first:
+      213: 7436805213173459935
+    second: W Special_133
+  - first:
+      213: -8276941142045670990
+    second: W Special_134
+  - first:
+      213: 3056728233360824695
+    second: W Special_135
+  - first:
+      213: -2246676446702209681
+    second: W Special_136
+  - first:
+      213: -398474342070743336
+    second: W Special_137
+  - first:
+      213: -1608938738634530721
+    second: W Special_138
+  - first:
+      213: 1202394024577943795
+    second: W Special_139
+  - first:
+      213: -5483273882417131728
+    second: W Special_140
+  - first:
+      213: -1567454521243924870
+    second: W Special_141
+  - first:
+      213: -5575376679020163161
+    second: W Special_142
+  - first:
+      213: -2208482457257417545
+    second: W Special_143
+  - first:
+      213: 8044350411210885991
+    second: W Special_144
+  - first:
+      213: -7574568464957073074
+    second: W Special_145
+  - first:
+      213: -2248712126125656391
+    second: W Special_146
+  - first:
+      213: -2634573155340609017
+    second: W Special_147
+  - first:
+      213: -3549418873688933147
+    second: W Special_148
+  - first:
+      213: -2287993330501940519
+    second: W Special_149
+  - first:
+      213: -8188599063261957822
+    second: W Special_150
+  - first:
+      213: -5202663303832187847
+    second: W Special_151
+  - first:
+      213: -5675709547616745881
+    second: W Special_152
+  - first:
+      213: 3517113226686053207
+    second: W Special_153
+  - first:
+      213: 6217354928591138432
+    second: W Special_154
+  - first:
+      213: 8920344601885671681
+    second: W Special_155
+  - first:
+      213: -2275198307286943262
+    second: W Special_156
+  - first:
+      213: 1759685971149559578
+    second: W Special_157
+  - first:
+      213: -5425013265155556348
+    second: W Special_158
+  - first:
+      213: -7405888229172277554
+    second: W Special_159
+  - first:
+      213: 5795089023123229754
+    second: W Special_160
+  - first:
+      213: 8546050249946247646
+    second: W Special_161
+  - first:
+      213: 4622968460314798981
+    second: W Special_162
+  - first:
+      213: 324711767134594302
+    second: W Special_163
+  - first:
+      213: -2701364845688146535
+    second: W Special_164
+  - first:
+      213: 9126799444848736709
+    second: W Special_165
+  - first:
+      213: 5167255918868604480
+    second: W Special_166
+  - first:
+      213: 3380265733913532989
+    second: W Special_167
+  - first:
+      213: -2617763825445674455
+    second: W Special_168
+  - first:
+      213: -5074541132547905029
+    second: W Special_169
+  - first:
+      213: -11109826779215582
+    second: W Special_170
+  - first:
+      213: 6067062212993285166
+    second: W Special_171
+  - first:
+      213: 1008310734559182462
+    second: W Special_172
+  - first:
+      213: -8436764444359512265
+    second: W Special_173
+  - first:
+      213: 7994842910432267212
+    second: W Special_174
+  - first:
+      213: 5907456050865109583
+    second: W Special_175
+  - first:
+      213: 6725642459995404924
+    second: W Special_176
+  - first:
+      213: -6884037885159526174
+    second: W Special_177
+  - first:
+      213: 3909748611681962315
+    second: W Special_178
+  - first:
+      213: 3538790014926696954
+    second: W Special_179
+  - first:
+      213: 6263277096730614890
+    second: W Special_180
+  - first:
+      213: -5466775082932153993
+    second: W Special_181
+  - first:
+      213: -1686718421570495088
+    second: W Special_182
+  - first:
+      213: -8747522254713822952
+    second: W Special_183
+  - first:
+      213: -6808189819867562040
+    second: W Special_184
+  - first:
+      213: 2165021786815615431
+    second: W Special_185
+  - first:
+      213: 6136028931455210754
+    second: W Special_186
+  - first:
+      213: 5435487002190648548
+    second: W Special_187
+  - first:
+      213: 2322236024468316417
+    second: W Special_188
+  - first:
+      213: 6859015023406243415
+    second: W Special_189
+  - first:
+      213: 5406123907789330709
+    second: W Special_190
+  - first:
+      213: 3649104036616625620
+    second: W Special_191
+  - first:
+      213: -4746162793658244303
+    second: W Special_192
+  - first:
+      213: -5059953116618388028
+    second: W Special_193
+  - first:
+      213: -7345364204444481430
+    second: W Special_194
+  - first:
+      213: 1844559815175575013
+    second: W Special_195
+  - first:
+      213: 4736057038893004861
+    second: W Special_196
+  - first:
+      213: -6820659754577197789
+    second: W Special_197
+  - first:
+      213: 7740763703682449928
+    second: W Special_198
+  - first:
+      213: -8561762346169889393
+    second: W Special_199
+  - first:
+      213: -7001594944930835371
+    second: W Special_200
+  - first:
+      213: -6506487284506145717
+    second: W Special_201
+  - first:
+      213: -3883580468958660749
+    second: W Special_202
+  - first:
+      213: -3768237070932799261
+    second: W Special_203
+  - first:
+      213: 5562407595246239155
+    second: W Special_204
+  - first:
+      213: 4841724687407543558
+    second: W Special_205
+  - first:
+      213: -6241583759766140110
+    second: W Special_206
+  - first:
+      213: -7694217031512752896
+    second: W Special_207
+  - first:
+      213: -2696347867271055435
+    second: W Special_208
+  - first:
+      213: 4725193654892530195
+    second: W Special_209
+  - first:
+      213: -6358402366376323979
+    second: W Special_210
+  - first:
+      213: -7940357356810210113
+    second: W Special_211
+  - first:
+      213: 5503120076986409597
+    second: W Special_212
+  - first:
+      213: 3860879694758962913
+    second: W Special_213
+  - first:
+      213: 4737863155449798814
+    second: W Special_214
+  - first:
+      213: -4451539028263737361
+    second: W Special_215
+  - first:
+      213: 596285478760383826
+    second: W Special_216
+  - first:
+      213: -6833249963863534307
+    second: W Special_217
+  - first:
+      213: -3405229839199751374
+    second: W Special_218
+  - first:
+      213: -7083869084823596770
+    second: W Special_219
+  - first:
+      213: 5834573613603838605
+    second: W Special_220
+  - first:
+      213: -7866663261562620421
+    second: W Special_221
+  - first:
+      213: 2803205688046499985
+    second: W Special_222
+  - first:
+      213: -6084215072039415537
+    second: W Special_223
+  - first:
+      213: 8008814816625118194
+    second: W Special_224
+  - first:
+      213: 8530683527923797909
+    second: W Special_225
+  - first:
+      213: -3082963422336518887
+    second: W Special_226
+  - first:
+      213: -3555236552373004888
+    second: W Special_227
+  - first:
+      213: -4350238570731330318
+    second: W Special_228
+  - first:
+      213: 1644369750050047488
+    second: W Special_229
+  - first:
+      213: -69685850556239318
+    second: W Special_230
+  - first:
+      213: 3329170804884689201
+    second: W Special_231
+  - first:
+      213: -4857354917548204737
+    second: W Special_232
+  - first:
+      213: -3729833426008966742
+    second: W Special_233
+  - first:
+      213: 3739836927918238164
+    second: W Special_234
+  - first:
+      213: 1787141201421800874
+    second: W Special_235
+  - first:
+      213: -3966752480358604986
+    second: W Special_236
+  - first:
+      213: 7153793864237398467
+    second: W Special_237
+  - first:
+      213: 5837275501711724131
+    second: W Special_238
+  - first:
+      213: 4477082030243574543
+    second: W Special_239
+  - first:
+      213: 5129512766039199409
+    second: W Special_240
+  - first:
+      213: 6188111490921483691
+    second: W Special_241
+  - first:
+      213: 4654654548253020809
+    second: W Special_242
+  - first:
+      213: 2725458785510531655
+    second: W Special_243
+  - first:
+      213: -2627880875109168495
+    second: W Special_244
+  - first:
+      213: -6187090115075807698
+    second: W Special_245
+  - first:
+      213: -5509031589354234584
+    second: W Special_246
+  - first:
+      213: 2610728756428419865
+    second: W Special_247
+  - first:
+      213: 956607564592478706
+    second: W Special_248
+  - first:
+      213: -1102441993033042174
+    second: W Special_249
+  - first:
+      213: 6894145575375696636
+    second: W Special_250
+  - first:
+      213: 1582570125279986710
+    second: W Special_251
+  - first:
+      213: -102742028555489201
+    second: W Special_252
+  - first:
+      213: 6623499853022497050
+    second: W Special_253
+  - first:
+      213: 8978476986852595352
+    second: W Special_254
+  - first:
+      213: 8536523354289512467
+    second: W Special_255
+  - first:
+      213: 8166678847126887392
+    second: W Special_256
+  - first:
+      213: -7042951151839903660
+    second: W Special_257
+  - first:
+      213: 1513333055397369989
+    second: W Special_258
+  - first:
+      213: -8390585682611682086
+    second: W Special_259
+  - first:
+      213: -440871149874805307
+    second: W Special_260
+  - first:
+      213: 7065785762833067669
+    second: W Special_261
+  - first:
+      213: 4200320695411643794
+    second: W Special_262
+  - first:
+      213: -2289509026889940776
+    second: W Special_263
+  - first:
+      213: 1352403454729837303
+    second: W Special_264
+  - first:
+      213: -261368952796118611
+    second: W Special_265
+  - first:
+      213: -5400666011051536702
+    second: W Special_266
+  - first:
+      213: 5176062836884085889
+    second: W Special_267
+  - first:
+      213: -3609299965109204873
+    second: W Special_268
+  - first:
+      213: 4968660790172981662
+    second: W Special_269
+  - first:
+      213: -4520571836274487045
+    second: W Special_270
+  - first:
+      213: -2385703416329050340
+    second: W Special_271
+  - first:
+      213: -905132817300215494
+    second: W Special_272
+  - first:
+      213: 1505463406609348804
+    second: W Special_273
+  - first:
+      213: -898319235957814102
+    second: W Special_274
+  - first:
+      213: 735357632824340637
+    second: W Special_275
+  - first:
+      213: 3731303698909466831
+    second: W Special_276
+  - first:
+      213: 127441520760241553
+    second: W Special_277
+  - first:
+      213: -6420322664507474017
+    second: W Special_278
+  - first:
+      213: -8330915212026374542
+    second: W Special_279
+  - first:
+      213: 3693042252882037548
+    second: W Special_280
+  - first:
+      213: 7207081441853643856
+    second: W Special_281
+  - first:
+      213: -8185660468704286444
+    second: W Special_282
+  - first:
+      213: -8265687578160436005
+    second: W Special_283
+  - first:
+      213: -1139056484813311734
+    second: W Special_284
+  - first:
+      213: 5484167936301319574
+    second: W Special_285
+  - first:
+      213: -8114656774790890210
+    second: W Special_286
+  - first:
+      213: -2721788626479834818
+    second: W Special_287
+  - first:
+      213: -7646714883487969820
+    second: W Special_288
+  - first:
+      213: -7466391457750207404
+    second: W Special_289
+  - first:
+      213: 2751573839644787415
+    second: W Special_290
+  - first:
+      213: 560833253992597797
+    second: W Special_291
+  - first:
+      213: -103739178263297613
+    second: W Special_292
+  - first:
+      213: -5116747441134094677
+    second: W Special_293
+  - first:
+      213: 7893235859535323097
+    second: W Special_294
+  - first:
+      213: -6556598285265167791
+    second: W Special_295
+  - first:
+      213: 3970573877281560027
+    second: W Special_296
+  - first:
+      213: 3661935928881860879
+    second: W Special_297
+  - first:
+      213: -1001789256246712729
+    second: W Special_298
+  - first:
+      213: -1647406814534842859
+    second: W Special_299
+  - first:
+      213: -8526159825348275393
+    second: W Special_300
+  - first:
+      213: -2381401806288714305
+    second: W Special_301
+  - first:
+      213: 1992602772163984471
+    second: W Special_302
+  - first:
+      213: -1698289427142841667
+    second: W Special_303
+  - first:
+      213: 4568407283223519714
+    second: W Special_304
+  - first:
+      213: 6337492232491630327
+    second: W Special_305
+  - first:
+      213: 1528821427845291207
+    second: W Special_306
+  - first:
+      213: -108876652235224472
+    second: W Special_307
+  - first:
+      213: 4621844083032773251
+    second: W Special_308
+  - first:
+      213: 3215969800910970851
+    second: W Special_309
+  - first:
+      213: 6097173280169234109
+    second: W Special_310
+  - first:
+      213: 8521648265117214338
+    second: W Special_311
+  - first:
+      213: -5738872517096655819
+    second: W Special_312
+  - first:
+      213: 1039837484009779284
+    second: W Special_313
+  - first:
+      213: 3139125183116239144
+    second: W Special_314
+  - first:
+      213: 4753694298072734615
+    second: W Special_315
+  - first:
+      213: 7286545273467764560
+    second: W Special_316
+  - first:
+      213: 6288568897851345704
+    second: W Special_317
+  - first:
+      213: 844216710028739307
+    second: W Special_318
+  - first:
+      213: 7969669595799788462
+    second: W Special_319
+  - first:
+      213: -5259286144031190406
+    second: W Special_320
+  - first:
+      213: -7549580001269084745
+    second: W Special_321
+  - first:
+      213: -4884591436865990763
+    second: W Special_322
+  - first:
+      213: 8200127653281862075
+    second: W Special_323
+  - first:
+      213: -5872587492239474968
+    second: W Special_324
+  - first:
+      213: 5189893775642274158
+    second: W Special_325
+  - first:
+      213: 5819317553508103919
+    second: W Special_326
+  - first:
+      213: -6740111545199871210
+    second: W Special_327
+  - first:
+      213: -8885885780472849092
+    second: W Special_328
+  - first:
+      213: 2988832731650957335
+    second: W Special_329
+  - first:
+      213: -7768240367473906378
+    second: W Special_330
+  - first:
+      213: -3398807822580435894
+    second: W Special_331
+  - first:
+      213: -5329548463507890373
+    second: W Special_332
+  - first:
+      213: -4424430325784658019
+    second: W Special_333
+  - first:
+      213: -4026154181933444169
+    second: W Special_334
+  - first:
+      213: -2442716876948792875
+    second: W Special_335
+  - first:
+      213: 711649784007923619
+    second: W Special_336
+  - first:
+      213: -3929995666487382230
+    second: W Special_337
+  - first:
+      213: 1463295330753813367
+    second: W Special_338
+  - first:
+      213: 584637949113646074
+    second: W Special_339
+  - first:
+      213: 6683031667001862844
+    second: W Special_340
+  - first:
+      213: 7873820033556511319
+    second: W Special_341
+  - first:
+      213: 1535187926783513820
+    second: W Special_342
+  - first:
+      213: -2318186368914242071
+    second: W Special_343
+  - first:
+      213: 905338851078453981
+    second: W Special_344
+  - first:
+      213: -8338451141131192004
+    second: W Special_345
+  - first:
+      213: 6740461296803550934
+    second: W Special_346
+  - first:
+      213: 4518887202533404273
+    second: W Special_347
+  - first:
+      213: -4549053796162020615
+    second: W Special_348
+  - first:
+      213: 1936816589369280338
+    second: W Special_349
+  - first:
+      213: 2823020195528587965
+    second: W Special_350
+  - first:
+      213: 1767942311290810301
+    second: W Special_351
+  - first:
+      213: 1604080167106186001
+    second: W Special_352
+  - first:
+      213: -8385395399085925885
+    second: W Special_353
+  - first:
+      213: 8580265181307787706
+    second: W Special_354
+  - first:
+      213: 6292222471930786465
+    second: W Special_355
+  - first:
+      213: -8469565288258371248
+    second: W Special_356
+  - first:
+      213: 1484066316987135021
+    second: W Special_357
+  - first:
+      213: -5321267477676469656
+    second: W Special_358
+  - first:
+      213: 7215209460598984080
+    second: W Special_359
+  - first:
+      213: 1279015115627076621
+    second: W Special_360
+  - first:
+      213: -6799602545137545240
+    second: W Special_361
+  - first:
+      213: -818702877221980603
+    second: W Special_362
+  - first:
+      213: 1873704171852857127
+    second: W Special_363
+  - first:
+      213: -916043618091657640
+    second: W Special_364
+  - first:
+      213: -2592178382050416687
+    second: W Special_365
+  - first:
+      213: -1926757244458598606
+    second: W Special_366
+  - first:
+      213: -2090940808885343876
+    second: W Special_367
+  - first:
+      213: -2105989847964604142
+    second: W Special_368
+  - first:
+      213: -8157697130418036537
+    second: W Special_369
+  - first:
+      213: -3950875768622831080
+    second: W Special_370
+  - first:
+      213: 1298088660817203478
+    second: W Special_371
+  - first:
+      213: 6195150297107112053
+    second: W Special_372
+  - first:
+      213: -5414123461784529544
+    second: W Special_373
+  - first:
+      213: -5244423790990068247
+    second: W Special_374
+  - first:
+      213: 5365208242821720215
+    second: W Special_375
+  - first:
+      213: -2227203557962744924
+    second: W Special_376
+  - first:
+      213: 3945233025794044775
+    second: W Special_377
+  - first:
+      213: -7435899135455779589
+    second: W Special_378
+  - first:
+      213: -784302478515222713
+    second: W Special_379
+  - first:
+      213: -1998102344734995259
+    second: W Special_380
+  - first:
+      213: 3910405886605593307
+    second: W Special_381
+  - first:
+      213: 5624924457465439640
+    second: W Special_382
+  - first:
+      213: 1837733751077509540
+    second: W Special_383
+  - first:
+      213: 1341377219688242782
+    second: W Special_384
+  - first:
+      213: 2141240454704544828
+    second: W Special_385
+  - first:
+      213: 8444683027505760405
+    second: W Special_386
+  - first:
+      213: 5342508720087942727
+    second: W Special_387
+  - first:
+      213: -2219614956701672260
+    second: W Special_388
+  - first:
+      213: 2344028663649570905
+    second: W Special_389
+  - first:
+      213: 4556882465948565819
+    second: W Special_390
+  - first:
+      213: -7282610634581529845
+    second: W Special_391
+  - first:
+      213: -8040661372616057933
+    second: W Special_392
+  - first:
+      213: -1565876638955573830
+    second: W Special_393
+  - first:
+      213: -5760559965293103665
+    second: W Special_394
+  - first:
+      213: -5830010594572712178
+    second: W Special_395
+  - first:
+      213: -3246442003115243434
+    second: W Special_396
+  - first:
+      213: -3344680563869491240
+    second: W Special_397
+  - first:
+      213: -4320553980501510114
+    second: W Special_398
+  - first:
+      213: -7073459085487361520
+    second: W Special_399
+  - first:
+      213: 6650533281936967254
+    second: W Special_400
+  - first:
+      213: 5191666357032767758
+    second: W Special_401
+  - first:
+      213: -999788309464882163
+    second: W Special_402
+  - first:
+      213: 626272981488171248
+    second: W Special_403
+  - first:
+      213: 8578512239307844514
+    second: W Special_404
+  - first:
+      213: 6066088434667928579
+    second: W Special_405
+  - first:
+      213: 4733785760627821233
+    second: W Special_406
+  - first:
+      213: -3473430350411798198
+    second: W Special_407
+  - first:
+      213: 4491361917223587115
+    second: W Special_408
+  - first:
+      213: 5683191296648811865
+    second: W Special_409
+  - first:
+      213: -6002705627928505506
+    second: W Special_410
+  - first:
+      213: 7636073097701382544
+    second: W Special_411
+  - first:
+      213: 7853242704348514857
+    second: W Special_412
+  - first:
+      213: -4020660301702875274
+    second: W Special_413
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: W Special_0
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 212
+        width: 391
+        height: 691
+      alignment: 9
+      pivot: {x: 0.9057291, y: 0.0809233}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c240b80005a9f80800000000000000
+      internalID: -8099073016609887166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W Special_1
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 213
+        width: 416
+        height: 660
+      alignment: 9
+      pivot: {x: 0.9147362, y: 0.0838844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe5179f6c099db90800000000000000
+      internalID: -7216577743621628228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W Special_2
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 213
+        width: 415
+        height: 630
+      alignment: 9
+      pivot: {x: 0.9113087, y: 0.08773072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0bf3a13c3fd5ff0800000000000000
+      internalID: -45612401919283023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W Special_3
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 189
+        width: 421
+        height: 642
+      alignment: 9
+      pivot: {x: 0.9147938, y: 0.12302054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002d04c62311cf800800000000000000
+      internalID: 647411354696733184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W Special_4
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 182
+        width: 456
+        height: 649
+      alignment: 9
+      pivot: {x: 0.9196338, y: 0.13163427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d1a8b2063a934f0800000000000000
+      internalID: -848467421339968163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W Special_5
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 194
+        width: 655
+        height: 475
+      alignment: 9
+      pivot: {x: 0.90028775, y: 0.15617926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a64b9b77ab75740800000000000000
+      internalID: 5140782523046193753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W Special_6
+      rect:
+        serializedVersion: 2
+        x: 4604
+        y: 111
+        width: 774
+        height: 300
+      alignment: 9
+      pivot: {x: 0.8287685, y: 0.5291129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043fab87c714363d0800000000000000
+      internalID: -3214653706155134144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W Special_7
+      rect:
+        serializedVersion: 2
+        x: 5603
+        y: 111
+        width: 774
+        height: 300
+      alignment: 9
+      pivot: {x: 0.82816535, y: 0.530501}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f830fc06d2eeccf60800000000000000
+      internalID: 8056075712124093327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W Special_8
+      rect:
+        serializedVersion: 2
+        x: 6633
+        y: 110
+        width: 774
+        height: 301
+      alignment: 9
+      pivot: {x: 0.8273352, y: 0.5309911}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27694ca4b4b6ada80800000000000000
+      internalID: -8441316580431456654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W Special_9
+      rect:
+        serializedVersion: 2
+        x: 7632
+        y: 111
+        width: 648
+        height: 319
+      alignment: 9
+      pivot: {x: 0.9425802, y: 0.49987668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e003846ed27cb8f0800000000000000
+      internalID: -523417157187206941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W Special_10
+      rect:
+        serializedVersion: 2
+        x: 8643
+        y: 123
+        width: 648
+        height: 366
+      alignment: 9
+      pivot: {x: 0.9420754, y: 0.40270388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b216c754434295349ae74598baacd5ea
+      internalID: -649543766493251850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W Special_11
+      rect:
+        serializedVersion: 2
+        x: 9609
+        y: 158
+        width: 627
+        height: 391
+      alignment: 9
+      pivot: {x: 0.9375031, y: 0.28768748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14d609fcbe4b9f49a6f0ee6b56e83bd
+      internalID: 5588228786859242724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d55ad9174c167104da764ad0c635efc0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      W Special_0: -8099073016609887166
+      W Special_1: -7216577743621628228
+      W Special_10: -649543766493251850
+      W Special_11: 5588228786859242724
+      W Special_2: -45612401919283023
+      W Special_3: 647411354696733184
+      W Special_4: -848467421339968163
+      W Special_5: 5140782523046193753
+      W Special_6: -3214653706155134144
+      W Special_7: 8056075712124093327
+      W Special_8: -8441316580431456654
+      W Special_9: -523417157187206941
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2049 @@
+fileFormatVersion: 2
+guid: 274a1dcd2d41ab447955205b5f61ee8d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4503303684277997216
+    second: NW Special_0
+  - first:
+      213: 8254576237743699808
+    second: NW Special_1
+  - first:
+      213: 5531624407690398339
+    second: NW Special_2
+  - first:
+      213: -5612373236405351044
+    second: NW Special_3
+  - first:
+      213: 9033876016571277926
+    second: NW Special_4
+  - first:
+      213: -7945785384102033428
+    second: NW Special_5
+  - first:
+      213: -265501470077431367
+    second: NW Special_6
+  - first:
+      213: 1100124070322102855
+    second: NW Special_7
+  - first:
+      213: 56901349358784423
+    second: NW Special_8
+  - first:
+      213: 908831929749411131
+    second: NW Special_9
+  - first:
+      213: 4555985025152785817
+    second: NW Special_10
+  - first:
+      213: -1171913307575929212
+    second: NW Special_11
+  - first:
+      213: -6468422148220130830
+    second: NW Special_12
+  - first:
+      213: -5945884590906148553
+    second: NW Special_13
+  - first:
+      213: -7166248284494703585
+    second: NW Special_14
+  - first:
+      213: 324808529539680514
+    second: NW Special_15
+  - first:
+      213: -99574386205617949
+    second: NW Special_16
+  - first:
+      213: -1386475541648130847
+    second: NW Special_17
+  - first:
+      213: -8335765236927987385
+    second: NW Special_18
+  - first:
+      213: -8424654702686639575
+    second: NW Special_19
+  - first:
+      213: 8741625792733312413
+    second: NW Special_20
+  - first:
+      213: 8992297283365012923
+    second: NW Special_21
+  - first:
+      213: 6100123947059295618
+    second: NW Special_22
+  - first:
+      213: -3632051212806710996
+    second: NW Special_23
+  - first:
+      213: -8621196648671243552
+    second: NW Special_24
+  - first:
+      213: 7847306784281054725
+    second: NW Special_25
+  - first:
+      213: -5654719867300220508
+    second: NW Special_26
+  - first:
+      213: 4158010259948372746
+    second: NW Special_27
+  - first:
+      213: 7712360740537872490
+    second: NW Special_28
+  - first:
+      213: 1548087369899014618
+    second: NW Special_29
+  - first:
+      213: -2950460399455630416
+    second: NW Special_30
+  - first:
+      213: -5545464073576764108
+    second: NW Special_31
+  - first:
+      213: 4240912164942156406
+    second: NW Special_32
+  - first:
+      213: 520445303939869614
+    second: NW Special_33
+  - first:
+      213: 2550179427870580964
+    second: NW Special_34
+  - first:
+      213: 1392702181858101679
+    second: NW Special_35
+  - first:
+      213: -3207429754701069706
+    second: NW Special_36
+  - first:
+      213: -5018638882935961949
+    second: NW Special_37
+  - first:
+      213: 3714233901857958140
+    second: NW Special_38
+  - first:
+      213: -8956193789218842276
+    second: NW Special_39
+  - first:
+      213: -7004164939689490264
+    second: NW Special_40
+  - first:
+      213: -9094691171689324309
+    second: NW Special_41
+  - first:
+      213: -2934892220635485427
+    second: NW Special_42
+  - first:
+      213: 3732391626624777622
+    second: NW Special_43
+  - first:
+      213: 8979874880117107608
+    second: NW Special_44
+  - first:
+      213: -6453579909536874186
+    second: NW Special_45
+  - first:
+      213: 290566363004246997
+    second: NW Special_46
+  - first:
+      213: -5310017741630532545
+    second: NW Special_47
+  - first:
+      213: -2799415931203510735
+    second: NW Special_48
+  - first:
+      213: 1879845933805566721
+    second: NW Special_49
+  - first:
+      213: 6732125774587426865
+    second: NW Special_50
+  - first:
+      213: 4038267851455967004
+    second: NW Special_51
+  - first:
+      213: 5059264939012881081
+    second: NW Special_52
+  - first:
+      213: 8498304789520033370
+    second: NW Special_53
+  - first:
+      213: 5091537111705021362
+    second: NW Special_54
+  - first:
+      213: -7443550213246674146
+    second: NW Special_55
+  - first:
+      213: -7110476367737563401
+    second: NW Special_56
+  - first:
+      213: 7144599237752663115
+    second: NW Special_57
+  - first:
+      213: 8373043402576124518
+    second: NW Special_58
+  - first:
+      213: -8118618087234597129
+    second: NW Special_59
+  - first:
+      213: 4847685516130463618
+    second: NW Special_60
+  - first:
+      213: -8761162646365616284
+    second: NW Special_61
+  - first:
+      213: 1760657561278250695
+    second: NW Special_62
+  - first:
+      213: 1985614320390960600
+    second: NW Special_63
+  - first:
+      213: 452576169640123365
+    second: NW Special_64
+  - first:
+      213: 7741518172188574246
+    second: NW Special_65
+  - first:
+      213: 2191636216836031882
+    second: NW Special_66
+  - first:
+      213: 2451317171879373581
+    second: NW Special_67
+  - first:
+      213: 3377863705735695735
+    second: NW Special_68
+  - first:
+      213: 2893332855305688887
+    second: NW Special_69
+  - first:
+      213: 3290384889835408532
+    second: NW Special_70
+  - first:
+      213: -3522948278666934970
+    second: NW Special_71
+  - first:
+      213: 626762181295410370
+    second: NW Special_72
+  - first:
+      213: -7626954905283615670
+    second: NW Special_73
+  - first:
+      213: 1897985604434578936
+    second: NW Special_74
+  - first:
+      213: -4328762188671492835
+    second: NW Special_75
+  - first:
+      213: -2159928611626068750
+    second: NW Special_76
+  - first:
+      213: -7134599489289251011
+    second: NW Special_77
+  - first:
+      213: 5793116780374272652
+    second: NW Special_78
+  - first:
+      213: 4426179449890221404
+    second: NW Special_79
+  - first:
+      213: 5019110857180044217
+    second: NW Special_80
+  - first:
+      213: -5664825526190181090
+    second: NW Special_81
+  - first:
+      213: -8938700568160973876
+    second: NW Special_82
+  - first:
+      213: -4285739671724751285
+    second: NW Special_83
+  - first:
+      213: 3773147573764399421
+    second: NW Special_84
+  - first:
+      213: 5497542939564951186
+    second: NW Special_85
+  - first:
+      213: 5861642895325562967
+    second: NW Special_86
+  - first:
+      213: -5654232957033267591
+    second: NW Special_87
+  - first:
+      213: 4903902345653240093
+    second: NW Special_88
+  - first:
+      213: -948473650493541592
+    second: NW Special_89
+  - first:
+      213: 270718124431639236
+    second: NW Special_90
+  - first:
+      213: 8351186952441610511
+    second: NW Special_91
+  - first:
+      213: 3737326432399405335
+    second: NW Special_92
+  - first:
+      213: 8312278453705080332
+    second: NW Special_93
+  - first:
+      213: -5892690673540929941
+    second: NW Special_94
+  - first:
+      213: -7462538148159228247
+    second: NW Special_95
+  - first:
+      213: -6460104110034106755
+    second: NW Special_96
+  - first:
+      213: -700445799477903956
+    second: NW Special_97
+  - first:
+      213: -8986311537666190701
+    second: NW Special_98
+  - first:
+      213: -622903716123801371
+    second: NW Special_99
+  - first:
+      213: 9029855858126581564
+    second: NW Special_100
+  - first:
+      213: -21795877518121604
+    second: NW Special_101
+  - first:
+      213: -592772345225903177
+    second: NW Special_102
+  - first:
+      213: 6289549020400675765
+    second: NW Special_103
+  - first:
+      213: 31322267481960843
+    second: NW Special_104
+  - first:
+      213: -2485559783477267655
+    second: NW Special_105
+  - first:
+      213: 2286027660571816012
+    second: NW Special_106
+  - first:
+      213: -3633990769006227282
+    second: NW Special_107
+  - first:
+      213: -5857504105585154368
+    second: NW Special_108
+  - first:
+      213: -6296203667025010632
+    second: NW Special_109
+  - first:
+      213: -2966612214021384065
+    second: NW Special_110
+  - first:
+      213: 2228145187111376313
+    second: NW Special_111
+  - first:
+      213: 6222047344247399347
+    second: NW Special_112
+  - first:
+      213: -3155358299669117228
+    second: NW Special_113
+  - first:
+      213: 3303854802153286098
+    second: NW Special_114
+  - first:
+      213: 6660884743852489036
+    second: NW Special_115
+  - first:
+      213: -660061165060596664
+    second: NW Special_116
+  - first:
+      213: -8776617076888681726
+    second: NW Special_117
+  - first:
+      213: 7040487578624295431
+    second: NW Special_118
+  - first:
+      213: 1347082641242417203
+    second: NW Special_119
+  - first:
+      213: 7962689562896021852
+    second: NW Special_120
+  - first:
+      213: 4963925150857757294
+    second: NW Special_121
+  - first:
+      213: -8244260656317893207
+    second: NW Special_122
+  - first:
+      213: -9213813450209091675
+    second: NW Special_123
+  - first:
+      213: -7844392800488517335
+    second: NW Special_124
+  - first:
+      213: 6682807768825262071
+    second: NW Special_125
+  - first:
+      213: -3007693718870898898
+    second: NW Special_126
+  - first:
+      213: 685131164495478206
+    second: NW Special_127
+  - first:
+      213: -8600745693107322865
+    second: NW Special_128
+  - first:
+      213: 30759639012727541
+    second: NW Special_129
+  - first:
+      213: 2195793879859721602
+    second: NW Special_130
+  - first:
+      213: -5915318251594025410
+    second: NW Special_131
+  - first:
+      213: -1345534931205409344
+    second: NW Special_132
+  - first:
+      213: 6642015206058663245
+    second: NW Special_133
+  - first:
+      213: -3977128000561812081
+    second: NW Special_134
+  - first:
+      213: -4656080195424061
+    second: NW Special_135
+  - first:
+      213: 3587879605444723359
+    second: NW Special_136
+  - first:
+      213: 1242393865536207616
+    second: NW Special_137
+  - first:
+      213: -7389527017741444072
+    second: NW Special_138
+  - first:
+      213: 5903906774215510155
+    second: NW Special_139
+  - first:
+      213: -5626939324961646346
+    second: NW Special_140
+  - first:
+      213: -591974678599309586
+    second: NW Special_141
+  - first:
+      213: 1958847907370598229
+    second: NW Special_142
+  - first:
+      213: -1282605941372572420
+    second: NW Special_143
+  - first:
+      213: 238576211397701557
+    second: NW Special_144
+  - first:
+      213: -6915453342056097739
+    second: NW Special_145
+  - first:
+      213: -8668377658040124285
+    second: NW Special_146
+  - first:
+      213: -4847248964544455572
+    second: NW Special_147
+  - first:
+      213: 2234831569954984017
+    second: NW Special_148
+  - first:
+      213: -3750326934208336048
+    second: NW Special_149
+  - first:
+      213: 6653184672504838118
+    second: NW Special_150
+  - first:
+      213: 1827786861414926069
+    second: NW Special_151
+  - first:
+      213: 3238431602599212754
+    second: NW Special_152
+  - first:
+      213: -7381413323353072588
+    second: NW Special_153
+  - first:
+      213: -2304886813675720160
+    second: NW Special_154
+  - first:
+      213: 2464406921297636288
+    second: NW Special_155
+  - first:
+      213: 495263540296136454
+    second: NW Special_156
+  - first:
+      213: -803675110789600767
+    second: NW Special_157
+  - first:
+      213: 41866883417059994
+    second: NW Special_158
+  - first:
+      213: -1270234519775650887
+    second: NW Special_159
+  - first:
+      213: 6587239935160228377
+    second: NW Special_160
+  - first:
+      213: -7497125817851985116
+    second: NW Special_161
+  - first:
+      213: 8735757722069332870
+    second: NW Special_162
+  - first:
+      213: 6792572827765481421
+    second: NW Special_163
+  - first:
+      213: -4710951765609115867
+    second: NW Special_164
+  - first:
+      213: 3157761617119464862
+    second: NW Special_165
+  - first:
+      213: 2907331042364231636
+    second: NW Special_166
+  - first:
+      213: 964074937683972574
+    second: NW Special_167
+  - first:
+      213: -6556647250055581899
+    second: NW Special_168
+  - first:
+      213: 2436796298096113964
+    second: NW Special_169
+  - first:
+      213: 4746549232786607325
+    second: NW Special_170
+  - first:
+      213: -6568242275475478480
+    second: NW Special_171
+  - first:
+      213: -508690231131817507
+    second: NW Special_172
+  - first:
+      213: -5068959380426699834
+    second: NW Special_173
+  - first:
+      213: 6673381849826238786
+    second: NW Special_174
+  - first:
+      213: 7071999493319614786
+    second: NW Special_175
+  - first:
+      213: 5867391443361267327
+    second: NW Special_176
+  - first:
+      213: -1248947457351255371
+    second: NW Special_177
+  - first:
+      213: 3056139608769265133
+    second: NW Special_178
+  - first:
+      213: -4375889710753010501
+    second: NW Special_179
+  - first:
+      213: 6053411325572919359
+    second: NW Special_180
+  - first:
+      213: 3623771051799313550
+    second: NW Special_181
+  - first:
+      213: -2229679189215211602
+    second: NW Special_182
+  - first:
+      213: 499061357553102196
+    second: NW Special_183
+  - first:
+      213: 4568623494199898709
+    second: NW Special_184
+  - first:
+      213: -1407127510859517141
+    second: NW Special_185
+  - first:
+      213: 8134010419817142100
+    second: NW Special_186
+  - first:
+      213: -285599092771726432
+    second: NW Special_187
+  - first:
+      213: 8836046544562254468
+    second: NW Special_188
+  - first:
+      213: 104405595479836601
+    second: NW Special_189
+  - first:
+      213: -3095603215259658703
+    second: NW Special_190
+  - first:
+      213: 7563707332315318565
+    second: NW Special_191
+  - first:
+      213: -3005317632186630449
+    second: NW Special_192
+  - first:
+      213: -2079232947397037027
+    second: NW Special_193
+  - first:
+      213: -8199455726698057558
+    second: NW Special_194
+  - first:
+      213: 394553561570156906
+    second: NW Special_195
+  - first:
+      213: -5845530803098012407
+    second: NW Special_196
+  - first:
+      213: -2962664213944874492
+    second: NW Special_197
+  - first:
+      213: 8306256856992061314
+    second: NW Special_198
+  - first:
+      213: -8307710150632087113
+    second: NW Special_199
+  - first:
+      213: -2956129082736891978
+    second: NW Special_200
+  - first:
+      213: 8966820635919028836
+    second: NW Special_201
+  - first:
+      213: -3856429354716019742
+    second: NW Special_202
+  - first:
+      213: 2595479752355510608
+    second: NW Special_203
+  - first:
+      213: -6669171157846535241
+    second: NW Special_204
+  - first:
+      213: 1529264998691934124
+    second: NW Special_205
+  - first:
+      213: 2264146566775225288
+    second: NW Special_206
+  - first:
+      213: -2462757996654304741
+    second: NW Special_207
+  - first:
+      213: 6001973255969144184
+    second: NW Special_208
+  - first:
+      213: -4089605576259352144
+    second: NW Special_209
+  - first:
+      213: 3922062030857970187
+    second: NW Special_210
+  - first:
+      213: -746802155335064387
+    second: NW Special_211
+  - first:
+      213: 8753714713813646653
+    second: NW Special_212
+  - first:
+      213: -432514792891494892
+    second: NW Special_213
+  - first:
+      213: 7534332556419042379
+    second: NW Special_214
+  - first:
+      213: 942711834579716017
+    second: NW Special_215
+  - first:
+      213: 1740364831589299019
+    second: NW Special_216
+  - first:
+      213: -3443397416555238760
+    second: NW Special_217
+  - first:
+      213: -1123570380372579321
+    second: NW Special_218
+  - first:
+      213: 7951525903782754563
+    second: NW Special_219
+  - first:
+      213: 936761169076174297
+    second: NW Special_220
+  - first:
+      213: -4498613045532911421
+    second: NW Special_221
+  - first:
+      213: -6045546778502105630
+    second: NW Special_222
+  - first:
+      213: 4561328662947913850
+    second: NW Special_223
+  - first:
+      213: 747094166955639414
+    second: NW Special_224
+  - first:
+      213: 618824144338368712
+    second: NW Special_225
+  - first:
+      213: 303384384257604754
+    second: NW Special_226
+  - first:
+      213: 6184534561069077828
+    second: NW Special_227
+  - first:
+      213: 17010082128123805
+    second: NW Special_228
+  - first:
+      213: -1900752358105642637
+    second: NW Special_229
+  - first:
+      213: -1704773614191133877
+    second: NW Special_230
+  - first:
+      213: -5368403432622861323
+    second: NW Special_231
+  - first:
+      213: -7984942914669756389
+    second: NW Special_232
+  - first:
+      213: -8616322067399726690
+    second: NW Special_233
+  - first:
+      213: -1847928189946682213
+    second: NW Special_234
+  - first:
+      213: -7175023969147240222
+    second: NW Special_235
+  - first:
+      213: -5050249744793772177
+    second: NW Special_236
+  - first:
+      213: 9180831260655624072
+    second: NW Special_237
+  - first:
+      213: 2273928902816625976
+    second: NW Special_238
+  - first:
+      213: -2104067867835296660
+    second: NW Special_239
+  - first:
+      213: -2548166006680705192
+    second: NW Special_240
+  - first:
+      213: 5596146011378118657
+    second: NW Special_241
+  - first:
+      213: 2290911697417476499
+    second: NW Special_242
+  - first:
+      213: -644526999431063930
+    second: NW Special_243
+  - first:
+      213: -1653409851949819429
+    second: NW Special_244
+  - first:
+      213: -5655788828521589989
+    second: NW Special_245
+  - first:
+      213: -5342437438705851651
+    second: NW Special_246
+  - first:
+      213: -1504441523483178704
+    second: NW Special_247
+  - first:
+      213: -4381740450361515883
+    second: NW Special_248
+  - first:
+      213: 7190197961847171809
+    second: NW Special_249
+  - first:
+      213: 366171305917474385
+    second: NW Special_250
+  - first:
+      213: 4625173011728252873
+    second: NW Special_251
+  - first:
+      213: -7200491565768577798
+    second: NW Special_252
+  - first:
+      213: -3654921740597848720
+    second: NW Special_253
+  - first:
+      213: 8745552056487402859
+    second: NW Special_254
+  - first:
+      213: -3107686094612946911
+    second: NW Special_255
+  - first:
+      213: 1006078895248075285
+    second: NW Special_256
+  - first:
+      213: 5702057070470684963
+    second: NW Special_257
+  - first:
+      213: 5154659062354501422
+    second: NW Special_258
+  - first:
+      213: -1969472935096790866
+    second: NW Special_259
+  - first:
+      213: -1180472465997369034
+    second: NW Special_260
+  - first:
+      213: -4516416086491942953
+    second: NW Special_261
+  - first:
+      213: -3545774834602061039
+    second: NW Special_262
+  - first:
+      213: 4386488375497273498
+    second: NW Special_263
+  - first:
+      213: -2234344296458236084
+    second: NW Special_264
+  - first:
+      213: 118858373782630457
+    second: NW Special_265
+  - first:
+      213: -4792325145461737950
+    second: NW Special_266
+  - first:
+      213: -9044476493614180315
+    second: NW Special_267
+  - first:
+      213: 147360064833781769
+    second: NW Special_268
+  - first:
+      213: -251445256539214514
+    second: NW Special_269
+  - first:
+      213: 2795243834549184594
+    second: NW Special_270
+  - first:
+      213: -1007939221143208561
+    second: NW Special_271
+  - first:
+      213: 7182844690279632854
+    second: NW Special_272
+  - first:
+      213: -8550777021309942526
+    second: NW Special_273
+  - first:
+      213: 2828935573089335637
+    second: NW Special_274
+  - first:
+      213: 4328488787280663140
+    second: NW Special_275
+  - first:
+      213: 805283481960616283
+    second: NW Special_276
+  - first:
+      213: 5540350754039935337
+    second: NW Special_277
+  - first:
+      213: -7671690378730648414
+    second: NW Special_278
+  - first:
+      213: -4237409638564819892
+    second: NW Special_279
+  - first:
+      213: -2079529159528196103
+    second: NW Special_280
+  - first:
+      213: 3415854047652120812
+    second: NW Special_281
+  - first:
+      213: -3694448708693552360
+    second: NW Special_282
+  - first:
+      213: -4235321421638856718
+    second: NW Special_283
+  - first:
+      213: -5266773280249972322
+    second: NW Special_284
+  - first:
+      213: 5378354592092791595
+    second: NW Special_285
+  - first:
+      213: -1650211454777431460
+    second: NW Special_286
+  - first:
+      213: -223224295606082028
+    second: NW Special_287
+  - first:
+      213: -2642435014760689993
+    second: NW Special_288
+  - first:
+      213: 903845919679949777
+    second: NW Special_289
+  - first:
+      213: -2425743694506923905
+    second: NW Special_290
+  - first:
+      213: 5763731912770147933
+    second: NW Special_291
+  - first:
+      213: 6339611861571819285
+    second: NW Special_292
+  - first:
+      213: 8779170423592370463
+    second: NW Special_293
+  - first:
+      213: 2561403869629936800
+    second: NW Special_294
+  - first:
+      213: -4123547290674985498
+    second: NW Special_295
+  - first:
+      213: -7623248996308981567
+    second: NW Special_296
+  - first:
+      213: -8610314979880068493
+    second: NW Special_297
+  - first:
+      213: -3787608681296077121
+    second: NW Special_298
+  - first:
+      213: -8333978413872341916
+    second: NW Special_299
+  - first:
+      213: 6419843223799902650
+    second: NW Special_300
+  - first:
+      213: 6348577085495713972
+    second: NW Special_301
+  - first:
+      213: 8881957526934889039
+    second: NW Special_302
+  - first:
+      213: 6241843403077152908
+    second: NW Special_303
+  - first:
+      213: 7397489079749638888
+    second: NW Special_304
+  - first:
+      213: -6203636717445047341
+    second: NW Special_305
+  - first:
+      213: -4118610863420178371
+    second: NW Special_306
+  - first:
+      213: 5982088854617224326
+    second: NW Special_307
+  - first:
+      213: 3292258211380004443
+    second: NW Special_308
+  - first:
+      213: -1228830248367284950
+    second: NW Special_309
+  - first:
+      213: 5835122850504727495
+    second: NW Special_310
+  - first:
+      213: -2447848878567902120
+    second: NW Special_311
+  - first:
+      213: -35525706197755218
+    second: NW Special_312
+  - first:
+      213: -53134804229427727
+    second: NW Special_313
+  - first:
+      213: -4234321414587158402
+    second: NW Special_314
+  - first:
+      213: -1632097956569165835
+    second: NW Special_315
+  - first:
+      213: -7682033581799263742
+    second: NW Special_316
+  - first:
+      213: 6095036951117610735
+    second: NW Special_317
+  - first:
+      213: -6743941916736287767
+    second: NW Special_318
+  - first:
+      213: 1462493793742209306
+    second: NW Special_319
+  - first:
+      213: 3920135174051335141
+    second: NW Special_320
+  - first:
+      213: 3850769913207772344
+    second: NW Special_321
+  - first:
+      213: -2931435056619667719
+    second: NW Special_322
+  - first:
+      213: -8896987185471398429
+    second: NW Special_323
+  - first:
+      213: -8321802091223697959
+    second: NW Special_324
+  - first:
+      213: 4772350950681405657
+    second: NW Special_325
+  - first:
+      213: 3648253699386879210
+    second: NW Special_326
+  - first:
+      213: 4375913519390818425
+    second: NW Special_327
+  - first:
+      213: 3098878148809952918
+    second: NW Special_328
+  - first:
+      213: -8862419144453350146
+    second: NW Special_329
+  - first:
+      213: 9207578070068910688
+    second: NW Special_330
+  - first:
+      213: -1194434130758125602
+    second: NW Special_331
+  - first:
+      213: -1791066100485289554
+    second: NW Special_332
+  - first:
+      213: -3755848906435315410
+    second: NW Special_333
+  - first:
+      213: -2803252398681746501
+    second: NW Special_334
+  - first:
+      213: -5011010810315167160
+    second: NW Special_335
+  - first:
+      213: -8849106694834160280
+    second: NW Special_336
+  - first:
+      213: 8187563239297532009
+    second: NW Special_337
+  - first:
+      213: 1918747415463208271
+    second: NW Special_338
+  - first:
+      213: 3451942902683007040
+    second: NW Special_339
+  - first:
+      213: 5122332023218727952
+    second: NW Special_340
+  - first:
+      213: 8394897841837480329
+    second: NW Special_341
+  - first:
+      213: -1664609143225836947
+    second: NW Special_342
+  - first:
+      213: -6279547443831087817
+    second: NW Special_343
+  - first:
+      213: -6233652450958123450
+    second: NW Special_344
+  - first:
+      213: -1873979185293911210
+    second: NW Special_345
+  - first:
+      213: 7137180205236926595
+    second: NW Special_346
+  - first:
+      213: -4258804932098839236
+    second: NW Special_347
+  - first:
+      213: -7285881461254696173
+    second: NW Special_348
+  - first:
+      213: -6462790593735865475
+    second: NW Special_349
+  - first:
+      213: 1392793664119058204
+    second: NW Special_350
+  - first:
+      213: 6304421024641242278
+    second: NW Special_351
+  - first:
+      213: -1961143686920970746
+    second: NW Special_352
+  - first:
+      213: 22010272610070641
+    second: NW Special_353
+  - first:
+      213: 1902047798415623075
+    second: NW Special_354
+  - first:
+      213: 3677350268241353722
+    second: NW Special_355
+  - first:
+      213: 3354303425850050977
+    second: NW Special_356
+  - first:
+      213: 4115268832633334919
+    second: NW Special_357
+  - first:
+      213: -3122443073405209850
+    second: NW Special_358
+  - first:
+      213: 9042193373030910130
+    second: NW Special_359
+  - first:
+      213: 4386393504026806280
+    second: NW Special_360
+  - first:
+      213: -566273126046224768
+    second: NW Special_361
+  - first:
+      213: 2677695362898457434
+    second: NW Special_362
+  - first:
+      213: 7262060172242909624
+    second: NW Special_363
+  - first:
+      213: -5326870355641471833
+    second: NW Special_364
+  - first:
+      213: -1764998373519418234
+    second: NW Special_365
+  - first:
+      213: 1955516361673740045
+    second: NW Special_366
+  - first:
+      213: -1615379074132699401
+    second: NW Special_367
+  - first:
+      213: -1354883676732643983
+    second: NW Special_368
+  - first:
+      213: -9130739038637136330
+    second: NW Special_369
+  - first:
+      213: -5413159444277715746
+    second: NW Special_370
+  - first:
+      213: 9083899907361886498
+    second: NW Special_371
+  - first:
+      213: 4259872565427566504
+    second: NW Special_372
+  - first:
+      213: -4691799110788408040
+    second: NW Special_373
+  - first:
+      213: 6328564456141286884
+    second: NW Special_374
+  - first:
+      213: 4176923763975105271
+    second: NW Special_375
+  - first:
+      213: -5247809040498286765
+    second: NW Special_376
+  - first:
+      213: 6544387510072280597
+    second: NW Special_377
+  - first:
+      213: -279552348241595513
+    second: NW Special_378
+  - first:
+      213: -8461678546394899493
+    second: NW Special_379
+  - first:
+      213: 929603973392957396
+    second: NW Special_380
+  - first:
+      213: -6074327167711887213
+    second: NW Special_381
+  - first:
+      213: -2525025423009778205
+    second: NW Special_382
+  - first:
+      213: 3256039068533114247
+    second: NW Special_383
+  - first:
+      213: 3727045842092982935
+    second: NW Special_384
+  - first:
+      213: -5856753827498390282
+    second: NW Special_385
+  - first:
+      213: 8157206100338357366
+    second: NW Special_386
+  - first:
+      213: -6874737579203614329
+    second: NW Special_387
+  - first:
+      213: 6666669809346555523
+    second: NW Special_388
+  - first:
+      213: 8503949328759481470
+    second: NW Special_389
+  - first:
+      213: -8948033163289120869
+    second: NW Special_390
+  - first:
+      213: -855815410522050718
+    second: NW Special_391
+  - first:
+      213: -6569327950110465261
+    second: NW Special_392
+  - first:
+      213: -4618912799488266859
+    second: NW Special_393
+  - first:
+      213: -3561053730095278819
+    second: NW Special_394
+  - first:
+      213: 7258864437680272802
+    second: NW Special_395
+  - first:
+      213: 5344423712409111659
+    second: NW Special_396
+  - first:
+      213: -6946391804844714569
+    second: NW Special_397
+  - first:
+      213: -2151596245637086306
+    second: NW Special_398
+  - first:
+      213: 4458771358393107580
+    second: NW Special_399
+  - first:
+      213: 2701279548162866120
+    second: NW Special_400
+  - first:
+      213: 2622173737572845738
+    second: NW Special_401
+  - first:
+      213: -4771317148366579917
+    second: NW Special_402
+  - first:
+      213: -3880976079308352235
+    second: NW Special_403
+  - first:
+      213: -136611062293640025
+    second: NW Special_404
+  - first:
+      213: 3112887559331627441
+    second: NW Special_405
+  - first:
+      213: 5076547287853470069
+    second: NW Special_406
+  - first:
+      213: -1473494741445604018
+    second: NW Special_407
+  - first:
+      213: 7730117061210620981
+    second: NW Special_408
+  - first:
+      213: 3336614153263157665
+    second: NW Special_409
+  - first:
+      213: 4283243693925703516
+    second: NW Special_410
+  - first:
+      213: 7932684898640019006
+    second: NW Special_411
+  - first:
+      213: 3950260242170836100
+    second: NW Special_412
+  - first:
+      213: 2607907825658244158
+    second: NW Special_413
+  - first:
+      213: -1347348649343251707
+    second: NW Special_414
+  - first:
+      213: -5440036415841685079
+    second: NW Special_415
+  - first:
+      213: -5795366833984614343
+    second: NW Special_416
+  - first:
+      213: 1519436953588801917
+    second: NW Special_417
+  - first:
+      213: -4055765328402937609
+    second: NW Special_418
+  - first:
+      213: 1687147062289958133
+    second: NW Special_419
+  - first:
+      213: 9143281013460613180
+    second: NW Special_420
+  - first:
+      213: 5221126753059244580
+    second: NW Special_421
+  - first:
+      213: 3256991908110656224
+    second: NW Special_422
+  - first:
+      213: 6783850577430237321
+    second: NW Special_423
+  - first:
+      213: -2666989704432528304
+    second: NW Special_424
+  - first:
+      213: 470822558473568653
+    second: NW Special_425
+  - first:
+      213: 8833875333635954636
+    second: NW Special_426
+  - first:
+      213: 6863519116393512994
+    second: NW Special_427
+  - first:
+      213: -3406270830899339439
+    second: NW Special_428
+  - first:
+      213: 2749304010713576962
+    second: NW Special_429
+  - first:
+      213: 4238487795180019712
+    second: NW Special_430
+  - first:
+      213: -6475895681780599238
+    second: NW Special_431
+  - first:
+      213: 1328829350146122552
+    second: NW Special_432
+  - first:
+      213: 2174017111807152408
+    second: NW Special_433
+  - first:
+      213: -7294562809154090204
+    second: NW Special_434
+  - first:
+      213: 3015558821246368742
+    second: NW Special_435
+  - first:
+      213: 3682411366251551766
+    second: NW Special_436
+  - first:
+      213: -2663590165549425517
+    second: NW Special_437
+  - first:
+      213: 8528076171154207360
+    second: NW Special_438
+  - first:
+      213: -1739505392351875623
+    second: NW Special_439
+  - first:
+      213: 4776947070500989255
+    second: NW Special_440
+  - first:
+      213: 1778669404123855855
+    second: NW Special_441
+  - first:
+      213: -1162111743964697157
+    second: NW Special_442
+  - first:
+      213: 4576839568301819687
+    second: NW Special_443
+  - first:
+      213: 5855531721016201554
+    second: NW Special_444
+  - first:
+      213: 6654868264922732791
+    second: NW Special_445
+  - first:
+      213: 982416414296344712
+    second: NW Special_446
+  - first:
+      213: -5638814896126981056
+    second: NW Special_447
+  - first:
+      213: -6983648643221233533
+    second: NW Special_448
+  - first:
+      213: -5486732213132314990
+    second: NW Special_449
+  - first:
+      213: -6402962580679424708
+    second: NW Special_450
+  - first:
+      213: 5722013427348395983
+    second: NW Special_451
+  - first:
+      213: -3436840729182487514
+    second: NW Special_452
+  - first:
+      213: 4225147562554714857
+    second: NW Special_453
+  - first:
+      213: -5355155229784281552
+    second: NW Special_454
+  - first:
+      213: -7425573103792690122
+    second: NW Special_455
+  - first:
+      213: 4193153291457626770
+    second: NW Special_456
+  - first:
+      213: -3704150977474113194
+    second: NW Special_457
+  - first:
+      213: -5315251131170009065
+    second: NW Special_458
+  - first:
+      213: 920261087878883959
+    second: NW Special_459
+  - first:
+      213: -1753766463741710682
+    second: NW Special_460
+  - first:
+      213: -2645132425501892587
+    second: NW Special_461
+  - first:
+      213: 8170485141055775237
+    second: NW Special_462
+  - first:
+      213: -6236145946186300365
+    second: NW Special_463
+  - first:
+      213: 4190767042076929804
+    second: NW Special_464
+  - first:
+      213: 3466403374011090738
+    second: NW Special_465
+  - first:
+      213: -4017121803088840365
+    second: NW Special_466
+  - first:
+      213: -7756332794642416596
+    second: NW Special_467
+  - first:
+      213: 4807753830076832184
+    second: NW Special_468
+  - first:
+      213: -1971733671900488613
+    second: NW Special_469
+  - first:
+      213: 6106104411656877748
+    second: NW Special_470
+  - first:
+      213: -392978261249726504
+    second: NW Special_471
+  - first:
+      213: -3640318221529720321
+    second: NW Special_472
+  - first:
+      213: -7424179183557765760
+    second: NW Special_473
+  - first:
+      213: -3083983421319278868
+    second: NW Special_474
+  - first:
+      213: 2020616637429049430
+    second: NW Special_475
+  - first:
+      213: 4737852270009391590
+    second: NW Special_476
+  - first:
+      213: 6064986042022879404
+    second: NW Special_477
+  - first:
+      213: -1436216924311786325
+    second: NW Special_478
+  - first:
+      213: 5886988873446865139
+    second: NW Special_479
+  - first:
+      213: 350852269015306894
+    second: NW Special_480
+  - first:
+      213: -2964626226741005444
+    second: NW Special_481
+  - first:
+      213: -7809468100661613055
+    second: NW Special_482
+  - first:
+      213: 3345051744754918165
+    second: NW Special_483
+  - first:
+      213: 3573069139863016081
+    second: NW Special_484
+  - first:
+      213: -6448828647330476547
+    second: NW Special_485
+  - first:
+      213: -8384981290858762051
+    second: NW Special_486
+  - first:
+      213: -4288306920818771640
+    second: NW Special_487
+  - first:
+      213: 2555652230182341543
+    second: NW Special_488
+  - first:
+      213: -4862514795920954955
+    second: NW Special_489
+  - first:
+      213: -6696398845565296719
+    second: NW Special_490
+  - first:
+      213: 5099410903866157423
+    second: NW Special_491
+  - first:
+      213: -7718531308814349461
+    second: NW Special_492
+  - first:
+      213: 6020891651718944251
+    second: NW Special_493
+  - first:
+      213: -8961210737800209407
+    second: NW Special_494
+  - first:
+      213: -1279174708914951975
+    second: NW Special_495
+  - first:
+      213: 338579913005715972
+    second: NW Special_496
+  - first:
+      213: 4003351213343582279
+    second: NW Special_497
+  - first:
+      213: -9036684426771993939
+    second: NW Special_498
+  - first:
+      213: -8267452562199848505
+    second: NW Special_499
+  - first:
+      213: 1981522091218768648
+    second: NW Special_500
+  - first:
+      213: 5181529196066437711
+    second: NW Special_501
+  - first:
+      213: 5801093236229451695
+    second: NW Special_502
+  - first:
+      213: -4006552243155143032
+    second: NW Special_503
+  - first:
+      213: 6556903177689768807
+    second: NW Special_504
+  - first:
+      213: 7759468023897432233
+    second: NW Special_505
+  - first:
+      213: -7775361069869776479
+    second: NW Special_506
+  - first:
+      213: -3643406082801458830
+    second: NW Special_507
+  - first:
+      213: 5129451232151186386
+    second: NW Special_508
+  - first:
+      213: 4288789183726296416
+    second: NW Special_509
+  - first:
+      213: 8239956097124715858
+    second: NW Special_510
+  - first:
+      213: -2548669640767072110
+    second: NW Special_511
+  - first:
+      213: -1729883619937515733
+    second: NW Special_512
+  - first:
+      213: 6876323520020599867
+    second: NW Special_513
+  - first:
+      213: -5075446295014619072
+    second: NW Special_514
+  - first:
+      213: 4027401328011495664
+    second: NW Special_515
+  - first:
+      213: -3119954142879721582
+    second: NW Special_516
+  - first:
+      213: -2629973741981918367
+    second: NW Special_517
+  - first:
+      213: -8346260903208836911
+    second: NW Special_518
+  - first:
+      213: -5320304017277812362
+    second: NW Special_519
+  - first:
+      213: 2489018922380270480
+    second: NW Special_520
+  - first:
+      213: 3145285630172885039
+    second: NW Special_521
+  - first:
+      213: -3487459865356132264
+    second: NW Special_522
+  - first:
+      213: -5123320939050903876
+    second: NW Special_523
+  - first:
+      213: -302202567607686012
+    second: NW Special_524
+  - first:
+      213: 1441012296924694987
+    second: NW Special_525
+  - first:
+      213: 150337190502269775
+    second: NW Special_526
+  - first:
+      213: 8093524433738064580
+    second: NW Special_527
+  - first:
+      213: -8738232401755053397
+    second: NW Special_528
+  - first:
+      213: -5134895601889402483
+    second: NW Special_529
+  - first:
+      213: 7439994494765629763
+    second: NW Special_530
+  - first:
+      213: -3294327723668320513
+    second: NW Special_531
+  - first:
+      213: -5070573409366982808
+    second: NW Special_532
+  - first:
+      213: 262707624269386516
+    second: NW Special_533
+  - first:
+      213: -2322737664849901113
+    second: NW Special_534
+  - first:
+      213: 170195132444415149
+    second: NW Special_535
+  - first:
+      213: -6769126375001684154
+    second: NW Special_536
+  - first:
+      213: 6023617388939909644
+    second: NW Special_537
+  - first:
+      213: -8764335182174525964
+    second: NW Special_538
+  - first:
+      213: -7932795259999304720
+    second: NW Special_539
+  - first:
+      213: 7590029869132068652
+    second: NW Special_540
+  - first:
+      213: 1208089971602998099
+    second: NW Special_541
+  - first:
+      213: 1377468005787741639
+    second: NW Special_542
+  - first:
+      213: -5505648531268812963
+    second: NW Special_543
+  - first:
+      213: 5624497891175911163
+    second: NW Special_544
+  - first:
+      213: -5700680537930918877
+    second: NW Special_545
+  - first:
+      213: -2801516286106814513
+    second: NW Special_546
+  - first:
+      213: 4183877546550374388
+    second: NW Special_547
+  - first:
+      213: -99120626449549374
+    second: NW Special_548
+  - first:
+      213: 4688938032719236857
+    second: NW Special_549
+  - first:
+      213: 2319555399449704800
+    second: NW Special_550
+  - first:
+      213: 6994751591274546358
+    second: NW Special_551
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NW Special_0
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 219
+        width: 282
+        height: 628
+      alignment: 9
+      pivot: {x: 0.83963275, y: 0.09903732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae091167d2fe7e30800000000000000
+      internalID: 4503303684277997216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Special_1
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 219
+        width: 300
+        height: 630
+      alignment: 9
+      pivot: {x: 0.8493921, y: 0.09943843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067f7168a552e8270800000000000000
+      internalID: 8254576237743699808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Special_2
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 218
+        width: 306
+        height: 643
+      alignment: 9
+      pivot: {x: 0.853299, y: 0.098522134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a444b471744cc40800000000000000
+      internalID: 5531624407690398339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Special_3
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 221
+        width: 331
+        height: 658
+      alignment: 9
+      pivot: {x: 0.8241081, y: 0.0920841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d4621f648dc12b0800000000000000
+      internalID: -5612373236405351044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Special_4
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 218
+        width: 330
+        height: 661
+      alignment: 9
+      pivot: {x: 0.82793266, y: 0.096300595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662e6a0af56ce5d70800000000000000
+      internalID: 9033876016571277926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Special_5
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 218
+        width: 445
+        height: 642
+      alignment: 9
+      pivot: {x: 0.92620206, y: 0.09861689}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce78b1faa46eab190800000000000000
+      internalID: -7945785384102033428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Special_6
+      rect:
+        serializedVersion: 2
+        x: 3691
+        y: 219
+        width: 588
+        height: 546
+      alignment: 9
+      pivot: {x: 0.9448699, y: 0.11379815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1d0b4d1dfb05cf0800000000000000
+      internalID: -265501470077431367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Special_7
+      rect:
+        serializedVersion: 2
+        x: 4483
+        y: 219
+        width: 589
+        height: 546
+      alignment: 9
+      pivot: {x: 0.944893, y: 0.11536489}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742e764630d644f00800000000000000
+      internalID: 1100124070322102855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Special_8
+      rect:
+        serializedVersion: 2
+        x: 5283
+        y: 218
+        width: 578
+        height: 535
+      alignment: 9
+      pivot: {x: 0.9408445, y: 0.11936144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af45cbc9772ac000800000000000000
+      internalID: 56901349358784423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Special_9
+      rect:
+        serializedVersion: 2
+        x: 6068
+        y: 219
+        width: 553
+        height: 522
+      alignment: 9
+      pivot: {x: 0.9399167, y: 0.12033151}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12c0fea071d5614ca4e1af4e3b081be
+      internalID: 908831929749411131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Special_10
+      rect:
+        serializedVersion: 2
+        x: 6856
+        y: 218
+        width: 540
+        height: 529
+      alignment: 9
+      pivot: {x: 0.9385796, y: 0.120580144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff6fb6d8e9ac834793061126f3a3204
+      internalID: 4555985025152785817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NW Special_11
+      rect:
+        serializedVersion: 2
+        x: 7601
+        y: 219
+        width: 540
+        height: 552
+      alignment: 9
+      pivot: {x: 0.9390661, y: 0.1145391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9c2e5e6d7beb84ebb262253f9f5bb6
+      internalID: -1171913307575929212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7b8bf5524a9215140ac55dc5b58e562b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NW Special_0: 4503303684277997216
+      NW Special_1: 8254576237743699808
+      NW Special_10: 4555985025152785817
+      NW Special_11: -1171913307575929212
+      NW Special_2: 5531624407690398339
+      NW Special_3: -5612373236405351044
+      NW Special_4: 9033876016571277926
+      NW Special_5: -7945785384102033428
+      NW Special_6: -265501470077431367
+      NW Special_7: 1100124070322102855
+      NW Special_8: 56901349358784423
+      NW Special_9: 908831929749411131
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
