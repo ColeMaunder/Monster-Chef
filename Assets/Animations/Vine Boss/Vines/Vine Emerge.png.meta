@@ -1,0 +1,287 @@
+fileFormatVersion: 2
+guid: c448b5d3f1ed29244bf1cd40256dce61
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7208961268562177888
+    second: Vine Emerge_0
+  - first:
+      213: -5149084554177410600
+    second: Vine Emerge_1
+  - first:
+      213: 3741340554506312524
+    second: Vine Emerge_2
+  - first:
+      213: -2685142142792323635
+    second: Vine Emerge_3
+  - first:
+      213: -953434177029641283
+    second: Vine Emerge_4
+  - first:
+      213: -4747929784474891455
+    second: Vine Emerge_5
+  - first:
+      213: 4755610506370430536
+    second: Vine Emerge_6
+  - first:
+      213: 1772113524442481088
+    second: Vine Emerge_7
+  - first:
+      213: -7338123475322099391
+    second: Vine Emerge_8
+  - first:
+      213: -5688911930648530139
+    second: Vine Emerge_9
+  - first:
+      213: -8406116650910652131
+    second: Vine Emerge_10
+  - first:
+      213: -7868384506074688854
+    second: Vine Emerge_11
+  - first:
+      213: -3771711742614752144
+    second: Vine Emerge_12
+  - first:
+      213: 5753709380751792423
+    second: Vine Emerge_13
+  - first:
+      213: -4161159711010877538
+    second: Vine Emerge_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vine Emerge_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 411
+        width: 150
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16627908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d90ec501e6ca88b0800000000000000
+      internalID: -5149084554177410600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Emerge_4
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 412
+        width: 174
+        height: 163
+      alignment: 9
+      pivot: {x: 0.4457536, y: 0.13312884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb6e61eaa8b4c2f0800000000000000
+      internalID: -953434177029641283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Emerge_6
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 412
+        width: 174
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1199262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846335a2f825ff140800000000000000
+      internalID: 4755610506370430536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Emerge_7
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 412
+        width: 151
+        height: 301
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1242525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c14f068cdfc79810800000000000000
+      internalID: 1772113524442481088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Emerge_9
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 417
+        width: 128
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523763f7dbcec01b0800000000000000
+      internalID: -5688911930648530139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3e1f75545aae66845ad1eddde0d54de8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Vine Emerge_0: 7208961268562177888
+      Vine Emerge_1: -5149084554177410600
+      Vine Emerge_10: -8406116650910652131
+      Vine Emerge_11: -7868384506074688854
+      Vine Emerge_12: -3771711742614752144
+      Vine Emerge_13: 5753709380751792423
+      Vine Emerge_14: -4161159711010877538
+      Vine Emerge_2: 3741340554506312524
+      Vine Emerge_3: -2685142142792323635
+      Vine Emerge_4: -953434177029641283
+      Vine Emerge_5: -4747929784474891455
+      Vine Emerge_6: 4755610506370430536
+      Vine Emerge_7: 1772113524442481088
+      Vine Emerge_8: -7338123475322099391
+      Vine Emerge_9: -5688911930648530139
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

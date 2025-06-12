@@ -16,6 +16,14 @@ public class Player : MonoBehaviour
     private CameraFollow cameraFollow;
     private PlayerData data;
     private MenuHandler menu;
+    private float trapCounter = 0;
+    private float tickCounter = 0;
+    private float trapTickTime;
+    private float trapTickDamage;
+    private float trapTickEnd;
+    private int trapWrigleThreshold;
+    private Rigidbody2D rb;
+    private Animator Animator;
     HealsUI fountainUI;
     public bool GetPlayerAlive()
     {
@@ -24,7 +32,8 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        fountainUI = GameObject.FindWithTag("UI").transform.GetChild(0).GetChild(1).GetComponent<HealsUI>();
+        Animator = transform.gameObject.GetComponent<Animator>();
+        rb = transform.gameObject.GetComponent<Rigidbody2D>();
         menu = GameObject.FindWithTag("UI").GetComponent<MenuHandler>();
         health = maxHealth;
         heals = maxHeals;
@@ -37,7 +46,7 @@ public class Player : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+        void Update()
     {
         if (!playerAlive)
         {
@@ -52,9 +61,35 @@ public class Player : MonoBehaviour
                 playerAlive = true;
             }
         }
-        else if (Input.GetKeyDown(KeyCode.R))
-        {
-            Heal();
+        else {
+            if (Input.GetKeyDown(KeyCode.R)){
+                Heal();
+            }
+            if (data.getTrapped()){
+                Animator.SetBool("walking", false);
+                rb.linearVelocity = Vector2.zero;
+                data.setCanMove(false);
+                trapCounter += Time.deltaTime;
+                /*if (){
+                    trapWrigleThreshold--;
+                }*/
+
+                if (tickCounter >= trapTickEnd || trapWrigleThreshold <= 0)
+                {
+                    data.setTrapped(false);
+                    data.setCanMove(true);
+                    trapCounter = 0;
+                }
+                else if (trapCounter >= trapTickTime)
+                {
+                    tickCounter++;
+                    this.damage(trapTickDamage);
+                    trapCounter = 0;
+                }
+            }else{
+                trapCounter = 0;
+                data.setCanMove(true);
+            }
         }
     }
     public void damage(float damage)
@@ -68,6 +103,15 @@ public class Player : MonoBehaviour
             print("You are Dead");
             Dead();
         }
+    }
+    public void trapDamage(float initialDamage, float tickTime, float tickDamage, float tickEnd, int wrigleThreshold){
+        this.damage(initialDamage);
+        data.setTrapped(true);
+        trapTickTime = tickTime;
+        trapTickDamage = tickDamage;
+        trapTickEnd = tickEnd;
+        trapWrigleThreshold = wrigleThreshold;
+        
     }
     public int GetHeals()
     {
@@ -116,7 +160,6 @@ public class Player : MonoBehaviour
         Reset();
         inventory.DropInventory();
         toRespawnPoint();
-        
         health = maxHealth;
         heals = maxHeals;
         Time.timeScale = 1f;
@@ -143,7 +186,7 @@ public class Player : MonoBehaviour
                 break;
         }
         if (SceneManager.GetActiveScene().name != scene){  
-            UnityEngine.SceneManagement.SceneManager.LoadScene(scene);
+            SceneManager.LoadScene(scene);
         }
         GameObject[] fountains = GameObject.FindGameObjectsWithTag("Fountain");
         foreach (GameObject i in fountains){

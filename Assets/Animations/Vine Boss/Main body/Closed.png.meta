@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 41d7beeb81eed7746be34aa6aee7b9dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5879975450794473539
+    second: Vine Roar_0
+  - first:
+      213: -4902538753026013747
+    second: Vine Roar_1
+  - first:
+      213: -6714716756240425720
+    second: Vine Roar_2
+  - first:
+      213: -8749395225315487322
+    second: Vine Roar_3
+  - first:
+      213: 9114659684683110975
+    second: Vine Roar_4
+  - first:
+      213: 6549548469074245922
+    second: Vine Roar_5
+  - first:
+      213: 5237969816577237134
+    second: Vine Roar_6
+  - first:
+      213: -2048835885880890902
+    second: Vine Roar_7
+  - first:
+      213: -3316162665405184620
+    second: Vine Roar_8
+  - first:
+      213: -6819262711039046826
+    second: Vine Roar_9
+  - first:
+      213: -2546628790142430730
+    second: Vine Roar_10
+  - first:
+      213: -8012165646718236560
+    second: Vine Roar_11
+  - first:
+      213: 97258881714555974
+    second: Vine Roar_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vine Roar_12
+      rect:
+        serializedVersion: 2
+        x: 8892
+        y: 92
+        width: 650
+        height: 602
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c09d70078895100800000000000000
+      internalID: 97258881714555974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Closed_0
+      rect:
+        serializedVersion: 2
+        x: 8892
+        y: 92
+        width: 650
+        height: 602
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e267896f7e868d4b93990466021f1bf
+      internalID: -513951557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 459bb437d0ad0ff4e9e0a6bfa6f269a0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Closed_0: -513951557
+      Vine Roar_0: -5879975450794473539
+      Vine Roar_1: -4902538753026013747
+      Vine Roar_10: -2546628790142430730
+      Vine Roar_11: -8012165646718236560
+      Vine Roar_12: 97258881714555974
+      Vine Roar_2: -6714716756240425720
+      Vine Roar_3: -8749395225315487322
+      Vine Roar_4: 9114659684683110975
+      Vine Roar_5: 6549548469074245922
+      Vine Roar_6: 5237969816577237134
+      Vine Roar_7: -2048835885880890902
+      Vine Roar_8: -3316162665405184620
+      Vine Roar_9: -6819262711039046826
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: d5f6f6a77cbf10f43a06fa3933605168
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2513133090654885318
+    second: E Slap_0
+  - first:
+      213: 871483221563470633
+    second: E Slap_1
+  - first:
+      213: 802351605849378920
+    second: E Slap_2
+  - first:
+      213: 2037077077412799192
+    second: E Slap_3
+  - first:
+      213: -1070414524741201628
+    second: E Slap_4
+  - first:
+      213: -9086181139787502915
+    second: E Slap_5
+  - first:
+      213: -7722651848881772951
+    second: E Slap_6
+  - first:
+      213: -8607331192076973911
+    second: E Slap_7
+  - first:
+      213: -3252987175137662014
+    second: E Slap_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: E Slap_0
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 417
+        width: 128
+        height: 296
+      alignment: 9
+      pivot: {x: 0.4026624, y: 0.10000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a6c3ae4ce8f1dd0800000000000000
+      internalID: -2513133090654885318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Slap_1
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 417
+        width: 182
+        height: 290
+      alignment: 9
+      pivot: {x: 0.6642969, y: 0.10286434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923f0096f51281c00800000000000000
+      internalID: 871483221563470633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Slap_2
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 417
+        width: 254
+        height: 194
+      alignment: 9
+      pivot: {x: 0.72563905, y: 0.1446346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860dd93d886822b00800000000000000
+      internalID: 802351605849378920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Slap_3
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 417
+        width: 206
+        height: 182
+      alignment: 9
+      pivot: {x: 0.3508123, y: 0.13945913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2e74b1fc6254c10800000000000000
+      internalID: 2037077077412799192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Slap_4
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 417
+        width: 296
+        height: 122
+      alignment: 9
+      pivot: {x: 0.16326492, y: 0.22766788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421d16a39af1521f0800000000000000
+      internalID: -1070414524741201628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Slap_5
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 417
+        width: 326
+        height: 116
+      alignment: 9
+      pivot: {x: 0.1356512, y: 0.25654444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbaac1ed46667e180800000000000000
+      internalID: -9086181139787502915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Slap_6
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 417
+        width: 266
+        height: 140
+      alignment: 9
+      pivot: {x: 0.16900405, y: 0.20928563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966636f4f01a3d490800000000000000
+      internalID: -7722651848881772951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Slap_7
+      rect:
+        serializedVersion: 2
+        x: 2721
+        y: 417
+        width: 176
+        height: 182
+      alignment: 9
+      pivot: {x: 0.32066345, y: 0.13945913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8cc1862ed9c8880800000000000000
+      internalID: -8607331192076973911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E Slap_8
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 417
+        width: 158
+        height: 278
+      alignment: 9
+      pivot: {x: 0.37908858, y: 0.13548641}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cba40736611bd2d0800000000000000
+      internalID: -3252987175137662014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 38f4e3203d5298e418b0cb3b3017dd40
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      E Slap_0: -2513133090654885318
+      E Slap_1: 871483221563470633
+      E Slap_2: 802351605849378920
+      E Slap_3: 2037077077412799192
+      E Slap_4: -1070414524741201628
+      E Slap_5: -9086181139787502915
+      E Slap_6: -7722651848881772951
+      E Slap_7: -8607331192076973911
+      E Slap_8: -3252987175137662014
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

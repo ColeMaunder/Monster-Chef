@@ -10,15 +10,16 @@ public class SlimeAttack : MonoBehaviour
     public float backDuration = 5f;
     public float AtkDuration = 1f;
     private float timer = 0f;
-    public Rigidbody2D enmenyBody;
+    private Rigidbody2D enmenyBody;
     private bool isAttacking = false;
     EnemyLocalData localData;
 
     void Start()
     {
-       data = GameObject.FindWithTag("EnemyData").GetComponent<EnemyData>();
-       localData =  transform.parent.gameObject.GetComponent<EnemyLocalData>();
-       isAttacking = false;
+        enmenyBody = transform.parent.gameObject.GetComponent<Rigidbody2D>();
+        data = GameObject.FindWithTag("EnemyData").GetComponent<EnemyData>();
+        localData =  transform.parent.gameObject.GetComponent<EnemyLocalData>();
+        isAttacking = false;
     }
 
     // Update is called once per frame

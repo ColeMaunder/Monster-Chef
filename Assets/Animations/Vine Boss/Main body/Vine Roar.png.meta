@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 3fa4fccb0b4525043b57674044a56e2b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5879975450794473539
+    second: Vine Roar_0
+  - first:
+      213: -4902538753026013747
+    second: Vine Roar_1
+  - first:
+      213: -6714716756240425720
+    second: Vine Roar_2
+  - first:
+      213: -8749395225315487322
+    second: Vine Roar_3
+  - first:
+      213: 9114659684683110975
+    second: Vine Roar_4
+  - first:
+      213: 6549548469074245922
+    second: Vine Roar_5
+  - first:
+      213: 5237969816577237134
+    second: Vine Roar_6
+  - first:
+      213: -2048835885880890902
+    second: Vine Roar_7
+  - first:
+      213: -3316162665405184620
+    second: Vine Roar_8
+  - first:
+      213: -6819262711039046826
+    second: Vine Roar_9
+  - first:
+      213: -2546628790142430730
+    second: Vine Roar_10
+  - first:
+      213: -8012165646718236560
+    second: Vine Roar_11
+  - first:
+      213: 97258881714555974
+    second: Vine Roar_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vine Roar_0
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 92
+        width: 650
+        height: 602
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7c06f1b71266ea0800000000000000
+      internalID: -5879975450794473539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Roar_1
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 92
+        width: 661
+        height: 602
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc54c489afea6fbb0800000000000000
+      internalID: -4902538753026013747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Roar_2
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 92
+        width: 650
+        height: 602
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d1de0bfa880d2a0800000000000000
+      internalID: -6714716756240425720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Roar_3
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 92
+        width: 662
+        height: 602
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1529b1667e39680800000000000000
+      internalID: -8749395225315487322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Roar_4
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 92
+        width: 650
+        height: 602
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a5c1211b6cd7e70800000000000000
+      internalID: 9114659684683110975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Roar_5
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 92
+        width: 650
+        height: 602
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229bf52b1aba4ea50800000000000000
+      internalID: 6549548469074245922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Roar_6
+      rect:
+        serializedVersion: 2
+        x: 4430
+        y: 92
+        width: 662
+        height: 602
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80ed45dbc101b840800000000000000
+      internalID: 5237969816577237134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Roar_7
+      rect:
+        serializedVersion: 2
+        x: 5171
+        y: 92
+        width: 654
+        height: 602
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae92ff2fd921193e0800000000000000
+      internalID: -2048835885880890902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Roar_8
+      rect:
+        serializedVersion: 2
+        x: 5921
+        y: 92
+        width: 650
+        height: 602
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4958c1720af9af1d0800000000000000
+      internalID: -3316162665405184620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Roar_9
+      rect:
+        serializedVersion: 2
+        x: 6638
+        y: 92
+        width: 662
+        height: 602
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b437eb1bc1d51a0800000000000000
+      internalID: -6819262711039046826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Roar_10
+      rect:
+        serializedVersion: 2
+        x: 7399
+        y: 92
+        width: 650
+        height: 602
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f117c4ab9e88acd0800000000000000
+      internalID: -2546628790142430730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Roar_11
+      rect:
+        serializedVersion: 2
+        x: 8122
+        y: 92
+        width: 661
+        height: 602
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07885c96bc11fc090800000000000000
+      internalID: -8012165646718236560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Roar_12
+      rect:
+        serializedVersion: 2
+        x: 8892
+        y: 92
+        width: 650
+        height: 602
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c09d70078895100800000000000000
+      internalID: 97258881714555974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 459bb437d0ad0ff4e9e0a6bfa6f269a0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Vine Roar_0: -5879975450794473539
+      Vine Roar_1: -4902538753026013747
+      Vine Roar_10: -2546628790142430730
+      Vine Roar_11: -8012165646718236560
+      Vine Roar_12: 97258881714555974
+      Vine Roar_2: -6714716756240425720
+      Vine Roar_3: -8749395225315487322
+      Vine Roar_4: 9114659684683110975
+      Vine Roar_5: 6549548469074245922
+      Vine Roar_6: 5237969816577237134
+      Vine Roar_7: -2048835885880890902
+      Vine Roar_8: -3316162665405184620
+      Vine Roar_9: -6819262711039046826
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: daaf0e58d491aaf4eb945394f97dcc98
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1401213912002517200
+    second: NE Slap_0
+  - first:
+      213: 6886178764251218954
+    second: NE Slap_1
+  - first:
+      213: -280382789617896661
+    second: NE Slap_2
+  - first:
+      213: 4248266367275929153
+    second: NE Slap_3
+  - first:
+      213: -1307010289065372398
+    second: NE Slap_4
+  - first:
+      213: 8256882785354806536
+    second: NE Slap_5
+  - first:
+      213: 5181179736005095917
+    second: NE Slap_6
+  - first:
+      213: 4281193252746154396
+    second: NE Slap_7
+  - first:
+      213: 769071198830567675
+    second: NE Slap_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NE Slap_0
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 429
+        width: 128
+        height: 296
+      alignment: 9
+      pivot: {x: 0.4413681, y: 0.0874176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03721c8fe53ed8ce0800000000000000
+      internalID: -1401213912002517200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Slap_1
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 429
+        width: 158
+        height: 236
+      alignment: 9
+      pivot: {x: 0.51727235, y: 0.13285206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04480ff91f909f50800000000000000
+      internalID: 6886178764251218954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Slap_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 429
+        width: 164
+        height: 176
+      alignment: 9
+      pivot: {x: 0.6456042, y: 0.17049998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2331bf9651eb1cf0800000000000000
+      internalID: -280382789617896661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Slap_3
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 429
+        width: 152
+        height: 182
+      alignment: 9
+      pivot: {x: 0.3608551, y: 0.110137604}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e88b4b0cfd4fa30800000000000000
+      internalID: 4248266367275929153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Slap_4
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 429
+        width: 266
+        height: 242
+      alignment: 9
+      pivot: {x: 0.18964908, y: 0.102485344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2155a7221119cdde0800000000000000
+      internalID: -1307010289065372398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Slap_5
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 429
+        width: 248
+        height: 248
+      alignment: 9
+      pivot: {x: 0.20563827, y: 0.08734316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8057c1d7527569270800000000000000
+      internalID: 8256882785354806536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Slap_6
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 429
+        width: 230
+        height: 206
+      alignment: 9
+      pivot: {x: 0.22709642, y: 0.09594371}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de13902d48f37e740800000000000000
+      internalID: 5181179736005095917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Slap_7
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 429
+        width: 182
+        height: 212
+      alignment: 9
+      pivot: {x: 0.26758215, y: 0.084851824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91dbb4a49ad96b30800000000000000
+      internalID: 4281193252746154396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NE Slap_8
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 423
+        width: 158
+        height: 278
+      alignment: 9
+      pivot: {x: 0.3143218, y: 0.07542858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0a74d3e2a4caa00800000000000000
+      internalID: 769071198830567675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d848cc5059c3c1d48b15d3218e148412
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NE Slap_0: -1401213912002517200
+      NE Slap_1: 6886178764251218954
+      NE Slap_2: -280382789617896661
+      NE Slap_3: 4248266367275929153
+      NE Slap_4: -1307010289065372398
+      NE Slap_5: 8256882785354806536
+      NE Slap_6: 5181179736005095917
+      NE Slap_7: 4281193252746154396
+      NE Slap_8: 769071198830567675
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

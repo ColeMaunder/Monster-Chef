@@ -27,7 +27,14 @@ public class PlayerData : MonoBehaviour
     [SerializeField] private string lastFountain;
     [SerializeField] private List<int> coalIndex = new List<int>();
     public float dashCool = 1f;
-    
+    private bool trapped = false;
+
+    public bool getTrapped(){
+        return trapped;
+    }
+    public void setTrapped(bool state){
+        trapped = state;
+    }
     public void addCoal(int index){
         coalIndex.Add(index);
     }

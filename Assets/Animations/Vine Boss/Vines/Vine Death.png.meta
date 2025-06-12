@@ -1,0 +1,339 @@
+fileFormatVersion: 2
+guid: 0890c050b145cdc4d92f4ba5309ae101
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6402628859053370034
+    second: Vine Death_0
+  - first:
+      213: 6553448157820492386
+    second: Vine Death_1
+  - first:
+      213: 895156525350218314
+    second: Vine Death_2
+  - first:
+      213: 4876249597891370241
+    second: Vine Death_3
+  - first:
+      213: -3347218670799495109
+    second: Vine Death_4
+  - first:
+      213: 978582359832356733
+    second: Vine Death_5
+  - first:
+      213: 5818309760747302703
+    second: Vine Death_6
+  - first:
+      213: 4094685437360128372
+    second: Vine Death_7
+  - first:
+      213: 2859487257805388332
+    second: Vine Death_8
+  - first:
+      213: -5132037565259125961
+    second: Vine Death_9
+  - first:
+      213: 5297272506060032679
+    second: Vine Death_10
+  - first:
+      213: 3545819697362014661
+    second: Vine Death_11
+  - first:
+      213: 2944051161726152157
+    second: Vine Death_12
+  - first:
+      213: 7061585970588600819
+    second: Vine Death_13
+  - first:
+      213: -3044237297001534395
+    second: Vine Death_14
+  - first:
+      213: 1970770209226233827
+    second: Vine Death_15
+  - first:
+      213: -2388365133626068522
+    second: Vine Death_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vine Death_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 269
+        width: 128
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba6a845605bad850800000000000000
+      internalID: 6402628859053370034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Death_1
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 269
+        width: 132
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a14dcb06682fa50800000000000000
+      internalID: 6553448157820492386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Death_2
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 269
+        width: 127
+        height: 272
+      alignment: 9
+      pivot: {x: 0.42913386, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a6fd7fd1c3c6c00800000000000000
+      internalID: 895156525350218314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Death_3
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 264
+        width: 150
+        height: 302
+      alignment: 9
+      pivot: {x: 0.52317464, y: 0.13774835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10dd47e7c2beba340800000000000000
+      internalID: 4876249597891370241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Death_5
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 263
+        width: 173
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d776545b87f949d00800000000000000
+      internalID: 978582359832356733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Death_7
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 264
+        width: 174
+        height: 163
+      alignment: 9
+      pivot: {x: 0.6818182, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471c0d0f5be33d830800000000000000
+      internalID: 4094685437360128372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine Death_10
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 263
+        width: 150
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aac6223741b38940800000000000000
+      internalID: 5297272506060032679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c035017c38469804f8a7762597601915
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Vine Death_0: 6402628859053370034
+      Vine Death_1: 6553448157820492386
+      Vine Death_10: 5297272506060032679
+      Vine Death_11: 3545819697362014661
+      Vine Death_12: 2944051161726152157
+      Vine Death_13: 7061585970588600819
+      Vine Death_14: -3044237297001534395
+      Vine Death_15: 1970770209226233827
+      Vine Death_16: -2388365133626068522
+      Vine Death_2: 895156525350218314
+      Vine Death_3: 4876249597891370241
+      Vine Death_4: -3347218670799495109
+      Vine Death_5: 978582359832356733
+      Vine Death_6: 5818309760747302703
+      Vine Death_7: 4094685437360128372
+      Vine Death_8: 2859487257805388332
+      Vine Death_9: -5132037565259125961
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

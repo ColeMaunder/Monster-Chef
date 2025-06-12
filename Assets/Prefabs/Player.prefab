@@ -7283,22 +7283,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4335db65fc75af4fb149f23e9b78a7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 03000000010000000300000000000000
+  maxHealth: 03000000040000000300000004000000
   enemySpeed:
   - 3
-  - 0
   - 10
-  - 0
+  - 10
+  - 1
   favoredDistance:
   - 3
-  - 3
+  - 4
   - 6
-  - 0
+  - 4
   agroRaing:
   - 20
-  - 10
+  - 30
   - 20
-  - 0
+  - 20
   attackSound:
   - {fileID: 8300000, guid: be17f6b9e3e060546a74eb50eba6ced0, type: 3}
   - {fileID: 8300000, guid: a48fbc8dc8f9a13429cdfa2d5117917a, type: 3}
@@ -7306,14 +7306,14 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2aa440c154f46b3438fb1f413c43da5b, type: 3}
   hurtSound:
   - {fileID: 8300000, guid: 9a68d8c720d93214ba339e079c585673, type: 3}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 4748fa566e6da514faf7203816b94690, type: 3}
   - {fileID: 8300000, guid: c30d8c2eaaca56841913215c41e72881, type: 3}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 4748fa566e6da514faf7203816b94690, type: 3}
   deathSound:
   - {fileID: 8300000, guid: bfd87af99a6f0c14a9a4d54ec6cc5e39, type: 3}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 4748fa566e6da514faf7203816b94690, type: 3}
   - {fileID: 8300000, guid: c30d8c2eaaca56841913215c41e72881, type: 3}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 4748fa566e6da514faf7203816b94690, type: 3}
   enemyList:
   - {fileID: 7094277301536617045, guid: a573085b5b4176746aa718a181bbd9f5, type: 3}
   - {fileID: 7094277301536617045, guid: a573085b5b4176746aa718a181bbd9f5, type: 3}

@@ -20,9 +20,6 @@ public class PlayerInventory : MonoBehaviour
         print("Frog Legs: " + invantory[2]);
         print("Green Vines: " + invantory[3]);
     }
-    public int GetEnemy(int count){
-        return invantory[count];
-    }
    public void AddItem(int item){
         if (item == 4){
             coalStores++;
