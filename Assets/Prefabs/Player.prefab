@@ -7354,7 +7354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4335db65fc75af4fb149f23e9b78a7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 03000000040000000300000004000000
+  maxHealth: 0300000004000000030000000400000032000000
   enemySpeed:
   - 3
   - 10
@@ -7375,26 +7375,31 @@ MonoBehaviour:
   - {fileID: 8300000, guid: a48fbc8dc8f9a13429cdfa2d5117917a, type: 3}
   - {fileID: 8300000, guid: f53ddf7f6d4844843b7756b706d0cb8f, type: 3}
   - {fileID: 8300000, guid: 2aa440c154f46b3438fb1f413c43da5b, type: 3}
+  - {fileID: 8300000, guid: 2aa440c154f46b3438fb1f413c43da5b, type: 3}
   hurtSound:
   - {fileID: 8300000, guid: 9a68d8c720d93214ba339e079c585673, type: 3}
   - {fileID: 8300000, guid: 4748fa566e6da514faf7203816b94690, type: 3}
   - {fileID: 8300000, guid: c30d8c2eaaca56841913215c41e72881, type: 3}
+  - {fileID: 8300000, guid: 4748fa566e6da514faf7203816b94690, type: 3}
   - {fileID: 8300000, guid: 4748fa566e6da514faf7203816b94690, type: 3}
   deathSound:
   - {fileID: 8300000, guid: bfd87af99a6f0c14a9a4d54ec6cc5e39, type: 3}
   - {fileID: 8300000, guid: 4748fa566e6da514faf7203816b94690, type: 3}
   - {fileID: 8300000, guid: c30d8c2eaaca56841913215c41e72881, type: 3}
   - {fileID: 8300000, guid: 4748fa566e6da514faf7203816b94690, type: 3}
+  - {fileID: 8300000, guid: 4748fa566e6da514faf7203816b94690, type: 3}
   enemyList:
   - {fileID: 7094277301536617045, guid: a573085b5b4176746aa718a181bbd9f5, type: 3}
-  - {fileID: 7094277301536617045, guid: a573085b5b4176746aa718a181bbd9f5, type: 3}
+  - {fileID: 8126231608955368835, guid: a16cb70d217081744b741d38a1aa99d3, type: 3}
   - {fileID: 6725913427455544190, guid: 32c99da5799c2704082772b8f72934af, type: 3}
-  - {fileID: 3502702152755198145, guid: ebedfc3b64d80a446843878f08cd91e2, type: 3}
+  - {fileID: 6753909981800000875, guid: f316ea5d0442b89499796629ea743a99, type: 3}
+  - {fileID: 4286012703082709536, guid: dede0e1fdad7dad4a8e95d1964e2f14b, type: 3}
   dropList:
   - {fileID: 6110570572209329839, guid: 9fc751104d0458840af9365cab4f7668, type: 3}
   - {fileID: 6738018485893789703, guid: 6d81b5c1c327ddc40a9c1d3cf5f11f36, type: 3}
   - {fileID: 6610437314549904671, guid: cdbf624f79a592147a9164aa6d8bd3d8, type: 3}
   - {fileID: 2341024923685697745, guid: 3e5c0a6f8ee339d438557db5b0ad943c, type: 3}
+  - {fileID: 6110570572209329839, guid: 0a9ec71adb92dad469f9538404232960, type: 3}
 --- !u!1 &8478817872626071003
 GameObject:
   m_ObjectHideFlags: 0
