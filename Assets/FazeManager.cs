@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using Unity.VisualScripting;
+using System;
 
 public class FazeManager : MonoBehaviour
 {
@@ -30,16 +31,24 @@ public class FazeManager : MonoBehaviour
     }
 
     IEnumerator FazeChanger (){
+        while (!victory){
+        animator.SetBool("Closed", true);
+        SpawnWave(0);
+        while (hasLivingEnemys){
+            yield return new WaitForSeconds(0.1f);
+        }
+        animator.SetBool("Closed", false); 
+        SpawnWave(1);
+        yield return new WaitForSeconds(5f);
+        }
         
-        yield return new WaitForSeconds(1);
     }
      IEnumerator Vicory (){
-        
         yield return new WaitForSeconds(1);
     }
 
     private void SpawnWave(int num){
-        GameObject [] spawners = GameObject.FindGameObjectsWithTag("spawner");
+        GameObject [] spawners = GameObject.FindGameObjectsWithTag("Spawner");
         foreach (GameObject i in spawners){
             i.GetComponent<Spawner>().ActiveGroup(num);
         }

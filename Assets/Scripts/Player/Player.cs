@@ -43,10 +43,9 @@ public class Player : MonoBehaviour
         spawners = GameObject.FindGameObjectsWithTag("Spawner");
         cameraFollow = GameObject.FindWithTag("MainCamera").GetComponent<CameraFollow>();
         menu.showDeathScreen(false);
+        fountainUI = GameObject.FindWithTag("UI").transform.GetChild(0).GetChild(1).gameObject.GetComponent<HealsUI>();
     }
-
-    // Update is called once per frame
-        void Update()
+    void Update()
     {
         if (!playerAlive)
         {
@@ -61,11 +60,14 @@ public class Player : MonoBehaviour
                 playerAlive = true;
             }
         }
-        else {
-            if (Input.GetKeyDown(KeyCode.R)){
+        else
+        {
+            if (Input.GetKeyDown(KeyCode.R))
+            {
                 Heal();
             }
-            if (data.getTrapped()){
+            if (data.getTrapped())
+            {
                 Animator.SetBool("walking", false);
                 rb.linearVelocity = Vector2.zero;
                 data.setCanMove(false);
@@ -86,7 +88,9 @@ public class Player : MonoBehaviour
                     this.damage(trapTickDamage);
                     trapCounter = 0;
                 }
-            }else{
+            }
+            else
+            {
                 trapCounter = 0;
                 data.setCanMove(true);
             }

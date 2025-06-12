@@ -3,8 +3,11 @@ using UnityEngine;
 public class Cooking : MonoBehaviour
 {
     bool inRainge = false;
-    [SerializeField] private GameObject CookingScreen;
-
+    public GameObject CookingScreen;
+    void Start()
+    {
+        CookingScreen = transform.parent.GetChild(1).gameObject;
+    }
     void Update()
     {
         if(inRainge){

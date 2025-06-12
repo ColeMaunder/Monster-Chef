@@ -28,5 +28,6 @@ public class FountainHandler : MonoBehaviour
     public void CloseFountin()
     {
         gameObject.SetActive(false);
+        Time.timeScale = 1;
     }
 }
