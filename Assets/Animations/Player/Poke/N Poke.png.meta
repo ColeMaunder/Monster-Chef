@@ -131,12 +131,12 @@ TextureImporter:
       name: N Poke_0
       rect:
         serializedVersion: 2
-        x: 165
-        y: 783
-        width: 98
-        height: 188
+        x: 121
+        y: 804
+        width: 96
+        height: 186
       alignment: 9
-      pivot: {x: 0.3581585, y: 0.34390777}
+      pivot: {x: 0.375, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -153,12 +153,12 @@ TextureImporter:
       name: N Poke_1
       rect:
         serializedVersion: 2
-        x: 347
-        y: 782
-        width: 98
-        height: 188
+        x: 269
+        y: 804
+        width: 96
+        height: 204
       alignment: 9
-      pivot: {x: 0.35421878, y: 0.34390777}
+      pivot: {x: 0.375, y: 0.2735294}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -175,12 +175,12 @@ TextureImporter:
       name: N Poke_2
       rect:
         serializedVersion: 2
-        x: 527
-        y: 782
-        width: 98
-        height: 188
+        x: 419
+        y: 804
+        width: 96
+        height: 204
       alignment: 9
-      pivot: {x: 0.3542194, y: 0.3459622}
+      pivot: {x: 0.375, y: 0.2735294}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: N Poke_3
       rect:
         serializedVersion: 2
-        x: 709
-        y: 782
-        width: 98
-        height: 188
+        x: 591
+        y: 804
+        width: 96
+        height: 204
       alignment: 9
-      pivot: {x: 0.34239912, y: 0.34390777}
+      pivot: {x: 0.375, y: 0.2735294}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -219,12 +219,12 @@ TextureImporter:
       name: N Poke_4
       rect:
         serializedVersion: 2
-        x: 884
-        y: 782
-        width: 98
-        height: 188
+        x: 761
+        y: 804
+        width: 96
+        height: 204
       alignment: 9
-      pivot: {x: 0.3620998, y: 0.34596154}
+      pivot: {x: 0.375, y: 0.2735294}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -241,12 +241,12 @@ TextureImporter:
       name: N Poke_5
       rect:
         serializedVersion: 2
-        x: 1069
-        y: 782
-        width: 98
-        height: 188
+        x: 919
+        y: 804
+        width: 96
+        height: 186
       alignment: 9
-      pivot: {x: 0.3542194, y: 0.341854}
+      pivot: {x: 0.375, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

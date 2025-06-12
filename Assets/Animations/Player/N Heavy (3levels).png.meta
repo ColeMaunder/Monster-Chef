@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: 67b2a3f1da9a2494ea8df7c61f39ee3e
+guid: d8bea83c87071774daac601e8ff17d66
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1493930400398573677
-    second: N Poke Fixed_0
+      213: 497326569682736096
+    second: N Heavy (3levels)_0
   - first:
-      213: -2044260619092080424
-    second: N Poke Fixed_1
+      213: 7838568827661019834
+    second: N Heavy (3levels)_1
   - first:
-      213: -4063740274534630435
-    second: N Poke Fixed_2
-  - first:
-      213: 1226129714329787609
-    second: N Poke Fixed_3
-  - first:
-      213: 6275435093909564600
-    second: N Poke Fixed_4
-  - first:
-      213: 8426348326610622240
-    second: N Poke Fixed_5
+      213: 2946641857049125621
+    second: N Heavy (3levels)_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,133 +106,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: N Poke Fixed_0
+      name: N Heavy (3levels)_0
       rect:
         serializedVersion: 2
-        x: 120
-        y: 803
-        width: 98
-        height: 188
-      alignment: 9
-      pivot: {x: 0.372626, y: 0.3281487}
+        x: 44
+        y: 1193
+        width: 435
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 39ff51d473e744be0800000000000000
-      internalID: -1493930400398573677
+      spriteID: 0e39d4351ebd6e600800000000000000
+      internalID: 497326569682736096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N Poke Fixed_1
+      name: N Heavy (3levels)_1
       rect:
         serializedVersion: 2
-        x: 268
-        y: 803
-        width: 98
-        height: 206
-      alignment: 9
-      pivot: {x: 0.38011885, y: 0.29326266}
+        x: 80
+        y: 648
+        width: 347
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d842b24cc351a3e0800000000000000
-      internalID: -2044260619092080424
+      spriteID: aba6f2871d038cc60800000000000000
+      internalID: 7838568827661019834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N Poke Fixed_2
+      name: N Heavy (3levels)_2
       rect:
         serializedVersion: 2
-        x: 418
-        y: 803
-        width: 98
-        height: 206
-      alignment: 9
-      pivot: {x: 0.38011855, y: 0.29326296}
+        x: 110
+        y: 155
+        width: 271
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ddb3aec30c1ba97c0800000000000000
-      internalID: -4063740274534630435
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: N Poke Fixed_3
-      rect:
-        serializedVersion: 2
-        x: 590
-        y: 803
-        width: 98
-        height: 206
-      alignment: 9
-      pivot: {x: 0.38761124, y: 0.2968273}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9dc9d279a76140110800000000000000
-      internalID: 1226129714329787609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: N Poke Fixed_4
-      rect:
-        serializedVersion: 2
-        x: 760
-        y: 803
-        width: 98
-        height: 206
-      alignment: 9
-      pivot: {x: 0.37262648, y: 0.29326296}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8bcef7f18f2d61750800000000000000
-      internalID: 6275435093909564600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: N Poke Fixed_5
-      rect:
-        serializedVersion: 2
-        x: 918
-        y: 803
-        width: 98
-        height: 188
-      alignment: 9
-      pivot: {x: 0.3726271, y: 0.3242431}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0275559882760f470800000000000000
-      internalID: 8426348326610622240
+      spriteID: 5f2e5b1382394e820800000000000000
+      internalID: 2946641857049125621
       vertices: []
       indices: 
       edges: []
@@ -250,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2e27e5add05540e4aab96c663037509b
+    spriteID: 11672f0ab47949541a262bd1358df587
     internalID: 0
     vertices: []
     indices: 
@@ -260,12 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      N Poke Fixed_0: -1493930400398573677
-      N Poke Fixed_1: -2044260619092080424
-      N Poke Fixed_2: -4063740274534630435
-      N Poke Fixed_3: 1226129714329787609
-      N Poke Fixed_4: 6275435093909564600
-      N Poke Fixed_5: 8426348326610622240
+      N Heavy (3levels)_0: 497326569682736096
+      N Heavy (3levels)_1: 7838568827661019834
+      N Heavy (3levels)_2: 2946641857049125621
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
