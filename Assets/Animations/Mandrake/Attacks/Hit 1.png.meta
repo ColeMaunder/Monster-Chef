@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: b23a778a7d42e4b4e9cc062d1fe4ed65
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5265282070525336435
+    second: Mandrake_Snap_Sprite_Sheet_0
+  - first:
+      213: 6985499326252423524
+    second: Mandrake_Snap_Sprite_Sheet_1
+  - first:
+      213: -166462400820722579
+    second: Mandrake_Snap_Sprite_Sheet_2
+  - first:
+      213: -9127307702384370762
+    second: Mandrake_Snap_Sprite_Sheet_3
+  - first:
+      213: 4550872572887179449
+    second: Mandrake_Snap_Sprite_Sheet_4
+  - first:
+      213: -1432596134734939114
+    second: Mandrake_Snap_Sprite_Sheet_5
+  - first:
+      213: -5807237822789344172
+    second: Mandrake_Snap_Sprite_Sheet_6
+  - first:
+      213: -4827789772310040231
+    second: Mandrake_Snap_Sprite_Sheet_7
+  - first:
+      213: -8157132259282751906
+    second: Mandrake_Snap_Sprite_Sheet_8
+  - first:
+      213: 5535676893931217569
+    second: Mandrake_Snap_Sprite_Sheet_9
+  - first:
+      213: -2954614036725645482
+    second: Mandrake_Snap_Sprite_Sheet_10
+  - first:
+      213: -5074593459617252604
+    second: Mandrake_Snap_Sprite_Sheet_11
+  - first:
+      213: -5045147747126159523
+    second: Mandrake_Snap_Sprite_Sheet_12
+  - first:
+      213: 4966577922210438776
+    second: Mandrake_Snap_Sprite_Sheet_13
+  - first:
+      213: 1734784637451763780
+    second: Mandrake_Snap_Sprite_Sheet_14
+  - first:
+      213: 5449640952293827442
+    second: Mandrake_Snap_Sprite_Sheet_15
+  - first:
+      213: 3428215461993367826
+    second: Mandrake_Snap_Sprite_Sheet_16
+  - first:
+      213: -2687791049188221177
+    second: Mandrake_Snap_Sprite_Sheet_17
+  - first:
+      213: 3065712433209926059
+    second: Mandrake_Snap_Sprite_Sheet_18
+  - first:
+      213: 7197775086126607597
+    second: Mandrake_Snap_Sprite_Sheet_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hit 1_0
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 640
+        width: 193
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947121473669f6c4089aef86e0c0cc90
+      internalID: 229483080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit 1_1
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 633
+        width: 183
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3c6336087040d4da39fef068d3d662
+      internalID: 233252275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: eb234cbe22e274847be3b27e4b75eada
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hit 1_0: 229483080
+      Hit 1_1: 233252275
+      Hit 1_2: -1173501830
+      Hit 1_3: 1757629306
+      Mandrake_Snap_Sprite_Sheet 1_0: -1567767053
+      Mandrake_Snap_Sprite_Sheet 1_1: 887754895
+      Mandrake_Snap_Sprite_Sheet 1_2: 915849701
+      Mandrake_Snap_Sprite_Sheet_0: 5265282070525336435
+      Mandrake_Snap_Sprite_Sheet_1: 6985499326252423524
+      Mandrake_Snap_Sprite_Sheet_10: -2954614036725645482
+      Mandrake_Snap_Sprite_Sheet_11: -5074593459617252604
+      Mandrake_Snap_Sprite_Sheet_12: -5045147747126159523
+      Mandrake_Snap_Sprite_Sheet_13: 4966577922210438776
+      Mandrake_Snap_Sprite_Sheet_14: 1734784637451763780
+      Mandrake_Snap_Sprite_Sheet_15: 5449640952293827442
+      Mandrake_Snap_Sprite_Sheet_16: 3428215461993367826
+      Mandrake_Snap_Sprite_Sheet_17: -2687791049188221177
+      Mandrake_Snap_Sprite_Sheet_18: 3065712433209926059
+      Mandrake_Snap_Sprite_Sheet_19: 7197775086126607597
+      Mandrake_Snap_Sprite_Sheet_2: -166462400820722579
+      Mandrake_Snap_Sprite_Sheet_3: -9127307702384370762
+      Mandrake_Snap_Sprite_Sheet_4: 4550872572887179449
+      Mandrake_Snap_Sprite_Sheet_5: -1432596134734939114
+      Mandrake_Snap_Sprite_Sheet_6: -5807237822789344172
+      Mandrake_Snap_Sprite_Sheet_7: -4827789772310040231
+      Mandrake_Snap_Sprite_Sheet_8: -8157132259282751906
+      Mandrake_Snap_Sprite_Sheet_9: 5535676893931217569
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

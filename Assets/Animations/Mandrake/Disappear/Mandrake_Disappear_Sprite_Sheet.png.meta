@@ -1,13 +1,37 @@
 fileFormatVersion: 2
-guid: b9bd0e7c8373570408dfbb629c3c4f2f
+guid: 03c24e881afd2f948b8f46cdb6c13eea
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1302723820812287101
-    second: Untitled_Artwork_0
+      213: 527658588862746892
+    second: Mandrake_Disappear_Sprite_Sheet_0
   - first:
-      213: 6146782616825927046
-    second: Untitled_Artwork_1
+      213: 7979724071985856174
+    second: Mandrake_Disappear_Sprite_Sheet_1
+  - first:
+      213: -7196490287687978648
+    second: Mandrake_Disappear_Sprite_Sheet_2
+  - first:
+      213: -7167971800124879717
+    second: Mandrake_Disappear_Sprite_Sheet_3
+  - first:
+      213: 6553549062909112826
+    second: Mandrake_Disappear_Sprite_Sheet_4
+  - first:
+      213: 8996549580358376173
+    second: Mandrake_Disappear_Sprite_Sheet_5
+  - first:
+      213: -6080701243157627431
+    second: Mandrake_Disappear_Sprite_Sheet_6
+  - first:
+      213: 8198391277156443554
+    second: Mandrake_Disappear_Sprite_Sheet_7
+  - first:
+      213: -1670004225609805469
+    second: Mandrake_Disappear_Sprite_Sheet_8
+  - first:
+      213: 8629090124003637336
+    second: Mandrake_Disappear_Sprite_Sheet_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,10 +99,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,45 +127,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_Artwork_0
+      name: Mandrake_Disappear_Sprite_Sheet_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 53
-        width: 20
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 87
+        y: 407
+        width: 176
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5630643, y: 0.11635764}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7cb4f3b964341210800000000000000
-      internalID: 1302723820812287101
+      spriteID: c0119dfd0be925700800000000000000
+      internalID: 527658588862746892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork_1
+      name: Mandrake_Disappear_Sprite_Sheet_2
       rect:
         serializedVersion: 2
-        x: 40
-        y: 41
-        width: 62
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 304
+        y: 406
+        width: 176
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5630643, y: 0.1163576}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68594731932cd4550800000000000000
-      internalID: 6146782616825927046
+      spriteID: 8613fc4463ee02c90800000000000000
+      internalID: -7196490287687978648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandrake_Disappear_Sprite_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 408
+        width: 176
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5630643, y: 0.1163576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea53757d2a2adc70800000000000000
+      internalID: 8996549580358376173
       vertices: []
       indices: 
       edges: []
@@ -150,7 +196,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 67ea718bc2f395648a7bb9c24b20625f
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +206,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Untitled_Artwork_0: 1302723820812287101
-      Untitled_Artwork_1: 6146782616825927046
+      Mandrake_Disappear_Sprite_Sheet_0: 527658588862746892
+      Mandrake_Disappear_Sprite_Sheet_1: 7979724071985856174
+      Mandrake_Disappear_Sprite_Sheet_2: -7196490287687978648
+      Mandrake_Disappear_Sprite_Sheet_3: -7167971800124879717
+      Mandrake_Disappear_Sprite_Sheet_4: 6553549062909112826
+      Mandrake_Disappear_Sprite_Sheet_5: 8996549580358376173
+      Mandrake_Disappear_Sprite_Sheet_6: -6080701243157627431
+      Mandrake_Disappear_Sprite_Sheet_7: 8198391277156443554
+      Mandrake_Disappear_Sprite_Sheet_8: -1670004225609805469
+      Mandrake_Disappear_Sprite_Sheet_9: 8629090124003637336
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
