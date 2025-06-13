@@ -215,10 +215,10 @@ TextureImporter:
       name: Map Lines_0
       rect:
         serializedVersion: 2
-        x: 418
-        y: 484
-        width: 106
-        height: 137
+        x: 339
+        y: 264
+        width: 977
+        height: 513
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,182 +229,6 @@ TextureImporter:
       bones: []
       spriteID: 3e0b75e003d58f3468c7530bf5881d03
       internalID: 615899062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Map Lines_1
-      rect:
-        serializedVersion: 2
-        x: 395
-        y: 452
-        width: 90
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 938a4497f4de09a4f9a2a8a90c6dcec3
-      internalID: -215043111
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Map Lines_2
-      rect:
-        serializedVersion: 2
-        x: 779
-        y: 540
-        width: 256
-        height: 228
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33fb4f8f2f92d9548b1ad22eab4a3da0
-      internalID: -658398977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Map Lines_3
-      rect:
-        serializedVersion: 2
-        x: 1090
-        y: 376
-        width: 48
-        height: 195
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b014f1cb61f4974ba19d60b86a43b63
-      internalID: 1530860305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Map Lines_4
-      rect:
-        serializedVersion: 2
-        x: 1099
-        y: 302
-        width: 196
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca6b25d788458a747ae4cfa63e2e23f1
-      internalID: 455978052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Map Lines_5
-      rect:
-        serializedVersion: 2
-        x: 1084
-        y: 302
-        width: 223
-        height: 272
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec5e172223a4ff245a8c21c943329e0e
-      internalID: -1911355351
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Map Lines_6
-      rect:
-        serializedVersion: 2
-        x: 389
-        y: 285
-        width: 109
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ec006133d146184d9815f32d854a72e
-      internalID: -1213854653
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Map Lines_7
-      rect:
-        serializedVersion: 2
-        x: 511
-        y: 279
-        width: 164
-        height: 101
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbf3482a48ba18e4d81169cb81218ea7
-      internalID: 1306430332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Map Lines_8
-      rect:
-        serializedVersion: 2
-        x: 385
-        y: 275
-        width: 295
-        height: 359
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f130a500f9d28fd4ab678aa746f33576
-      internalID: -1296014070
       vertices: []
       indices: 
       edges: []
@@ -424,15 +248,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Map Lines_0: 615899062
-      Map Lines_1: -215043111
-      Map Lines_2: -658398977
-      Map Lines_3: 1530860305
       Map Lines_34: 1605251247
-      Map Lines_4: 455978052
-      Map Lines_5: -1911355351
-      Map Lines_6: -1213854653
-      Map Lines_7: 1306430332
-      Map Lines_8: -1296014070
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
