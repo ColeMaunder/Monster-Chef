@@ -23,6 +23,7 @@ public class PlayerInventory : MonoBehaviour
    public void AddItem(int item){
         if (item == 4){
             coalStores++;
+            player.MaXUltCharge();
         }else{
             invantory[item]++;
             player.IncGetUltCharge(); 

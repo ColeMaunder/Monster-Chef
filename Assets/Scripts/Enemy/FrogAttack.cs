@@ -30,7 +30,7 @@ public class FrogAttack : MonoBehaviour
     {
         
         if (!dataLocal.getIsAttacking()){
-            if (data.PlayerDistance(enmenyBody) > (data.getFavoredDistance(2) - veriance) && data.PlayerDistance(enmenyBody) < (data.getFavoredDistance(2) + veriance)){
+            if (data.PlayerDistance(enmenyBody) < (data.getFavoredDistance(2) + veriance)){
                 dataLocal.setIsAttacking(true);
             }
         }else{

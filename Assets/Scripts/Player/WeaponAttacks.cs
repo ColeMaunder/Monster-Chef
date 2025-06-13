@@ -98,19 +98,17 @@ public class WeaponAttacks : MonoBehaviour
     }
     public int IncGetUltCharge()
     {
-        if (ultCharge < ultChargeMax)
-        {
+        if (ultCharge < ultChargeMax) {
             ultCharge++;
             print("ult charge is " + ultCharge);
             return ultCharge;
-        }
-        else
-        {
+        } else {
             print("ult charge is" + ultChargeMax);
             return ultChargeMax;
         }
-
-
+    }
+    public void MaXUltCharge(){
+        ultCharge = ultChargeMax;
     }
 
     public float GetChargeMax()

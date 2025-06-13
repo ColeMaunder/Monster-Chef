@@ -28,6 +28,7 @@ public class SceneConfiger : MonoBehaviour
         }
         else
         {
+            //Time.timeScale = 0;
             GameObject.FindWithTag("UI").GetComponent<MenuHandler>().setInventoryActive(false);
         }
         
