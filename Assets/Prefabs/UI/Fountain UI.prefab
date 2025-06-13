@@ -391,6 +391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3106215343350006991}
   - component: {fileID: 2386945918639533885}
+  - component: {fileID: 3790029362104253074}
   m_Layer: 5
   m_Name: Tutorial Map
   m_TagString: Untagged
@@ -436,6 +437,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneTo: 
+--- !u!114 &3790029362104253074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266651996625781218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14d0533a8b04d346ad99c6b487545ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &457356049085301979
 GameObject:
   m_ObjectHideFlags: 0
@@ -2063,7 +2076,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8770699215409526152
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3450,6 +3463,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5904813347331931412}
   - component: {fileID: 3759549096528426438}
+  - component: {fileID: 6074642459197343120}
   m_Layer: 5
   m_Name: Boss Level Map
   m_TagString: Untagged
@@ -3494,6 +3508,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneTo: 
+--- !u!114 &6074642459197343120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4515785427059991363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14d0533a8b04d346ad99c6b487545ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4604657703011779069
 GameObject:
   m_ObjectHideFlags: 0
@@ -4110,6 +4136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2175835792279820125}
   - component: {fileID: 3874838565740866713}
+  - component: {fileID: 7758794743705431122}
   m_Layer: 5
   m_Name: Level 2 Map
   m_TagString: Untagged
@@ -4158,6 +4185,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneTo: 
+--- !u!114 &7758794743705431122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5813204335561594763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14d0533a8b04d346ad99c6b487545ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5862330951493940220
 GameObject:
   m_ObjectHideFlags: 0
@@ -6174,6 +6213,7 @@ GameObject:
   - component: {fileID: 3641487602675911766}
   - component: {fileID: 5870389865681439054}
   - component: {fileID: 2828606648691061283}
+  - component: {fileID: 7704302486746897900}
   m_Layer: 5
   m_Name: Fountain UI
   m_TagString: Untagged
@@ -6284,6 +6324,18 @@ MonoBehaviour:
   MenueScreen: {fileID: 0}
   InventoryScreen: {fileID: 0}
   MainScreen: {fileID: 1711729763356797364}
+--- !u!114 &7704302486746897900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8218908150703037780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81dad89092b896048bed44bced937ecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8351566159632351936
 GameObject:
   m_ObjectHideFlags: 0
