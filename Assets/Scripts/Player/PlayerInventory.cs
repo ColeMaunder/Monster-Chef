@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour
 {
-    private int[] invantory= {0,0,0,0}; // 0: Slime chunks, 1: Mandrake Roots, 2: Frog Legs, 3: Green Vines
+    [SerializeField] private int[] invantory= {0,0,0,0}; // 0: Slime chunks, 1: Mandrake Roots, 2: Frog Legs, 3: Green Vines
     private int[] droppedInvantory = {0,0,0,0}; // 0: Slime chunks, 1: Mandrake Roots, 2: Frog Legs, 3: Green Vines
-    private int coalStores = 0;
+    [SerializeField] private int coalStores = 0;
     private bool hasDroppedInventory = false;
     public GameObject grave;
     private WeaponAttacks player;

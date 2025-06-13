@@ -6,7 +6,8 @@ public class MenuHandler : MonoBehaviour
     public GameObject settingsScreen;
     public GameObject deathScreen;
     public GameObject cobatUI;
-    public GameObject inventory;
+    public GameObject inventoryUI;
+    public GameObject inventoryScreen;
     private Player player;
 
     void Update()
@@ -17,6 +18,12 @@ public class MenuHandler : MonoBehaviour
             {
                 pauseScreen.SetActive(true);
                 pauseScreen.transform.GetChild(0).gameObject.SetActive(true);
+                Time.timeScale = 0f; // Pause the game
+            }
+            if (Input.GetKeyDown(KeyCode.I))
+            {
+                inventoryScreen.SetActive(true);
+                inventoryScreen.transform.GetChild(0).gameObject.SetActive(true);
                 Time.timeScale = 0f; // Pause the game
             }
         }
@@ -59,7 +66,7 @@ public class MenuHandler : MonoBehaviour
         cobatUI.SetActive(activeIn);
     }
     public void setInventoryActive(bool activeIn){
-        inventory.SetActive(activeIn);
+        inventoryUI.SetActive(activeIn);
     }
     public void respawnUI(){
         GameObject.FindWithTag("Player").GetComponent<Player>().Respawn();
