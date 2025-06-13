@@ -60,7 +60,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1dd5389e288d9447bf5f0bd84239b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyType: 0
   enmenyBody: {fileID: 7514012339628299375}
 --- !u!114 &1147166129018762246
 MonoBehaviour:
@@ -80,7 +79,6 @@ MonoBehaviour:
   lunge: 6
   backDuration: 0.1
   AtkDuration: 0.5
-  enmenyBody: {fileID: 7514012339628299375}
 --- !u!58 &3179928841248413149
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5325,8 +5323,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 062750253befa714a9f91bf0ed7e6e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
-  maxHealth: 4
   duration: 0.3
   enmenyBody: {fileID: 7514012339628299375}
   particleOBJ: {fileID: 4620236123501362664}
@@ -5343,7 +5339,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 50
   m_LinearDamping: 0
   m_AngularDamping: 1
   m_GravityScale: 0
@@ -5407,8 +5403,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 062750253befa714a9f91bf0ed7e6e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
-  maxHealth: 3
   duration: 0.2
   enmenyBody: {fileID: 7514012339628299375}
   particleOBJ: {fileID: 4620236123501362664}
@@ -5448,3 +5442,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyIndex: 0
+  vulnrable: 1

@@ -7,7 +7,6 @@ public class Enemy : MonoBehaviour
     EnemyData data;
     EnemyLocalData localData;
     float health;
-    public float maxHealth = 3f;
     public float duration = 0.1f;
     SpriteRenderer sprite;
     Color colourDefalt;
@@ -20,8 +19,8 @@ public class Enemy : MonoBehaviour
         data = GameObject.FindWithTag("EnemyData").GetComponent<EnemyData>();
         sprite = this.GetComponent<SpriteRenderer>();
         colourDefalt = sprite.color;
-        health = maxHealth;
         localData = this.gameObject.gameObject.GetComponent<EnemyLocalData>();
+        health = data.getMaxhealth(localData.getEnemyIndex());
         hurtEffect = this.GetComponent<SpriteRenderer>().material;
     }
     private IEnumerator ResetHitEffects(float duration){
@@ -37,19 +36,21 @@ public class Enemy : MonoBehaviour
     }
 
     public void Damage(Vector2 weapon, float damage, float knockBack){
-        health -= damage;
-        data.playHurtSound(localData.getEnemyIndex());
-        Vector2 direction = (enmenyBody.position - weapon).normalized;
-        enmenyBody.AddForce(direction * knockBack * knockBackMutipyer,ForceMode2D.Impulse);
-        particleOBJ.GetComponent<EnemyHitPartical>().activate(direction);
-        StartCoroutine(ResetHitEffects(duration));
-        print(health);
-        if(health <= 0){
-            data.playDeathSound(localData.getEnemyIndex());
-            print("Enemy dead");
-            particleOBJ.GetComponent<EnemyHitPartical>().Explode();
-            Instantiate(data.getDropList(localData.getEnemyIndex()), transform.position, Quaternion.identity);
-            Destroy(gameObject);
+        if (localData.getVulnrable()){
+            health -= damage;
+            data.playHurtSound(localData.getEnemyIndex());
+            Vector2 direction = (enmenyBody.position - weapon).normalized;
+            enmenyBody.AddForce(direction * knockBack * knockBackMutipyer,ForceMode2D.Impulse);
+            particleOBJ.GetComponent<EnemyHitPartical>().activate(direction);
+            StartCoroutine(ResetHitEffects(duration));
+            print(health);
+            if(health <= 0){
+                data.playDeathSound(localData.getEnemyIndex());
+                particleOBJ.GetComponent<EnemyHitPartical>().Explode();
+                Instantiate(data.getDropList(localData.getEnemyIndex()), transform.position, Quaternion.identity);
+                Destroy(gameObject);
+            } 
         }
+        
     }
 }

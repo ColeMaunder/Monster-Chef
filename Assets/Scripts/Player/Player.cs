@@ -1,3 +1,4 @@
+using System;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -21,7 +22,7 @@ public class Player : MonoBehaviour
     private float trapTickTime;
     private float trapTickDamage;
     private float trapTickEnd;
-    private int trapWrigleThreshold;
+    //private int trapWrigleThreshold;
     private Rigidbody2D rb;
     private Animator Animator;
     HealsUI fountainUI;
@@ -47,52 +48,45 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
-        if (!playerAlive)
-        {
+        if (!playerAlive) {
             menu.showDeathScreen(true);
             //print ("still dead");
-            if (Input.GetKeyDown(KeyCode.Return))
-            {
+            if (Input.GetKeyDown(KeyCode.Return)) {
                 print("alive");
                 Respawn();
                 Reset();
                 Time.timeScale = 1f;
                 playerAlive = true;
             }
-        }
-        else
-        {
-            if (Input.GetKeyDown(KeyCode.R))
-            {
+        } else {
+            if (Input.GetKeyDown(KeyCode.R)) {
                 Heal();
             }
-            if (data.getTrapped())
-            {
-                Animator.SetBool("walking", false);
+            if (data.getTrapped()) {
+                Animator.SetBool("trapped", true);
                 rb.linearVelocity = Vector2.zero;
                 data.setCanMove(false);
                 trapCounter += Time.deltaTime;
                 /*if (){
                     trapWrigleThreshold--;
                 }*/
-
-                if (tickCounter >= trapTickEnd || trapWrigleThreshold <= 0)
-                {
+                if (tickCounter >= trapTickEnd /*|| trapWrigleThreshold <= 0*/){
                     data.setTrapped(false);
                     data.setCanMove(true);
                     trapCounter = 0;
-                }
-                else if (trapCounter >= trapTickTime)
-                {
+                    tickCounter = 0;
+                    //trapWrigleThreshold = 0;
+                    Animator.SetBool("trapped", false);
+                } else if (trapCounter >= trapTickTime) {
                     tickCounter++;
-                    this.damage(trapTickDamage);
+                    damage(trapTickDamage);
                     trapCounter = 0;
                 }
-            }
-            else
-            {
+            } else {
+                Animator.SetBool("trapped", false);
                 trapCounter = 0;
-                data.setCanMove(true);
+                //trapCounter = 0;
+                //data.setCanMove(true);
             }
         }
     }
@@ -108,14 +102,16 @@ public class Player : MonoBehaviour
             Dead();
         }
     }
-    public void trapDamage(float initialDamage, float tickTime, float tickDamage, float tickEnd, int wrigleThreshold){
+    public void trapDamage(float initialDamage, float tickTime, float tickDamage, float tickEnd, int wrigleThreshold)
+    {
         this.damage(initialDamage);
-        data.setTrapped(true);
+        tickCounter = 0;
+        trapCounter = 0;
         trapTickTime = tickTime;
         trapTickDamage = tickDamage;
         trapTickEnd = tickEnd;
-        trapWrigleThreshold = wrigleThreshold;
-        
+        //trapWrigleThreshold = wrigleThreshold;
+        data.setTrapped(true);
     }
     public int GetHeals()
     {
@@ -173,32 +169,38 @@ public class Player : MonoBehaviour
     }
     private void toRespawnPoint()
     {
-        string scene = "";
-        switch (data.getLastFountain()[0])
-        {
-            case '0':
-                scene = "Start Tut Block";
-                break;
-            case '1':
-                scene = "Village Area";
-                break;
-            case '2':
-                scene = "Level 2";
-                break;
-            case '3':
-                scene = "Boss Fight";
-                break;
-        }
-        if (SceneManager.GetActiveScene().name != scene){  
-            SceneManager.LoadScene(scene);
-        }
-        GameObject[] fountains = GameObject.FindGameObjectsWithTag("Fountain");
-        foreach (GameObject i in fountains){
-            if(i.GetComponent<FountainID>().GetID() == data.getLastFountain()){
-                transform.position = spawn.transform.position = i.transform.GetChild(0).position;
-                break;
+        try{
+            string scene = "";
+            switch (data.getLastFountain()[0])
+            {
+                case '0':
+                    scene = "Start Tut Block";
+                    break;
+                case '1':
+                    scene = "Village Area";
+                    break;
+                case '2':
+                    scene = "Level 2";
+                    break;
+                case '3':
+                    scene = "Boss Fight";
+                    break;
             }
+            if (SceneManager.GetActiveScene().name != scene){  
+                SceneManager.LoadScene(scene);
+            }
+            GameObject[] fountains = GameObject.FindGameObjectsWithTag("Fountain");
+            foreach (GameObject i in fountains){
+                if(i.GetComponent<FountainID>().GetID() == data.getLastFountain()){
+                    transform.position = spawn.transform.position = i.transform.GetChild(0).position;
+                    break;
+                }
+            }
+        }catch(IndexOutOfRangeException ex){
+            Debug.Log (ex);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+        
     }
     public void ToStart()
     {

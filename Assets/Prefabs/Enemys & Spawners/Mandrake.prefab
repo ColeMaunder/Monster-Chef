@@ -5189,7 +5189,7 @@ MonoBehaviour:
   reactTime: 0.3
   atkTime: 1
   atkCheckTime: 0.5
-  atkMissTime: 0.5
+  atkMissTime: 2
   hitBox: {fileID: 5470434104826391508}
 --- !u!1 &7655435735596414510
 GameObject:
@@ -5308,7 +5308,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8126231608955368835}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.093391, y: 3.3507485, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5386,7 +5386,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 062750253befa714a9f91bf0ed7e6e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 6
   duration: 0.3
   enmenyBody: {fileID: 2320186256415800066}
   particleOBJ: {fileID: 2190651688203908240}
@@ -5403,7 +5402,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 50
   m_LinearDamping: 0
   m_AngularDamping: 1
   m_GravityScale: 0
@@ -5468,6 +5467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyIndex: 1
+  vulnrable: 1
 --- !u!95 &3479592419286506131
 Animator:
   serializedVersion: 7

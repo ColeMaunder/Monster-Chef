@@ -41,8 +41,12 @@ public class MandrakeAttack : MonoBehaviour
         }
     }*/
 
-    private void OnTriggerEnter2D(Collider2D collision){
-        StartCoroutine(AttackTimer());
+    private void OnTriggerStay2D(Collider2D collision){
+        Player player = collision.gameObject.GetComponent<Player>();
+        Enemy enemy = collision.gameObject.GetComponent<Enemy>();
+        if (player != null || enemy != null){
+            StartCoroutine(AttackTimer());
+        }
     }
 
     void Bite(){
@@ -60,7 +64,7 @@ public class MandrakeAttack : MonoBehaviour
             Bite();
 
             yield return new WaitForSeconds(atkCheckTime);
-            
+            hitBox.SetActive(false);
             if (hitBox.GetComponent<EnemyTrapWeapon>().getHitPlayer()){
                     hitBox.SetActive(false);
                     animator.SetBool("hit", true);
@@ -80,7 +84,7 @@ public class MandrakeAttack : MonoBehaviour
                 }
                 
             dataLocal.setCanMove(true);
-            hitBox.SetActive(false);
+            
 
             yield return new WaitForSeconds(atkCoolDown);
 

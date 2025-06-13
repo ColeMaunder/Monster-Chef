@@ -24,7 +24,7 @@ public class PlayerData : MonoBehaviour
     public float moveSpeed = 5f;
     public string[] keys = {"up", "down", "right", "left", "e", "q"};
     [SerializeField] private List<string> unlockedFountians = new List<string>();
-    [SerializeField] private string lastFountain;
+    [SerializeField] private string lastFountain = "00";
     [SerializeField] private List<int> coalIndex = new List<int>();
     public float dashCool = 1f;
     private bool trapped = false;

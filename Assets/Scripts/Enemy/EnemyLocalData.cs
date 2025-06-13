@@ -6,7 +6,7 @@ public class EnemyLocalData : MonoBehaviour
     private bool canMove = true;
     private bool canLook = true;
     private bool IsAttacking = false;
-    private bool vulnrable = true;
+    [SerializeField] private bool vulnrable = true;
     public int getEnemyIndex()
     {
         return enemyIndex;

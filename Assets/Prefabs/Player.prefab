@@ -860,7 +860,7 @@ MonoBehaviour:
   - 0.5
   - 0.8
   spoonAtkCoolDown:
-  - 0.05
+  - 0.1
   - 0.2
   - 0.5
   - 0.6
@@ -1434,7 +1434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd8f59be8767244daa74d1ef175eb31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waterDashSpeed: 20
+  waterDashSpeed: 50
   minSpeed: 1
 --- !u!1 &6806027702575783251
 GameObject:
@@ -7354,7 +7354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4335db65fc75af4fb149f23e9b78a7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0300000004000000030000000400000032000000
+  maxHealth: 0300000001000000030000000400000032000000
   enemySpeed:
   - 3
   - 10
@@ -7362,7 +7362,7 @@ MonoBehaviour:
   - 1
   favoredDistance:
   - 3
-  - 4
+  - 2
   - 6
   - 4
   agroRaing:

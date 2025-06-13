@@ -5,42 +5,44 @@ using System;
 
 public class FazeManager : MonoBehaviour
 {
-    [SerializeField] GameObject boss;
-    private Animator animator;
-    bool hasLivingEnemys = false;
-    bool victory = false;
+    [SerializeField] GameObject bossOBj;
+    Boss boss;
+    [SerializeField]bool victory = false;
+    GameObject[] livingEnemys;
+    SwapSpawner spawner;
     void Start()
     {
-        animator = boss.GetComponent<Animator>();
-        StartCoroutine(FazeChanger ());
+        boss = bossOBj.gameObject.GetComponent<Boss>();
+        spawner = transform.gameObject.GetComponent<SwapSpawner>();
+        StartCoroutine(FazeChanger());
     }
     void Update()
     {
-        if (boss.IsDestroyed() && !victory)
+        if (bossOBj.IsDestroyed() && !victory)
         {
-            StartCoroutine(Vicory());
             victory = true;
+            StartCoroutine(Vicory());
             StopCoroutine(FazeChanger());
         }
-        GameObject[] livingEnemys = GameObject.FindGameObjectsWithTag("Enemy");
-        if(livingEnemys.Length <= 0){
-            hasLivingEnemys = false;
-        }else{
-            hasLivingEnemys = true;
-        }
+        livingEnemys = GameObject.FindGameObjectsWithTag("Enemy");
     }
 
     IEnumerator FazeChanger (){
-        while (!victory){
-        animator.SetBool("Closed", true);
-        SpawnWave(0);
-        while (hasLivingEnemys){
-            yield return new WaitForSeconds(0.1f);
+        while(!victory){
+            boss.vulnrable(false);
+            SpawnWave(0);
+            livingEnemys = GameObject.FindGameObjectsWithTag("Enemy");
+            print(livingEnemys.Length);
+            while (livingEnemys.Length > 0)
+            {
+                yield return new WaitForSeconds(1f);
+            }
+            boss.vulnrable(true);
+            SpawnWave(1);
+            yield return new WaitForSeconds(5f);
+            spawner.swap(3);
         }
-        animator.SetBool("Closed", false); 
-        SpawnWave(1);
-        yield return new WaitForSeconds(5f);
-        }
+        
         
     }
      IEnumerator Vicory (){

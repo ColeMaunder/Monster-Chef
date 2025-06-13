@@ -5011,8 +5011,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 062750253befa714a9f91bf0ed7e6e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 2
-  maxHealth: 6
   duration: 0.3
   enmenyBody: {fileID: 8214760694446413678}
   particleOBJ: {fileID: 5676267614777620869}
@@ -5094,6 +5092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyIndex: 2
+  vulnrable: 1
 --- !u!95 &2812042784381937688
 Animator:
   serializedVersion: 7

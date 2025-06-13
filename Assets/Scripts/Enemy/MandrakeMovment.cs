@@ -33,12 +33,17 @@ public class MandrakeMovment : MonoBehaviour
         if(localData.getCanMove()){
             if (moving) {
                 localData.setCanLook(false);
-                if (data.PlayerDistance(enmenyBody) > data.getFavoredDistance(localData.getEnemyIndex()) && !player.getTrapped()){
+                if (data.PlayerDistance(enmenyBody) > data.getFavoredDistance(localData.getEnemyIndex())){
                     moveTimer();
                     animator.SetBool("walking", true);
                     enmenyBody.transform.position += transform.up * data.getEnemySpeed(localData.getEnemyIndex()) * Time.deltaTime;
                     localData.setFullVulnrable(false);
-                }  
+                } else{
+                    moveTimer();
+                    animator.SetBool("walking", true);
+                    enmenyBody.transform.position += -transform.up * data.getEnemySpeed(localData.getEnemyIndex()) * Time.deltaTime;
+                    localData.setFullVulnrable(false);
+                } 
             } else {
                 moveCooldoen();
             }
@@ -59,7 +64,6 @@ public class MandrakeMovment : MonoBehaviour
         }
     }
     void moveCooldoen(){
-        localData.setVulnrable(true);
         timer += Time.deltaTime;
         if (timer >= moveCoolDown){
             timer = 0;
