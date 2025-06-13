@@ -5,6 +5,7 @@ public class InventoryUI : MonoBehaviour
 {
     public TMP_Text[] counts;
     public GameObject[] icons;
+    public TMP_Text blurb;
     private PlayerInventory player;
     void Start()
     {
@@ -24,5 +25,10 @@ public class InventoryUI : MonoBehaviour
             }
             
         }
+    }
+
+    public void IconText (string message)
+    {
+        blurb.text = message;
     }
 }
