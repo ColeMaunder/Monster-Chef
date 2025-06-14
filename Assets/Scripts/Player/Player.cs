@@ -170,32 +170,7 @@ public class Player : MonoBehaviour
     private void toRespawnPoint()
     {
         try{
-            string scene = "";
-            switch (data.getLastFountain()[0])
-            {
-                case '0':
-                    scene = "Start Tut Block";
-                    break;
-                case '1':
-                    scene = "Village Area";
-                    break;
-                case '2':
-                    scene = "Level 2";
-                    break;
-                case '3':
-                    scene = "Boss Fight";
-                    break;
-            }
-            if (SceneManager.GetActiveScene().name != scene){  
-                SceneManager.LoadScene(scene);
-            }
-            GameObject[] fountains = GameObject.FindGameObjectsWithTag("Fountain");
-            foreach (GameObject i in fountains){
-                if(i.GetComponent<FountainID>().GetID() == data.getLastFountain()){
-                    transform.position = spawn.transform.position = i.transform.GetChild(0).position;
-                    break;
-                }
-            }
+            GoToFountain(data.getLastFountain());
         }catch(IndexOutOfRangeException ex){
             Debug.Log (ex);
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -265,7 +240,37 @@ public class Player : MonoBehaviour
         health = inArr[0];
         heals = inArr[1];
     }
-
+    public void GoToFountain(string fountainID)
+    {
+        string scene = "";
+            switch (fountainID[0])
+            {
+                case '0':
+                    scene = "Start Tut Block";
+                    break;
+                case '1':
+                    scene = "Village Area";
+                    break;
+                case '2':
+                    scene = "Level 2";
+                    break;
+                case '3':
+                    scene = "Boss Fight";
+                    break;
+            }
+            if (SceneManager.GetActiveScene().name != scene){  
+                SceneManager.LoadScene(scene);
+            }
+            GameObject[] fountains = GameObject.FindGameObjectsWithTag("Fountain");
+        foreach (GameObject i in fountains)
+        {
+            if (i.GetComponent<FountainID>().GetID() == fountainID)
+            {
+                transform.position = spawn.transform.position = i.transform.GetChild(0).position;
+                break;
+            }
+        }
+    }
 
     
 }
