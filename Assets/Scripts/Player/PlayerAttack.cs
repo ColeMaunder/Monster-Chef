@@ -100,7 +100,8 @@ public class PlayerAttack : MonoBehaviour
         }
 
         void Ult(){
-            isUlting = true;
+        animator.SetBool("isUlting", true);
+        isUlting = true;
             attacks.GetUlt(activeUlt).SetActive(true);
         }
     
@@ -122,9 +123,11 @@ public class PlayerAttack : MonoBehaviour
             atkTimer = 0;
             isAttacking = false;
             isUlting = false;
+            
         }else if(atkTimer >= duration){
             attacks.GetAtk(atkType).SetActive(false);
             animator.SetBool("IsAttacking", false);
+            animator.SetBool("isUlting", false);
             attacks.GetUlt(activeUlt).SetActive(false);
             atkSoundPlayed = false;
             
