@@ -1,20 +1,26 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System;
+using UnityEngine.Video;
 
 public class RecipeData : MonoBehaviour
 {
-    private List<int> unlockedRecipes = new List<int>();
-    public Sprite[] recepieIcons;
-    public String[] recepieNames = { "Slime Sunday", "Kentucky Fried Frog Legs", "Vinghetti Mandranaise", "Catfish Sashimi", "Crayfish Bisque", "Roast Rusa" };
-    public String[] recepieTexts = {"A gelatinous sweet treat that will kickstart your monster meal journey.",
+    [SerializeField] private List<int> unlockedRecipes = new List<int>();
+    [SerializeField] private Sprite[] recepieIcons;
+    [SerializeField] private VideoClip[] recepieVideos;
+    [SerializeField] private String[] recepieNames = { "Slime Sunday", "Kentucky Fried Frog Legs", "Vinghetti Mandranaise", "Catfish Sashimi", "Crayfish Bisque", "Roast Rusa" };
+    [SerializeField] private String[] recepieTexts = {"A gelatinous sweet treat that will kickstart your monster meal journey.",
         "Inspired by the famed Kentucky frying methods, these bouncy strips of meat give a burst of energy to the consumer.",
         "A fresh approach to Italian cuisine, this meal is best eaten with an open mind and a large fork.",
         "","","",""};
-    public int[,] recepieNeed = { { 50, 0, 0, 0, 1 }, { 20, 30, 0, 0, 4 }, { 20, 10, 20, 0, 4 }, { 0, 30, 40, 20, 4 }, { 50, 40, 40, 30, 4 }, { 60, 50, 50, 40, 4 } };
+    private int[,] recepieNeed = { { 50, 0, 0, 0, 1 }, { 20, 30, 0, 0, 4 }, { 20, 10, 20, 0, 4 }, { 0, 30, 40, 20, 4 }, { 50, 40, 40, 30, 4 }, { 60, 50, 50, 40, 4 } };
     public Sprite Icon(int index)
     {
         return recepieIcons[index];
+    }
+    public VideoClip Video(int index)
+    {
+        return recepieVideos[index];
     }
     public string Texts(int index)
     {
@@ -26,7 +32,7 @@ public class RecipeData : MonoBehaviour
     }
     public int[] GetRecipeList(int index)
     {
-        int[] output = { recepieNeed[index, 0], recepieNeed[index, 1], recepieNeed[index, 2], recepieNeed[index, 3] };
+        int[] output = { recepieNeed[index, 0], recepieNeed[index, 1], recepieNeed[index, 2], recepieNeed[index, 3], recepieNeed[index, 4]};
         return output;
     }
     public bool GetUnlockedRecipe(int iD)

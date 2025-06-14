@@ -1,66 +1,107 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using System;
+using UnityEngine.Video;
+using System.Collections;
 public class CookingMenuHandler : MonoBehaviour
 {
-    [SerializeField] GameObject[] recepies;
     [SerializeField] GameObject book;
-    private int[] visibalRecepies = { 0, 1, 2 };
+    [SerializeField] GameObject cookButton;
+    [SerializeField] GameObject ReturnButton;
+    [SerializeField] GameObject cookVideoObj;
+    public TMP_Text[] counts;
+    public GameObject[] icons;
+    private int visibalRecepie = 0;
     private PlayerInventory inventory;
-    RecipeData recipe;
+    RecipeData recipeData;
     void Start()
     {
         inventory = GameObject.FindWithTag("Player").GetComponent<PlayerInventory>();
-        recipe = GameObject.FindWithTag("PlayerData").GetComponent<RecipeData>();
+        recipeData = GameObject.FindWithTag("PlayerData").GetComponent<RecipeData>();
     }
     void OnEnable()
     {
-        PageSetup();
+        book.SetActive(true);
+        cookButton.SetActive(false);
+        ReturnButton.SetActive(false);
+        cookVideoObj.SetActive(false);
     }
-    private void PageSetup()
+    void Update()
     {
-        CheckAll();
-        
-
+        Check(visibalRecepie);
+        IconUpdate();
     }
-    private void CheckAll()
+    private void Check(int index)
     {
-        for (int i = 0; i <= 2; i++)
-        {
-            Check(visibalRecepies[i], i);
-            recepies[i].transform.GetChild(0).gameObject.GetComponent<Image>().sprite = recipe.Icon(visibalRecepies[i]);
-            recepies[i].transform.GetChild(2).gameObject.GetComponent<TextMeshPro>().text = recipe.Names(visibalRecepies[i]);
-            recepies[i].transform.GetChild(3).gameObject.GetComponent<TextMeshPro>().text = recipe.Texts(visibalRecepies[i]);
-        }
-    }
-    private void Check(int index, int button)
-    {
+        book.transform.GetChild(0).gameObject.GetComponent<Image>().sprite = recipeData.Icon(visibalRecepie);
         if (inventory.Contains(index))
         {
-            recepies[button].transform.GetChild(1).gameObject.SetActive(true);
-            recepies[button].transform.GetChild(1).gameObject.GetComponent<Image>().sprite = recipe.Icon(index);
+            cookButton.SetActive(true);
         }
         else
         {
-            recepies[button].transform.GetChild(1).gameObject.SetActive(false);
+            cookButton.SetActive(false);
         }
     }
-    public void ChangePage(bool next)
+    public void SetVisibalRecepie(int recepie)
     {
-         for (int i = 0; i <= 2; i++) {
-            if (next){
-                visibalRecepies[i] += 3;
-            } else {
-                visibalRecepies[i] -= 3;
-            } 
-        }
-        PageSetup();
+        visibalRecepie = recepie;
+        IconUpdate();
     }
-    public void StartCook(int index)
+    public void StartCook()
     {
+        StartCoroutine(Cooking());
+    }
+    public IEnumerator Cooking()
+    {
+        recipeData.UnlockedRecipe(visibalRecepie);
         book.SetActive(false);
-        inventory.Reduce(visibalRecepies[index]);
-        recipe.UnlockedRecipe(visibalRecepies[index]);
+        inventory.Reduce(visibalRecepie);
+        recipeData.UnlockedRecipe(visibalRecepie);
+        cookVideoObj.SetActive(true);
+        VideoPlayer cookVideo = cookVideoObj.GetComponent<VideoPlayer>();
+        cookVideo.clip = recipeData.Video(visibalRecepie);
+        cookVideo.Play();
+        float videoTime = (float)cookVideo.clip.length;
+        yield return new WaitForSeconds(videoTime);
+        ReturnButton.SetActive(true);
     }
-    
+    private void IconUpdate()
+    {
+        int[] needed = recipeData.GetRecipeList(visibalRecepie);
+        int[] have = inventory.GetInventory();
+        for (int i = 0; i < counts.Length; i++)
+        {
+            int item = needed[i];
+            if (item > 0)
+            {
+                icons[i].SetActive(true);
+                counts[i].text = "" + item;
+                if (inventory.GetItem(i) < item)
+                {
+                    counts[i].color = new Color(255, 0, 0);
+                }
+                else
+                {
+                    counts[i].color = new Color(255, 255, 255);
+                }
+            }
+            else
+            {
+                icons[i].SetActive(false);
+            }
+
+        }
+
+    }
+    public void cose()
+    {
+        gameObject.SetActive(false);
+        GameObject.FindWithTag("Player").GetComponent<Player>().RefillHeals();
+        Time.timeScale = 1f;
+    }
+   public void BookActive(bool state){
+        book.SetActive(state);
+   }
 }

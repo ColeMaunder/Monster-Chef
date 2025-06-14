@@ -117,6 +117,9 @@ public class Player : MonoBehaviour
     {
         return heals;
     }
+    public void SetMaxHeals(int healsNew) {
+        maxHeals = healsNew;
+    }
 
     public int GetMaxHeals()
     {

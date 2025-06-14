@@ -1,20 +1,19 @@
 using TMPro;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class HealsUI : MonoBehaviour
 {
     private Player player;
-    public GameObject[] healIcons;
+
+    [SerializeField] private List<GameObject> healIcons = new List<GameObject>();
     void Start()
     {
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
     }
-
-    // Update is called once per frame
     void Update()
     {
-        if (player.GetHeals() < player.GetMaxHeals())
-        {
+        if (player.GetHeals() < player.GetMaxHeals()){
             for (int i = 0; i < player.GetMaxHeals(); i++)
             {
                 if (i > player.GetHeals() - 1)
@@ -28,13 +27,16 @@ public class HealsUI : MonoBehaviour
             }
         }
     }
-    public void Fountain()
-    {
-        healIcons[0].SetActive(true);
-        healIcons[1].SetActive(true);
-        healIcons[2].SetActive(true);
+    public void Fountain() {
+        foreach (GameObject i in healIcons){
+            i.SetActive(true);
+        }
     }
     public GameObject GetHeal(int index){
         return healIcons[index];
+    }
+    public void addPotion(GameObject potion)
+    {
+        healIcons.Add(potion);
     }
 }

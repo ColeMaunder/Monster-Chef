@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 8715337866896380516}
   - component: {fileID: 4102454242233529568}
   - component: {fileID: 4877799763978463497}
+  - component: {fileID: 7785620389386015926}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -36,8 +37,8 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 9193331669120896192}
   - {fileID: 6896813276382263606}
+  - {fileID: 9193331669120896192}
   - {fileID: 418912078252852708}
   - {fileID: 3933151568073241196}
   - {fileID: 6675065532546897020}
@@ -97,6 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f21ab4cca79c11449856041d5b21e9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  invantory: 00000000000000000000000000000000
+  coalStores: 0
   grave: {fileID: 7370919291160433318, guid: cdef20dc827d2954ebf16d98d54dc05b, type: 3}
 --- !u!95 &5622409607988309601
 Animator:
@@ -234,6 +237,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: 0
+--- !u!114 &7785620389386015926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198528944626264861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c666af095622c734180d844e7feeb492, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMaxHealth: 0
+  newHeal:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &1814787458152553397
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,13 +963,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa736cebc37f0ea4386a8550d6998ed1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unlockedRecipes: 
   recepieIcons:
-  - {fileID: -523561784479211976, guid: 230ccb0f35c199643a4a5cd1f4871077, type: 3}
-  - {fileID: -3500942725470159262, guid: 4816020013277d84a80e441fbec1a0fa, type: 3}
-  - {fileID: -6433461479638820710, guid: 936c819dad109534d84a147f127b1893, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 905785883954454636, guid: 3b780a0d017f59f4880086c8dca37e99, type: 3}
+  - {fileID: -2655287791222789298, guid: e19270428f112954e9e8ff0180e6b7cb, type: 3}
+  - {fileID: 8213293674082918189, guid: 3270e68ea8772ba4fb139dcd1b4803f3, type: 3}
+  recepieVideos:
+  - {fileID: 32900000, guid: 4e0629a38a25f9442922dcff52e9f35d, type: 3}
+  - {fileID: 32900000, guid: 1237ccd4d74207045bc1c96ffb35bc09, type: 3}
+  - {fileID: 32900000, guid: 776a7963892333343870fd2760d194a9, type: 3}
   recepieNames:
   - Slime Sunday
   - Kentucky Fried Frog Legs
@@ -964,9 +985,6 @@ MonoBehaviour:
     a burst of energy to the consumer.
   - A fresh approach to Italian cuisine, this meal is best eaten with an open mind
     and a large fork.
-  - 
-  - 
-  - 
 --- !u!1 &3682202924254559273
 GameObject:
   m_ObjectHideFlags: 0
