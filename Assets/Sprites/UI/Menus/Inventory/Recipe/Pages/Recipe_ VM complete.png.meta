@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7916a8ff3295b6244a6a4577f6cab6b4
+guid: ac0055edeea8a474887408e12fc37a49
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6412421749190572478
-    second: Ingredients UI menu Backdrop_0
+      213: -904467179785455264
+    second: Recipe_ VM complete_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,16 +96,29 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ingredients UI menu Backdrop_0
+      name: Recipe_ VM complete_0
       rect:
         serializedVersion: 2
         x: 149
         y: 59
-        width: 1622
+        width: 1706
         height: 968
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb93e7e3b9f7df850800000000000000
-      internalID: 6412421749190572478
+      spriteID: 06973ed54efa273f0800000000000000
+      internalID: -904467179785455264
       vertices: []
       indices: 
       edges: []
@@ -134,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Ingredients UI menu Backdrop_0: 6412421749190572478
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

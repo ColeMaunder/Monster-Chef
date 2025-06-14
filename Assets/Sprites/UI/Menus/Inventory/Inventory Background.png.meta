@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5233612b75662e940a3727a19c1fd9fa
+guid: e2b57354b475c0f4aa96c06d5eed0b59
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1944691973364137052
-    second: Recipe menu UI Backdrop _0
+      213: -5446012313291363018
+    second: Inventory Background_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Recipe menu UI Backdrop _0
+      name: Inventory Background_0
       rect:
         serializedVersion: 2
-        x: 149
-        y: 59
-        width: 1622
-        height: 968
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5c3ceddb0fecfa10800000000000000
-      internalID: 1944691973364137052
+      spriteID: 63d6ddfb7a0eb64b0800000000000000
+      internalID: -5446012313291363018
       vertices: []
       indices: 
       edges: []
@@ -134,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Recipe menu UI Backdrop _0: 1944691973364137052
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

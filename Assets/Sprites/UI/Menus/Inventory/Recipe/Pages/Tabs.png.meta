@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: b88def3afa8a4234ab8e646d073beeb4
+guid: 4754f9fc5b9c5c74ebfc27132a805bcc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 438949709221480490
-    second: Pause Screen Buttons (Size)_0
+      213: 3822188973802563517
+    second: Tabs_0
+  - first:
+      213: 697887440722401924
+    second: Tabs_1
+  - first:
+      213: -235169019294012723
+    second: Tabs_2
+  - first:
+      213: -1439810377095880109
+    second: Tabs_3
+  - first:
+      213: -6912259958158075750
+    second: Tabs_4
+  - first:
+      213: 2583638416241818751
+    second: Tabs_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,7 +116,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pause Screen Buttons (Size)_0
+      name: Tabs_0
       rect:
         serializedVersion: 2
-        x: 623
-        y: 359
-        width: 668
-        height: 182
+        x: 1511
+        y: 821
+        width: 140
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +143,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2848645f66771600800000000000000
-      internalID: 438949709221480490
+      spriteID: db7aaefee942b0530800000000000000
+      internalID: 3822188973802563517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tabs_1
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 809
+        width: 158
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a17750ee46fa900800000000000000
+      internalID: 697887440722401924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tabs_2
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 623
+        width: 140
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcaadced5038cbcf0800000000000000
+      internalID: -235169019294012723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tabs_3
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 611
+        width: 158
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35267492714c40ce0800000000000000
+      internalID: -1439810377095880109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tabs_4
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 431
+        width: 140
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98d4d6d038b210a0800000000000000
+      internalID: -6912259958158075750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tabs_5
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 419
+        width: 158
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c752c637dead320800000000000000
+      internalID: 2583638416241818751
       vertices: []
       indices: 
       edges: []
@@ -147,8 +272,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Pause Screen Buttons (Size)_0: 438949709221480490
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
