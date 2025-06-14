@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5a706eb37cc6fdf4ca8b52dfb8ad673f
+guid: 8bc0735f21c4dc0498f9f6fad25c1bee
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6677734529282950968
-    second: Recipes Tag (Unselected)_0
+      213: 2514955845820372395
+    second: Ingredients Tag (Selected)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Recipes Tag (Unselected)_0
+      name: Ingredients Tag (Selected)_0
       rect:
         serializedVersion: 2
-        x: 1511
-        y: 821
-        width: 140
-        height: 128
+        x: 1510
+        y: 809
+        width: 158
+        height: 140
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 837454a9c241cac50800000000000000
-      internalID: 6677734529282950968
+      spriteID: ba55ae7540be6e220800000000000000
+      internalID: 2514955845820372395
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Recipes Tag (Unselected)_0: 6677734529282950968
+      Ingredients Tag (Selected)_0: 2514955845820372395
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

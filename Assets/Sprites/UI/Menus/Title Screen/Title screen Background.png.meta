@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b88def3afa8a4234ab8e646d073beeb4
+guid: b3d9fd23f969d964abbcf10055d2febe
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 438949709221480490
-    second: Pause Screen Buttons (Size)_0
+      213: 1007401447363654354
+    second: Title screen Background_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,7 +101,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pause Screen Buttons (Size)_0
+      name: Title screen Background_0
       rect:
         serializedVersion: 2
-        x: 623
-        y: 359
-        width: 668
-        height: 182
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2848645f66771600800000000000000
-      internalID: 438949709221480490
+      spriteID: 2d2335867420bfd00800000000000000
+      internalID: 1007401447363654354
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Pause Screen Buttons (Size)_0: 438949709221480490
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
