@@ -33,7 +33,7 @@ TagManager:
   - UI
   - Menu UI
   - DashParticles
-  - 
+  - background
   - 
   - 
   - 
@@ -60,6 +60,18 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 4014218451
+    locked: 0
+  - name: Interactable
+    uniqueID: 2005708703
+    locked: 0
+  - name: Foreground
+    uniqueID: 2276505179
+    locked: 0
+  - name: UI
+    uniqueID: 1038221507
     locked: 0
   m_RenderingLayers:
   - Default
