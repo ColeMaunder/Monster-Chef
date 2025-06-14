@@ -215,10 +215,10 @@ TextureImporter:
       name: Map Lines_0
       rect:
         serializedVersion: 2
-        x: 339
-        y: 264
-        width: 977
-        height: 513
+        x: 354
+        y: 277
+        width: 339
+        height: 383
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,6 +229,50 @@ TextureImporter:
       bones: []
       spriteID: 3e0b75e003d58f3468c7530bf5881d03
       internalID: 615899062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map Lines_1
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 508
+        width: 258
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96db32a3ba4f6c47af7df666f64dbed
+      internalID: 1843043048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map Lines_2
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 278
+        width: 233
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170fafaff99623547a4d6db5679f0e31
+      internalID: -1513782001
       vertices: []
       indices: 
       edges: []
@@ -248,6 +292,8 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Map Lines_0: 615899062
+      Map Lines_1: 1843043048
+      Map Lines_2: -1513782001
       Map Lines_34: 1605251247
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
