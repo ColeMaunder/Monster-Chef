@@ -543,7 +543,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6565828366317467166
 Transform:
   m_ObjectHideFlags: 0
@@ -629,7 +629,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 062750253befa714a9f91bf0ed7e6e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 6
   duration: 0.3
   enmenyBody: {fileID: 5739074647459928125}
   particleOBJ: {fileID: 7687411101999383399}
@@ -711,6 +710,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyIndex: 3
+  vulnrable: 1
 --- !u!95 &8455658241169936190
 Animator:
   serializedVersion: 7

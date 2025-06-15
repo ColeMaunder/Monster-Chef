@@ -8,6 +8,8 @@ public class InventoryHandeler : MonoBehaviour
     public void ShowMenueScreen(bool activeIn)
     {
         MenueScreen.SetActive(activeIn);
+        MenueScreen.transform.GetChild(1).gameObject.SetActive(true);
+        MenueScreen.transform.GetChild(0).gameObject.SetActive(false);
     }
     public void ShowWeponScreen(bool activeIn)
     {

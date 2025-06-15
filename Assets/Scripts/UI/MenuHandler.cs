@@ -68,7 +68,11 @@ public class MenuHandler : MonoBehaviour
     public void setInventoryActive(bool activeIn){
         inventoryUI.SetActive(activeIn);
     }
-    public void respawnUI(){
+     public void setInventoryScreenActive(bool activeIn){
+        inventoryScreen.SetActive(activeIn);
+    }
+    public void respawnUI()
+    {
         GameObject.FindWithTag("Player").GetComponent<Player>().Respawn();
     }
 }

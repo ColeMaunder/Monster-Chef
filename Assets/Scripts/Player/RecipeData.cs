@@ -6,7 +6,8 @@ using UnityEngine.Video;
 public class RecipeData : MonoBehaviour
 {
     [SerializeField] private List<int> unlockedRecipes = new List<int>();
-    [SerializeField] private Sprite[] recepieIcons;
+    [SerializeField] private Sprite[] recepieIconsLocked;
+    [SerializeField] private Sprite[] recepieIconsUnlocked;
     [SerializeField] private VideoClip[] recepieVideos;
     [SerializeField] private String[] recepieNames = { "Slime Sunday", "Kentucky Fried Frog Legs", "Vinghetti Mandranaise", "Catfish Sashimi", "Crayfish Bisque", "Roast Rusa" };
     [SerializeField] private String[] recepieTexts = {"A gelatinous sweet treat that will kickstart your monster meal journey.",
@@ -14,9 +15,14 @@ public class RecipeData : MonoBehaviour
         "A fresh approach to Italian cuisine, this meal is best eaten with an open mind and a large fork.",
         "","","",""};
     private int[,] recepieNeed = { { 50, 0, 0, 0, 1 }, { 20, 30, 0, 0, 4 }, { 20, 10, 20, 0, 4 }, { 0, 30, 40, 20, 4 }, { 50, 40, 40, 30, 4 }, { 60, 50, 50, 40, 4 } };
-    public Sprite Icon(int index)
+    public Sprite Icon(int index, bool unlocked)
     {
-        return recepieIcons[index];
+        if (unlocked){
+            return recepieIconsUnlocked[index];  
+        } else{ 
+            return recepieIconsLocked[index];
+        }
+        
     }
     public VideoClip Video(int index)
     {

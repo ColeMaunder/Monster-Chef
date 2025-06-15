@@ -2,15 +2,24 @@ using UnityEngine;
 
 public class PerentClose : MonoBehaviour
 {
+    [SerializeField] int[] watching = {0};
     void Update()
     {
         if (Input.GetKey(KeyCode.Escape))
         {
-            if (!transform.GetChild(0).gameObject.activeSelf)
+            bool canClose = true;
+            foreach (int i in watching)
             {
-                gameObject.SetActive(false);
-                Time.timeScale = 1f;
+                if (transform.GetChild(i).gameObject.activeSelf)
+                {
+                    canClose = false;
+                }
             }
+            if(canClose){
+                gameObject.SetActive(false);
+                    Time.timeScale = 1f;
+            }
+            
         }
     }
     

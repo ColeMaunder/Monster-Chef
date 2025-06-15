@@ -13,6 +13,7 @@ public class Cooking : MonoBehaviour
         if(inRainge){
             if (Input.GetKeyDown(KeyCode.E)){
                 CookingScreen.SetActive(true);
+                CookingScreen.transform.GetChild(0).gameObject.SetActive(true);
                 Time.timeScale = 0f;
             }
         }

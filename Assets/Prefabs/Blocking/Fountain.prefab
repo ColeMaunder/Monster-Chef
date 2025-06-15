@@ -210,7 +210,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0, g: 1, b: 0.9706273, a: 0.08627451}
+  m_Color: {r: 0, g: 1, b: 0.9706273, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -317,7 +317,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 4}
+  m_AnchoredPosition: {x: 0.1, y: 7.3}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &8763021731962009613
@@ -542,6 +542,10 @@ PrefabInstance:
     - target: {fileID: 2906338475136413550, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3742554146441383741, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1038221507
       objectReference: {fileID: 0}
     - target: {fileID: 4213966100864496343, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
       propertyPath: 'fountins.Array.data[0]'

@@ -163,8 +163,8 @@ public class Player : MonoBehaviour
         Reset();
         inventory.DropInventory();
         toRespawnPoint();
-        health = maxHealth;
-        heals = maxHeals;
+        HealthFull();
+        RefillHeals();
         Time.timeScale = 1f;
         playerAlive = true;
         menu.showDeathScreen(false);
