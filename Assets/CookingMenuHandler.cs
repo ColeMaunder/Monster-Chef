@@ -72,7 +72,7 @@ public class CookingMenuHandler : MonoBehaviour
         cookVideo.Play();
         float videoTime = (float)cookVideo.clip.length;
         Time.timeScale = 1f;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(videoTime);
         Time.timeScale = 0f;
         print("Done");
         ReturnButton.SetActive(true);
