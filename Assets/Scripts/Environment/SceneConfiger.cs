@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class SceneConfiger : MonoBehaviour
 {
+    [SerializeField]
+     float timeScale = 1f;
+    [SerializeField]
     Player player;
     [SerializeField]
     bool staticCamra = false;
@@ -17,7 +20,7 @@ public class SceneConfiger : MonoBehaviour
     private AudioClip seaneMusic;
     void Awake()
     {
-        Time.timeScale = 1f;
+        Time.timeScale = timeScale;
         GameObject.FindWithTag("UI").GetComponent<MenuHandler>().setCombatUIActive(!safe);
         GameObject.FindWithTag("SoundManager").GetComponent<AudioHandler>().setMusic(seaneMusic);
         GameObject.FindWithTag("SoundManager").GetComponent<AudioSource>().Play();

@@ -1766,9 +1766,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Dialogue, Assembly-CSharp
-        m_MethodName: NextLine
+      - m_Target: {fileID: 3616236107892232693}
+        m_TargetAssemblyTypeName: DialogBoxhandeler, Assembly-CSharp
+        m_MethodName: localNextLine
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2482,6 +2482,7 @@ GameObject:
   - component: {fileID: 4022810332645090501}
   - component: {fileID: 7021779095507585803}
   - component: {fileID: 5629550008227977770}
+  - component: {fileID: 3616236107892232693}
   m_Layer: 5
   m_Name: Dialogue Box
   m_TagString: Untagged
@@ -2550,6 +2551,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3616236107892232693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3876218386217777749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbe59120fd3b6b649938613215a8e7d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4211310254125523751
 GameObject:
   m_ObjectHideFlags: 0
