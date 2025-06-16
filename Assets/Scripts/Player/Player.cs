@@ -261,15 +261,18 @@ public class Player : MonoBehaviour
                     scene = "Boss Fight";
                     break;
             }
-            if (SceneManager.GetActiveScene().name != scene){  
+                GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().SetCahingID(2);
+            if (SceneManager.GetActiveScene().name != scene){
                 GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().GoToScene(scene);
+            }else{
+                GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().Stay();
             }
             GameObject[] fountains = GameObject.FindGameObjectsWithTag("Fountain");
         foreach (GameObject i in fountains)
         {
             if (i.GetComponent<FountainID>().GetID() == fountainID)
             {
-                transform.position = spawn.transform.position = i.transform.GetChild(0).position;
+                transform.position = spawn.transform.position = i.transform.GetChild(0).position - new Vector3(0,5,60);
                 break;
             }
         }

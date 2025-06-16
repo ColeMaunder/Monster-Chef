@@ -4,6 +4,7 @@ using System.Collections.Generic;
 public class PlayerData : MonoBehaviour
 {
     AudioHandler AudioHandler;
+    int naturalSceneCahngeID = 0;
     void Start()
     {
         AudioHandler = GameObject.FindWithTag("SoundManager").GetComponent<AudioHandler>();
@@ -215,5 +216,11 @@ public class PlayerData : MonoBehaviour
     }
     public bool GetEnteredVilage(){
         return enteredVilage;
+    }
+    public int GetNaturalSceneCahngeID(){
+        return naturalSceneCahngeID;
+    }
+    public void SetNaturalSceneCahngeID(int newId){
+        naturalSceneCahngeID = newId;
     }
 }

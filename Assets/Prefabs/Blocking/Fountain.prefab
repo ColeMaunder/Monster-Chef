@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da1eab1bff0e20444b68e13953731536, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 01
+  id: 00
 --- !u!1 &2218396824177094846
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,7 +232,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf00e597ac16e2545a2218b9f5665dd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uI: {fileID: 0}
   fountainUI: {fileID: 2455150411083118471}
 --- !u!61 &5881255596920795585
 BoxCollider2D:
@@ -292,6 +291,7 @@ GameObject:
   - component: {fileID: 8763021731962009613}
   - component: {fileID: 6713995223511066157}
   - component: {fileID: 8972377634332920230}
+  - component: {fileID: 1188212362980499062}
   m_Layer: 5
   m_Name: Fountain Body
   m_TagString: Untagged
@@ -361,9 +361,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingLayerID: 2005708703
+  m_SortingLayer: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: -6631526152062491168, guid: be58dc3e71c569d4ca1ebad6d92c5a67, type: 3}
   m_Color: {r: 0.39811313, g: 1, b: 0.95528966, a: 1}
   m_FlipX: 0
@@ -443,6 +443,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.0173948, y: 3.9000707}
   m_EdgeRadius: 0
+--- !u!114 &1188212362980499062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8297554575400792172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6f0fb58b21ac324fa37065a9d0a8952, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5772804522459327187
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -451,14 +463,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6378744331647500748}
     m_Modifications:
-    - target: {fileID: 1711729763356797364, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2073429363436068670, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2569375756725348158, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -539,41 +543,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2906338475136413550, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3742554146441383741, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 1038221507
-      objectReference: {fileID: 0}
-    - target: {fileID: 4213966100864496343, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
-      propertyPath: 'fountins.Array.data[0]'
-      value: 
-      objectReference: {fileID: 3299271097193979481}
     - target: {fileID: 8218908150703037780, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
       propertyPath: m_Name
       value: Fountain UI
       objectReference: {fileID: 0}
-    - target: {fileID: 8218908150703037780, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 5574178947735308965, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
-    - {fileID: 4527533263229992628, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
 --- !u!1 &2455150411083118471 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8218908150703037780, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
-  m_PrefabInstance: {fileID: 5772804522459327187}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &3299271097193979481 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9066945297158059146, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
   m_PrefabInstance: {fileID: 5772804522459327187}
   m_PrefabAsset: {fileID: 0}
 --- !u!224 &8337674204512620013 stripped

@@ -34,7 +34,7 @@ public class Fountain : MonoBehaviour
             }
         }
     }
-    private void OnTriggerEnter2D(Collider2D collision){
+    private void OnTriggerStay2D(Collider2D collision){
         if (collision.gameObject.tag == "PlayerBody"){
             print("player in");
             inRainge = true;
@@ -43,6 +43,7 @@ public class Fountain : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision){
         if (collision.gameObject.tag == "PlayerBody"){
             inRainge = false;
+            GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().SetCahingID(data.GetNaturalSceneCahngeID());
             Time.timeScale = 1f;
         }
     }

@@ -32,6 +32,23 @@ public class SceneChanger : MonoBehaviour
         vidPlayerOBJ.SetActive(false);
         vidPlayer.Stop();
     }
+    public void Stay()
+    {
+        //storage.Save();
+        StartCoroutine(Anaimtion());
+    }
+    IEnumerator Anaimtion()
+    {
+        vidPlayer.clip = videos[chaingeID];
+        vidPlayer.playbackSpeed = 1;
+        vidPlayer.Play();
+        yield return new WaitForSecondsRealtime(0.1f);
+        vidPlayerOBJ.SetActive(true);
+        float videoTime = (float)videos[chaingeID].length;
+        yield return new WaitForSecondsRealtime(videoTime);
+        vidPlayerOBJ.SetActive(false);
+        vidPlayer.Stop();
+    }
     public void SetCahingID(int idIn){
         chaingeID = idIn;
     }

@@ -26,6 +26,7 @@ public class SceneConfiger : MonoBehaviour
     {
         Time.timeScale = timeScale;
         GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().SetCahingID(sceneCahngeID);
+        GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>().SetNaturalSceneCahngeID(sceneCahngeID);
         GameObject.FindWithTag("UI").GetComponent<MenuHandler>().setCombatUIActive(!safe);
         GameObject.FindWithTag("SoundManager").GetComponent<AudioHandler>().FaidInWorldSound(seaneMusic,musicVolume,1f,0);
         GameObject.FindWithTag("SoundManager").GetComponent<AudioSource>().Play();
