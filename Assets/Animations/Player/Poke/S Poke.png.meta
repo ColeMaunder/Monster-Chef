@@ -131,12 +131,12 @@ TextureImporter:
       name: S Poke_0
       rect:
         serializedVersion: 2
-        x: 146
-        y: 716
+        x: 89
+        y: 722
         width: 92
-        height: 254
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 259
+      alignment: 9
+      pivot: {x: 0.58, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -153,12 +153,12 @@ TextureImporter:
       name: S Poke_1
       rect:
         serializedVersion: 2
-        x: 299
-        y: 698
-        width: 92
-        height: 272
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 249
+        y: 686
+        width: 90
+        height: 295
+      alignment: 9
+      pivot: {x: 0.58, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -175,12 +175,12 @@ TextureImporter:
       name: S Poke_2
       rect:
         serializedVersion: 2
-        x: 455
-        y: 698
+        x: 392
+        y: 687
         width: 92
-        height: 272
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 294
+      alignment: 9
+      pivot: {x: 0.58, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: S Poke_3
       rect:
         serializedVersion: 2
-        x: 615
-        y: 698
+        x: 533
+        y: 687
         width: 92
-        height: 272
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 294
+      alignment: 9
+      pivot: {x: 0.58, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -219,12 +219,12 @@ TextureImporter:
       name: S Poke_4
       rect:
         serializedVersion: 2
-        x: 769
-        y: 698
+        x: 671
+        y: 687
         width: 92
-        height: 272
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 294
+      alignment: 9
+      pivot: {x: 0.58, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -241,12 +241,12 @@ TextureImporter:
       name: S Poke_5
       rect:
         serializedVersion: 2
-        x: 926
-        y: 710
+        x: 807
+        y: 717
         width: 92
-        height: 260
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 264
+      alignment: 9
+      pivot: {x: 0.58, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -263,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9f53d0672354bba41b2776dadd7dfa5a
     internalID: 0
     vertices: []
     indices: 

@@ -131,12 +131,12 @@ TextureImporter:
       name: S Thrust_0
       rect:
         serializedVersion: 2
-        x: 161
-        y: 413
+        x: 59
+        y: 756
         width: 92
-        height: 254
+        height: 264
       alignment: 9
-      pivot: {x: 0.61220187, y: 0.5}
+      pivot: {x: 0.6, y: 0.51}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -153,12 +153,12 @@ TextureImporter:
       name: S Thrust_1
       rect:
         serializedVersion: 2
-        x: 309
-        y: 383
-        width: 92
-        height: 278
+        x: 213
+        y: 684
+        width: 91
+        height: 329
       alignment: 9
-      pivot: {x: 0.598177, y: 0.5}
+      pivot: {x: 0.6, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -175,12 +175,12 @@ TextureImporter:
       name: S Thrust_2
       rect:
         serializedVersion: 2
-        x: 466
-        y: 383
-        width: 92
-        height: 278
+        x: 373
+        y: 684
+        width: 91
+        height: 329
       alignment: 9
-      pivot: {x: 0.598177, y: 0.5}
+      pivot: {x: 0.6, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: S Thrust_3
       rect:
         serializedVersion: 2
-        x: 623
-        y: 383
-        width: 92
-        height: 278
+        x: 529
+        y: 684
+        width: 91
+        height: 329
       alignment: 9
-      pivot: {x: 0.6122025, y: 0.5}
+      pivot: {x: 0.6, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -219,12 +219,12 @@ TextureImporter:
       name: S Thrust_4
       rect:
         serializedVersion: 2
-        x: 764
-        y: 383
-        width: 92
-        height: 278
+        x: 693
+        y: 684
+        width: 91
+        height: 329
       alignment: 9
-      pivot: {x: 0.58415157, y: 0.5}
+      pivot: {x: 0.6, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -241,12 +241,12 @@ TextureImporter:
       name: S Thrust_5
       rect:
         serializedVersion: 2
-        x: 919
-        y: 407
-        width: 92
-        height: 260
+        x: 855
+        y: 738
+        width: 91
+        height: 281
       alignment: 9
-      pivot: {x: 0.61220187, y: 0.5}
+      pivot: {x: 0.58, y: 0.54}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

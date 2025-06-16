@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: 4ac2aadc6a8a6a647aed951f8a983559
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8669425130536159818
+    second: N Heavy Hitbox_0
+  - first:
+      213: 7127274368440336002
+    second: N Heavy Hitbox_1
+  - first:
+      213: 4681625931677278039
+    second: N Heavy Hitbox_2
+  - first:
+      213: -4562498608142888441
+    second: N Heavy Hitbox_3
+  - first:
+      213: -7818207753137296652
+    second: N Heavy Hitbox_4
+  - first:
+      213: 2469487361184625370
+    second: N Heavy Hitbox_5
+  - first:
+      213: 3586938500064557450
+    second: N Heavy Hitbox_6
+  - first:
+      213: 3937821675015464277
+    second: N Heavy Hitbox_7
+  - first:
+      213: 2463504465603984633
+    second: N Heavy Hitbox_8
+  - first:
+      213: 1608531445219003335
+    second: N Heavy Hitbox_9
+  - first:
+      213: -8473515900358851346
+    second: N Heavy Hitbox_10
+  - first:
+      213: -1550623173576293925
+    second: N Heavy Hitbox_11
+  - first:
+      213: -832286726266245299
+    second: N Heavy Hitbox_12
+  - first:
+      213: 8735096289718432838
+    second: N Heavy Hitbox_13
+  - first:
+      213: -7250160960318785319
+    second: N Heavy Hitbox_14
+  - first:
+      213: -2387701684565013691
+    second: N Heavy Hitbox_15
+  - first:
+      213: 8828402016886840089
+    second: N Heavy Hitbox_16
+  - first:
+      213: -2584886600466394779
+    second: N Heavy Hitbox_17
+  - first:
+      213: 4663584535020699283
+    second: N Heavy Hitbox_18
+  - first:
+      213: -1739705751788158870
+    second: N Heavy Hitbox_19
+  - first:
+      213: -9066213137371199327
+    second: N Heavy Hitbox_20
+  - first:
+      213: 203274467407159386
+    second: N Heavy Hitbox_21
+  - first:
+      213: 2027418037452033618
+    second: N Heavy Hitbox_22
+  - first:
+      213: -6578078910710505605
+    second: N Heavy Hitbox_23
+  - first:
+      213: 490381483813740942
+    second: N Heavy Hitbox_24
+  - first:
+      213: 4266378745902342218
+    second: N Heavy Hitbox_25
+  - first:
+      213: 4124429366207960969
+    second: N Heavy Hitbox_26
+  - first:
+      213: 8293016227496411816
+    second: N Heavy Hitbox_27
+  - first:
+      213: -3389712295300580652
+    second: N Heavy Hitbox_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: N Heavy Hitbox_0
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1490
+        width: 439
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ac370493cff4870800000000000000
+      internalID: 8669425130536159818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Heavy Hitbox_1
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 951
+        width: 354
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ef1a3b64a29e260800000000000000
+      internalID: 7127274368440336002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: N Heavy Hitbox_2
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 446
+        width: 281
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299bd6add178a6d48bbbbb3b6d9a10b6
+      internalID: 4681625931677278039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 61c8055db5da00b4785299b9aa9f38ac
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      N Heavy Hitbox_0: 8669425130536159818
+      N Heavy Hitbox_1: 7127274368440336002
+      N Heavy Hitbox_2: 4681625931677278039
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

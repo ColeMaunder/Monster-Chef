@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: 100371d0293ee924cbb69a941844a5b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4055140465014038271
+    second: Light_hitboxes-16_0
+  - first:
+      213: 8974665372954636528
+    second: Light_hitboxes-16_1
+  - first:
+      213: -2436182531165374426
+    second: Light_hitboxes-16_2
+  - first:
+      213: 1471945063621642132
+    second: Light_hitboxes-16_3
+  - first:
+      213: 8437617040325071843
+    second: Light_hitboxes-16_4
+  - first:
+      213: 386991784021386308
+    second: Light_hitboxes-16_5
+  - first:
+      213: -357506598581368981
+    second: Light_hitboxes-16_6
+  - first:
+      213: 3044026232048907565
+    second: Light_hitboxes-16_7
+  - first:
+      213: -9608876505282326
+    second: Light_hitboxes-16_8
+  - first:
+      213: -9078521920138567277
+    second: Light_hitboxes-16_9
+  - first:
+      213: 6187201415926380330
+    second: Light_hitboxes-16_10
+  - first:
+      213: -5690469188473449496
+    second: Light_hitboxes-16_11
+  - first:
+      213: 5810188257451666718
+    second: Light_hitboxes-16_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Light_hitboxes-16_8
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 743
+        width: 58
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8463917ccdddff0800000000000000
+      internalID: -9608876505282326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Light_hitboxes-16_9
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 752
+        width: 58
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3912b88e96c920280800000000000000
+      internalID: -9078521920138567277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Light_hitboxes-16_10
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 746
+        width: 58
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27f51618ea5dd550800000000000000
+      internalID: 6187201415926380330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Light_hitboxes-16_11
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 746
+        width: 56
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e31cb72c646701b0800000000000000
+      internalID: -5690469188473449496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dfbf1f261e4072b4b93228058597da19
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Light_hitboxes-16_0: 4055140465014038271
+      Light_hitboxes-16_1: 8974665372954636528
+      Light_hitboxes-16_10: 6187201415926380330
+      Light_hitboxes-16_11: -5690469188473449496
+      Light_hitboxes-16_12: 5810188257451666718
+      Light_hitboxes-16_2: -2436182531165374426
+      Light_hitboxes-16_3: 1471945063621642132
+      Light_hitboxes-16_4: 8437617040325071843
+      Light_hitboxes-16_5: 386991784021386308
+      Light_hitboxes-16_6: -357506598581368981
+      Light_hitboxes-16_7: 3044026232048907565
+      Light_hitboxes-16_8: -9608876505282326
+      Light_hitboxes-16_9: -9078521920138567277
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
