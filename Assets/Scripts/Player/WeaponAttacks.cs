@@ -19,6 +19,7 @@ public class WeaponAttacks : MonoBehaviour
     public GameObject[] spoonAttack = { };
     public float[] spoonAtkDuration = { };
     public float[] spoonAtkCoolDown = { };
+    public float[] spoonAtkWarmUp = { };
     public AudioClip[] spoonAtkSound = { };
 
     public int cleaverComboMax = 2;
@@ -26,6 +27,7 @@ public class WeaponAttacks : MonoBehaviour
     public GameObject[] cleaverAttack = { };
     public float[] cleaverAtkDuration = { };
     public float[] cleaverAtkCoolDown = { };
+    public float[] cleaverAtkWarmUp = { };
     public AudioClip[] cleaverAtkSound = { };
 
     public int tenderizerComboMax = 2;
@@ -33,13 +35,17 @@ public class WeaponAttacks : MonoBehaviour
     public GameObject[] tenderizerAttack = { };
     public float[] tenderizerAtkDuration = { };
     public float[] tenderizerAtkCoolDown = { };
+    public float[] tenderizerAtkWarmUp = { };
     public AudioClip[] tenderizerAtkSound = { };
 
     public GameObject[] ults = { };
     public float[] ultDuration = { };
     public float[] ultCoolDown = { };
+    public float[] ultWarmUp = { };
     public int[] ultChargeNeeded = { };
+    public AudioClip[] ultSound = { };
     public int ultChargeMax;
+    
     private int ultCharge = 0;
 
     public WeaponAttacks() { }
@@ -73,6 +79,14 @@ public class WeaponAttacks : MonoBehaviour
     public float GetUltCoolDown(int index)
     {
         return ultCoolDown[index];
+    }
+    public void PlayUltSound(int index)
+{
+        AudioHandler.playSound(ultSound[index], transform, 1);
+    }
+    public float GetUltWarmUp(int index)
+    {
+        return ultWarmUp[index];
     }
     public int GetUltChargeNeeded(int index)
     {
@@ -184,6 +198,21 @@ public class WeaponAttacks : MonoBehaviour
                 return cleaverAtkCoolDown[atk];
             case 2:
                 return tenderizerAtkCoolDown[atk];
+            default:
+                print("invalid Weapon");
+                return 0;
+        }
+    }
+    public float GetAtkWarmUp(int atk)
+    {
+        switch (player.getActiveWepon())
+        {
+            case 0:
+                return spoonAtkWarmUp[atk];
+            case 1:
+                return cleaverAtkWarmUp[atk];
+            case 2:
+                return tenderizerAtkWarmUp[atk];
             default:
                 print("invalid Weapon");
                 return 0;
