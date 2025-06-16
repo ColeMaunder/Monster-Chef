@@ -121,7 +121,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -156,10 +156,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -211,7 +211,7 @@ TextureImporter:
         serializedVersion: 2
         x: 478
         y: 846
-        width: 116
+        width: 115
         height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -231,9 +231,9 @@ TextureImporter:
       name: Characters + Expressions_3
       rect:
         serializedVersion: 2
-        x: 646
+        x: 647
         y: 846
-        width: 146
+        width: 144
         height: 194
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -253,9 +253,9 @@ TextureImporter:
       name: Characters + Expressions_4
       rect:
         serializedVersion: 2
-        x: 814
+        x: 815
         y: 846
-        width: 146
+        width: 145
         height: 188
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -321,7 +321,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1366
         y: 846
-        width: 116
+        width: 115
         height: 188
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -341,9 +341,9 @@ TextureImporter:
       name: Characters + Expressions_8
       rect:
         serializedVersion: 2
-        x: 1534
+        x: 1535
         y: 846
-        width: 122
+        width: 121
         height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -363,9 +363,9 @@ TextureImporter:
       name: Characters + Expressions_9
       rect:
         serializedVersion: 2
-        x: 1714
+        x: 1715
         y: 846
-        width: 98
+        width: 96
         height: 194
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -387,8 +387,8 @@ TextureImporter:
         serializedVersion: 2
         x: 1888
         y: 846
-        width: 92
-        height: 182
+        width: 91
+        height: 181
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,7 +409,7 @@ TextureImporter:
         serializedVersion: 2
         x: 2050
         y: 846
-        width: 110
+        width: 109
         height: 194
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -430,9 +430,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 52
-        y: 444
+        y: 445
         width: 320
-        height: 254
+        height: 253
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,9 +452,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 418
-        y: 444
+        y: 445
         width: 320
-        height: 254
+        height: 253
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -474,9 +474,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 796
-        y: 444
+        y: 445
         width: 320
-        height: 260
+        height: 259
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -498,7 +498,7 @@ TextureImporter:
         x: 1192
         y: 438
         width: 212
-        height: 332
+        height: 331
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -517,10 +517,10 @@ TextureImporter:
       name: Characters + Expressions_16
       rect:
         serializedVersion: 2
-        x: 1462
+        x: 1463
         y: 438
-        width: 212
-        height: 332
+        width: 211
+        height: 331
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -539,10 +539,10 @@ TextureImporter:
       name: Characters + Expressions_17
       rect:
         serializedVersion: 2
-        x: 1732
+        x: 1733
         y: 438
-        width: 212
-        height: 332
+        width: 211
+        height: 331
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -564,7 +564,7 @@ TextureImporter:
         x: 2020
         y: 438
         width: 212
-        height: 332
+        height: 331
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -583,9 +583,9 @@ TextureImporter:
       name: Characters + Expressions_19
       rect:
         serializedVersion: 2
-        x: 46
+        x: 47
         y: 108
-        width: 332
+        width: 331
         height: 248
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -605,9 +605,9 @@ TextureImporter:
       name: Characters + Expressions_20
       rect:
         serializedVersion: 2
-        x: 406
+        x: 407
         y: 108
-        width: 332
+        width: 331
         height: 248
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -673,7 +673,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1510
         y: 102
-        width: 332
+        width: 331
         height: 248
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -694,9 +694,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1864
-        y: 258
-        width: 26
-        height: 92
+        y: 259
+        width: 25
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -716,9 +716,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1924
-        y: 258
+        y: 259
         width: 50
-        height: 98
+        height: 97
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -755,6 +755,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Characters + Expressions_0
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 846
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c0a48d0d5370b4b9b4281e808dd6ec
+      internalID: 1719970327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -769,6 +791,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Characters + Expressions_0: 1719970327
       Characters + Expressions_1: 5638841926539501578
       Characters + Expressions_10: 4132711514783808063
       Characters + Expressions_11: -6667292445992954674
@@ -788,6 +811,8 @@ TextureImporter:
       Characters + Expressions_24: -6047924757002239610
       Characters + Expressions_25: 7186653629464987727
       Characters + Expressions_26: 4510502071529058825
+      Characters + Expressions_27: -1758238571
+      Characters + Expressions_28: 1959986724
       Characters + Expressions_3: 1078197673094213612
       Characters + Expressions_4: -739955919503330731
       Characters + Expressions_5: 3915421676317221039

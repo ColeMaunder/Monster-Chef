@@ -71,9 +71,7 @@ public class CookingMenuHandler : MonoBehaviour
         cookVideo.clip = recipeData.Video(visibalRecepie);
         cookVideo.Play();
         float videoTime = (float)cookVideo.clip.length;
-        Time.timeScale = 1f;
-        yield return new WaitForSeconds(videoTime);
-        Time.timeScale = 0f;
+        yield return new WaitForSecondsRealtime(videoTime);
         print("Done");
         ReturnButton.SetActive(true);
     }
@@ -83,9 +81,7 @@ public class CookingMenuHandler : MonoBehaviour
         VideoPlayer endingVideo = endingScene.GetComponent<VideoPlayer>();
         endingVideo.Play();
         float videoTime = (float)endingVideo.clip.length;
-        Time.timeScale = 1f;
-        yield return new WaitForSeconds(videoTime);
-        Time.timeScale = 0f;
+        yield return new WaitForSecondsRealtime(videoTime);
         endingScene.transform.GetChild(0).gameObject.SetActive(true);
         endingScene.transform.GetChild(1).gameObject.SetActive(true);
     }

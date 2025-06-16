@@ -825,6 +825,7 @@ GameObject:
   - component: {fileID: 4944109665098878159}
   - component: {fileID: 3460499957586961584}
   - component: {fileID: 5138029722548362334}
+  - component: {fileID: 7828169468888373625}
   m_Layer: 0
   m_Name: PlayerData
   m_TagString: PlayerData
@@ -986,6 +987,18 @@ MonoBehaviour:
     a burst of energy to the consumer.
   - A fresh approach to Italian cuisine, this meal is best eaten with an open mind
     and a large fork.
+--- !u!114 &7828169468888373625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3420338433481259294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab9f462e653f33b4ca6a72b51d831729, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3682202924254559273
 GameObject:
   m_ObjectHideFlags: 0

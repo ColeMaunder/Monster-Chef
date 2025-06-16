@@ -4,7 +4,6 @@ using UnityEngine;
 public class Fountain : MonoBehaviour
 {
     string fountainID;
-    public HealsUI uI;
     Player player;
     bool inRainge = false;
     [SerializeField] private GameObject fountainUI;
@@ -20,7 +19,7 @@ public class Fountain : MonoBehaviour
     void Update()
     {
         if(inRainge){
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E) && Time.timeScale >0)
             {
                 player.RefillHeals();
                 player.RefillHealth();

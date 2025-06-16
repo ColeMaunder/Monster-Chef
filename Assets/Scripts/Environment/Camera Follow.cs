@@ -13,68 +13,92 @@ using Unity.Collections;
 
 public class CameraFollow : MonoBehaviour
 {
-     private Transform target;
-     public float smooth = 0.5f;
-     public Vector3 defaltOffset = new Vector3(0f, 0f, -10f);
-     public Vector3 offset = new Vector3(0f, 0f, -10f);
-     private Vector3 camvelocity = Vector3.zero;
-     private float swingTime = 0f;
-     private float swingX = 0f;
-     private float swingY = 0f;
-     private float swingZ = 0f;
-     private bool negetive = false;
+    private Transform target;
+    [SerializeField] bool folowPlayer = true;
+    [SerializeField] bool cameraMove = true;
+    [SerializeField] GameObject folowTarget;
+    public float smooth = 1f;
+    public Vector3 defaltOffset = new Vector3(0f, 0f, -10f);
+    public Vector3 offset = new Vector3(0f, 0f, -10f);
+    private Vector3 camvelocity = Vector3.zero;
+    private float swingTime = 0f;
+    private float swingX = 0f;
+    private float swingY = 0f;
+    private float swingZ = 0f;
+    private bool negetive = false;
     private Vector3 targetPosition;
 
-     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-     {
-        target = GameObject.FindWithTag("Player").transform;
-     }
-     void Update()
-     {
-        targetPosition =  new Vector3(target.transform.position.x, target.transform.position.y, target.transform.position.z) + offset;
-        transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref camvelocity, moveSmooth());
-     }
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Update()
+    {
+        if (cameraMove){
+            if (folowPlayer){
+                target = GameObject.FindWithTag("Player").transform;
+            } else {
+                target = folowTarget.transform;
+            }
+            targetPosition = new Vector3(target.transform.position.x, target.transform.position.y, target.transform.position.z) + offset;
+            transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref camvelocity, moveSmooth());
+        }
+        
+    }
     private float moveSmooth()
     {
         float distance = Vector3.Distance(transform.position, targetPosition);
-        if (distance > 0){
+        if (distance > 0)
+        {
             return smooth / distance;
         }
         return smooth;
-     }
-    IEnumerator Shake(){
-        while (offset != defaltOffset){
-            yield return new WaitForSeconds(swingTime);
+    }
+    IEnumerator Shake()
+    {
+        while (offset != defaltOffset)
+        {
+            yield return new WaitForSecondsRealtime(swingTime);
             float x = swingX;
             float y = swingY;
             float z = swingZ;
-            if (negetive){
+            if (negetive)
+            {
                 x *= -1;
                 y *= -1;
                 z *= -1;
                 negetive = false;
-            }else{
+            }
+            else
+            {
                 negetive = true;
             }
             offset += new Vector3(x, y, z);
             swingX -= 1;
             swingY -= 1;
             swingZ -= 1;
-        
-      }
-      
-     }
 
-     public void activateShake(float x,float y, float z, float time){
+        }
+
+    }
+
+    public void activateShake(float x, float y, float z, float time)
+    {
         StartCoroutine(Shake());
         swingX = Mathf.Abs(x);
         swingY = Mathf.Abs(y);
         swingZ = Mathf.Abs(z);
         negetive = false;
-     }
-
-   
+    }
+    public void SetFolowPlayer(bool state){
+        folowPlayer = state;
+    }
+    public void SetFolowTarget(GameObject newTarget){
+        folowTarget =  newTarget;
+    }
+    public void SetSmooth(float newSmooth){
+        smooth =  newSmooth;
+    }
+   public void SetCamraMove(bool state){
+        cameraMove = state;
+   }
 
 
 
