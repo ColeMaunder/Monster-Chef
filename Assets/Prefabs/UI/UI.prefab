@@ -33,7 +33,7 @@ RectTransform:
   m_Father: {fileID: 6798593522485185194}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 5.459999, y: -0.00000047683716}
   m_SizeDelta: {x: -19.422, y: -10.311}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1368,7 +1368,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 1
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1038221507
   m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!114 &7904489993077139945
@@ -3857,7 +3857,7 @@ RectTransform:
   m_Father: {fileID: 8007153657647429960}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.13043478, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 10.272003, y: 1.02}
   m_SizeDelta: {x: -20.543, y: -1.677}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4226,7 +4226,7 @@ RectTransform:
   m_Father: {fileID: 4800106297470732771}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 17.55, y: -0.00000047683716}
   m_SizeDelta: {x: 4.758, y: -10.311}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5135,7 +5135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81dad89092b896048bed44bced937ecf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  watching: 1
+  watching: 
 --- !u!1 &3201627434472341167 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4458412500123958666, guid: e640acc257354144686da5598931480d, type: 3}
@@ -5694,4 +5694,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81dad89092b896048bed44bced937ecf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  watching: 0
+  watching: 
