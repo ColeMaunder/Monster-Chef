@@ -39,8 +39,8 @@ public class DialogueRemote : MonoBehaviour
     {
         cameraF.SetFolowTarget(speaker);
         cameraF.SetFolowPlayer(false);
-        cameraF.SetSmooth(3);
-        yield return new WaitForSeconds(1f);
+        cameraF.SetSmooth(2);
+        yield return new WaitForSeconds(0.5f);
         dialogue.TriggerTalk();
         yield return new WaitForSeconds(0.001f);
         transform.gameObject.SetActive(false);
@@ -48,6 +48,6 @@ public class DialogueRemote : MonoBehaviour
         cameraF.SetFolowTarget(null);
         speaker.SetActive(false);
         yield return new WaitForSeconds(1f);
-        cameraF.SetSmooth(3);
+        cameraF.SetSmooth(1);
     }
 }

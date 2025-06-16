@@ -1129,12 +1129,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "Magical Coal  The fuel of my fire!  I found these rather
-            strange chunks of carbon throughout the swamp. I\u2019m not quite sure
-            where they come from or why they glow and sparkle but hey, they will
-            surely be great for making fires.   I\u2019ll use the chunks for all
-            of my meals, gotta get that old oven started somehow\u2026 Gramps really
-            should have gotten a gas stove.   "
+          m_StringArgument: 4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &1861031609912808806
@@ -2641,12 +2636,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: " Root Gods\u2019 Vines THESE THINGS BETTER BE WORTH
-            IT  I can\u2019t believe Billy the Butcher expected me to kill THAT THING.
-            I saw my life flash before my eyes at least 4 times trying to take down
-            that beast. Anyways, I think these things could make some type of Italian
-            cuisine or maybe a noodle dish. Lord knows I have enough of this to experiment
-            a bit. "
+          m_StringArgument: 3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &3862915703242408467
@@ -2896,7 +2886,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1568946136352819458
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2987,6 +2977,12 @@ MonoBehaviour:
   - {fileID: 3670717210520833835}
   - {fileID: 1834395420616403245}
   explaner: {fileID: 7444443408898556067}
+  explainations:
+  - blank
+  - Tester
+  - sdsdfsf
+  - blub
+  - hello
 --- !u!114 &1416314591289881703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3416,14 +3412,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "Mandrake Spuds  Shows some serious promise of carbohydrates. 
-            These things are super versatile. I can turn them into crumbs and flour
-            in the restaurant or a standalone snack when I\u2019m peckish in the
-            swamp. I don\u2019t think I\u2019ve ever been as scared as I was when
-            I first saw those horrifying stems lurk towards me. I need to be more
-            careful of their teeth; those things are sharp and did not forgive my
-            short legs. Mandrakes might be super scary when they attack but at least
-            I can turn them into a yummy meal back at the restaurant.  "
+          m_StringArgument: 2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &4941607442863096416
@@ -3972,12 +3961,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "Frog Legs  These things have got some bounce to them. 
-            I can\u2019t look at these and not be reminded of some crunchy fried
-            food. I want to turn these legs into something that packs a punch, or
-            I guess a kick (?) Anyways, those frogs have some nasty spit that makes
-            my hair and clothes all sticky. I did not appreciate how they tried to
-            run away from me, made them regret that pretty quickly though.  "
+          m_StringArgument: 2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &5635524657960949696
@@ -4558,7 +4542,7 @@ RectTransform:
   m_GameObject: {fileID: 7174274478187323110}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.16666667, y: 0.16666667, z: 0.16666667}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4400662266924594070}
@@ -4646,6 +4630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81dad89092b896048bed44bced937ecf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  watching: 00000000
 --- !u!114 &587518112432737564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4866,11 +4851,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "Slime Chunks Gelatinous blobs with a squishy consistency. 
-            These will create some\u2026 interesting meals. They say the law of the
-            jungle is survival of the fittest, but I don\u2019t see a reward in that.
-            Instead, I prefer eating my opponents after you beat them to a pulp (literally).
-            Bring it on you slimes! I\u2019ll eat you all!  "
+          m_StringArgument: 0
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &7569942516775689217

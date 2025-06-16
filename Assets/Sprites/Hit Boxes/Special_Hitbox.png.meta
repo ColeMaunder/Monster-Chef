@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: b06bb5103fdf4f746b821a61ef8252c0
+guid: ef64f0d7c0e985e40a68d816719a3fb1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 498378885399948537
-    second: S Poke_0
+      213: -3313297601127100342
+    second: Special_Hitbox_0
   - first:
-      213: -2710166751899166293
-    second: S Poke_1
+      213: 7754813087074284263
+    second: Special_Hitbox_1
   - first:
-      213: 237704281725293471
-    second: S Poke_2
+      213: 3303800717464041733
+    second: Special_Hitbox_2
   - first:
-      213: 4358057320293689105
-    second: S Poke_3
+      213: 8905276647768852838
+    second: Special_Hitbox_3
   - first:
-      213: -9053426263388611587
-    second: S Poke_4
+      213: 688805849010659915
+    second: Special_Hitbox_4
   - first:
-      213: -5590974464927065803
-    second: S Poke_5
+      213: -1582829713815941654
+    second: Special_Hitbox_5
+  - first:
+      213: -5567887536355346406
+    second: Special_Hitbox_6
+  - first:
+      213: -4397011600173396691
+    second: Special_Hitbox_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -111,150 +117,181 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: S Poke_0
+      name: Special_Hitbox_0
       rect:
         serializedVersion: 2
-        x: 89
-        y: 722
-        width: 92
-        height: 259
-      alignment: 9
-      pivot: {x: 0.58, y: 0.5}
+        x: 228
+        y: 442
+        width: 332
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9fca1dba4f89ae600800000000000000
-      internalID: 498378885399948537
+      spriteID: a405aa9e26dc402d0800000000000000
+      internalID: -3313297601127100342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S Poke_1
+      name: Special_Hitbox_1
       rect:
         serializedVersion: 2
-        x: 249
-        y: 686
-        width: 90
-        height: 295
-      alignment: 9
-      pivot: {x: 0.58, y: 0.55}
+        x: 837
+        y: 324
+        width: 554
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba9d9feb2bd836ad0800000000000000
-      internalID: -2710166751899166293
+      spriteID: 7e2fc9a7a61ae9b60800000000000000
+      internalID: 7754813087074284263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S Poke_2
+      name: Special_Hitbox_2
       rect:
         serializedVersion: 2
-        x: 392
-        y: 687
-        width: 92
-        height: 294
-      alignment: 9
-      pivot: {x: 0.58, y: 0.55}
+        x: 1795
+        y: 312
+        width: 550
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9353d9e8ce7c4300800000000000000
-      internalID: 237704281725293471
+      spriteID: 509ff1d8f3579dd20800000000000000
+      internalID: 3303800717464041733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S Poke_3
+      name: Special_Hitbox_3
       rect:
         serializedVersion: 2
-        x: 533
-        y: 687
-        width: 92
-        height: 294
-      alignment: 9
-      pivot: {x: 0.58, y: 0.55}
+        x: 2601
+        y: 177
+        width: 578
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11765e6fa0eea7c30800000000000000
-      internalID: 4358057320293689105
+      spriteID: 66908d0dde5e59b70800000000000000
+      internalID: 8905276647768852838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S Poke_4
+      name: Special_Hitbox_4
       rect:
         serializedVersion: 2
-        x: 671
-        y: 687
-        width: 92
-        height: 294
-      alignment: 9
-      pivot: {x: 0.58, y: 0.55}
+        x: 3438
+        y: 228
+        width: 332
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dfb9782d7c4cb5280800000000000000
-      internalID: -9053426263388611587
+      spriteID: b42ed7d25412f8900800000000000000
+      internalID: 688805849010659915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S Poke_5
+      name: Special_Hitbox_5
       rect:
         serializedVersion: 2
-        x: 807
-        y: 717
-        width: 92
-        height: 264
-      alignment: 9
-      pivot: {x: 0.58, y: 0.5}
+        x: 4009
+        y: 228
+        width: 578
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5391ebda85ed862b0800000000000000
-      internalID: -5590974464927065803
+      spriteID: aed4110f2c8a80ae0800000000000000
+      internalID: -1582829713815941654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Special_Hitbox_6
+      rect:
+        serializedVersion: 2
+        x: 4798
+        y: 357
+        width: 568
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18f63e19c3eab2b0800000000000000
+      internalID: -5567887536355346406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Special_Hitbox_7
+      rect:
+        serializedVersion: 2
+        x: 5821
+        y: 324
+        width: 554
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d846afe3daaf2c0800000000000000
+      internalID: -4397011600173396691
       vertices: []
       indices: 
       edges: []
@@ -263,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9f53d0672354bba41b2776dadd7dfa5a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      S Poke_0: 498378885399948537
-      S Poke_1: -2710166751899166293
-      S Poke_2: 237704281725293471
-      S Poke_3: 4358057320293689105
-      S Poke_4: -9053426263388611587
-      S Poke_5: -5590974464927065803
+      Special_Hitbox_0: -3313297601127100342
+      Special_Hitbox_1: 7754813087074284263
+      Special_Hitbox_2: 3303800717464041733
+      Special_Hitbox_3: 8905276647768852838
+      Special_Hitbox_4: 688805849010659915
+      Special_Hitbox_5: -1582829713815941654
+      Special_Hitbox_6: -5567887536355346406
+      Special_Hitbox_7: -4397011600173396691
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

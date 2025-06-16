@@ -1,25 +1,37 @@
 fileFormatVersion: 2
-guid: b06bb5103fdf4f746b821a61ef8252c0
+guid: 80e166b8535e5f94c92f125409d39b9f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 498378885399948537
-    second: S Poke_0
+      213: 1995834932148747036
+    second: Light_hitboxes-15_0
   - first:
-      213: -2710166751899166293
-    second: S Poke_1
+      213: -5556862381720374448
+    second: Light_hitboxes-15_1
   - first:
-      213: 237704281725293471
-    second: S Poke_2
+      213: 7688447774599422829
+    second: Light_hitboxes-15_2
   - first:
-      213: 4358057320293689105
-    second: S Poke_3
+      213: -4833979988451793446
+    second: Light_hitboxes-15_3
   - first:
-      213: -9053426263388611587
-    second: S Poke_4
+      213: 4856166204526044673
+    second: Light_hitboxes-15_4
   - first:
-      213: -5590974464927065803
-    second: S Poke_5
+      213: -2787656801318288646
+    second: Light_hitboxes-15_5
+  - first:
+      213: -7826706643027358730
+    second: Light_hitboxes-15_6
+  - first:
+      213: 4587617948877933905
+    second: Light_hitboxes-15_7
+  - first:
+      213: 1847126577949404332
+    second: Light_hitboxes-15_8
+  - first:
+      213: -454563071284298807
+    second: Light_hitboxes-15_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -111,150 +123,93 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: S Poke_0
+      name: Light_hitboxes-15_2
       rect:
         serializedVersion: 2
-        x: 89
-        y: 722
-        width: 92
-        height: 259
-      alignment: 9
-      pivot: {x: 0.58, y: 0.5}
+        x: 459
+        y: 865
+        width: 57
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9fca1dba4f89ae600800000000000000
-      internalID: 498378885399948537
+      spriteID: d63242f048ad2ba60800000000000000
+      internalID: 7688447774599422829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S Poke_1
+      name: Light_hitboxes-15_3
       rect:
         serializedVersion: 2
-        x: 249
-        y: 686
-        width: 90
-        height: 295
-      alignment: 9
-      pivot: {x: 0.58, y: 0.55}
+        x: 632
+        y: 864
+        width: 56
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba9d9feb2bd836ad0800000000000000
-      internalID: -2710166751899166293
+      spriteID: ad5ebf0efc04aecb0800000000000000
+      internalID: -4833979988451793446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S Poke_2
+      name: Light_hitboxes-15_4
       rect:
         serializedVersion: 2
-        x: 392
-        y: 687
-        width: 92
-        height: 294
-      alignment: 9
-      pivot: {x: 0.58, y: 0.55}
+        x: 804
+        y: 861
+        width: 54
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9353d9e8ce7c4300800000000000000
-      internalID: 237704281725293471
+      spriteID: 10628071f61946340800000000000000
+      internalID: 4856166204526044673
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S Poke_3
+      name: Light_hitboxes-15_9
       rect:
         serializedVersion: 2
-        x: 533
-        y: 687
-        width: 92
-        height: 294
-      alignment: 9
-      pivot: {x: 0.58, y: 0.55}
+        x: 699
+        y: 446
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11765e6fa0eea7c30800000000000000
-      internalID: 4358057320293689105
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: S Poke_4
-      rect:
-        serializedVersion: 2
-        x: 671
-        y: 687
-        width: 92
-        height: 294
-      alignment: 9
-      pivot: {x: 0.58, y: 0.55}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dfb9782d7c4cb5280800000000000000
-      internalID: -9053426263388611587
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: S Poke_5
-      rect:
-        serializedVersion: 2
-        x: 807
-        y: 717
-        width: 92
-        height: 264
-      alignment: 9
-      pivot: {x: 0.58, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5391ebda85ed862b0800000000000000
-      internalID: -5590974464927065803
+      spriteID: 9cbb6188b4111b9f0800000000000000
+      internalID: -454563071284298807
       vertices: []
       indices: 
       edges: []
@@ -263,7 +218,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9f53d0672354bba41b2776dadd7dfa5a
+    spriteID: 1e4659f803de1694db1567791d071b4a
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +228,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      S Poke_0: 498378885399948537
-      S Poke_1: -2710166751899166293
-      S Poke_2: 237704281725293471
-      S Poke_3: 4358057320293689105
-      S Poke_4: -9053426263388611587
-      S Poke_5: -5590974464927065803
+      Light_hitboxes-15_0: 1995834932148747036
+      Light_hitboxes-15_1: -5556862381720374448
+      Light_hitboxes-15_2: 7688447774599422829
+      Light_hitboxes-15_3: -4833979988451793446
+      Light_hitboxes-15_4: 4856166204526044673
+      Light_hitboxes-15_5: -2787656801318288646
+      Light_hitboxes-15_6: -7826706643027358730
+      Light_hitboxes-15_7: 4587617948877933905
+      Light_hitboxes-15_8: 1847126577949404332
+      Light_hitboxes-15_9: -454563071284298807
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
