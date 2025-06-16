@@ -271,7 +271,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2486507047647927957
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1393,7 +1393,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6430585222225402786
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3326,7 +3326,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8120199687107238757
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3705,7 +3705,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4800106297470732771
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5372,7 +5372,7 @@ RectTransform:
   m_Father: {fileID: 4800106297470732771}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 17.55, y: -0.00000047683716}
   m_SizeDelta: {x: 4.758, y: -10.311}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -6499,14 +6499,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 4460143867161075491}
-    - target: {fileID: 1008736406681570919, guid: b97f6a5d2801ad04e83f8cfdfbdab45b, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: respawnUI
-      objectReference: {fileID: 0}
-    - target: {fileID: 1008736406681570919, guid: b97f6a5d2801ad04e83f8cfdfbdab45b, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MenuHandler, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 1680147580504986894, guid: b97f6a5d2801ad04e83f8cfdfbdab45b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -6533,11 +6525,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1680147580504986894, guid: b97f6a5d2801ad04e83f8cfdfbdab45b, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 320
       objectReference: {fileID: 0}
     - target: {fileID: 1680147580504986894, guid: b97f6a5d2801ad04e83f8cfdfbdab45b, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 1680147580504986894, guid: b97f6a5d2801ad04e83f8cfdfbdab45b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6569,11 +6561,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1680147580504986894, guid: b97f6a5d2801ad04e83f8cfdfbdab45b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -0.000011444
       objectReference: {fileID: 0}
     - target: {fileID: 1680147580504986894, guid: b97f6a5d2801ad04e83f8cfdfbdab45b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -0.0000038146973
       objectReference: {fileID: 0}
     - target: {fileID: 1680147580504986894, guid: b97f6a5d2801ad04e83f8cfdfbdab45b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6591,25 +6583,9 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 4460143867161075491}
-    - target: {fileID: 5875099365455852496, guid: b97f6a5d2801ad04e83f8cfdfbdab45b, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: closeSetings
-      objectReference: {fileID: 0}
-    - target: {fileID: 5875099365455852496, guid: b97f6a5d2801ad04e83f8cfdfbdab45b, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MenuHandler, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 5963896380989093978, guid: b97f6a5d2801ad04e83f8cfdfbdab45b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6406700623191981258, guid: b97f6a5d2801ad04e83f8cfdfbdab45b, type: 3}
       propertyPath: m_Name
       value: Death Screan
-      objectReference: {fileID: 0}
-    - target: {fileID: 6406700623191981258, guid: b97f6a5d2801ad04e83f8cfdfbdab45b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

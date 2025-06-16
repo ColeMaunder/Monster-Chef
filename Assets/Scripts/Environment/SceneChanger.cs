@@ -32,6 +32,11 @@ public class SceneChanger : MonoBehaviour
         vidPlayerOBJ.SetActive(false);
         vidPlayer.Stop();
     }
+    public void DieToScene(string sceneName)
+    {
+        //storage.Save();
+        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+    }
     public void Stay()
     {
         //storage.Save();
