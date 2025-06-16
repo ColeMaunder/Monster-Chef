@@ -278,21 +278,9 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: Level 2
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 766970200446677200}
-        m_TargetAssemblyTypeName: FountainHandler, Assembly-CSharp
-        m_MethodName: CloseFountin
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &6808974697244637677
@@ -4916,7 +4904,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 1
+          m_StringArgument: 10
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 766970200446677200}
@@ -5942,21 +5930,9 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: Boss Fight
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 766970200446677200}
-        m_TargetAssemblyTypeName: FountainHandler, Assembly-CSharp
-        m_MethodName: CloseFountin
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &178156444905859188
@@ -6979,7 +6955,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2569375756725348158
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7522,6 +7498,7 @@ GameObject:
   - component: {fileID: 1478947707294418020}
   - component: {fileID: 2515859673678303525}
   - component: {fileID: 921968962077676219}
+  - component: {fileID: 7700436799319436338}
   m_Layer: 5
   m_Name: Tutorial Fountain
   m_TagString: Untagged
@@ -7642,18 +7619,20 @@ MonoBehaviour:
           m_StringArgument: Start Tut Block
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 766970200446677200}
-        m_TargetAssemblyTypeName: FountainHandler, Assembly-CSharp
-        m_MethodName: CloseFountin
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+--- !u!114 &7700436799319436338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9066945297158059146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eb6a5e0d6ec84e40a760962218f34bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iD: 00
+  aria: 1
 --- !u!1 &9108522717838866198
 GameObject:
   m_ObjectHideFlags: 0
