@@ -13,7 +13,7 @@ public class Dialogue : MonoBehaviour
     private TMP_Text nameTXT;
     private GameObject nextButton;
     private Image face;
-    [SerializeField] Sprite [] faceNPC;
+    [SerializeField] Sprite[] faceNPC;
     [SerializeField] string nameNPC;
     public string[] dialogueLines;
     [SerializeField] public int[] faceIDs;
@@ -26,6 +26,7 @@ public class Dialogue : MonoBehaviour
     bool running = false;
     private CameraFollow cameraF;
     bool forceDialog = false;
+    DialogueData dialogueData;
     void Start()
     {
         typeSpeed = typeSpeedIn;
@@ -35,6 +36,7 @@ public class Dialogue : MonoBehaviour
         dialogueText = dialoguePanel.transform.GetChild(2).gameObject.GetComponent<TMP_Text>();
         nextButton = dialoguePanel.transform.GetChild(3).gameObject;
         cameraF = GameObject.FindWithTag("MainCamera").GetComponent<CameraFollow>();
+        dialogueData = GameObject.FindWithTag("PlayerData").GetComponent<DialogueData>();
     }
     IEnumerator Typing()
     {
@@ -47,19 +49,24 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    public void NextLine(){
-        if (running) {
+    public void NextLine()
+    {
+        if (running)
+        {
             typeSpeed = typeSpeedIn;
             nextButton.SetActive(false);
 
-            if (index < dialogueLines.Length - 1){
+            if (index < dialogueLines.Length - 1)
+            {
                 face.sprite = faceNPC[0];
                 nameTXT.text = nameNPC;
                 index++;
                 dialogueText.text = "";
                 StopCoroutine(Typing());
                 StartCoroutine(Typing());
-            } else {
+            }
+            else
+            {
                 forceDialog = false;
                 index = 0;
                 running = false;
@@ -68,11 +75,12 @@ public class Dialogue : MonoBehaviour
             }
         }
     }
-    public void TriggerTalk(){
+    public void TriggerTalk()
+    {
         forceDialog = true;
         inRainge = true;
         DialogueData data = GameObject.FindWithTag("PlayerData").GetComponent<DialogueData>();
-        setNewDialogue(1,data.GetDialog(0,2),data.GetFaceID(0,2));
+        setNewDialogue(0, data.GetDialog(0, 0), data.GetFaceID(0, 0));
         typeSpeed = typeSpeedIn;
         running = true;
         cameraF.SetFolowPlayer(false);
@@ -84,14 +92,20 @@ public class Dialogue : MonoBehaviour
     }
     void Update()
     {
-        if(wating){
+        if (wating)
+        {
             witingIcon.SetActive(true);
-        }else{
+        }
+        else
+        {
             witingIcon.SetActive(false);
         }
-        if (inRainge){
-            if (Input.GetKeyDown(KeyCode.E)){
-                if (!running){
+        if (inRainge)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (!running)
+                {
                     typeSpeed = typeSpeedIn;
                     running = true;
                     cameraF.SetFolowPlayer(false);
@@ -100,21 +114,28 @@ public class Dialogue : MonoBehaviour
                     wating = false;
                     dialoguePanel.SetActive(true);
                     StartCoroutine(Typing());
-                } else {
-                    if (nextButton.activeSelf) {
+                }
+                else
+                {
+                    if (nextButton.activeSelf)
+                    {
                         NextLine();
-                    } else {
+                    }
+                    else
+                    {
                         typeSpeed = 0.001f;
                     }
                 }
 
             }
         }
-        if (dialogueText.text == dialogueLines[index]){
+        if (dialogueText.text == dialogueLines[index])
+        {
             nextButton.SetActive(true);
         }
     }
-    private void OnTriggerEnter2D(Collider2D collision){
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
         if (collision.gameObject.tag == "PlayerBody")
         {
             print("player in");
@@ -128,18 +149,22 @@ public class Dialogue : MonoBehaviour
             inRainge = false;
         }
     }
-    public void setNewDialogue(int id,string [] newDialogue, int[] faceID){
-        if(!forceDialog){
-           if(!heardDialog.Contains(id)){
-                heardDialog.Add(id);
-                wating = true;
-                dialogueLines = newDialogue;
-                faceIDs = faceID;
-            } 
+    public void setNewDialogue(int id, string[] newDialogue, int[] faceID)
+    {
+
+        if (!heardDialog.Contains(id)){
+            heardDialog.Add(id);
+            wating = true;
         }
-        
+        dialogueLines = newDialogue;
+        faceIDs = faceID;
+
     }
-    public string getName(){
+    public string getName()
+    {
         return nameNPC;
+    }
+    public bool GetForcedDialog(){
+        return forceDialog;
     }
 }
