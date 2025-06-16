@@ -48,21 +48,27 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
-        if (!playerAlive) {
+        if (!playerAlive)
+        {
             menu.showDeathScreen(true);
             //print ("still dead");
-            if (Input.GetKeyDown(KeyCode.Return)) {
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
                 print("alive");
                 Respawn();
                 Reset();
                 Time.timeScale = 1f;
                 playerAlive = true;
             }
-        } else {
-            if (Input.GetKeyDown(KeyCode.R)) {
+        }
+        else
+        {
+            if (Input.GetKeyDown(KeyCode.R))
+            {
                 Heal();
             }
-            if (data.getTrapped()) {
+            if (data.getTrapped())
+            {
                 Animator.SetBool("trapped", true);
                 rb.linearVelocity = Vector2.zero;
                 data.setCanMove(false);
@@ -70,19 +76,24 @@ public class Player : MonoBehaviour
                 /*if (){
                     trapWrigleThreshold--;
                 }*/
-                if (tickCounter >= trapTickEnd /*|| trapWrigleThreshold <= 0*/){
+                if (tickCounter >= trapTickEnd /*|| trapWrigleThreshold <= 0*/)
+                {
                     data.setTrapped(false);
                     data.setCanMove(true);
                     trapCounter = 0;
                     tickCounter = 0;
                     //trapWrigleThreshold = 0;
                     Animator.SetBool("trapped", false);
-                } else if (trapCounter >= trapTickTime) {
+                }
+                else if (trapCounter >= trapTickTime)
+                {
                     tickCounter++;
                     damage(trapTickDamage);
                     trapCounter = 0;
                 }
-            } else {
+            }
+            else
+            {
                 Animator.SetBool("trapped", false);
                 trapCounter = 0;
                 //trapCounter = 0;
@@ -117,7 +128,8 @@ public class Player : MonoBehaviour
     {
         return heals;
     }
-    public void SetMaxHeals(int healsNew) {
+    public void SetMaxHeals(int healsNew)
+    {
         maxHeals = healsNew;
     }
 
@@ -150,7 +162,7 @@ public class Player : MonoBehaviour
         data.playDeathSound();
         playerAlive = false;
         Time.timeScale = 0f;
-        
+
     }
 
     public void HealthFull()
@@ -172,13 +184,16 @@ public class Player : MonoBehaviour
     }
     private void toRespawnPoint()
     {
-        try{
-            GoToFountain(data.getLastFountain());
-        }catch(IndexOutOfRangeException ex){
-            Debug.Log (ex);
+        try
+        {
+            DieToFountain(data.getLastFountain());
+        }
+        catch (IndexOutOfRangeException ex)
+        {
+            Debug.Log(ex);
             GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().GoToScene(SceneManager.GetActiveScene().name);
         }
-        
+
     }
     public void ToStart()
     {
@@ -246,6 +261,43 @@ public class Player : MonoBehaviour
     public void GoToFountain(string fountainID)
     {
         string scene = "";
+        switch (fountainID[0])
+        {
+            case '0':
+                scene = "Start Tut Block";
+                break;
+            case '1':
+                scene = "Village Area";
+                break;
+            case '2':
+                scene = "Level 2";
+                break;
+            case '3':
+                scene = "Boss Fight";
+                break;
+        }
+        GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().SetCahingID(2);
+        if (SceneManager.GetActiveScene().name != scene)
+        {
+            GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().GoToScene(scene);
+        }
+        else
+        {
+            GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().Stay();
+        }
+        GameObject[] fountains = GameObject.FindGameObjectsWithTag("Fountain");
+        foreach (GameObject i in fountains)
+        {
+            if (i.GetComponent<FountainID>().GetID() == fountainID)
+            {
+                transform.position = spawn.transform.position = i.transform.GetChild(0).position - new Vector3(0, 5, 60);
+                break;
+            }
+        }
+    }
+    public void DieToFountain(string fountainID)
+    {
+        string scene = "";
             switch (fountainID[0])
             {
                 case '0':
@@ -261,11 +313,8 @@ public class Player : MonoBehaviour
                     scene = "Boss Fight";
                     break;
             }
-                GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().SetCahingID(2);
             if (SceneManager.GetActiveScene().name != scene){
-                GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().GoToScene(scene);
-            }else{
-                GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().Stay();
+                GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().DieToScene(scene);
             }
             GameObject[] fountains = GameObject.FindGameObjectsWithTag("Fountain");
         foreach (GameObject i in fountains)
