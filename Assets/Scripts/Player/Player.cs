@@ -176,7 +176,7 @@ public class Player : MonoBehaviour
             GoToFountain(data.getLastFountain());
         }catch(IndexOutOfRangeException ex){
             Debug.Log (ex);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().GoToScene(SceneManager.GetActiveScene().name);
         }
         
     }
@@ -262,7 +262,7 @@ public class Player : MonoBehaviour
                     break;
             }
             if (SceneManager.GetActiveScene().name != scene){  
-                SceneManager.LoadScene(scene);
+                GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().GoToScene(scene);
             }
             GameObject[] fountains = GameObject.FindGameObjectsWithTag("Fountain");
         foreach (GameObject i in fountains)

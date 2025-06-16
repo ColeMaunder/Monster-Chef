@@ -2,9 +2,14 @@ using UnityEngine;
 
 public class TitleScreen : MonoBehaviour
 {
-   public void GoToScene(string sceneName)
+    SceneChanger scene;
+    void Start()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+        scene = GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>();
+    }
+    public void GoToScene(string sceneName)
+    {
+        scene.GoToScene(sceneName);
     }
 
     public void QuitGame()

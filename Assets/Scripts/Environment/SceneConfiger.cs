@@ -4,6 +4,10 @@ public class SceneConfiger : MonoBehaviour
 {
     [SerializeField]
      float timeScale = 1f;
+     [SerializeField]
+     float musicVolume = 1f;
+     [SerializeField]
+     int sceneCahngeID = 0;
     [SerializeField]
     Player player;
     [SerializeField]
@@ -21,8 +25,9 @@ public class SceneConfiger : MonoBehaviour
     void Awake()
     {
         Time.timeScale = timeScale;
+        GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().SetCahingID(sceneCahngeID);
         GameObject.FindWithTag("UI").GetComponent<MenuHandler>().setCombatUIActive(!safe);
-        GameObject.FindWithTag("SoundManager").GetComponent<AudioHandler>().setMusic(seaneMusic);
+        GameObject.FindWithTag("SoundManager").GetComponent<AudioHandler>().FaidInWorldSound(seaneMusic,musicVolume,1f,0);
         GameObject.FindWithTag("SoundManager").GetComponent<AudioSource>().Play();
         GameObject.FindWithTag("MainCamera").GetComponent<CameraFollow>().SetCamraMove(!staticCamra);
         if (staticCamra) {
