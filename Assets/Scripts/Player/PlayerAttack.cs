@@ -29,7 +29,6 @@ public class PlayerAttack : MonoBehaviour
     {
         if (Time.timeScale > 0){
              if (player.GetPlayerAlive()){
-                AttackTimer();
                 if (!isAttacking && !isUlting){
                     if (Input.GetMouseButtonDown(0) /*|| Input.GetKeyDown(keys.GetKey(4))*/){
                         heavyCharge=0;
@@ -74,6 +73,8 @@ public class PlayerAttack : MonoBehaviour
                         }
                     }
                     
+                }else{
+                    AttackTimer();
                 }
             }else{
                 isAttacking = false;
@@ -91,32 +92,43 @@ public class PlayerAttack : MonoBehaviour
         animator.SetBool("IsAttacking", true);
         atkType = type;
         isAttacking = true;
-        attacks.GetAtk(type).SetActive(true);
-        if (!atkSoundPlayed)
-        {
-            attacks.playAtkSound(type);
-            atkSoundPlayed = true;
         }
+        void AttackImpact(){
+            attacks.GetAtk(atkType).SetActive(true);
+            if (!atkSoundPlayed){
+                attacks.playAtkSound(atkType);
+                atkSoundPlayed = true;
+            }
         }
 
-        void Ult(){
+    void Ult(){
         animator.SetBool("isUlting", true);
         isUlting = true;
-            attacks.GetUlt(activeUlt).SetActive(true);
+            
+    }
+    void UltImpact(){
+        attacks.GetUlt(activeUlt).SetActive(true);
+        if (!atkSoundPlayed){
+            attacks.PlayUltSound(activeUlt);
         }
+    }
+
     
     void AttackTimer(){
         atkTimer += Time.deltaTime;
         float cooldown;
         float duration;
-        if(isUlting){
+        float warmUp;
+        if (isUlting) {
             cooldown = attacks.GetUltCoolDown(activeUlt);
             duration = attacks.GetUltDuration(activeUlt);
-        }else{
+            warmUp = attacks.GetUltWarmUp(activeUlt);
+        } else {
             cooldown = attacks.GetAtkCoolDown(atkType);
             duration = attacks.GetAtkDuration(atkType);
+            warmUp = attacks.GetAtkWarmUp(activeUlt);
         }
-        if(atkTimer >= (cooldown + duration)){
+        if(atkTimer >= (cooldown + duration + warmUp)){
             if(isUlting){
                 attacks.UsedGetUltCharge(activeUlt);
             }
@@ -124,15 +136,21 @@ public class PlayerAttack : MonoBehaviour
             isAttacking = false;
             isUlting = false;
             
-        }else if(atkTimer >= duration){
+        }else if(atkTimer >= (duration + warmUp)){
             attacks.GetAtk(atkType).SetActive(false);
             animator.SetBool("IsAttacking", false);
             animator.SetBool("isUlting", false);
             attacks.GetUlt(activeUlt).SetActive(false);
             atkSoundPlayed = false;
             
+        }else if (atkTimer >= warmUp){
+            if(isUlting){
+                UltImpact();
+            }else{
+                AttackImpact();
+            }
         }
     
-}
+    }
 }
 
