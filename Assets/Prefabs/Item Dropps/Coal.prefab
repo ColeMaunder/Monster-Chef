@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 962ceafae174e44438377bf4095cd90c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoalID: 0
+  CoalID: 20
 --- !u!70 &6394686016838658021
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

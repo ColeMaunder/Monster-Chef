@@ -22,7 +22,8 @@ public class FazeManager : MonoBehaviour
         {
             victory = true;
             StartCoroutine(Vicory());
-            StopCoroutine(FazeChanger());
+            Player palyer = GameObject.FindWithTag("Player").GetComponent<Player>();
+            palyer.WipeAll();
         }
         livingEnemys = GameObject.FindGameObjectsWithTag("Enemy");
     }
@@ -46,7 +47,10 @@ public class FazeManager : MonoBehaviour
         
     }
      IEnumerator Vicory (){
+        yield return new WaitForSeconds(0.1f);
+        StopCoroutine(FazeChanger());
         Fountain.SetActive(true);
+        transform.GetChild(1).gameObject.SetActive(true);
         yield return new WaitForSeconds(1);
     }
 
