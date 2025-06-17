@@ -5,7 +5,7 @@ public class PerentClose : MonoBehaviour
     [SerializeField] int[] watching = {0};
     void Update()
     {
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             bool canClose = true;
             foreach (int i in watching)
