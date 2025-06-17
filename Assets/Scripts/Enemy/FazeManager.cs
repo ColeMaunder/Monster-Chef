@@ -59,4 +59,7 @@ public class FazeManager : MonoBehaviour
     public void StartFight(){
         StartCoroutine(FazeChanger());
     }
+    public void Die(){
+        StopCoroutine(FazeChanger());
+    }
 }
