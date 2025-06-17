@@ -20,7 +20,6 @@ public class Player : MonoBehaviour
     private float trapCounter = 0;
     private float tickCounter = 0;
     private float trapTickTime;
-    private float trapTickDamage;
     private float trapTickEnd;
     //private int trapWrigleThreshold;
     private Rigidbody2D rb;
@@ -88,7 +87,6 @@ public class Player : MonoBehaviour
                 else if (trapCounter >= trapTickTime)
                 {
                     tickCounter++;
-                    damage(trapTickDamage);
                     trapCounter = 0;
                 }
             }
@@ -113,13 +111,12 @@ public class Player : MonoBehaviour
             Dead();
         }
     }
-    public void trapDamage(float initialDamage, float tickTime, float tickDamage, float tickEnd, int wrigleThreshold)
+    public void trapDamage(float initialDamage, float tickTime, float tickEnd, int wrigleThreshold)
     {
         this.damage(initialDamage);
         tickCounter = 0;
         trapCounter = 0;
         trapTickTime = tickTime;
-        trapTickDamage = tickDamage;
         trapTickEnd = tickEnd;
         //trapWrigleThreshold = wrigleThreshold;
         data.setTrapped(true);

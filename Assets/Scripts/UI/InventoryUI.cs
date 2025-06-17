@@ -6,7 +6,7 @@ public class InventoryUI : MonoBehaviour
     public TMP_Text[] counts;
     public GameObject[] icons;
     public TMP_Text explaner;
-    public TMP_Text name;
+    public TMP_Text nameTXT;
     public string[] explainations;
     public string[] names;
     private PlayerInventory player;
@@ -32,7 +32,7 @@ public class InventoryUI : MonoBehaviour
     public void explane(int textID){
 
         explaner.text = explainations[textID];
-        name.text = names[textID];
+        nameTXT.text = names[textID];
     }
     
 }

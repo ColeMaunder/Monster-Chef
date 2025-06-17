@@ -110,6 +110,7 @@ public class PlayerAttack : MonoBehaviour
         attacks.GetUlt(activeUlt).SetActive(true);
         if (!atkSoundPlayed){
             attacks.PlayUltSound(activeUlt);
+            atkSoundPlayed = true;
         }
     }
 
