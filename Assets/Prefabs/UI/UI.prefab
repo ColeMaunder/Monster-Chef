@@ -341,7 +341,7 @@ GameObject:
   - component: {fileID: 6986730729165337724}
   - component: {fileID: 6956770239487188599}
   m_Layer: 5
-  m_Name: Video
+  m_Name: Scene Transition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4256,7 +4256,7 @@ GameObject:
   - component: {fileID: 880054128366007113}
   - component: {fileID: 5170171388042576511}
   m_Layer: 5
-  m_Name: Video Player
+  m_Name: Scene Chainger
   m_TagString: SceneChainger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4298,7 +4298,10 @@ MonoBehaviour:
   - {fileID: 32900000, guid: d47e94300874ef148a43c4681b2d7e72, type: 3}
   - {fileID: 32900000, guid: 3650726f0ff538e43a9a49c5c417206e, type: 3}
   - {fileID: 32900000, guid: a5c5b72489302ca4ba3cf9eb8c8e1fab, type: 3}
-  sounds: []
+  sounds:
+  - {fileID: 8300000, guid: a48b64b6512cc4748ba435e921ac412a, type: 3}
+  - {fileID: 8300000, guid: b00f250c4b9b415498f7f8734ab0ef7e, type: 3}
+  - {fileID: 8300000, guid: 53a7790a914f5924ebfa353534bd8f99, type: 3}
   chaingeID: 0
 --- !u!222 &880054128366007113
 CanvasRenderer:
