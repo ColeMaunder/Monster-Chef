@@ -5,12 +5,15 @@ using UnityEngine.Video;
 public class SceneChanger : MonoBehaviour
 {
     [SerializeField] VideoClip[] videos;
+    [SerializeField] AudioClip[] sounds;
     [SerializeField] int chaingeID;
     private PlayerStorage storage;
     GameObject vidPlayerOBJ;
     VideoPlayer vidPlayer;
+    AudioHandler sound;
     void Awake()
     {
+        sound = GameObject.FindWithTag("SoundManager").GetComponent<AudioHandler>();
         vidPlayerOBJ = transform.GetChild(0).gameObject;
         vidPlayer = gameObject.GetComponent<VideoPlayer>();
     }
@@ -22,6 +25,9 @@ public class SceneChanger : MonoBehaviour
     IEnumerator SceneChaing(string sceneName)
     {
         vidPlayer.clip = videos[chaingeID];
+        sound.WorldSoundOn(false, 0);
+        sound.SetLoop(false);
+        sound.setSoundEffect(sounds[chaingeID],1);
         vidPlayer.playbackSpeed = 1;
         vidPlayer.Play();
         yield return new WaitForSecondsRealtime(0.1f);
@@ -30,7 +36,13 @@ public class SceneChanger : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
         yield return new WaitForSecondsRealtime(videoTime);
         vidPlayerOBJ.SetActive(false);
+        sound.SetLoop(true);
+        sound.WorldSoundOn(false, 1);
         vidPlayer.Stop();
+    }
+    public void OnlySceneChaing(string sceneName)
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
     }
     public void DieToScene(string sceneName)
     {
@@ -45,6 +57,9 @@ public class SceneChanger : MonoBehaviour
     IEnumerator Anaimtion()
     {
         vidPlayer.clip = videos[chaingeID];
+        sound.WorldSoundOn(false, 0);
+        sound.SetLoop(false);
+        sound.setSoundEffect(sounds[chaingeID],1);
         vidPlayer.playbackSpeed = 1;
         vidPlayer.Play();
         yield return new WaitForSecondsRealtime(0.1f);
@@ -52,6 +67,8 @@ public class SceneChanger : MonoBehaviour
         float videoTime = (float)videos[chaingeID].length;
         yield return new WaitForSecondsRealtime(videoTime);
         vidPlayerOBJ.SetActive(false);
+        sound.SetLoop(true);
+        sound.WorldSoundOn(false, 1);
         vidPlayer.Stop();
     }
     public void SetCahingID(int idIn){

@@ -5,11 +5,7 @@ public class EnemyTrapWeapon : MonoBehaviour
     [SerializeField]
     private float damage = 1f;
     [SerializeField]
-    private float tickTime = 0.5f;
-    [SerializeField]
-    private float tickEnd = 4f;
-    [SerializeField]
-    private int wrigleThreshold = 6;
+    private float trapTime = 3f;
     private bool hitPlayer = false;
     void OnEnable()
     {
@@ -20,7 +16,7 @@ public class EnemyTrapWeapon : MonoBehaviour
         Player player = collision.gameObject.GetComponent<Player>();
         if (player != null){
             hitPlayer = true;
-            player.trapDamage(damage, tickTime, tickEnd, wrigleThreshold);
+            player.trapDamage(damage, trapTime);
             print("Enemy hit");
         }
     }

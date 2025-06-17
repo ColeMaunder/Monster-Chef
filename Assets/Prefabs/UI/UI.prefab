@@ -4883,7 +4883,9 @@ MonoBehaviour:
   - {fileID: 8638287520221170493}
   - {fileID: 5841546660708281624}
   explaner: {fileID: 0}
+  nameTXT: {fileID: 0}
   explainations: []
+  names: []
 --- !u!1 &8450047940184810150
 GameObject:
   m_ObjectHideFlags: 0
@@ -6196,6 +6198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   watching: 
+  isPauseScreen: 0
 --- !u!1 &3201627434472341167 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4458412500123958666, guid: e640acc257354144686da5598931480d, type: 3}
@@ -6731,3 +6734,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   watching: 
+  isPauseScreen: 1

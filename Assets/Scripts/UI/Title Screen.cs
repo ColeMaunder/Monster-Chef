@@ -9,7 +9,7 @@ public class TitleScreen : MonoBehaviour
     }
     public void GoToScene(string sceneName)
     {
-        scene.GoToScene(sceneName);
+        scene.OnlySceneChaing(sceneName);
     }
 
     public void QuitGame()

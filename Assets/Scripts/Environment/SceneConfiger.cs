@@ -25,20 +25,27 @@ public class SceneConfiger : MonoBehaviour
     void Awake()
     {
         Time.timeScale = timeScale;
+        AudioHandler sound = GameObject.FindWithTag("SoundManager").GetComponent<AudioHandler>();
+        GameObject camraOBJ = GameObject.FindWithTag("MainCamera");
+        MenuHandler menue = GameObject.FindWithTag("UI").GetComponent<MenuHandler>();
+        CameraFollow camra = camraOBJ.GetComponent<CameraFollow>();
+        PlayerData data = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
         GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().SetCahingID(sceneCahngeID);
-        GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>().SetNaturalSceneCahngeID(sceneCahngeID);
-        GameObject.FindWithTag("UI").GetComponent<MenuHandler>().setCombatUIActive(!safe);
-        GameObject.FindWithTag("SoundManager").GetComponent<AudioHandler>().FaidInWorldSound(seaneMusic,musicVolume,1f,0);
-        GameObject.FindWithTag("SoundManager").GetComponent<AudioSource>().Play();
-        GameObject.FindWithTag("MainCamera").GetComponent<CameraFollow>().SetCamraMove(!staticCamra);
+        data.SetNaturalSceneCahngeID(sceneCahngeID);
+        data.SetSceneMusic(seaneMusic);
+        menue.setCombatUIActive(!safe);
+        data.SetCanAttack(!safe);
+        sound.FaidBetweenWorldSound(seaneMusic,musicVolume,8f,0);
+        sound.GetComponent<AudioSource>().Play();
+        camra.SetCamraMove(!staticCamra);
         if (staticCamra) {
-            GameObject.FindWithTag("MainCamera").transform.position =  new Vector3( camPoition[0], camPoition[1],camPoition[2]);
+            camraOBJ.transform.position =  new Vector3( camPoition[0], camPoition[1],camPoition[2]);
         }else{
-            GameObject.FindWithTag("MainCamera").GetComponent<CameraFollow>().SetFolowPlayer(true);
+            camra.SetFolowPlayer(true);
         }
         if (hasPlayer)
             {
-                GameObject.FindWithTag("UI").GetComponent<MenuHandler>().setInventoryActive(true);
+                menue.setInventoryActive(true);
                 player = GameObject.FindWithTag("Player").GetComponent<Player>();
                 GameObject.FindWithTag("Player").transform.GetChild(4).gameObject.SetActive(PlayerLightOn);
                 player.UpdateAll();
@@ -47,7 +54,7 @@ public class SceneConfiger : MonoBehaviour
             else
             {
                 //Time.timeScale = 0;
-                GameObject.FindWithTag("UI").GetComponent<MenuHandler>().setInventoryActive(false);
+                menue.setInventoryActive(false);
             }
         
     }

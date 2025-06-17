@@ -4,11 +4,13 @@ using System.Collections.Generic;
 public class PlayerData : MonoBehaviour
 {
     AudioHandler AudioHandler;
+    bool canAttack = true;
     int naturalSceneCahngeID = 0;
     void Start()
     {
         AudioHandler = GameObject.FindWithTag("SoundManager").GetComponent<AudioHandler>();
     }
+    private AudioClip sceneMusic;
     public AudioClip deathSound;
     public AudioClip[] itemPickupSounds;
     public AudioClip healSound;
@@ -222,5 +224,17 @@ public class PlayerData : MonoBehaviour
     }
     public void SetNaturalSceneCahngeID(int newId){
         naturalSceneCahngeID = newId;
+    }
+    public AudioClip GetSceneMusic(){
+        return sceneMusic;
+    }
+    public void SetSceneMusic(AudioClip clipIn){
+        sceneMusic = clipIn;
+    }
+    public bool GetCanAttack(){
+        return canAttack;
+    }
+    public void SetCanAttack(bool state){
+        canAttack = state;
     }
 }

@@ -13,14 +13,17 @@ public class CookingMenuHandler : MonoBehaviour
     [SerializeField] GameObject cookVideoObj;
     [SerializeField] GameObject endingScene;
     [SerializeField] GameObject[] RecepieTags;
+    [SerializeField] AudioClip[] CookSounds;
 
     public TMP_Text[] counts;
     public GameObject[] icons;
     private int visibalRecepie = 0;
     private PlayerInventory inventory;
     RecipeData recipeData;
+    AudioHandler sound;
     void OnEnable()
     {
+        sound = GameObject.FindWithTag("SoundManager").GetComponent<AudioHandler>();
         inventory = GameObject.FindWithTag("Player").GetComponent<PlayerInventory>();
         recipeData = GameObject.FindWithTag("PlayerData").GetComponent<RecipeData>();
         book.SetActive(true);
@@ -62,7 +65,8 @@ public class CookingMenuHandler : MonoBehaviour
     }
     public IEnumerator Cooking()
     {
-        recipeData.UnlockedRecipe(visibalRecepie);
+        sound.FaideOutWorldSound(5, 0);
+        sound.setSoundEffect(CookSounds[0],1);
         book.SetActive(false);
         inventory.Reduce(visibalRecepie);
         recipeData.UnlockedRecipe(visibalRecepie);
@@ -70,13 +74,23 @@ public class CookingMenuHandler : MonoBehaviour
         VideoPlayer cookVideo = cookVideoObj.GetComponent<VideoPlayer>();
         cookVideo.clip = recipeData.Video(visibalRecepie);
         cookVideo.Play();
+        yield return new WaitForSecondsRealtime(2);
         float videoTime = (float)cookVideo.clip.length;
-        yield return new WaitForSecondsRealtime(videoTime);
-        print("Done");
+        sound.SetLoop(false);
+        sound.FaidBetweenWorldSound(CookSounds[1],1,5,1);
+        yield return new WaitForSecondsRealtime(videoTime - 2);
+        float audioTime = (float)CookSounds[1].length;
+        yield return new WaitForSecondsRealtime(audioTime - videoTime - 1);
         ReturnButton.SetActive(true);
+        sound.FaidInWorldSound(1, 4, 0);
+        sound.WorldSoundOn(false, 1);
+        sound.SetLoop(true);
+        print("Done");
+        
     }
     public IEnumerator Ending()
     {
+        sound.FaidBetweenWorldSound(CookSounds[2],1,15,0);
         endingScene.SetActive(true);
         VideoPlayer endingVideo = endingScene.GetComponent<VideoPlayer>();
         endingVideo.Play();
@@ -145,6 +159,7 @@ public class CookingMenuHandler : MonoBehaviour
         }
         else
         {
+            sound.WorldSoundOn(true, 0);
             gameObject.SetActive(false);
             GameObject UI = GameObject.FindWithTag("UI");
             GameObject invantory = UI.transform.GetChild(5).gameObject;
@@ -164,6 +179,8 @@ public class CookingMenuHandler : MonoBehaviour
     }
     public void FreePlay()
     {
+        PlayerData data = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
+        sound.FaidBetweenWorldSound(data.GetSceneMusic(),1,5,0);
         gameObject.SetActive(false);
         Time.timeScale = 1f;
     }

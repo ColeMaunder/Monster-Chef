@@ -4,7 +4,7 @@ public class PlayerAttack : MonoBehaviour
 {
    public int activeUlt = 0;
    private WeaponAttacks attacks;
-   private PlayerData keys;
+    private PlayerData data;
    
    bool isAttacking = false;
    bool isUlting = false;
@@ -19,7 +19,7 @@ public class PlayerAttack : MonoBehaviour
 
   void Start(){
         attacks = GameObject.FindWithTag("PlayerData").GetComponent<WeaponAttacks>();
-        keys = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
+        data = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
         animator = GameObject.FindWithTag("Player").GetComponent<Animator>();
    }
@@ -28,7 +28,7 @@ public class PlayerAttack : MonoBehaviour
     void Update()
     {
         if (Time.timeScale > 0){
-             if (player.GetPlayerAlive()){
+             if (player.GetPlayerAlive() && data.GetCanAttack()){
                 if (!isAttacking && !isUlting){
                     if (Input.GetMouseButtonDown(0) /*|| Input.GetKeyDown(keys.GetKey(4))*/){
                         heavyCharge=0;

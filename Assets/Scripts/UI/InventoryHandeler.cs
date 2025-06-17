@@ -18,6 +18,8 @@ public class InventoryHandeler : MonoBehaviour
     public void CloseInventory()
     {
         gameObject.SetActive(false);
+        GameObject.FindWithTag("SoundManager").GetComponent<AudioHandler>().FaidBetweenWorldSound
+                (GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>().GetSceneMusic(), 1, 10, 0);
         Time.timeScale = 1;
     }
     public void ShowMainScreen(bool activeIn)

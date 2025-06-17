@@ -845,6 +845,10 @@ MonoBehaviour:
   - {fileID: 8661894209696113102}
   - {fileID: 4458412500123958666}
   - {fileID: 5744898844961353048}
+  CookSounds:
+  - {fileID: 8300000, guid: 5ec335cb03824ad44b4460ef8ed6ebc4, type: 3}
+  - {fileID: 8300000, guid: e7ef0ff97284c1d428f038d06cf88e67, type: 3}
+  - {fileID: 8300000, guid: 0abed6fdd20fca14d83beb8918355934, type: 3}
   counts:
   - {fileID: 8050692389221617364}
   - {fileID: 3303755456297759229}
@@ -869,7 +873,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81dad89092b896048bed44bced937ecf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  watching: 0
+  watching: 
+  isPauseScreen: 0
 --- !u!222 &7673396938994175680
 CanvasRenderer:
   m_ObjectHideFlags: 0

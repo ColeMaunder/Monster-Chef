@@ -17,10 +17,8 @@ public class Player : MonoBehaviour
     private CameraFollow cameraFollow;
     private PlayerData data;
     private MenuHandler menu;
-    private float trapCounter = 0;
-    private float tickCounter = 0;
-    private float trapTickTime;
-    private float trapTickEnd;
+    private float trapTime;
+    private float trapTimeEnd;
     //private int trapWrigleThreshold;
     private Rigidbody2D rb;
     private Animator Animator;
@@ -66,36 +64,21 @@ public class Player : MonoBehaviour
             {
                 Heal();
             }
-            if (data.getTrapped())
-            {
+            if (data.getTrapped()){
+                data.SetCanAttack(false);
                 Animator.SetBool("trapped", true);
                 rb.linearVelocity = Vector2.zero;
                 data.setCanMove(false);
-                trapCounter += Time.deltaTime;
-                /*if (){
-                    trapWrigleThreshold--;
-                }*/
-                if (tickCounter >= trapTickEnd /*|| trapWrigleThreshold <= 0*/)
-                {
+                trapTime += Time.deltaTime;
+                
+                if (trapTime>= trapTimeEnd ){
                     data.setTrapped(false);
                     data.setCanMove(true);
-                    trapCounter = 0;
-                    tickCounter = 0;
-                    //trapWrigleThreshold = 0;
                     Animator.SetBool("trapped", false);
+                    data.SetCanAttack(true);
                 }
-                else if (trapCounter >= trapTickTime)
-                {
-                    tickCounter++;
-                    trapCounter = 0;
-                }
-            }
-            else
-            {
+            }else{
                 Animator.SetBool("trapped", false);
-                trapCounter = 0;
-                //trapCounter = 0;
-                //data.setCanMove(true);
             }
         }
     }
@@ -111,14 +94,11 @@ public class Player : MonoBehaviour
             Dead();
         }
     }
-    public void trapDamage(float initialDamage, float tickTime, float tickEnd, int wrigleThreshold)
+    public void trapDamage(float initialDamage, float timeEnd)
     {
         this.damage(initialDamage);
-        tickCounter = 0;
-        trapCounter = 0;
-        trapTickTime = tickTime;
-        trapTickEnd = tickEnd;
-        //trapWrigleThreshold = wrigleThreshold;
+        trapTime = 0;
+        trapTimeEnd= timeEnd;
         data.setTrapped(true);
     }
     public int GetHeals()

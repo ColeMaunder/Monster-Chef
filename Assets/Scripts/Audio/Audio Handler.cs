@@ -52,14 +52,20 @@ public class AudioHandler : MonoBehaviour{
         
     }
 
-
-    public void FaidInWorldSound(AudioClip audioClip, float gollVolume, float speed, int index){
-        StartCoroutine(FaidIn(audioClip, gollVolume, speed, index));
+    public void FaidInWorldSound(float gollVolume, float speed, int index)
+    {
+        AudioSource[] worldSound = this.GetComponents<AudioSource>();
+        StartCoroutine(FaidIn(worldSound, gollVolume, speed, index));
     }
-
-    IEnumerator FaidIn(AudioClip audioClip,float gollVolume, float speed,int index){
+    public void FaidInWorldSound(AudioClip audioClip, float gollVolume, float speed, int index)
+    {
         AudioSource[] worldSound = this.GetComponents<AudioSource>();
         worldSound[index].clip = audioClip;
+        StartCoroutine(FaidIn(worldSound, gollVolume, speed, index));
+    }
+
+    IEnumerator FaidIn( AudioSource[] worldSound,float gollVolume, float speed,int index){
+        
         float volume = 0;
         worldSound[index].volume = volume;
         worldSound[index].Play();
@@ -98,6 +104,14 @@ public class AudioHandler : MonoBehaviour{
             music[index].Pause();
         }
        
+    }
+    public AudioClip GetClip(int index){
+        AudioSource [] music = this.GetComponents<AudioSource>();
+        return music[index].clip;
+    }
+    public void SetLoop(bool state){
+        AudioSource [] music = this.GetComponents<AudioSource>();
+        music[1].loop = state;
     }
         
 }

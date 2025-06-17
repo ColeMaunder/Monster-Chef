@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da1eab1bff0e20444b68e13953731536, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 00
+  id: 20
 --- !u!1 &2218396824177094846
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,7 +364,7 @@ SpriteRenderer:
   m_SortingLayerID: 2005708703
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6631526152062491168, guid: be58dc3e71c569d4ca1ebad6d92c5a67, type: 3}
+  m_Sprite: {fileID: -1289821875036931621, guid: 5c0eb61aeb913a8448c18c1c996771e7, type: 3}
   m_Color: {r: 0.39811313, g: 1, b: 0.95528966, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -385,7 +385,7 @@ Animator:
   m_GameObject: {fileID: 8297554575400792172}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: eb7a4d7fc2219b743b5233895e9b2068, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9499ef235a9fee44d87fc2d047cd2505, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -435,7 +435,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.2, y: 4.82}
+    oldSize: {x: 3.2, y: 4.8224845}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -550,13 +550,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8218908150703037780, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7908587652698964439}
   m_SourcePrefab: {fileID: 100100000, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
 --- !u!1 &2455150411083118471 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8218908150703037780, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
   m_PrefabInstance: {fileID: 5772804522459327187}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7908587652698964439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2455150411083118471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa6ea26ca33c2f4ab00e4b52981118b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &8337674204512620013 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2569375756725348158, guid: 5a42ab227e8298a498b23a8e3234d037, type: 3}
