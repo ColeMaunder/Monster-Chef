@@ -2977,12 +2977,14 @@ MonoBehaviour:
   - {fileID: 3670717210520833835}
   - {fileID: 1834395420616403245}
   explaner: {fileID: 7444443408898556067}
+  name: {fileID: 0}
   explainations:
   - blank
   - Tester
   - sdsdfsf
   - blub
   - hello
+  names: []
 --- !u!114 &1416314591289881703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5450,7 +5452,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5189534145094110165
 RectTransform:
   m_ObjectHideFlags: 0
