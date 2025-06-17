@@ -67,9 +67,11 @@ public class UpGrades : MonoBehaviour
 
         if (data.GetUnlockedRecipe(1)){
             gameObject.GetComponent<Player>().SetMaxHealth(newMaxHealth);
+            GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>().UnlockFountain("30");
             bar.swapHealBar(0);
         }
         if (data.GetUnlockedRecipe(0)) {
+            GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>().UnlockFountain("20");
             gameObject.GetComponent<Player>().SetMaxHeals(4);
             heals.addPotion(0);
         }

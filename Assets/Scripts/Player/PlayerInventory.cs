@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerInventory : MonoBehaviour
 {
     [SerializeField] private int[] invantory= {0,0,0,0}; // 0: Slime chunks, 1: Mandrake Roots, 2: Frog Legs, 3: Green Vines
-    private int[] droppedInvantory = {0,0,0,0}; // 0: Slime chunks, 1: Mandrake Roots, 2: Frog Legs, 3: Green Vines
+    [SerializeField] private int[] droppedInvantory = {0,0,0,0}; // 0: Slime chunks, 1: Mandrake Roots, 2: Frog Legs, 3: Green Vines
     [SerializeField] private int coalStores = 0;
     private bool hasDroppedInventory = false;
     public GameObject grave;
@@ -14,6 +14,7 @@ public class PlayerInventory : MonoBehaviour
         player = GameObject.FindWithTag("PlayerData").GetComponent<WeaponAttacks>();
         recipes = GameObject.FindWithTag("PlayerData").GetComponent<RecipeData>();
     }
+    
     private void PrintInventory(){
         print("Slime chunks: " + invantory[0]);
         print("Mandrake Roots: " + invantory[1]);
@@ -61,7 +62,7 @@ public class PlayerInventory : MonoBehaviour
         {
             invantory[i] += droppedInvantory[i];
         }
-        droppedInvantory = null;
+        //droppedInvantory = null;
         hasDroppedInventory = false;
         PrintInventory();
     }

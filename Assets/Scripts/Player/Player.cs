@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     float health;
+    bool isToFountin = false;
+    string toFountain;
     public float maxHealth = 10f;
     int heals;
     public int maxHeals = 3;
@@ -64,20 +67,24 @@ public class Player : MonoBehaviour
             {
                 Heal();
             }
-            if (data.getTrapped()){
+            if (data.getTrapped())
+            {
                 data.SetCanAttack(false);
                 Animator.SetBool("trapped", true);
                 rb.linearVelocity = Vector2.zero;
                 data.setCanMove(false);
                 trapTime += Time.deltaTime;
-                
-                if (trapTime>= trapTimeEnd ){
+
+                if (trapTime >= trapTimeEnd)
+                {
                     data.setTrapped(false);
                     data.setCanMove(true);
                     Animator.SetBool("trapped", false);
                     data.SetCanAttack(true);
                 }
-            }else{
+            }
+            else
+            {
                 Animator.SetBool("trapped", false);
             }
         }
@@ -98,7 +105,7 @@ public class Player : MonoBehaviour
     {
         this.damage(initialDamage);
         trapTime = 0;
-        trapTimeEnd= timeEnd;
+        trapTimeEnd = timeEnd;
         data.setTrapped(true);
     }
     public int GetHeals()
@@ -257,10 +264,44 @@ public class Player : MonoBehaviour
         if (SceneManager.GetActiveScene().name != scene)
         {
             GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().GoToScene(scene);
+            isToFountin = true;
+            toFountain = fountainID;
         }
         else
         {
             GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().Stay();
+            GameObject[] fountains = GameObject.FindGameObjectsWithTag("Fountain");
+            foreach (GameObject i in fountains)
+            {
+                if (i.GetComponent<FountainID>().GetID() == fountainID)
+                {
+                    transform.position = spawn.transform.position = i.transform.GetChild(0).position - new Vector3(0, 5, 60);
+                    break;
+                }
+            }
+        }
+    }
+    public void DieToFountain(string fountainID)
+    {
+        string scene = "";
+        switch (fountainID[0])
+        {
+            case '0':
+                scene = "Start Tut Block";
+                break;
+            case '1':
+                scene = "Village Area";
+                break;
+            case '2':
+                scene = "Level 2";
+                break;
+            case '3':
+                scene = "Boss Fight";
+                break;
+        }
+        if (SceneManager.GetActiveScene().name != scene)
+        {
+            GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().DieToScene(scene);
         }
         GameObject[] fountains = GameObject.FindGameObjectsWithTag("Fountain");
         foreach (GameObject i in fountains)
@@ -272,35 +313,10 @@ public class Player : MonoBehaviour
             }
         }
     }
-    public void DieToFountain(string fountainID)
-    {
-        string scene = "";
-            switch (fountainID[0])
-            {
-                case '0':
-                    scene = "Start Tut Block";
-                    break;
-                case '1':
-                    scene = "Village Area";
-                    break;
-                case '2':
-                    scene = "Level 2";
-                    break;
-                case '3':
-                    scene = "Boss Fight";
-                    break;
-            }
-            if (SceneManager.GetActiveScene().name != scene){
-                GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().DieToScene(scene);
-            }
-            GameObject[] fountains = GameObject.FindGameObjectsWithTag("Fountain");
-        foreach (GameObject i in fountains)
-        {
-            if (i.GetComponent<FountainID>().GetID() == fountainID)
-            {
-                transform.position = spawn.transform.position = i.transform.GetChild(0).position - new Vector3(0,5,60);
-                break;
-            }
+    public void StartScene(){
+        if(isToFountin){
+            isToFountin = false;
+            GoToFountain(toFountain);
         }
     }
 

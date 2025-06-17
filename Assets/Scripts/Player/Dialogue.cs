@@ -33,7 +33,7 @@ public class Dialogue : MonoBehaviour
         typeSpeed = typeSpeedIn;
         dialoguePanel = GameObject.FindWithTag("UI").transform.GetChild(6).gameObject;
         face = dialoguePanel.transform.GetChild(0).gameObject.GetComponent<Image>();
-        nameTXT = dialoguePanel.transform.GetChild(1).gameObject.GetComponent<TMP_Text>();
+        nameTXT = dialoguePanel.transform.GetChild(1).GetChild(0).gameObject.GetComponent<TMP_Text>();
         dialogueText = dialoguePanel.transform.GetChild(2).gameObject.GetComponent<TMP_Text>();
         nextButton = dialoguePanel.transform.GetChild(3).gameObject;
         cameraF = GameObject.FindWithTag("MainCamera").GetComponent<CameraFollow>();
@@ -90,6 +90,7 @@ public class Dialogue : MonoBehaviour
         Time.timeScale = 0;
         wating = false;
         dialoguePanel.SetActive(true);
+        nameTXT.text = nameNPC;
         StartCoroutine(Typing());
     }
     void Update()
@@ -116,6 +117,7 @@ public class Dialogue : MonoBehaviour
                     Time.timeScale = 0;
                     wating = false;
                     dialoguePanel.SetActive(true);
+                    nameTXT.text = nameNPC;
                     StartCoroutine(Typing());
                 }
                 else
@@ -126,7 +128,7 @@ public class Dialogue : MonoBehaviour
                     }
                     else
                     {
-                        typeSpeed = 0.001f;
+                        typeSpeed = 0.0001f;
                     }
                 }
 

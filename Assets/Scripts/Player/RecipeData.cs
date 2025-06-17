@@ -14,7 +14,7 @@ public class RecipeData : MonoBehaviour
         "Inspired by the famed Kentucky frying methods, these bouncy strips of meat give a burst of energy to the consumer.",
         "A fresh approach to Italian cuisine, this meal is best eaten with an open mind and a large fork.",
         "","","",""};
-    private int[,] recepieNeed = { { 50, 0, 0, 0, 1 }, { 20, 30, 0, 0, 4 }, { 20, 10, 20, 0, 4 }, { 0, 30, 40, 20, 4 }, { 50, 40, 40, 30, 4 }, { 60, 50, 50, 40, 4 } };
+    private int[,] recepieNeed = { { 20, 0, 10, 0, 2 }, { 30, 15, 10, 0, 4 }, { 3, 3, 3, 8, 1 }, { 0, 30, 40, 20, 4 }, { 50, 40, 40, 30, 4 }, { 60, 50, 50, 40, 4 } };
     public Sprite Icon(int index, bool unlocked)
     {
         if (unlocked){

@@ -50,6 +50,7 @@ public class SceneConfiger : MonoBehaviour
                 GameObject.FindWithTag("Player").transform.GetChild(4).gameObject.SetActive(PlayerLightOn);
                 player.UpdateAll();
                 player.ToStart();
+                player.StartScene();
             }
             else
             {

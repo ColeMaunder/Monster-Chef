@@ -8,8 +8,11 @@ public class Fountain : MonoBehaviour
     bool inRainge = false;
     [SerializeField] private GameObject fountainUI;
     private PlayerData data;
+    [SerializeField]AudioClip clip;
+    AudioHandler sound;
     void Start()
     {
+        sound = GameObject.FindWithTag("SoundManager").GetComponent<AudioHandler>();
         fountainID = transform.parent.parent.gameObject.GetComponent<FountainID>().GetID();
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
         data = GameObject.FindWithTag("PlayerData").GetComponent<PlayerData>();
@@ -23,6 +26,7 @@ public class Fountain : MonoBehaviour
             {
                 player.RefillHeals();
                 player.RefillHealth();
+                sound.playSound(clip,transform,1);
                 GameObject Respawn = GameObject.FindWithTag("Respawn");
                 Respawn.transform.position = transform.position;
                 print("fountain set");
