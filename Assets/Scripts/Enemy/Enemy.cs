@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour
 {
     EnemyData data;
     EnemyLocalData localData;
-    float health;
+    [SerializeField] float health;
     public float duration = 0.1f;
     SpriteRenderer sprite;
     Color colourDefalt;
@@ -52,5 +52,8 @@ public class Enemy : MonoBehaviour
             } 
         }
         
+    }
+    public int GetHealth(){
+        return (int) health;
     }
 }

@@ -43,15 +43,8 @@ public class MenuHandler : MonoBehaviour
         Time.timeScale = 1f; // Unpaused
     }
 
-    public void Quit()
-    {
-        Application.Quit();
-        Debug.Log("Quit");
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#else
-            Application.Quit();
-#endif
+    public void Quit(){
+        GameObject.FindWithTag("SceneChainger").GetComponent<SceneChanger>().OnlySceneChaing("Title Screen");
     }
 
     public void openSetings()
